@@ -240,17 +240,93 @@ Capítulo III: Requirements Specification
 
 Capítulo IV: Solution Software Design
 
-4.1. Strategic-Level Domain-Driven Design.
+## 4.1. Strategic-Level Domain-Driven Design
 
-4.1.1. Design-Level EventStorming.
+Para el diseño estratégico de FreshSense se emplea Domain-Driven Design (DDD) con el objetivo de organizar la solución de acuerdo con las principales responsabilidades del dominio y mantener una separación clara entre sus capacidades de negocio.
 
-4.1.1.1 Candidate Context Discovery.
+A partir del análisis realizado sobre FreshSense, la solución se organiza en bounded contexts que mantienen sus propias reglas de negocio, modelos de dominio y mecanismos de persistencia. Los principales contextos identificados son **Accounts, Monitoring, Inventory, Alerts, Recipes y Billing**.
 
-4.1.1.2 Domain Message Flows Modeling.
+Esta separación permite reducir el acoplamiento entre las funcionalidades del sistema y facilita la evolución independiente de los diferentes módulos. La comunicación entre contextos se realiza principalmente mediante eventos de dominio, evitando dependencias directas entre sus implementaciones internas.
 
-4.1.1.3 Bounded Context Canvases.
+### 4.1.1. Design-Level EventStorming
 
-4.1.2. Context Mapping.
+El Design-Level EventStorming de FreshSense permite representar el comportamiento del sistema a partir de los eventos que ocurren dentro del dominio y de las acciones que los generan.
+
+En el trabajo previo del proyecto se desarrolló un EventStorming que incluye elementos como eventos de dominio, comandos, actores, read models, sistemas externos, políticas y aggregates. El análisis de estos elementos permitió identificar responsabilidades relacionadas con la gestión de usuarios, dispositivos y sensores, inventario de alimentos, monitoreo, alertas, recetas, suscripciones y reportes.
+
+El resultado del EventStorming sirve como base para identificar los límites entre los diferentes contextos del dominio y analizar posteriormente la comunicación existente entre ellos.
+
+A continuación, se presentan los artefactos obtenidos durante las últimas etapas del Design-Level EventStorming de FreshSense.
+
+**Step 6: Policies**
+
+![Design-Level EventStorming - Step 6 Policies](Assets/design-level-eventstorming-step-6-policies.jpg)
+
+**Step 7: Read Models**
+
+![Design-Level EventStorming - Step 7 Read Models](Assets/design-level-eventstorming-step-7-read-models.jpg)
+
+**Step 8: External System**
+
+![Design-Level EventStorming - Step 8 External System](Assets/design-level-eventstorming-step-8-external-system.jpg)
+
+**Step 9: Aggregates**
+
+![Design-Level EventStorming - Step 9 Aggregates](Assets/design-level-eventstorming-step-9-aggregates.jpg)
+
+**Step 10: Bounded Context**
+
+![Design-Level EventStorming - Step 10 Bounded Context](Assets/design-level-eventstorming-step-10-bounded-context.jpg)
+
+#### 4.1.1.1. Candidate Context Discovery
+
+A partir del Design-Level EventStorming y del análisis previo de la arquitectura de FreshSense, se identificaron diferentes áreas con responsabilidades y reglas de negocio propias. Estas áreas constituyen los candidate contexts que posteriormente permiten establecer límites explícitos dentro del dominio.
+
+| Candidate Context | Responsabilidad principal |
+|---|---|
+| **Accounts** | Gestionar los usuarios, sus datos de cuenta, autenticación y acceso a la plataforma. |
+| **Monitoring** | Recibir, validar y procesar las lecturas generadas por los dispositivos y sensores IoT. |
+| **Inventory** | Gestionar los alimentos registrados por el usuario y su información asociada, incluyendo su estado de frescura. |
+| **Alerts** | Detectar condiciones que requieren atención y generar alertas relacionadas con el estado de los alimentos. |
+| **Recipes** | Gestionar y recomendar recetas utilizando los alimentos disponibles en el inventario. |
+| **Billing** | Gestionar los planes y suscripciones asociados con las funcionalidades de la plataforma. |
+
+La identificación de estos candidate contexts permite agrupar funcionalidades que comparten un mismo propósito y modelo de dominio, evitando que las responsabilidades de diferentes áreas se mezclen dentro de un único módulo.
+
+Asimismo, el resultado obtenido en el **Step 10: Bounded Context** del EventStorming permite visualizar gráficamente la separación propuesta y las principales interacciones entre las áreas identificadas.
+
+#### 4.1.1.2. Domain Message Flows Modeling
+
+Los eventos de dominio permiten que los diferentes módulos de FreshSense intercambien información sin depender directamente de la implementación interna de otros contextos.
+
+Uno de los principales flujos del dominio comienza con las lecturas obtenidas desde el dispositivo IoT. Cuando una nueva lectura llega al sistema, el módulo encargado del monitoreo la procesa y publica un evento que puede ser consumido por otros componentes interesados.
+
+Los principales eventos identificados para este flujo son:
+
+- `SensorReadingReceived`: representa la recepción de una nueva lectura proveniente de un dispositivo IoT.
+- `FreshnessStatusChanged`: representa un cambio en el estado de frescura de un alimento después de evaluar las nuevas condiciones detectadas.
+- `ExpirationAlertRaised`: representa la generación de una alerta cuando el estado del alimento requiere notificar al usuario.
+
+El flujo principal de mensajes del dominio puede representarse de la siguiente manera:
+
+```mermaid
+flowchart LR
+    A[IoT Device / Sensor] -->|Sensor Reading| B[Monitoring]
+    B -->|SensorReadingReceived| C[Inventory / Freshness Evaluation]
+    C -->|FreshnessStatusChanged| D[Alerts]
+    D -->|ExpirationAlertRaised| E[Notification Service]
+    E -->|Notification| F[User]
+```
+
+El flujo comienza cuando el dispositivo genera una lectura de las condiciones ambientales. **Monitoring** recibe y normaliza la información, publicando `SensorReadingReceived`. A partir de estos datos se evalúa el estado de los alimentos y, cuando existe un cambio relevante, se genera `FreshnessStatusChanged`.
+
+El módulo **Alerts** puede reaccionar ante dicho cambio y determinar si debe generarse una alerta. Cuando se cumple una condición de riesgo se produce `ExpirationAlertRaised`, que posteriormente puede ser utilizado por el servicio de notificaciones para informar al usuario.
+
+El uso de eventos de dominio permite mantener desacoplados los módulos involucrados. El productor de un evento no necesita conocer directamente la implementación de los consumidores, permitiendo que cada contexto pueda evolucionar de manera independiente.
+
+#### 4.1.1.3. Bounded Context Canvases
+
+### 4.1.2. Context Mapping
 
 4.1.3. Software Architecture.
 
