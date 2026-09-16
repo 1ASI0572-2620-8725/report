@@ -318,9 +318,97 @@ Capítulo V: Solution UI/UX Design
 
 5.4.3. Applications User Flow Diagrams.
 
-5.5. Applications Prototyping.
+## 5.5. Applications Prototyping
 
-5.6. IoT Device Design.
+Para validar la navegación y la interacción de los usuarios con FreshSense se desarrolló un prototipo interactivo de la aplicación. Este prototipo permite recorrer las principales vistas y funcionalidades definidas durante el proceso de diseño UX/UI, simulando el comportamiento esperado de la solución antes de su implementación completa.
+
+El prototipo facilita la validación de los flujos de navegación, la organización de las pantallas y las interacciones entre las diferentes funcionalidades de la aplicación.
+
+El prototipo interactivo de FreshSense puede consultarse en el siguiente enlace:
+
+[Prototipo interactivo de FreshSense en Figma](https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-LandingPage?node-id=159-1605&p=f&t=tnVLge8rsFfHhU1S-1&scaling=min-zoom&content-scaling=fixed&page-id=159%3A1603)
+
+## 5.6. IoT Device Design
+
+El dispositivo IoT de FreshSense funciona como un nodo de monitoreo ambiental diseñado para ser colocado dentro de un refrigerador. Su propósito es capturar periódicamente información acerca de las condiciones en las que se encuentran almacenados los alimentos y transmitir dichas lecturas al sistema FreshSense.
+
+La solución utiliza un microcontrolador **ESP32 DevKit C v4** junto con un sensor digital **DHT22 (AM2302)** para obtener información de temperatura y humedad. El ESP32 proporciona la capacidad de procesamiento y conectividad Wi-Fi necesaria para transmitir las mediciones hacia los servicios de la plataforma.
+
+### Hardware del dispositivo
+
+| Componente | Especificación | Función |
+|---|---|---|
+| Microcontrolador | ESP32 DevKit C v4 | Procesamiento de datos y conectividad Wi-Fi. |
+| Sensor | DHT22 (AM2302) | Medición digital de temperatura y humedad. |
+| Pin de datos | GPIO 12 | Recepción de la señal digital proveniente del DHT22. |
+| Alimentación | 3V3 y GND | Alimentación eléctrica del sensor. |
+| Conectividad | Wi-Fi 802.11 | Comunicación del dispositivo con el Edge API. |
+| Entorno de simulación | Wokwi | Simulación y validación del firmware antes de utilizar hardware físico. |
+
+La conexión principal entre el ESP32 y el DHT22 se realiza utilizando el pin **GPIO 12** para la señal de datos. El sensor se alimenta mediante los pines **3V3** y **GND** del microcontrolador.
+
+### Firmware
+
+El firmware del dispositivo se encarga de obtener las lecturas del sensor, estructurar la información y transmitirla hacia la plataforma.
+
+Las principales librerías utilizadas son:
+
+- **DHT sensor library**, para obtener las lecturas del sensor DHT22.
+- **WiFi**, para establecer la conexión inalámbrica del ESP32.
+- **ArduinoJson**, para serializar las lecturas utilizando formato JSON.
+- **HTTPClient**, para enviar las solicitudes HTTP al Edge API.
+
+Las principales variables generadas por el dispositivo son:
+
+| Variable | Unidad | Descripción |
+|---|---|---|
+| `temperature` | °C | Temperatura medida por el sensor DHT22. |
+| `humidity` | % | Humedad relativa medida por el sensor DHT22. |
+| `deviceId` | - | Identificador del dispositivo que genera la lectura. |
+| `id` | - | Identificador único de la medición. |
+| `time` | `dd/MM/yyyy HH:mm` | Fecha y hora asociadas a la lectura. |
+
+Un ejemplo de la información enviada por el dispositivo es:
+
+```json
+{
+  "deviceId": "esp32-cocina-01",
+  "id": "rd-000123",
+  "temperature": 6.4,
+  "humidity": 82.0,
+  "time": "07/07/2026 14:35"
+}
+```
+
+### Flujo de comunicación
+
+El dispositivo forma parte de un flujo de comunicación que conecta el hardware IoT con la aplicación web de FreshSense.
+
+```mermaid
+flowchart LR
+    A[DHT22] -->|Temperature / Humidity| B[ESP32]
+    B -->|HTTP POST /edge/process| C[Edge API]
+    C -->|POST /api/edge/readings| D[Backend]
+    D --> E[Database]
+    D --> F[FreshSense Web Application]
+```
+
+El flujo funciona de la siguiente manera:
+
+1. El sensor **DHT22** obtiene las mediciones de temperatura y humedad.
+2. El **ESP32** procesa las lecturas y las serializa en formato JSON.
+3. El ESP32 realiza una solicitud HTTP `POST` al endpoint `/edge/process` del **Edge API**.
+4. El Edge API valida la información recibida y procesa la lectura.
+5. La información es reenviada al backend mediante el endpoint `/api/edge/readings`.
+6. El backend persiste la información y permite que los resultados sean utilizados por la aplicación web.
+
+El Edge API funciona como una capa intermedia entre el dispositivo y el backend principal, permitiendo validar y procesar las lecturas antes de incorporarlas al resto de la solución.
+
+### Simulación y prototipo físico
+
+Durante el desarrollo de FreshSense se utilizó **Wokwi** para simular el circuito formado por el ESP32 y el sensor DHT22. Esta simulación permitió validar el firmware, la lectura de temperatura y humedad, la conexión Wi-Fi y la generación del mensaje JSON sin depender inicialmente del hardware físico.
+
+Posteriormente, el mismo diseño fue llevado a un prototipo físico utilizando un **ESP32 y un sensor DHT22**, permitiendo obtener mediciones reales de temperatura y humedad y completar la comunicación entre el dispositivo, el Edge API y el backend de FreshSense.
 
 Capítulo VI: Product Implementation, Validation & Deployment
 
