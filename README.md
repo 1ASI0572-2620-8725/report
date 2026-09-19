@@ -722,7 +722,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Carlos Mendoza Ruiz |
-| Edad | 38 años |
+| Edad | 26 años |
 | Distrito | Callao |
 | Empresa / sector | Distribución refrigerada de alimentos |
 | Cargo | Supervisor de Logística |
@@ -730,7 +730,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 | Duración | 08:42 |
 | Enlace | [Ver entrevista](URL) |
 
-![Evidencia entrevista](Assets/6.png)
+![Evidencia entrevista](Assets/EntrevistaS21.png)
 
 **Resumen:**  
 Carlos Mendoza trabaja como supervisor de logística en una empresa dedicada a la distribución refrigerada de alimentos. Dentro de sus funciones supervisa el almacenamiento y transporte de productos como lácteos, carnes y alimentos congelados.
@@ -748,97 +748,14 @@ También indicó que una solución como FreshSense debería ser fácil de instal
 
 | Dato | Información |
 | --- | --- |
-| Nombre y apellidos | Andrea Salazar Paredes |
-| Edad | 34 años |
-| Distrito | Ate |
-| Empresa / sector | Operador logístico de productos refrigerados |
-| Cargo | Coordinadora de Operaciones |
-| Inicio de entrevista | 00:00 |
-| Duración | 09:15 |
-| Enlace | [Ver entrevista](URL) |
-
-![Evidencia entrevista](Assets/5.png)
-
-**Resumen:**  
-Andrea Salazar se desempeña como coordinadora de operaciones en una empresa que almacena y distribuye productos refrigerados para diferentes clientes del sector alimentario.
-
-Indicó que la empresa trabaja con cámaras de refrigeración y vehículos acondicionados para mantener determinadas temperaturas. El control se realiza mediante sensores en algunos puntos de almacenamiento y verificaciones periódicas efectuadas por el personal.
-
-Comentó que una dificultad importante es que la información de almacenamiento, transporte y lotes se encuentra distribuida entre diferentes registros. Cuando ocurre una incidencia, identificar cuándo sucedió y qué mercadería estuvo expuesta puede requerir revisar distintas fuentes de información.
-
-Para ella, una plataforma centralizada que permita relacionar dispositivos, lotes e incidencias facilitaría considerablemente el trabajo operativo. Considera especialmente importantes las alertas en tiempo real y la posibilidad de consultar un historial de temperatura y humedad.
-
-Señaló también que una solución tecnológica debería ser sencilla de utilizar por diferentes perfiles de empleados y ofrecer reportes que puedan ser revisados posteriormente. En una decisión de compra priorizaría la confiabilidad, facilidad de implementación y capacidad de generar alertas oportunas.
-
-
-##### Entrevista 3
-
-| Dato | Información |
-| --- | --- |
-| Nombre y apellidos | Javier Torres Castillo |
-| Edad | 42 años |
-| Distrito | San Luis |
-| Empresa / sector | Distribución mayorista de alimentos perecibles |
-| Cargo | Responsable de Cadena de Frío |
-| Inicio de entrevista | 00:00 |
-| Duración | 08:57 |
-| Enlace | [Ver entrevista](URL) |
-
-![Evidencia entrevista](Assets/3.png)
-
-**Resumen:**  
-Javier Torres trabaja como responsable de cadena de frío en una empresa distribuidora de productos perecibles. Sus principales responsabilidades incluyen supervisar las condiciones de almacenamiento, coordinar despachos y verificar que los productos mantengan condiciones adecuadas durante su traslado.
-
-Actualmente utilizan termómetros digitales y controles manuales realizados por el personal. Algunos vehículos disponen de dispositivos capaces de registrar temperatura, aunque señaló que no toda la información se encuentra disponible en una única plataforma.
-
-Según su experiencia, las principales incidencias están relacionadas con variaciones de temperatura ocasionadas por aperturas prolongadas, problemas de refrigeración o retrasos durante la distribución. Estas situaciones pueden afectar la calidad de los productos y ocasionar devoluciones.
-
-Considera que contar con alertas automáticas y un historial asociado a cada lote ayudaría a detectar problemas más rápidamente y facilitaría la identificación de responsabilidades frente a una incidencia.
-
-Entre las características que considera indispensables mencionó facilidad de uso, precisión de las mediciones, disponibilidad de información histórica y generación de reportes. También considera importante que la solución pueda implementarse progresivamente, comenzando con determinados almacenes o vehículos antes de extenderse al resto de la operación.
-
-
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
-
-##### Entrevista 1
-
-| Dato | Información |
-| --- | --- |
-| Nombre y apellidos | María Fernanda Rojas Díaz |
-| Edad | 36 años |
-| Distrito | Santa Anita |
-| Empresa / sector | Producción y comercialización de productos lácteos |
-| Cargo | Supervisora de Calidad |
-| Inicio de entrevista | 00:00 |
-| Duración | 09:18 |
-| Enlace | [Ver entrevista](URL) |
-
-![Evidencia entrevista](Assets/2.png)
-
-**Resumen:**  
-María Fernanda Rojas trabaja como supervisora de calidad en una empresa dedicada a la producción y comercialización de productos lácteos. Entre sus responsabilidades se encuentra verificar las condiciones de almacenamiento de productos terminados y coordinar controles relacionados con temperatura y calidad.
-
-Comentó que actualmente utilizan termómetros digitales y realizan registros periódicos de temperatura en las áreas de almacenamiento. Parte de esta información es trasladada posteriormente a hojas de cálculo para mantener evidencia de los controles realizados.
-
-Según indicó, uno de los principales problemas se presenta cuando una desviación ocurre entre dos controles manuales, debido a que puede pasar cierto tiempo antes de ser detectada. Esto puede generar revisiones adicionales del producto y, en algunos casos, la separación de lotes hasta confirmar que mantienen condiciones adecuadas.
-
-Considera que contar con información disponible en tiempo real y recibir alertas automáticas facilitaría el trabajo del área de calidad. También considera importante poder revisar el historial de temperatura y humedad correspondiente a cada lote.
-
-Entre los factores más relevantes para adoptar una solución de este tipo destacó la precisión de los sensores, la facilidad de uso, la generación de reportes y la posibilidad de acceder a información histórica.
-
-
-##### Entrevista 2
-
-| Dato | Información |
-| --- | --- |
 | Nombre y apellidos | Carlos Guimaraes |
-| Edad | 41 años |
+| Edad | 27 años |
 | Distrito | Villa El Salvador |
 | Empresa / sector | Producción y almacenamiento de carnes y productos congelados |
 | Cargo | Jefe de Almacén |
 | Inicio de entrevista | 0:00 |
 | Duración | 08:36 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1Q8i84GD9mqFdKOLVYLR2PqdWQVT1MYik/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/1.png)
 
@@ -859,13 +776,13 @@ Para una posible implementación, considera relevantes el costo del sistema, la 
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Daniela Vargas Medina |
-| Edad | 32 años |
+| Edad | 22 años |
 | Distrito | Lurín |
 | Empresa / sector | Comercialización y almacenamiento de frutas y vegetales |
 | Cargo | Coordinadora de Operaciones |
 | Inicio de entrevista | 00:00 |
 | Duración | 09:04 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1AqFpCV5FGpSXy3RIi9gN7BdsXJm4ywSU/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/4.png)
 
@@ -879,6 +796,89 @@ Uno de los problemas que identifica es que diferentes productos requieren condic
 Considera que una plataforma que permita visualizar lotes, condiciones ambientales e incidencias desde un mismo lugar ayudaría a mejorar el control de la operación. También considera útil contar con alertas configurables según el tipo de producto.
 
 Entre las funcionalidades que considera importantes destacó el historial de mediciones, los reportes, la identificación de lotes afectados y una interfaz sencilla que pueda ser utilizada tanto por responsables de operaciones como por personal de calidad.
+
+
+#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+
+##### Entrevista 1
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | María Fernanda Rojas Díaz |
+| Edad | 36 años |
+| Distrito | Santa Anita |
+| Empresa / sector | Producción y comercialización de productos lácteos |
+| Cargo | Supervisora de Calidad |
+| Inicio de entrevista | 00:00 |
+| Duración | 09:18 |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=drive_link) |
+
+![Evidencia entrevista](Assets/2.png)
+
+**Resumen:**  
+María Fernanda Rojas trabaja como supervisora de calidad en una empresa dedicada a la producción y comercialización de productos lácteos. Entre sus responsabilidades se encuentra verificar las condiciones de almacenamiento de productos terminados y coordinar controles relacionados con temperatura y calidad.
+
+Comentó que actualmente utilizan termómetros digitales y realizan registros periódicos de temperatura en las áreas de almacenamiento. Parte de esta información es trasladada posteriormente a hojas de cálculo para mantener evidencia de los controles realizados.
+
+Según indicó, uno de los principales problemas se presenta cuando una desviación ocurre entre dos controles manuales, debido a que puede pasar cierto tiempo antes de ser detectada. Esto puede generar revisiones adicionales del producto y, en algunos casos, la separación de lotes hasta confirmar que mantienen condiciones adecuadas.
+
+Considera que contar con información disponible en tiempo real y recibir alertas automáticas facilitaría el trabajo del área de calidad. También considera importante poder revisar el historial de temperatura y humedad correspondiente a cada lote.
+
+Entre los factores más relevantes para adoptar una solución de este tipo destacó la precisión de los sensores, la facilidad de uso, la generación de reportes y la posibilidad de acceder a información histórica.
+
+
+##### Entrevista 2
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Andrea Salazar Paredes |
+| Edad | 29 años |
+| Distrito | Ate |
+| Empresa / sector | Operador logístico de productos refrigerados |
+| Cargo | Coordinadora de Operaciones |
+| Inicio de entrevista | 00:00 |
+| Duración | 09:15 |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1iQW9Vu0lRPL9HhDX3PIfNHNQqrBESufE/view?usp=drive_link) |
+
+![Evidencia entrevista](Assets/5.png)
+
+**Resumen:**  
+Andrea Salazar se desempeña como coordinadora de operaciones en una empresa que almacena y distribuye productos refrigerados para diferentes clientes del sector alimentario.
+
+Indicó que la empresa trabaja con cámaras de refrigeración y vehículos acondicionados para mantener determinadas temperaturas. El control se realiza mediante sensores en algunos puntos de almacenamiento y verificaciones periódicas efectuadas por el personal.
+
+Comentó que una dificultad importante es que la información de almacenamiento, transporte y lotes se encuentra distribuida entre diferentes registros. Cuando ocurre una incidencia, identificar cuándo sucedió y qué mercadería estuvo expuesta puede requerir revisar distintas fuentes de información.
+
+Para ella, una plataforma centralizada que permita relacionar dispositivos, lotes e incidencias facilitaría considerablemente el trabajo operativo. Considera especialmente importantes las alertas en tiempo real y la posibilidad de consultar un historial de temperatura y humedad.
+
+Señaló también que una solución tecnológica debería ser sencilla de utilizar por diferentes perfiles de empleados y ofrecer reportes que puedan ser revisados posteriormente. En una decisión de compra priorizaría la confiabilidad, facilidad de implementación y capacidad de generar alertas oportunas.
+
+
+##### Entrevista 3
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Javier Torres Castillo |
+| Edad | 26 años |
+| Distrito | San Luis |
+| Empresa / sector | Distribución mayorista de alimentos perecibles |
+| Cargo | Responsable de Cadena de Frío |
+| Inicio de entrevista | 00:00 |
+| Duración | 08:57 |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1_Jg-67dLuuAXt6bTV69x12lShay-IJ0v/view?usp=drive_link) |
+
+![Evidencia entrevista](Assets/3.png)
+
+**Resumen:**  
+Javier Torres trabaja como responsable de cadena de frío en una empresa distribuidora de productos perecibles. Sus principales responsabilidades incluyen supervisar las condiciones de almacenamiento, coordinar despachos y verificar que los productos mantengan condiciones adecuadas durante su traslado.
+
+Actualmente utilizan termómetros digitales y controles manuales realizados por el personal. Algunos vehículos disponen de dispositivos capaces de registrar temperatura, aunque señaló que no toda la información se encuentra disponible en una única plataforma.
+
+Según su experiencia, las principales incidencias están relacionadas con variaciones de temperatura ocasionadas por aperturas prolongadas, problemas de refrigeración o retrasos durante la distribución. Estas situaciones pueden afectar la calidad de los productos y ocasionar devoluciones.
+
+Considera que contar con alertas automáticas y un historial asociado a cada lote ayudaría a detectar problemas más rápidamente y facilitaría la identificación de responsabilidades frente a una incidencia.
+
+Entre las características que considera indispensables mencionó facilidad de uso, precisión de las mediciones, disponibilidad de información histórica y generación de reportes. También considera importante que la solución pueda implementarse progresivamente, comenzando con determinados almacenes o vehículos antes de extenderse al resto de la operación.
 
 
 ### 2.2.3. Análisis de entrevistas
