@@ -447,7 +447,7 @@ Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.3.1. User Personas.
 
-#### SEGMENTO 1: Adultos jóvenes
+#### SEGMENTO 1: Propietarios y Encargados de Negocios de Alimentos Fríos
 ![User Person1](Assets/José_userP1.png)
 
 ### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
@@ -460,7 +460,7 @@ Capítulo II: Requirements Elicitation & Analysis
   <thead>
     <tr>
       <th rowspan="2">Tareas</th>
-      <th colspan="2">José Jimenez<br>(Adulto Joven)</th>
+      <th colspan="2">José Jimenez<br>(Propietarios de Negocios de Alimentos Fríos)</th>
       <th colspan="2">Luisa Pérez<br>(Emprendedora de alimentos)</th>
     </tr>
     <tr>
@@ -539,9 +539,9 @@ Por su parte, Luisa Pérez, orientada a la gestión de su negocio de comida case
 
 ### 2.3.3. User Journey Mapping
 
-**Segmento 1: Adultos Jóvenes**
+**Segmento 1: Propietarios y Encargados de Negocios de Alimentos Fríos**
 
-A través de este mapa de viaje se analiza el flujo de interacción que siguen los usuarios del primer segmento al administrar sus insumos del hogar y prevenir el desperdicio desde sus propios hábitos diarios. Este grupo incluye a personas con agendas apretadas que descuidan el control constante del refrigerador, lo que genera el descarte involuntario de comida descompuesta. Por ello, buscan alternativas tecnológicas intuitivas y eficientes que les ofrezcan avisos automáticos, sugerencias de platillos sencillos y una gestión del inventario ágil que no exija esfuerzo extra.
+A través de este mapa de viaje se analiza el flujo de interacción que siguen los dueños de negocios de alimentos fríos al gestionar sus productos perecibles y supervisar sus condiciones de conservación. Este grupo está conformado por propietarios que deben controlar constantemente el estado de sus productos y mantener adecuadas condiciones de almacenamiento, especialmente en la cadena de frío. La falta de monitoreo oportuno puede ocasionar el deterioro de productos, mermas y pérdidas económicas. Por ello, buscan alternativas tecnológicas intuitivas y eficientes que les permitan monitorear las condiciones de conservación, recibir alertas ante posibles riesgos y gestionar su inventario de manera ágil para reducir pérdidas y mejorar la rentabilidad del negocio.
 
 ![José Segmento 1 Journey Map](Assets/Jose_Segmento1_Map.png)
 
@@ -554,9 +554,9 @@ El presente mapa refleja la secuencia de pasos que efectúan los usuarios del se
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento 1: Adultos Jóvenes**
+**Segmento 1: Propietarios y Encargados de Negocios de Alimentos Fríos**
 
-El esquema de empatía enfocado en José ilustra el perfil de un joven profesional con tiempo limitado que requiere automatizar el seguimiento de su comida para disminuir gastos e ineficiencias. Experimenta insatisfacción cuando se estropean sus productos y busca herramientas digitales ágiles que faciliten la planeación de sus compras e incentiven hábitos de consumo responsables.
+El esquema de empatía enfocado en José ilustra el perfil de un dueño de un negocio de alimentos fríos que requiere controlar de manera constante sus productos perecibles para reducir pérdidas económicas e ineficiencias. Experimenta preocupación cuando sus productos se deterioran debido a fallas en las condiciones de conservación y busca herramientas digitales ágiles que faciliten el monitoreo de su inventario, generen alertas oportunas y contribuyan a mantener la calidad de sus productos y mejorar la rentabilidad del negocio.
 
 ![Empathy Map Segmento 1](Assets/Empathymap_Segmento1.png)
 
@@ -565,7 +565,6 @@ El esquema de empatía enfocado en José ilustra el perfil de un joven profesion
 El mapa de empatía representativo de Luisa sintetiza la perspectiva de una emprendedora comprometida con mantener la calidad de sus insumos y resguardar el prestigio de su marca. Requiere una plataforma accesible que aminore la merma económica, simplifique la organización del almacenamiento y consolide el respaldo de su clientela.
 
 ![Empathy Map Segmento 2](Assets/Empathymap_Segmento2.png)
-
 
 ## 2.4. Big Picture EventStorming
 
@@ -581,7 +580,6 @@ Con la finalidad de estructurar una solución integral y alineada a las dinámic
 ![event storming8](Assets/Event8.jpeg)
 ![event storming9](Assets/Event9.jpeg)
 ![event storming10](Assets/Event10.jpeg)
-
 
 ## 2.5. Ubiquitous Language
 
