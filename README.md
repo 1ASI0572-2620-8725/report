@@ -445,25 +445,292 @@ Capítulo II: Requirements Elicitation & Analysis
 
 2.3. Needfinding.
 
-2.3.1. User Personas.
+### 2.3.1. User Personas.
 
-2.3.2. User Task Matrix.
+#### SEGMENTO 1: Adultos jóvenes
+![User Person1](assets/José_userP1.png)
 
-2.3.3. User Journey Mapping.
+### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
+![User Person2](assets/Luisa_userP2.png)
 
-2.3.4. Empathy Mapping.
 
-2.4. Big Picture EventStorming.
+### 2.3.2. User Task Matrix
 
-2.5. Ubiquitous Language.
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Tareas</th>
+      <th colspan="2">José Jimenez<br>(Adulto Joven)</th>
+      <th colspan="2">Luisa Pérez<br>(Emprendedora de alimentos)</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Revisar estado de alimentos en la app</b></td>
+      <td>Casi siempre</td>
+      <td>Muy alta</td>
+      <td>Siempre</td>
+      <td>Muy alta</td>
+    </tr>
+    <tr>
+      <td><b>Recibir alertas de vencimiento</b></td>
+      <td>Siempre</td>
+      <td>Muy alta</td>
+      <td>Siempre</td>
+      <td>Muy alta</td>
+    </tr>
+    <tr>
+      <td><b>Consultar recetas sugeridas</b></td>
+      <td>A veces</td>
+      <td>Alta</td>
+      <td>Raramente</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td><b>Editar inventario manualmente</b></td>
+      <td>Raramente</td>
+      <td>Media</td>
+      <td>Casi siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td><b>Revisar reportes semanales (ahorro, consumo)</b></td>
+      <td>A veces</td>
+      <td>Media</td>
+      <td>Siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td><b>Compartir logros/impacto en redes sociales</b></td>
+      <td>A veces</td>
+      <td>Media</td>
+      <td>Raramente</td>
+      <td>Baja</td>
+    </tr>
+    <tr>
+      <td><b>Usar notificaciones configurables (hora/frecuencia)</b></td>
+      <td>Casi siempre</td>
+      <td>Alta</td>
+      <td>Casi siempre</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td><b>Generar proyecciones de compra</b></td>
+      <td>Nunca</td>
+      <td>Baja</td>
+      <td>Casi siempre</td>
+      <td>Muy alta</td>
+    </tr>
+  </tbody>
+</table>
 
-Capítulo III: Requirements Specification
+El análisis de la matriz de tareas evidencia una clara diferencia en las prioridades operativas y patrones de uso entre ambos perfiles de usuario.
 
-3.1. User Stories.
+En el caso de José Jiménez, quien representa al público de adultos jóvenes con agendas ajustadas, el valor principal radica en la supervisión rápida de la frescura y la recepción de avisos de caducidad; ambas funcionalidades le resultan esenciales para evitar el desperdicio de comida y proteger su economía personal. Otras herramientas, como el catálogo de recetas recomendadas o la difusión de logros en plataformas digitales, son utilizadas de forma secundaria sin representar un factor crítico dentro de su rutina diaria.
 
-3.2. Impact Mapping.
+Por su parte, Luisa Pérez, orientada a la gestión de su negocio de comida casera, enfoca su interacción en herramientas de control riguroso, tales como el monitoreo constante del inventario, la revisión de métricas y la proyección de abastecimiento. Para su perfil, estas funciones son vitales para garantizar la calidad en sus productos finales y mitigar las mermas de insumos. Por el contrario, la búsqueda de recetas o funciones lúdicas resulta poco relevante para sus objetivos comerciales.
 
-3.3. Product Backlog.
+
+### 2.3.3. User Journey Mapping
+
+**Segmento 1: Adultos Jóvenes**
+
+A través de este mapa de viaje se analiza el flujo de interacción que siguen los usuarios del primer segmento al administrar sus insumos del hogar y prevenir el desperdicio desde sus propios hábitos diarios. Este grupo incluye a personas con agendas apretadas que descuidan el control constante del refrigerador, lo que genera el descarte involuntario de comida descompuesta. Por ello, buscan alternativas tecnológicas intuitivas y eficientes que les ofrezcan avisos automáticos, sugerencias de platillos sencillos y una gestión del inventario ágil que no exija esfuerzo extra.
+
+![José Segmento 1 Journey Map](assets/Jose_Segmento1_Map.png)
+
+**Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
+
+El presente mapa refleja la secuencia de pasos que efectúan los usuarios del segundo segmento con el fin de supervisar sus materias primas y garantizar insumos óptimos a sus consumidores. Este perfil engloba a emprendimientos gastronómicos del hogar que experimentan merma financiera ante el vencimiento de sus ingredientes por llevar un registro manual. Priorizan sistemas que sistematicen la medición de frescura, emitan análisis de stock e indicadores de reabastecimiento, ayudando a sostener el estándar de sus entregas y la lealtad comercial de sus clientes.
+
+![Luisa Segmento 2 Journey Map](assets/Luisa_Segmento2_Map.png)
+
+
+### 2.3.4. Empathy Mapping
+
+**Segmento 1: Adultos Jóvenes**
+
+El esquema de empatía enfocado en José ilustra el perfil de un joven profesional con tiempo limitado que requiere automatizar el seguimiento de su comida para disminuir gastos e ineficiencias. Experimenta insatisfacción cuando se estropean sus productos y busca herramientas digitales ágiles que faciliten la planeación de sus compras e incentiven hábitos de consumo responsables.
+
+![Empathy Map Segmento 1](assets/Empathymap_Segmento1.png)
+
+**Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
+
+El mapa de empatía representativo de Luisa sintetiza la perspectiva de una emprendedora comprometida con mantener la calidad de sus insumos y resguardar el prestigio de su marca. Requiere una plataforma accesible que aminore la merma económica, simplifique la organización del almacenamiento y consolide el respaldo de su clientela.
+
+![Empathy Map Segmento 2](assets/Empathymap_Segmento2.png)
+
+
+## 2.4. Big Picture EventStorming
+
+Con la finalidad de estructurar una solución integral y alineada a las dinámicas del negocio, el equipo llevó a cabo una sesión colaborativa de EventStorming para mapear el flujo de eventos del sistema:
+
+![event storming1](assets/Event1.PNG)
+![event storming2](assets/Event2.PNG)
+![event storming3](assets/Event3.PNG)
+![event storming4](assets/Event4.PNG)
+![event storming5](assets/Event5.jpeg)
+![event storming6](assets/Event6.jpeg)
+![event storming7](assets/Event7.jpeg)
+![event storming8](assets/Event8.jpeg)
+![event storming9](assets/Event9.jpeg)
+![event storming10](assets/Event10.jpeg)
+
+
+## 2.5. Ubiquitous Language
+
+| Ubiquitous Term       | Definition of Functional Domain                                                                                                       | 
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Food Waste            | Loss or discard of edible food that could have been consumed, caused by poor management, lack of monitoring, or premature spoilage. |
+| FreshSense Device     | Sensor-based hardware placed inside the refrigerator to monitor food conditions such as temperature, humidity, and ethylene gas levels. |
+| Ethylene Gas          | Natural plant hormone released by fruits and vegetables during ripening, used by the system as a critical freshness indicator.       |
+| Food Inventory        | Organized list and status of available food items stored at home or in small businesses, including expiration estimation.            |
+| Food Condition        | Physical state of stored food determined by FreshSense (fresh, at risk, or spoiled).                                                  |
+| Expiration Alert      | Notification sent to users when a food item is approaching spoilage or entering a decomposition phase.                              |
+| Recipe Suggestion     | Cooking recommendation proposed by the platform, prioritizing ingredients close to expiration to prevent waste.                       |
+| Consumption Report    | Periodic summary of food consumed or discarded, estimating financial impact and carbon footprint reduction.                            |
+| Premium Subscription  | Paid plan unlocking advanced features such as detailed inventory analytics, exclusive recipes, and environmental statistics.         |
+| Household User        | Individual or family that uses FreshSense to manage their daily food items and optimize their household budget.                        |
+| Food Entrepreneur     | Small business owner who uses FreshSense to guarantee the freshness of their ingredients and reduce losses.                           |
+| Sustainability Impact | Positive ecological and economic effect of reducing food waste, measured in money saved and CO₂ emissions avoided.                   |
+| Gamification          | Use of challenges, badges, and achievements within the app to motivate users to actively reduce waste.                               |
+| Food Monitoring       | Continuous tracking of storage conditions and freshness status of stored food products.                                                |
+| Smart Notification    | Customizable alert system that tailors reminders according to user preferences to prevent invasive notifications.                   |
+| Recipe Filter         | Navigation option that allows users to categorize recipes by time, difficulty level, or dietary restrictions.                          |
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
+
+| User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic) |
+| :--- | :--- | :--- | :--- | :--- |
+| **US01** | Visualización de propuesta | Como potencial usuario doméstico, deseo comprender la propuesta de valor de FreshSense al ingresar al portal para evaluar sus beneficios. | **Escenario 1: Carga limpia y mensaje claro**<br>Dado que un visitante navega a la página web<br>Cuando la plataforma cargue completamente<br>Entonces se desplegará el mensaje central de valor y los módulos de solución de manera visible. | **EP01** (Landing Page) |
+| **US02** | Sección para pequeñas empresas | Como emprendedor del sector alimentario, requiero información enfocada en mi rubro para entender el retorno de inversión y las ventajas operativas. | **Escenario 1: Navegación por perfil comercial**<br>Dado que un emprendedor interactúa con la landing page<br>Cuando acceda a la pestaña corporativa<br>Entonces visualizará los módulos dedicados a mermas, control de calidad y planes B2B. | **EP01** (Landing Page) |
+| **US03** | Formulario de contacto y demos | Como visitante interesado, quiero enviar una solicitud de contacto de forma ágil para resolver dudas o agendar una demostración. | **Escenario 1: Envío exitoso de consulta**<br>Dado que el visitante llena sus datos de contacto válidos<br>Cuando presione el botón de envío<br>Entonces el sistema registrará la solicitud y mostrará un mensaje de confirmación en pantalla. | **EP01** (Landing Page) |
+| **US04** | Call to Action (CTA) | Como cliente potencial, deseo disponer de un botón de acción visible para registrarme rápidamente o activar la prueba gratuita. | **Escenario 1: Redirección desde el CTA**<br>Dado que el usuario explora la sección de planes<br>Cuando haga clic en "Iniciar prueba gratuita"<br>Entonces será redirigido inmediatamente al formulario de registro. | **EP01** (Landing Page) |
+| **US05** | Adaptabilidad en dispositivos móviles | Como usuario en movimiento, quiero navegar por la web desde cualquier teléfono o tablet sin distorsión de contenido. | **Escenario 1: Renders responsivos**<br>Dado que el visitante ingresa mediante un navegador móvil<br>Cuando explore las secciones<br>Entonces la interfaz ajustará dinámicamente sus márgenes, botones y tipografías. | **EP01** (Landing Page) |
+| **US06** | Telemetría y monitoreo IoT | Como usuario del hogar, necesito que el sensor recolecte métricas de temperatura, humedad y gas etileno para prevenir el deterioro de mi comida. | **Escenario 1: Transmisión continua de telemetría**<br>Dado que el dispositivo FreshSense está en línea<br>Cuando detecte un cambio en las condiciones del ambiente<br>Entonces enviará los datos a la app en tiempo real para actualizar el panel de control.<br><br>**Escenario 2: Notificación por desconexión**<br>Dado que el sensor pierda enlace con la red Wi-Fi<br>Cuando el servidor detecte la falta de ping<br>Entonces notificará al usuario sobre el fallo de señal. | **EP02** (Monitoreo IoT) |
+| **US07** | Dashboard de inventario con semáforo | Como usuario, quiero supervisar el estado de mis alimentos mediante un código de colores para identificar el riesgo de caducidad. | **Escenario 1: Vista por código de colores**<br>Dado que el usuario consulta su inventario<br>Cuando la interfaz procese la lectura de los sensores<br>Entonces catalogará cada insumo en verde (óptimo), amarillo (consumir pronto) o rojo (crítico).<br><br>**Escenario 2: Inspección detallada del producto**<br>Dado que el usuario haga clic en un insumo<br>Cuando se abra la tarjeta del alimento<br>Entonces mostrará la fecha estimada de vencimiento y los niveles actuales de etileno. | **EP02** (Monitoreo IoT) |
+| **US08** | Sistema de alertas preventivas | Como usuario, requiero notificaciones oportunas cuando un alimento esté cerca de descomponerse para consumirlo a tiempo. | **Escenario 1: Notificación de riesgo**<br>Dado que un insumo pase a estado crítico<br>Cuando el motor de reglas procese los datos<br>Entonces enviará una alerta push al teléfono del cliente.<br><br>**Escenario 2: Ausencia de falsas alarmas**<br>Dado que no existan desviaciones en los parámetros<br>Cuando el sistema realice el chequeo periódico<br>Entonces no emitirá ninguna notificación innecesaria. | **EP03** (Alertas Inteligentes) |
+| **US09** | Preferencias de notificaciones | Como usuario, deseo parametrizar el horario y tipo de alertas para evitar interrupciones molestas durante mi jornada. | **Escenario 1: Ajuste de horas de silencio**<br>Dado que el usuario defina un rango de quietud (ej. 22:00 a 07:00)<br>Cuando se active una alerta de baja severidad<br>Entonces la app la retendrá hasta que finalice el periodo configurado. | **EP03** (Alertas Inteligentes) |
+| **US10** | Alta de productos por voz y QR | Como usuario con poco tiempo, quiero agregar insumos al inventario mediante comandos de voz o escaneo de código de barras para ahorrar esfuerzo. | **Escenario 1: Registro por comando de voz**<br>Dado que el usuario dicte "Agregar 1 kilo de manzanas"<br>Cuando la voz sea procesada por el motor de PLN<br>Entonces el insumo aparecerá registrado en la despensa virtual.<br><br>**Escenario 2: Alta rápida mediante código de barras**<br>Dado que el usuario escanee el empaque de un producto<br>Cuando la app identifique el código en la base de datos<br>Entonces completará de forma automática el nombre y la categoría. | **EP04** (Gestión de Inventario) |
+| **US11** | Modificación manual de despensa | Como usuario, quiero corregir o actualizar las cantidades de mi inventario manualmente para mantener el registro alineado con la realidad. | **Escenario 1: Actualización de stock**<br>Dado que el usuario reduzca las unidades de un producto<br>Cuando guarde la modificación<br>Entonces el sistema reajustará el porcentaje restante del artículo. | **EP04** (Gestión de Inventario) |
+| **US12** | Reporte semanal de hábitos | Como usuario, requiero un informe periódico de consumo y mermas para evaluar mi progreso en la reducción de desperdicio. | **Escenario 1: Emisión de reporte semanal**<br>Dado que se cumpla el ciclo de 7 días<br>Cuando el servidor consolide los datos de uso<br>Entonces enviará un resumen gráfico al correo registrado y al panel principal. | **EP04** (Gestión de Inventario) |
+| **US13** | Recomendación de recetas inteligentes | Como usuario, quiero recibir sugerencias de platillos basadas en ingredientes prontos a vencer para aprovecharlos. | **Escenario 1: Generación de platillos por prioridad**<br>Dado que existan insumos en alerta amarilla o roja<br>Cuando el usuario ingrese a la pestaña de cocina<br>Entonces el motor propondrá recetas que utilicen como base dichos productos. | **EP05** (Recetas Personalizadas) |
+| **US14** | Filtrado avanzado de platillos | Como usuario con restricciones alimentarias, quiero filtrar recetas por tiempo, dificultad o tipo de dieta (vegana, keto, etc.). | **Escenario 1: Aplicación de filtros combinados**<br>Dado que el usuario seleccione "Fácil", "< 20 min" y "Vegetariano"<br>Cuando ejecute la búsqueda<br>Entonces el catálogo desplegará únicamente las opciones que satisfagan todos los criterios. | **EP05** (Recetas Personalizadas) |
+| **US15** | Onboarding y tutorial interactivo | Como cliente nuevo, deseo contar con una guía interactiva al iniciar sesión por primera vez para aprender a utilizar las funciones clave. | **Escenario 1: Módulo de aprendizaje inicial**<br>Dado que un usuario inicie sesión por primera vez<br>Cuando se abra la pantalla de bienvenida<br>Entonces se desplegará un tour paso a paso con la explicación de las herramientas. | **EP06** (UX y Accesibilidad) |
+| **US16** | Interfaz amigable e inclusiva | Como usuario, quiero disponer de una aplicación limpia, legible y con contraste adecuado para navegar de forma cómoda. | **Escenario 1: Navegación accesible**<br>Dado que el usuario explore el tablero principal<br>Cuando interactúe con las tarjetas e íconos<br>Entonces la interfaz responderá de manera fluida y adaptada a estándares WCAG AA. | **EP06** (UX y Accesibilidad) |
+| **US17** | Analítica avanzada de inventario | Como usuario premium, deseo visualizar gráficos detallados de la velocidad de rotación de mi comida para optimizar compras futuras. | **Escenario 1: Acceso a métricas corporativas**<br>Dado un usuario con plan activo Premium<br>Cuando acceda al menú de analítica<br>Entonces podrá inspeccionar gráficos comparativos de entradas, consumo y merma por periodos. | **EP07** (Suscripción Premium) |
+| **US18** | Panel de ahorro financiero | Como cliente suscrito, quiero evaluar el dinero que he dejado de perder al consumir alimentos a tiempo. | **Escenario 1: Cálculo de ahorro acumulado**<br>Dado que el sistema registre alimentos consumidos antes del vencimiento<br>Cuando el usuario consulte su perfil<br>Entonces visualizará una estimación en moneda local del valor rescatado. | **EP07** (Suscripción Premium) |
+| **US19** | Catálogo de recetas gourmet | Como usuario abonado a la suscripción, quiero acceder a preparaciones exclusivas diseñadas por chefs para variar mi dieta. | **Escenario 1: Desbloqueo de contenido exclusivo**<br>Dado un usuario de nivel Premium<br>Cuando consulte la sección de recetas avanzadas<br>Entonces dispondrá de acceso ilimitado a videoguías y listas de ingredientes paso a paso. | **EP07** (Suscripción Premium) |
+| **US20** | Métricas de impacto ecológico | Como usuario comprometido con el medio ambiente, quiero revisar la reducción de mi huella de carbono derivada de evitar desperdicios. | **Escenario 1: Estimación de CO₂ evitado**<br>Dado el registro de comida salvada durante el mes<br>Cuando el usuario visite la pestaña de sostenibilidad<br>Entonces la app mostrará la equivalencia en kilogramos de CO₂ y litros de agua preservados. | **EP08** (Sostenibilidad) |
+| **US21** | Integración y difusión en redes | Como usuario orgullo de sus avances, quiero compartir mis insignias y logros ecológicos en redes sociales para motivar a mis contactos. | **Escenario 1: Publicación de tarjeta de logro**<br>Dado que el usuario alcance una meta mensual<br>Cuando haga clic en "Compartir en redes"<br>Entonces la plataforma generará una imagen personalizada lista para subir a sus historias. | **EP08** (Sostenibilidad) |
+| **US22** | Sincronización con refrigeradores inteligentes | Como usuario con electrodomésticos IoT, quiero enlazar FreshSense con mi heladera inteligente para unificar las lecturas. | **Escenario 1: Mapeo de sensores externos**<br>Dado un refrigerador inteligente compatible<br>Cuando se complete el emparejamiento mediante API<br>Entonces la app consolidará la información interna del electrodoméstico con la del sensor FreshSense. | **EP09** (Integración IoT) |
+| **US23** | Comandos de voz mediante asistentes | Como usuario, quiero consultar el estado de mi heladera usando Alexa o Google Assistant mientras cocino. | **Escenario 1: Consulta verbal de inventario**<br>Dado que la skill esté vinculada con el asistente de voz<br>Cuando el usuario pregunte "¿Qué alimentos están por vencer?"<br>Entonces el asistente responderá leyendo los artículos en alerta amarilla y roja. | **EP09** (Integración IoT) |
+| **US24** | Ruteo de notificaciones multidispositivo | Como usuario con múltiples dispositivos, quiero seleccionar en qué equipo (reloj, celular, correo) recibir cada tipo de aviso. | **Escenario 1: Ruteo preferencial**<br>Dado que el usuario seleccione recibir avisos críticos en su Smartwatch<br>Cuando se dispare una alerta roja<br>Entonces el servidor la desviará inmediatamente al canal de reloj inteligente. | **EP09** (Integración IoT) |
+| **US25** | Gamificación y medallas | Como usuario, quiero obtener puntos e insignias por registrar mi comida y evitar mermas para mantener la motivación. | **Escenario 1: Adjudicación de insignias**<br>Dado que el usuario pase 14 días sin desechar alimentos<br>Cuando el sistema verifique el registro<br>Entonces le otorgará la medalla "Héroe del Ahorro" y sumará puntos a su cuenta. | **EP10** (Gamificación) |
+| **US26** | Módulo de interacción social | Como usuario activo, quiero interactuar con comunidades de consumo responsable para intercambiar recetas y consejos de conservación. | **Escenario 1: Publicación en el foro comunitario**<br>Dado que el usuario ingrese al muro social<br>Cuando publique un consejo de almacenamiento<br>Entonces otros usuarios podrán reaccionar y guardar el tip en sus favoritos. | **EP10** (Gamificación) |
+| **US27** | Desafíos y rankings comunitarios | Como usuario competitivo, quiero participar en retos mensuales entre usuarios para ver quién disminuye más su desperdicio. | **Escenario 1: Posicionamiento en tabla de líderes**<br>Dado que un reto mensual esté activo<br>Cuando el usuario registre reducciones en mermas<br>Entonces su posición escalará en la tabla pública de clasificación. | **EP10** (Gamificación) |
+| **US28** | Categorización personalizada de insumos | Como usuario organizado, quiero crear etiquetas a medida (ej. "Insumos de Repostería", "Bebidas") para ordenar mi despacho. | **Escenario 1: Creación de etiquetas custom**<br>Dado que el usuario agregue la categoría "Congelados Especiales"<br>Cuando categorice nuevos artículos<br>Entonces podrá filtrar la vista del inventario bajo ese grupo recién creado. | **EP11** (Gestión Avanzada) |
+| **US29** | Historial de consumo exportable | Como administrador de despensa, quiero consultar y descargar la lista histórica de lo consumido y desechado para ajustar mis presupuestos. | **Escenario 1: Exportación de archivo de datos**<br>Dado que el usuario defina un rango de fechas<br>Cuando presione "Exportar historial"<br>Entonces el sistema descargará un archivo en formato CSV o Excel con el detalle completo. | **EP11** (Gestión Avanzada) |
+| **US30** | Algoritmo de sugerencias de compra | Como usuario, quiero recibir una lista sugerida de compras según mi patrón histórico de consumo para no comprar en exceso. | **Escenario 1: Generación de lista automática**<br>Dado el historial de consumo de los últimos 30 días<br>Cuando el usuario planifique su salida al supermercado<br>Entonces la app recomendará la cantidad exacta de insumos a reponer. | **EP11** (Gestión Avanzada) |
+| **US31** | Vinculación y calibración de hardware | Como usuario, quiero vincular un nuevo sensor FreshSense escaneando su código QR e ingresar la temperatura base de mi refrigerador para calibrar el equipo. | **Escenario 1: Vinculación QR exitosa**<br>Dado que el usuario abre el instalador de la app<br>Cuando escanee el código QR pegado en el hardware<br>Entonces el dispositivo quedará enlazado a su hogar y listo para medir. | **EP02** (Monitoreo IoT) |
+| **US32** | Modo de conservación fuera de casa | Como usuario que sale de viaje, quiero activar el "Modo Vacaciones" para recalibrar los umbrales de alerta al no abrirse la puerta del refrigerador. | **Escenario 1: Activación de modo viaje**<br>Dado que el usuario activa el interruptor "Modo Vacaciones"<br>Cuando transcurran más de 24 horas sin apertura de puerta<br>Entonces el sistema ajustará la sensibilidad de emisión de etileno para evitar alertas falsas. | **EP03** (Alertas Inteligentes) |
+| **US33** | Gestión de múltiples áreas de almacenamiento | Como emprendedor de alimentos, quiero crear distintas zonas (ej. "Cámara Fría 1", "Frigorífico Verduras") para organizar mis sensores. | **Escenario 1: Asignación de ubicación**<br>Dado que el usuario crea la zona "Congelador Carnes"<br>Cuando vincule un sensor a esa zona<br>Entonces los alimentos asociados tomarán las reglas de temperatura de esa cámara específica. | **EP11** (Gestión Avanzada) |
+| **US34** | Registro de causas de descarte | Como usuario o negocio, quiero registrar el motivo específico cuando tiro un alimento (ej. "Caducado", "Contaminado", "Mal estado al comprar") para entender mis mermas. | **Escenario 1: Registro de motivo de baja**<br>Dado que el usuario elimine un producto marcándolo como "Desechado"<br>Cuando la app solicite el motivo<br>Entonces guardará la causa elegida para incluirla en el informe mensual de desperdicio. | **EP04** (Gestión de Inventario) |
+| **US35** | Recuperación y restablecimiento de contraseña | Como usuario registrado, quiero restablecer mi contraseña mediante un enlace seguro enviado a mi correo cuando olvide mis credenciales de acceso. | **Escenario 1: Restablecimiento por correo**<br>Dado que el usuario haga clic en "¿Olvidaste tu contraseña?" e ingrese su email<br>Cuando presione "Enviar enlace"<br>Entonces el sistema despachará un correo con un token único de restablecimiento temporal. | **EP12** (Core API) |
+| **US36** | Panel de administración de usuarios y roles | Como administrador de FreshSense, quiero gestionar cuentas, modificar roles (Free, Premium, Admin) y suspender accesos indebidos. | **Escenario 1: Modificación de plan por administrador**<br>Dado un usuario con cuenta gratuita activa<br>Cuando el administrador actualice su rol a "Premium B2B"<br>Entonces el usuario dispondrá de acceso inmediato a los módulos de analítica avanzada. | **EP12** (Core API) |
+| **US37** | Gestión de miembros del hogar/negocio | Como usuario principal, quiero invitar a otros miembros de mi familia o empleados para que gestionen el mismo inventario compartido. | **Escenario 1: Aceptación de invitación familiar**<br>Dado que el titular envíe una invitación por correo a su cónyuge<br>Cuando el invitado acepte el enlace de vinculación<br>Entonces ambos visualizarán y editarán la misma despensa en tiempo real. | **EP04** (Gestión de Inventario) |
+| **US38** | Descarga de comprobantes de pago | Como suscriptor Premium, quiero descargar las facturas o boletas electrónicas de mis cobros mensuales para llevar la contabilidad de mi negocio. | **Escenario 1: Descarga de factura PDF**<br>Dado que el cobro mensual de la suscripción haya sido procesado<br>Cuando el usuario acceda a la sección "Historial de Pagos"<br>Entonces podrá descargar el comprobante en formato PDF. | **EP07** (Suscripción Premium) |
+| **US39** | Búsqueda global con autocompletado | Como usuario con un inventario extenso, quiero buscar cualquier alimento o receta escribiendo en una barra de búsqueda con sugerencias en vivo. | **Escenario 1: Búsqueda dinámica**<br>Dado que el usuario escriba "Manz" en el buscador principal<br>Cuando el sistema procese el texto<br>Entonces desplegará en tiempo real los artículos coincidentes del inventario y recetas sugeridas. | **EP06** (UX y Accesibilidad) |
+| **US40** | Calificación y reseñas de recetas | Como usuario cocinero, quiero calificar con estrellas y comentar las recetas sugeridas para ayudar a la comunidad a elegir las mejores opciones. | **Escenario 1: Publicación de calificación**<br>Dado que el usuario prepare un plato recomendado<br>Cuando asigne 5 estrellas y escriba una reseña<br>Entonces su comentario se actualizará inmediatamente en la ficha pública de la receta. | **EP05** (Recetas Personalizadas) |
+| **TS41** | API Ingesta de Sensores IoT | Como desarrollador Backend, requiero un endpoint RESTful seguro de alta velocidad para almacenar las lecturas de los microcontroladores. | **Escenario 1: Persistencia exitosa de telemetría**<br>Dado que un sensor autenticado envíe un JSON con lecturas de etileno, humedad y temperatura<br>Cuando el backend valide el token de acceso<br>Entonces almacenará los registros en la base de datos y responderá un código HTTP 201. | **EP12** (Core API) |
+| **TS42** | Microservicio de Notificaciones | Como desarrollador Backend, necesito un módulo independiente para la gestión y despacho de avisos push y correos electrónicos. | **Escenario 1: Despacho asíncrono de alertas**<br>Dado un evento de alimento en peligro<br>Cuando el microservicio reciba el mensaje de la cola de eventos<br>Then procesará la plantilla correspondiente y la despachará hacia el proveedor de notificaciones (Firebase/SendGrid). | **EP12** (Core API) |
+| **TS43** | API Gestor de Autenticación y RBAC | Como desarrollador Backend, preciso implementar un control de acceso basado en roles (RBAC) con tokens JWT para proteger las funciones Premium. | **Escenario 1: Validación de permisos por rol**<br>Dado que un usuario sin suscripción intente consumir un endpoint exclusivo<br>Cuando el middleware de autenticación analice el JWT<br>Entonces bloqueará el paso devolviendo un estado HTTP 403 Forbidden. | **EP12** (Core API) |
+| **TS44** | Integración de Pasarela de Pagos Stripe/PayPal | Como desarrollador Backend, necesito integrar los webhooks de cobro recurrente para automatizar la activación y cancelación de suscripciones Premium. | **Escenario 1: Confirmación de pago por Webhook**<br>Dado que la pasarela de pagos procese exitosamente la renovación mensual<br>Cuando el servidor reciba la notificación del Webhook<br>Entonces extenderá automáticamente la fecha de vigencia del usuario por 30 días más. | **EP07** (Suscripción Premium) |
+| **TS45** | Sistema de Caching de Recetas y Consultas Frecuentes | Como desarrollador Backend, necesito implementar una capa de caché con Redis para optimizar el tiempo de respuesta del catálogo de recetas. | **Escenario 1: Respuesta desde la memoria caché**<br>Dado que una consulta de recetas filtradas haya sido realizada previamente<br>Cuando un nuevo usuario ejecute el mismo filtro<br>Entonces la API servirá la información desde Redis reduciendo el tiempo de respuesta a menos de 50ms. | **EP12** (Core API) |
+## Epics (Épicas)
+
+| Epic ID | Título de la Épica | Alcance y Descripción Corta |
+| :--- | :--- | :--- |
+| **EP01** | Portal Informativo y Landing Page | Estructuración y despliegue del sitio web principal enfocado en la conversión de visitantes, destacando la propuesta de valor, planes para hogares y pymes, secciones educativas y captura de leads. |
+| **EP02** | Telemetría e Ingesta IoT | Desarrollo del sistema continuo de captura, calibración y procesamiento en tiempo real de las lecturas físicas (temperatura, porcentaje de humedad y niveles de gas etileno) enviadas por el hardware FreshSense. |
+| **EP03** | Motor de Alertas e Indicadores de Riesgo | Algoritmo inteligente encargado de evaluar las desviaciones métricas frente a los umbrales de seguridad, gestionando notificaciones preventivas y modos especiales de conservación (ej. Modo Vacaciones). |
+| **EP04** | Gestión Dinámica de Inventario y Despensa | Módulo para la organización integral de insumos, incluyendo altas por comandos de voz o escaneo de código de barras, actualizaciones manuales, clasificación por despensas y control de miembros del hogar. |
+| **EP05** | Motor de Sugerencia de Recetas | Sistema dinámico que analiza los ingredientes próximos a vencer en el refrigerador y propone recetas personalizadas, filtrables por tipo de dieta, tiempo de preparación e interacciones comunitarias. |
+| **EP06** | Experiencia de Usuario, Accesibilidad y Navegación | Diseño UX/UI intuitivo y accesible bajo estándares WCAG AA, que contempla búsquedas globales con autocompletado, vistas responsivas en múltiples pantallas y módulos de onboarding guiado para nuevos usuarios. |
+| **EP07** | Modelo de Suscripción y Pasarela de Pagos | Módulo de monetización encargado del cobro recurrente mediante webhooks (Stripe/PayPal), la descarga de comprobantes electrónicos de pago y el desbloqueo de capacidades exclusivas Premium. |
+| **EP08** | Analítica de Sostenibilidad e Impacto Ambiental | Sistema de cálculo enfocado en cuantificar el volumen de comida salvada, la reducción estimada de la huella de carbono (kg de CO₂ evitado), el consumo de agua preservado y su difusión en redes sociales. |
+| **EP09** | Conectividad y Ecosistemas Smart | Módulos de expansión para la integración con electrodomésticos IoT (Smart Fridges), asistentes virtuales de voz (Alexa/Google Assistant) y ruteo de notificaciones hacia relojes inteligentes. |
+| **EP10** | Gamificación, Desafíos y Comunidad | Funcionalidades de interacción social que incentivan el consumo responsable mediante el otorgamiento de insignias, puntos por metas cumplidas, foros comunitarios y tablas de posición en retos mensuales. |
+| **EP11** | Analítica Comercial y Gestión Avanzada B2B | Herramientas orientadas a emprendedores y pymes para la organización por cámaras frías, registro de causas de descarte, exportación de reportes financieros en Excel/PDF y algoritmos proyectivos de reabastecimiento. |
+| **EP12** | Arquitectura Backend, Seguridad y Core API | Construcción de la base del servidor, microservicios de despacho asíncrono de avisos, capa de almacenamiento en caché con Redis, recuperación de credenciales y control de acceso basado en roles (RBAC JWT). |
+
+## 3.2. Impact Mapping
+
+![impact mapping](assets/ImpactMap_FreshSense.PNG)
+
+En conclusión, el Impact Mapping permitió establecer una trazabilidad nítida entre la visión de negocio y la implementación del software. Esto garantiza que cada desarrollo atienda un requisito técnico y genere una transformación medible en los hábitos de uso, disminuyendo el desperdicio alimentario y acelerando el crecimiento de FreshSense.
+
+---
+
+## 3.3. Product Backlog
+
+A continuación se presenta el **Product Backlog** priorizado del proyecto FreshSense, estimando el esfuerzo en Story Points mediante la escala de Fibonacci (1, 2, 3, 5, 8) e integrando la totalidad de las 45 historias definidas:
+
+| Orden (#) | User Story ID | Título de la Historia / Tarea Técnica | Descripción Sintetizada | Story Points |
+| :-: | :--- | :--- | :--- | :-: |
+| **1** | **US01** | Visualización de propuesta de valor | Explicación clara de la propuesta de FreshSense en la landing page para visitantes. | **2** |
+| **2** | **US02** | Sección para pequeños negocios | Módulo web orientado a emprendedores gastronómicos para destacar ventajas comerciales. | **2** |
+| **3** | **US03** | Formulario de contacto y demos | Formulario dinámico para la recepción de solicitudes de información y demostraciones. | **2** |
+| **4** | **US04** | Call to Action (CTA) | Botón de llamado a la acción para la conversión rápida hacia el registro o prueba gratis. | **2** |
+| **5** | **US05** | Adaptabilidad en móviles | Configuración de estilos responsivos para asegurar una lectura cómoda en celulares. | **3** |
+| **6** | **TS43** | API Gestor de Autenticación y RBAC | Configuración del servidor de identidad con seguridad basada en tokens JWT y permisos. | **5** |
+| **7** | **TS41** | API Ingesta de Sensores IoT | Endpoint RESTful encargado de recibir y almacenar datos de etileno, humedad y temperatura. | **5** |
+| **8** | **US06** | Telemetría y monitoreo IoT | Recolección en tiempo real de métricas enviadas por los sensores FreshSense. | **5** |
+| **9** | **US07** | Dashboard con semáforo | Módulo visual que clasifica la frescura de la comida mediante colores verde, amarillo y rojo. | **3** |
+| **10** | **US08** | Sistema de alertas preventivas | Notificaciones automáticas ante el riesgo inminente de caducidad en un insumo. | **5** |
+| **11** | **TS42** | Microservicio de Notificaciones | Módulo asíncrono para la emisión de avisos push hacia móviles y correo electrónico. | **3** |
+| **12** | **US09** | Preferencias de notificaciones | Panel para parametrizar horarios de silencio y canales de contacto preferidos. | **3** |
+| **13** | **US31** | Vinculación y calibración de hardware | Módulo de emparejamiento de sensores mediante código QR y calibración de temperatura. | **3** |
+| **14** | **US10** | Alta de productos por voz y QR | Registro rápido de ingredientes escaneando códigos de barra o mediante comandos de voz. | **5** |
+| **15** | **US11** | Modificación manual de despensa | Edición de cantidades, nombres y categorías dentro de la despensa digital. | **2** |
+| **16** | **US37** | Gestión de miembros del hogar/negocio | Invitación y vinculación de familiares o empleados a un mismo inventario compartido. | **3** |
+| **17** | **US12** | Reporte semanal de hábitos | Consolidado periódico que detalla el volumen de insumos consumidos y descartados. | **3** |
+| **18** | **US13** | Recomendación de recetas inteligentes | Algoritmo que sugiere platillos basándose en los ingredientes próximos a vencer. | **5** |
+| **19** | **US14** | Filtrado avanzado de platillos | Selección de recetas por tiempo de preparación, grado de dificultad y tipo de dieta. | **3** |
+| **20** | **US39** | Búsqueda global con autocompletado | Barra de búsqueda centralizada para filtrar insumos y recetas con sugerencias en vivo. | **3** |
+| **21** | **US15** | Onboarding y tutorial interactivo | Tour interactivo para guiar la primera experiencia del usuario en la plataforma. | **2** |
+| **22** | **US16** | Interfaz amigable e inclusiva | Optimización UX/UI para asegurar altos estándares de legibilidad y accesibilidad. | **3** |
+| **23** | **TS44** | Pasarela de Pagos Recurrentes | Integración de webhooks para cobros periódicos de membresías Premium (Stripe/PayPal). | **5** |
+| **24** | **US17** | Analítica avanzada de inventario | Dashboard con gráficos de rotación de stock exclusivo para cuentas Premium. | **5** |
+| **25** | **US18** | Panel de ahorro financiero | Métricas que cuantifican en moneda local el valor rescatado del desperdicio. | **3** |
+| **26** | **US19** | Catálogo de recetas gourmet | Sección de contenido culinario exclusivo y videoguías para suscriptores abonados. | **2** |
+| **27** | **US38** | Descarga de comprobantes de pago | Módulo de consulta y descarga de facturas/boletas electrónicas en formato PDF. | **2** |
+| **28** | **US20** | Métricas de impacto ecológico | Estimación del equivalente en CO₂ evitado y recursos naturales preservados. | **3** |
+| **29** | **US21** | Integración y difusión en redes | Generador de tarjetas visuales de logros para compartir avances en canales sociales. | **2** |
+| **30** | **US32** | Modo de conservación fuera de casa | Calibración especial de umbrales para periodos largos sin apertura de puerta (Modo Vacaciones). | **2** |
+| **31** | **US33** | Gestión de áreas de almacenamiento | Configuración de múltiples frigoríficos o cámaras frías dentro de un mismo negocio. | **3** |
+| **32** | **US34** | Registro de causas de descarte | Clasificación de motivos de baja (caducidad, contaminación) para afinar métricas de merma. | **2** |
+| **33** | **US28** | Categorización personalizada | Creación de etiquetas custom para agrupar inventarios según preferencias del usuario. | **3** |
+| **34** | **US29** | Historial de consumo exportable | Funcionalidad para descargar informes detallados de consumo en formatos CSV y Excel. | **5** |
+| **35** | **US30** | Algoritmo de sugerencias de compra | Proyección automatizada de compras para reponer insumos evitando compras excesivas. | **5** |
+| **36** | **US25** | Gamificación y medallas | Otorgamiento automático de insignias y puntos tras cumplir metas sostenibles. | **3** |
+| **37** | **US26** | Módulo de interacción social | Espacio de comunidad para intercambiar recomendaciones y recetas de aprovechamiento. | **2** |
+| **38** | **US27** | Desafíos y rankings comunitarios | Tabla competitiva mensual entre usuarios para incentivar la reducción de desperdicio. | **5** |
+| **39** | **US40** | Calificación y reseñas de recetas | Sistema de valoración con estrellas y comentarios para calificar preparaciones. | **2** |
+| **40** | **US35** | Recuperación de contraseña | Flujo seguro de restablecimiento de clave vía enlace temporal enviado por correo. | **2** |
+| **41** | **US36** | Panel de administración de usuarios | Módulo interno para la supervisión de cuentas, gestión de roles y suspensión de accesos. | **3** |
+| **42** | **US24** | Ruteo de notificaciones multidispositivo | Enrutamiento de alertas hacia dispositivos específicos (relojes inteligentes, móviles). | **3** |
+| **43** | **TS45** | Caching de Consultas Frecuentes | Capa de almacenamiento en memoria con Redis para servir catálogos en menos de 50ms. | **3** |
+| **44** | **US22** | Sincronización con smart fridges | Enlace e integración API directa con refrigeradores inteligentes compatibles. | **8** |
+| **45** | **US23** | Comandos de voz mediante asistentes | Desarrollo de skill para consultar el inventario mediante Alexa o Google Assistant. | **5** |
 
 Capítulo IV: Solution Software Design
 
