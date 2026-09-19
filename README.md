@@ -448,7 +448,7 @@ Capítulo II: Requirements Elicitation & Analysis
 ### 2.3.1. User Personas.
 
 #### SEGMENTO 1: Propietarios y Encargados de Negocios de Alimentos Fríos
-![User Person1](Assets/José_userP1.png)
+![User Person1](Assets\Jose_userP1.png)
 
 El perfil de José Jiménez representa a los adultos jóvenes con rutinas ocupadas que buscan optimizar su presupuesto alimentario sin invertir demasiado tiempo. Requiere un sistema automatizado para monitorear la caducidad de sus compras, evitando mermas económicas y simplificando la gestión del hogar.
 
