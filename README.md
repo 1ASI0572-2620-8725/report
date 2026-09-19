@@ -722,7 +722,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Carlos Mendoza Ruiz |
-| Edad | 38 años |
+| Edad | 26 años |
 | Distrito | Callao |
 | Empresa / sector | Distribución refrigerada de alimentos |
 | Cargo | Supervisor de Logística |
@@ -730,7 +730,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 | Duración | 08:42 |
 | Enlace | [Ver entrevista](URL) |
 
-![Evidencia entrevista](Assets/6.png)
+![Evidencia entrevista](Assets/EntrevistaS21.png)
 
 **Resumen:**  
 Carlos Mendoza trabaja como supervisor de logística en una empresa dedicada a la distribución refrigerada de alimentos. Dentro de sus funciones supervisa el almacenamiento y transporte de productos como lácteos, carnes y alimentos congelados.
@@ -749,13 +749,13 @@ También indicó que una solución como FreshSense debería ser fácil de instal
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Andrea Salazar Paredes |
-| Edad | 34 años |
+| Edad | 29 años |
 | Distrito | Ate |
 | Empresa / sector | Operador logístico de productos refrigerados |
 | Cargo | Coordinadora de Operaciones |
 | Inicio de entrevista | 00:00 |
 | Duración | 09:15 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1iQW9Vu0lRPL9HhDX3PIfNHNQqrBESufE/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/5.png)
 
@@ -776,13 +776,13 @@ Señaló también que una solución tecnológica debería ser sencilla de utiliz
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Javier Torres Castillo |
-| Edad | 42 años |
+| Edad | 26 años |
 | Distrito | San Luis |
 | Empresa / sector | Distribución mayorista de alimentos perecibles |
 | Cargo | Responsable de Cadena de Frío |
 | Inicio de entrevista | 00:00 |
 | Duración | 08:57 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1_Jg-67dLuuAXt6bTV69x12lShay-IJ0v/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/3.png)
 
@@ -811,7 +811,7 @@ Entre las características que considera indispensables mencionó facilidad de u
 | Cargo | Supervisora de Calidad |
 | Inicio de entrevista | 00:00 |
 | Duración | 09:18 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/2.png)
 
@@ -832,13 +832,13 @@ Entre los factores más relevantes para adoptar una solución de este tipo desta
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Carlos Guimaraes |
-| Edad | 41 años |
+| Edad | 27 años |
 | Distrito | Villa El Salvador |
 | Empresa / sector | Producción y almacenamiento de carnes y productos congelados |
 | Cargo | Jefe de Almacén |
 | Inicio de entrevista | 0:00 |
 | Duración | 08:36 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1Q8i84GD9mqFdKOLVYLR2PqdWQVT1MYik/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/1.png)
 
@@ -859,13 +859,13 @@ Para una posible implementación, considera relevantes el costo del sistema, la 
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Daniela Vargas Medina |
-| Edad | 32 años |
+| Edad | 22 años |
 | Distrito | Lurín |
 | Empresa / sector | Comercialización y almacenamiento de frutas y vegetales |
 | Cargo | Coordinadora de Operaciones |
 | Inicio de entrevista | 00:00 |
 | Duración | 09:04 |
-| Enlace | [Ver entrevista](URL) |
+| Enlace | [Ver entrevista](https://drive.google.com/file/d/1AqFpCV5FGpSXy3RIi9gN7BdsXJm4ywSU/view?usp=drive_link) |
 
 ![Evidencia entrevista](Assets/4.png)
 
