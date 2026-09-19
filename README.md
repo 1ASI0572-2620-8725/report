@@ -241,19 +241,27 @@ del ABET – EAC - Student Outcome 5.
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Solution Software Design
-
-> Este capítulo desarrolla el diseño de la solución de software de **FreshSense** aplicando Domain-Driven Design en sus niveles estratégico y táctico. El modelo de dominio, el esquema de base de datos y la arquitectura de contenedores se derivan directamente del diagrama de clases, del diagrama de base de datos y de los diagramas C4 del informe base del proyecto, así como de las User Stories (US01–US40) y Technical Stories (TS41–TS45) especificadas en el Capítulo III.
-
 ---
 ## 4.1. Strategic-Level Domain-Driven Design
 
-Esta sección aplica Domain-Driven Design estratégico al dominio de **FreshSense** (producto de la startup **FreshEat**): un dispositivo con sensores de temperatura, humedad y gas etileno que se instala dentro del refrigerador, conectado a una aplicación web que permite monitorear el estado de los alimentos, gestionar el inventario, registrar el consumo, recibir alertas y generar reportes de ahorro y sostenibilidad.
+Para el diseño estratégico de FreshSense se emplea Domain-Driven Design (DDD) con el objetivo de organizar la solución de acuerdo con las principales responsabilidades del dominio y mantener una separación clara entre sus capacidades de negocio.
+
+A partir del análisis realizado sobre FreshSense, la solución se organiza en bounded contexts que mantienen sus propias reglas de negocio, modelos de dominio y mecanismos de persistencia. Los principales contextos identificados son Accounts, Monitoring, Inventory, Alerts, Recipes y Billing.
+
+Esta separación permite reducir el acoplamiento entre las funcionalidades del sistema y facilita la evolución independiente de los diferentes módulos. La comunicación entre contextos se realiza principalmente mediante eventos de dominio, evitando dependencias directas entre sus implementaciones internas.
 
 ### 4.1.1. Design-Level EventStorming
 
-Se realizó una sesión de Event Storming en varias etapas (Big Picture y Design-Level) para explorar el dominio desde la perspectiva de los dos segmentos de usuario identificados en el Capítulo I — el **adulto joven** y el **negocio de alimentos** (restaurantes y negocios de alimentos fríos) — pasando por la exploración desconectada de eventos, el ordenamiento en líneas de tiempo, las políticas del negocio, los *read models*, los sistemas externos y los agregados, hasta llegar a los *bounded contexts* candidatos.
 
-La sesión utilizó la notación cromática estándar de Event Storming, cuya leyenda se muestra a continuación y se mantiene en todos los pasos del tablero:
+
+El Design-Level EventStorming de FreshSense permite representar el comportamiento del sistema a partir de los eventos que ocurren dentro del dominio y de las acciones que los generan.
+
+En el trabajo previo del proyecto se desarrolló un EventStorming que incluye elementos como eventos de dominio, comandos, actores, read models, sistemas externos, políticas y aggregates. El análisis de estos elementos permitió identificar responsabilidades relacionadas con la gestión de usuarios, dispositivos y sensores, inventario de alimentos, monitoreo, alertas, recetas, suscripciones y reportes.
+
+El resultado del EventStorming sirve como base para identificar los límites entre los diferentes contextos del dominio y analizar posteriormente la comunicación existente entre ellos.
+
+A continuación, se presentan los artefactos obtenidos durante las últimas etapas del Design-Level EventStorming de FreshSense.
+
 
 <figure id="fig-eslegend" style="margin:1.5em 0;text-align:center">
 <img src="Assets/leyenda-event-storming.png" alt="Legend — notación de colores empleada en el Event Storming." style="max-width:100%;height:auto"/>
