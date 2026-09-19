@@ -429,11 +429,214 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 Capítulo II: Requirements Elicitation & Analysis
 
-2.1. Competidores.
+## 2.1. Competidores
 
-2.1.1. Análisis competitivo.
+El análisis de competidores de FreshSense se enfoca en soluciones empresariales relacionadas con monitoreo de cadena de frío, control de condiciones ambientales, trazabilidad y supervisión de productos sensibles a la temperatura.
 
-2.1.2. Estrategias y tácticas frente a competidores.
+Debido al enfoque actual de FreshSense hacia empresas de distribución y cadena de frío, así como empresas productoras y comercializadoras de alimentos perecibles, se seleccionaron tres competidores directos que ofrecen soluciones basadas en dispositivos IoT y plataformas digitales para el monitoreo de productos durante almacenamiento o transporte:
+
+- **Sensitech**
+- **Tive**
+- **Roambee**
+
+Estas soluciones presentan similitudes con FreshSense en el monitoreo de variables ambientales, generación de alertas y visualización de información en plataformas digitales. Sin embargo, se diferencian en su nivel de especialización, mercados atendidos, alcance internacional y complejidad tecnológica.
+
+### 2.1.1. Análisis competitivo
+
+El objetivo de este análisis es responder la siguiente pregunta:
+
+> **¿Cómo puede FreshSense diferenciarse de las soluciones empresariales existentes de monitoreo de cadena de frío mediante una propuesta enfocada en alimentos perecibles, facilidad de implementación y centralización de información de lotes, dispositivos y alertas?**
+
+Los competidores seleccionados representan alternativas consolidadas dentro del mercado de monitoreo de condiciones y visibilidad de cadena de suministro.
+
+#### Competitive Analysis Landscape
+
+| Criterio | FreshSense | Sensitech | Tive | Roambee |
+|---|---|---|---|---|
+| **Tipo de competidor** | Startup analizada | Directo | Directo | Directo |
+| **Overview** | Solución IoT enfocada en el monitoreo de productos perecibles mediante dispositivos que recopilan temperatura y humedad y transmiten información hacia una plataforma digital. | Empresa especializada en visibilidad y monitoreo de cadena de frío, con soluciones para almacenamiento y transporte de productos sensibles. | Plataforma de visibilidad logística en tiempo real que combina rastreadores IoT con una plataforma cloud para monitorear envíos. | Plataforma de visibilidad de cadena de suministro que combina dispositivos IoT, sensores, conectividad y análisis para monitorear mercancías y activos. |
+| **Ventaja competitiva** | Propuesta enfocada específicamente en empresas que trabajan con alimentos perecibles, con una arquitectura simplificada basada en dispositivos IoT, monitoreo de lotes, alertas y trazabilidad. | Amplio portafolio especializado en cadena de frío, experiencia empresarial y soluciones para almacenamiento y transporte. | Amplia capacidad de monitoreo multimodal y dispositivos capaces de medir múltiples variables en tiempo real. | Integración de monitoreo de condiciones, ubicación, analítica y visibilidad logística en una misma plataforma. |
+| **Valor ofrecido al cliente** | Centralizar información sobre condiciones de conservación, dispositivos, lotes y alertas para detectar desviaciones y reducir pérdidas por deterioro. | Proteger la integridad de productos mediante monitoreo continuo, alertas y visibilidad de extremo a extremo. | Detectar desviaciones durante el transporte en tiempo real para actuar antes de que el producto resulte comprometido. | Proporcionar información en tiempo real y señales relacionadas con condiciones y ubicación para mejorar la toma de decisiones logísticas. |
+| **Mercado objetivo** | Empresas de distribución y cadena de frío; productores y comercializadores de alimentos perecibles. | Alimentos, ciencias de la vida, industria y organizaciones con cadenas de suministro sensibles a temperatura. | Alimentos y bebidas, productos perecibles, farmacéutica, ciencias de la vida, bienes de alto valor y operadores logísticos. | Empresas de logística, alimentos y bebidas, farmacéutica, manufactura y organizaciones con cadenas de suministro complejas. |
+| **Estrategia de marketing** | Marketing B2B orientado a demostrar reducción de pérdidas, control de condiciones y facilidad de monitoreo. | Demostraciones comerciales, contenido especializado, casos de uso e información dirigida a industrias reguladas y cadenas de frío. | Demostraciones, pruebas de producto, contenido especializado y comunicación centrada en visibilidad logística y prevención de pérdidas. | Demostraciones, pruebas del servicio, contenido sobre supply chain y comunicación orientada a visibilidad y analítica logística. |
+| **Productos y servicios** | Dispositivo IoT con ESP32 + DHT22, Edge API, plataforma Web/Mobile, monitoreo de temperatura y humedad, lotes, dispositivos, alertas, trazabilidad y reportes. | SensiWatch Platform, TempTale, ColdStream Site y distintos sensores/registradores para monitoreo estacionario y en tránsito. | Plataforma Tive, trackers Solo Lite, Solo 5G, Solo Pro, sensores, alertas, reportes e integraciones. | Plataforma de visibilidad, dispositivos como BeeSense, monitoreo de temperatura, humedad, ubicación y eventos de transporte. |
+| **Precios y costos** | Modelo previsto basado en dispositivo IoT y servicio digital. Los precios comerciales deben validarse posteriormente con los segmentos objetivo. | No publica una lista estándar de precios; el acceso comercial se gestiona mediante contacto y demostración. | Los precios de los trackers principales no se publican de forma general y dependen del volumen y contrato. La plataforma dispone de niveles Essential, Plus y Premium. | Utiliza modelos de suscripción y planes bajo demanda definidos mediante órdenes comerciales según cantidad de dispositivos, activos o envíos. |
+| **Canales de distribución** | Landing Page, Web Application y Mobile Application. | Plataforma web, aplicación móvil y contacto comercial. | Plataforma web, integraciones/API y soluciones de seguimiento accesibles digitalmente. | Plataforma web, aplicación móvil, API y contacto comercial. |
+
+### Sensitech
+
+Sensitech ofrece soluciones de monitoreo de cadena de frío tanto para productos almacenados como transportados. Su sistema de monitoreo estacionario permite controlar temperatura y humedad en almacenes e instalaciones, consultar datos históricos y en tiempo real y generar alertas cuando las condiciones salen de los rangos establecidos.
+
+También dispone de la plataforma SensiWatch, que proporciona visibilidad de extremo a extremo de la cadena de suministro y acceso a información desde dispositivos móviles.
+
+#### SWOT - Sensitech
+
+**Fortalezas**
+
+- Amplio portafolio especializado en cadena de frío.
+- Monitoreo estacionario y durante transporte.
+- Soporte para temperatura, humedad y otras variables.
+- Alertas y datos en tiempo real.
+- Experiencia en sectores como alimentos y ciencias de la vida.
+- Plataforma Web y aplicación móvil.
+
+**Debilidades**
+
+- Solución empresarial de mayor complejidad que puede requerir procesos de implementación y contratación más extensos.
+- No ofrece precios públicos estándar para sus principales soluciones.
+- Su amplio alcance puede resultar superior a las necesidades de empresas que requieren únicamente monitoreo básico de alimentos perecibles.
+
+**Oportunidades**
+
+- Crecimiento de la digitalización en cadenas de frío.
+- Mayor necesidad de trazabilidad y reducción de pérdidas de productos sensibles.
+- Incremento de requisitos de control y cumplimiento en cadenas logísticas.
+
+**Amenazas**
+
+- Aparición de soluciones IoT de menor costo.
+- Empresas que desarrollen sistemas internos utilizando sensores y plataformas cloud.
+- Competidores especializados en soluciones más simples para sectores específicos.
+
+### Tive
+
+Tive ofrece monitoreo de cadena de frío en tiempo real utilizando dispositivos capaces de recopilar información sobre temperatura, humedad, luz, impactos y ubicación.
+
+Su plataforma permite supervisar envíos por transporte terrestre, marítimo, aéreo y ferroviario y generar alertas cuando las condiciones se encuentran fuera de los rangos establecidos.
+
+#### SWOT - Tive
+
+**Fortalezas**
+
+- Monitoreo en tiempo real de múltiples variables.
+- Seguimiento multimodal de envíos.
+- Amplia cobertura de conectividad.
+- Diversos modelos de trackers según el nivel de monitoreo requerido.
+- Alertas automáticas e historial de los envíos.
+- Integraciones mediante API y webhooks.
+
+**Debilidades**
+
+- Orientación principal hacia monitoreo de mercancías en tránsito.
+- La oferta puede resultar más compleja para organizaciones que solo necesitan monitorear instalaciones o lotes específicos.
+- Los precios de los dispositivos principales dependen de cotización y volumen.
+
+**Oportunidades**
+
+- Crecimiento del comercio y logística de productos sensibles.
+- Mayor demanda de monitoreo en tiempo real.
+- Integración con sistemas empresariales y plataformas logísticas.
+
+**Amenazas**
+
+- Competidores globales con soluciones equivalentes de seguimiento IoT.
+- Reducción del costo de sensores y conectividad que facilita la entrada de nuevas soluciones.
+- Desarrollo de plataformas de monitoreo propias por grandes operadores logísticos.
+
+### Roambee
+
+Roambee desarrolla soluciones de visibilidad de cadena de suministro mediante dispositivos IoT y servicios cloud.
+
+Sus soluciones permiten monitorear condiciones como temperatura y humedad, además de eventos relacionados con ubicación y transporte. La plataforma genera alertas y señales para apoyar la toma de decisiones durante operaciones logísticas.
+
+#### SWOT - Roambee
+
+**Fortalezas**
+
+- Combina monitoreo de condiciones y ubicación.
+- Dispositivos con múltiples sensores.
+- Plataforma orientada a visibilidad logística empresarial.
+- Integración mediante API.
+- Opciones de servicio y suscripción según necesidades de monitoreo.
+- Capacidad para trabajar con operaciones logísticas de gran escala.
+
+**Debilidades**
+
+- Solución de mayor alcance y complejidad que un sistema enfocado únicamente en conservación de alimentos.
+- Costos dependientes de contratos, dispositivos y volumen de operaciones.
+- Su propuesta está orientada a supply chain visibility de forma amplia y no exclusivamente al sector de alimentos perecibles.
+
+**Oportunidades**
+
+- Mayor adopción de IoT en transporte y logística.
+- Demanda creciente de información en tiempo real.
+- Necesidad empresarial de reducir interrupciones y pérdidas en cadenas de suministro.
+
+**Amenazas**
+
+- Alta competencia en plataformas de supply chain visibility.
+- Evolución rápida de sensores IoT y plataformas de análisis.
+- Aparición de alternativas especializadas de menor costo.
+
+### SWOT - FreshSense
+
+**Fortalezas**
+
+- Enfoque específico en productos alimenticios perecibles.
+- Integración de dispositivos IoT con una plataforma digital.
+- Monitoreo de temperatura y humedad.
+- Gestión centralizada de dispositivos y lotes.
+- Generación de alertas ante condiciones que requieren atención.
+- Arquitectura preparada para Web y Mobile.
+- Propuesta orientada a trazabilidad y reducción de pérdidas.
+
+**Debilidades**
+
+- Producto aún en etapa de desarrollo y validación.
+- Menor cantidad de variables monitoreadas frente a competidores internacionales.
+- Menor cobertura tecnológica y comercial.
+- Dependencia inicial de sensores y conectividad del dispositivo.
+- Modelo comercial y precios aún pendientes de validación con usuarios empresariales.
+
+**Oportunidades**
+
+- Digitalización de empresas de distribución y comercialización de alimentos.
+- Necesidad de reducir pérdidas provocadas por una conservación inadecuada.
+- Crecimiento de soluciones IoT accesibles.
+- Posibilidad de adaptar la solución a necesidades específicas del mercado local.
+- Incorporación futura de sensores adicionales y analítica avanzada.
+
+**Amenazas**
+
+- Presencia de competidores internacionales consolidados.
+- Reducción de precios de soluciones comerciales existentes.
+- Resistencia de algunas empresas a reemplazar procesos manuales.
+- Entrada de nuevos proveedores de soluciones IoT.
+- Dependencia de la correcta instalación y conectividad de los dispositivos.
+
+### Conclusión del análisis competitivo
+
+El análisis evidencia que FreshSense participaría en un mercado en el que existen soluciones consolidadas con capacidades superiores en cobertura global, cantidad de sensores e infraestructura tecnológica.
+
+Sensitech presenta una propuesta especialmente fuerte en monitoreo de cadena de frío tanto estacionario como en tránsito; Tive destaca por el seguimiento multimodal y la captura de múltiples variables en tiempo real; y Roambee ofrece una solución amplia de visibilidad y monitoreo de cadenas de suministro.
+
+Frente a estos competidores, FreshSense no busca inicialmente competir por amplitud tecnológica, sino desarrollar una propuesta más específica para organizaciones que gestionan alimentos perecibles. Su diferenciación preliminar se basa en simplificar el monitoreo de temperatura y humedad y relacionarlo directamente con dispositivos, lotes, alertas y trazabilidad dentro de una experiencia centralizada.
+
+Esta diferenciación deberá validarse posteriormente mediante entrevistas con los segmentos objetivo, principalmente para determinar qué variables necesitan monitorear, qué nivel de trazabilidad requieren y cuánto estarían dispuestos a invertir en una solución de este tipo.
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+A partir del análisis competitivo, FreshSense plantea una estrategia de diferenciación enfocada en especialización, simplicidad y adaptación a las necesidades de empresas que gestionan alimentos perecibles.
+
+Las principales estrategias y tácticas serán las siguientes:
+
+- **Especialización en alimentos perecibles:** enfocar la experiencia, terminología, dashboards, lotes y alertas en procesos relacionados con almacenamiento y distribución de alimentos, evitando incorporar funcionalidades empresariales que no sean necesarias para los segmentos objetivo.
+
+- **Implementación progresiva:** facilitar que las empresas puedan comenzar con un número reducido de dispositivos y ampliar posteriormente el monitoreo según sus necesidades.
+
+- **Experiencia simplificada:** diferenciarse de plataformas empresariales de mayor complejidad mediante una interfaz centrada en las funciones principales: monitoreo, lotes, dispositivos, alertas y trazabilidad.
+
+- **Adaptación al mercado objetivo:** utilizar las entrevistas B2B para identificar rangos de temperatura, procesos, reportes y necesidades específicas de empresas de distribución, productores y comercializadores.
+
+- **Modelo comercial flexible:** evaluar alternativas de venta o provisión de dispositivos combinadas con una suscripción por acceso a la plataforma, evitando establecer precios definitivos antes de validar la disposición de pago de los segmentos.
+
+- **Alertas orientadas a la acción:** priorizar notificaciones que permitan identificar rápidamente desviaciones y relacionarlas con un dispositivo o lote determinado.
+
+- **Trazabilidad centralizada:** mantener el historial de lecturas y eventos de cada lote para facilitar la revisión de condiciones durante almacenamiento o distribución.
+
+- **Evolución tecnológica gradual:** mantener una arquitectura que permita incorporar nuevos sensores, capacidades de conectividad y funciones analíticas a medida que el producto y las necesidades del mercado evolucionen.
+
+Estas estrategias buscan que FreshSense compita inicialmente mediante una solución especializada y comprensible para empresas del sector alimentario, en lugar de intentar replicar desde el inicio la amplitud funcional de plataformas internacionales consolidadas.
 
 2.2. Entrevistas.
 
