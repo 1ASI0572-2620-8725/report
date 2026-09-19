@@ -883,152 +883,31 @@ Entre las funcionalidades que considera importantes destacó el historial de med
 
 ### 2.2.3. Análisis de entrevistas
 
-El análisis de las entrevistas permitió identificar patrones comunes relacionados con los métodos actuales de monitoreo, las dificultades operativas, el uso de tecnología y las características consideradas importantes para una solución como FreshSense.
-
-Los resultados se analizaron de manera independiente para cada uno de los segmentos objetivo.
-
 #### Segmento 1: Empresas de distribución y cadena de frío
 
-A partir de las tres entrevistas realizadas a representantes vinculados con logística, operaciones y cadena de frío, se identificaron los siguientes patrones.
+A partir de las tres entrevistas realizadas, se identificó que el **100 % de los entrevistados realiza algún control de temperatura**, aunque todos mencionaron que parte del proceso todavía depende de verificaciones manuales.
 
-##### Métodos actuales de monitoreo
+El **66.7 %** indicó que utiliza sensores o registradores digitales en determinadas etapas, pero la información no siempre se encuentra centralizada. Asimismo, el **100 % considera útil recibir alertas automáticas** cuando las condiciones salen de los rangos establecidos.
 
-El **100 % de los entrevistados** indicó que realiza algún tipo de control de temperatura durante el almacenamiento o distribución de productos perecibles.
+También se observó que el **100 % considera importante relacionar las condiciones registradas con los lotes monitoreados**, principalmente para identificar rápidamente posibles incidencias.
 
-Asimismo, el **100 % manifestó que parte del proceso continúa dependiendo de verificaciones manuales, termómetros o registros realizados por el personal**.
-
-El **66.7 %** señaló que dispone de sensores o registradores digitales en determinados almacenes o vehículos, aunque estos dispositivos no necesariamente cubren toda la operación.
-
-##### Problemas e incidencias
-
-El **100 % de los entrevistados** indicó haber enfrentado situaciones relacionadas con variaciones de temperatura o dificultades para mantener las condiciones adecuadas durante almacenamiento o distribución.
-
-El **100 % señaló que este tipo de incidencias puede producir consecuencias económicas u operativas**, como retrasos, revisiones adicionales, devoluciones o deterioro de mercadería.
-
-Además, el **66.7 % mencionó dificultades para determinar rápidamente cuándo ocurrió una incidencia o qué parte de la operación fue responsable**.
-
-##### Centralización de la información
-
-El **66.7 % de los entrevistados** manifestó que la información utilizada para analizar las condiciones de los productos se encuentra distribuida entre diferentes registros o herramientas.
-
-El **100 % considera útil contar con una plataforma centralizada** que permita relacionar dispositivos, lotes, condiciones ambientales e incidencias.
-
-##### Alertas
-
-El **100 % de los entrevistados** considera importante recibir alertas automáticas cuando una condición monitoreada se encuentre fuera de los límites establecidos.
-
-La posibilidad de detectar una desviación antes de finalizar un proceso de transporte o almacenamiento fue identificada como uno de los principales beneficios potenciales de una solución de monitoreo en tiempo real.
-
-##### Trazabilidad
-
-El **100 % considera relevante disponer de un historial de las condiciones registradas**.
-
-Asimismo, el **100 % mostró interés en relacionar las lecturas obtenidas con un producto o lote determinado**, facilitando así la identificación de mercadería potencialmente afectada.
-
-##### Factores de adopción
-
-Entre los principales factores considerados para adoptar una solución tecnológica se identificaron:
-
-- **100 %:** precisión y confiabilidad de las mediciones.
-- **100 %:** facilidad de uso.
-- **100 %:** generación de alertas.
-- **66.7 %:** disponibilidad de reportes e información histórica.
-- **66.7 %:** costo y facilidad de implementación.
-- **33.3 %:** soporte técnico.
-
-##### Conclusión del Segmento 1
-
-Las empresas relacionadas con distribución y cadena de frío ya realizan controles sobre las condiciones de conservación, pero parte de estos procedimientos continúa dependiendo de verificaciones manuales o sistemas que no se encuentran completamente integrados.
-
-Los resultados muestran una oportunidad para FreshSense en la centralización de información, generación de alertas y asociación de las condiciones ambientales con dispositivos y lotes específicos.
-
-La trazabilidad y la detección temprana de desviaciones constituyen necesidades especialmente relevantes para este segmento.
-
----
+En este segmento, las principales necesidades identificadas son el monitoreo continuo, las alertas oportunas, la trazabilidad y la centralización de la información.
 
 #### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
 
-Las entrevistas realizadas a representantes de calidad, almacén y operaciones permitieron identificar necesidades relacionadas principalmente con el control de almacenamiento, gestión de lotes y detección temprana de condiciones inadecuadas.
+En este segmento, el **100 % de los entrevistados utiliza algún mecanismo para controlar la temperatura**, aunque las tres empresas también realizan verificaciones manuales periódicas.
 
-##### Métodos actuales de monitoreo
+El **100 % considera útil contar con información en tiempo real y alertas automáticas**, especialmente para detectar desviaciones antes de que afecten la calidad de los productos.
 
-El **100 % de los entrevistados** indicó utilizar algún mecanismo para controlar la temperatura de los productos o instalaciones.
+Además, el **100 % considera relevante asociar las condiciones de almacenamiento con los lotes**, mientras que el **66.7 % destacó la utilidad de contar con reportes e historiales de mediciones.
 
-El **100 % señaló que todavía existen verificaciones periódicas realizadas manualmente por el personal**.
+Las principales necesidades identificadas son el monitoreo en tiempo real, la gestión de lotes, las alertas y el acceso a información histórica.
 
-El **66.7 % utiliza hojas de cálculo, registros internos u otras herramientas complementarias** para almacenar posteriormente la información obtenida durante los controles.
+#### Conclusión general
 
-##### Problemas de conservación
+En ambos segmentos se observa una necesidad común de mejorar el control de las condiciones de conservación mediante una solución más centralizada y automatizada.
 
-El **100 % de los entrevistados** reconoció que pueden producirse desviaciones en las condiciones de conservación durante las operaciones.
-
-Entre las principales causas identificadas se encuentran fallas de refrigeración, aperturas prolongadas de cámaras y diferencias entre las condiciones requeridas por distintos tipos de productos.
-
-El **100 % indicó que estas situaciones pueden afectar la calidad de los alimentos o requerir revisiones adicionales de los productos almacenados**.
-
-##### Monitoreo en tiempo real
-
-El **100 % de los entrevistados** considera útil disponer de información sobre las condiciones de almacenamiento en tiempo real.
-
-Asimismo, el **100 % mostró interés en recibir alertas automáticas cuando las variables monitoreadas se encuentren fuera de los rangos establecidos**.
-
-Esto permitiría reducir el tiempo existente entre la aparición de una desviación y su detección por parte del personal.
-
-##### Gestión de lotes
-
-El **100 % de los entrevistados** utiliza algún mecanismo para identificar o diferenciar los lotes de productos.
-
-El **100 % considera útil relacionar las condiciones ambientales registradas con los lotes almacenados**, principalmente para determinar qué productos podrían haber sido afectados ante una incidencia.
-
-##### Historial y reportes
-
-El **100 % considera útil disponer de un historial de las mediciones realizadas**.
-
-El **66.7 % destacó explícitamente la generación de reportes como una funcionalidad importante** para las áreas de calidad u operaciones.
-
-Estos resultados indican que FreshSense no debería limitarse únicamente a mostrar el estado actual de los sensores, sino también conservar información que permita revisar el comportamiento de las condiciones a lo largo del tiempo.
-
-##### Factores de adopción
-
-Entre los factores considerados más importantes se identificaron:
-
-- **100 %:** precisión y confiabilidad.
-- **100 %:** facilidad de uso.
-- **100 %:** alertas automáticas.
-- **66.7 %:** reportes e historial de información.
-- **66.7 %:** facilidad de instalación.
-- **33.3 %:** costo.
-- **33.3 %:** soporte técnico.
-
-##### Conclusión del Segmento 2
-
-Las empresas productoras y comercializadoras presentan una necesidad de supervisar continuamente las condiciones en las que se almacenan sus productos, especialmente cuando manejan distintos lotes o alimentos con diferentes requerimientos de conservación.
-
-Los resultados muestran interés en disponer de información en tiempo real, alertas automáticas, historial de mediciones y trazabilidad de los lotes.
-
-FreshSense puede aportar valor a este segmento al centralizar estas funciones dentro de una plataforma digital conectada a dispositivos IoT.
-
----
-
-#### Conclusiones generales
-
-Los resultados obtenidos en ambos segmentos presentan varios patrones comunes.
-
-El **100 % de los entrevistados de ambos segmentos utiliza actualmente algún mecanismo de control de temperatura**, pero las seis entrevistas también evidencian la presencia de verificaciones manuales dentro de los procesos actuales.
-
-Asimismo, los **6 de 6 entrevistados (100 %)** consideran útil contar con alertas automáticas y acceso a información relacionada con las condiciones de conservación de los productos.
-
-La gestión de lotes también aparece como un aspecto relevante en ambos segmentos, particularmente para determinar qué productos podrían haber sido afectados cuando ocurre una desviación.
-
-En consecuencia, las entrevistas respaldan cuatro capacidades principales para la propuesta de FreshSense:
-
-1. Monitoreo continuo de temperatura y humedad.
-2. Alertas automáticas frente a desviaciones.
-3. Asociación entre dispositivos, condiciones ambientales y lotes.
-4. Historial de mediciones para facilitar la trazabilidad y revisión de incidencias.
-
-A su vez, la facilidad de uso, precisión de las mediciones y simplicidad de implementación aparecen como factores importantes para favorecer la adopción de la solución por parte de organizaciones del sector alimentario.
-
+Los resultados respaldan principalmente cuatro funcionalidades de FreshSense: **monitoreo de temperatura y humedad, alertas automáticas, gestión de lotes e historial de mediciones**.
 
 2.3. Needfinding.
 
