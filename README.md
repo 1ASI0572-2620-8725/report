@@ -448,10 +448,10 @@ Capítulo II: Requirements Elicitation & Analysis
 ### 2.3.1. User Personas.
 
 #### SEGMENTO 1: Adultos jóvenes
-![User Person1](assets/José_userP1.png)
+![User Person1](Assets/José_userP1.png)
 
 ### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
-![User Person2](assets/Luisa_userP2.png)
+![User Person2](Assets/Luisa_userP2.png)
 
 
 ### 2.3.2. User Task Matrix
@@ -543,13 +543,13 @@ Por su parte, Luisa Pérez, orientada a la gestión de su negocio de comida case
 
 A través de este mapa de viaje se analiza el flujo de interacción que siguen los usuarios del primer segmento al administrar sus insumos del hogar y prevenir el desperdicio desde sus propios hábitos diarios. Este grupo incluye a personas con agendas apretadas que descuidan el control constante del refrigerador, lo que genera el descarte involuntario de comida descompuesta. Por ello, buscan alternativas tecnológicas intuitivas y eficientes que les ofrezcan avisos automáticos, sugerencias de platillos sencillos y una gestión del inventario ágil que no exija esfuerzo extra.
 
-![José Segmento 1 Journey Map](assets/Jose_Segmento1_Map.png)
+![José Segmento 1 Journey Map](Assets/Jose_Segmento1_Map.png)
 
 **Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
 
 El presente mapa refleja la secuencia de pasos que efectúan los usuarios del segundo segmento con el fin de supervisar sus materias primas y garantizar insumos óptimos a sus consumidores. Este perfil engloba a emprendimientos gastronómicos del hogar que experimentan merma financiera ante el vencimiento de sus ingredientes por llevar un registro manual. Priorizan sistemas que sistematicen la medición de frescura, emitan análisis de stock e indicadores de reabastecimiento, ayudando a sostener el estándar de sus entregas y la lealtad comercial de sus clientes.
 
-![Luisa Segmento 2 Journey Map](assets/Luisa_Segmento2_Map.png)
+![Luisa Segmento 2 Journey Map](Assets/Luisa_Segmento2_Map.png)
 
 
 ### 2.3.4. Empathy Mapping
@@ -558,29 +558,29 @@ El presente mapa refleja la secuencia de pasos que efectúan los usuarios del se
 
 El esquema de empatía enfocado en José ilustra el perfil de un joven profesional con tiempo limitado que requiere automatizar el seguimiento de su comida para disminuir gastos e ineficiencias. Experimenta insatisfacción cuando se estropean sus productos y busca herramientas digitales ágiles que faciliten la planeación de sus compras e incentiven hábitos de consumo responsables.
 
-![Empathy Map Segmento 1](assets/Empathymap_Segmento1.png)
+![Empathy Map Segmento 1](Assets/Empathymap_Segmento1.png)
 
 **Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
 
 El mapa de empatía representativo de Luisa sintetiza la perspectiva de una emprendedora comprometida con mantener la calidad de sus insumos y resguardar el prestigio de su marca. Requiere una plataforma accesible que aminore la merma económica, simplifique la organización del almacenamiento y consolide el respaldo de su clientela.
 
-![Empathy Map Segmento 2](assets/Empathymap_Segmento2.png)
+![Empathy Map Segmento 2](Assets/Empathymap_Segmento2.png)
 
 
 ## 2.4. Big Picture EventStorming
 
 Con la finalidad de estructurar una solución integral y alineada a las dinámicas del negocio, el equipo llevó a cabo una sesión colaborativa de EventStorming para mapear el flujo de eventos del sistema:
 
-![event storming1](assets/Event1.PNG)
-![event storming2](assets/Event2.PNG)
-![event storming3](assets/Event3.PNG)
-![event storming4](assets/Event4.PNG)
-![event storming5](assets/Event5.jpeg)
-![event storming6](assets/Event6.jpeg)
-![event storming7](assets/Event7.jpeg)
-![event storming8](assets/Event8.jpeg)
-![event storming9](assets/Event9.jpeg)
-![event storming10](assets/Event10.jpeg)
+![event storming1](Assets/Event1.PNG)
+![event storming2](Assets/Event2.PNG)
+![event storming3](Assets/Event3.PNG)
+![event storming4](Assets/Event4.PNG)
+![event storming5](Assets/Event5.jpeg)
+![event storming6](Assets/Event6.jpeg)
+![event storming7](Assets/Event7.jpeg)
+![event storming8](Assets/Event8.jpeg)
+![event storming9](Assets/Event9.jpeg)
+![event storming10](Assets/Event10.jpeg)
 
 
 ## 2.5. Ubiquitous Language
@@ -674,7 +674,7 @@ Con la finalidad de estructurar una solución integral y alineada a las dinámic
 
 ## 3.2. Impact Mapping
 
-![impact mapping](assets/ImpactMap_FreshSense.PNG)
+![impact mapping](Assets/ImpactMap_FreshSense.PNG)
 
 En conclusión, el Impact Mapping permitió establecer una trazabilidad nítida entre la visión de negocio y la implementación del software. Esto garantiza que cada desarrollo atienda un requisito técnico y genere una transformación medible en los hábitos de uso, disminuyendo el desperdicio alimentario y acelerando el crecimiento de FreshSense.
 
