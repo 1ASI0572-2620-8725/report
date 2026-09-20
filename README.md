@@ -28,6 +28,8 @@
 | Tuesta Marin, Romina Alejandra       | U202211706  |
 | Cossar Sanchez, Eduardo Jose     | U202312109  |
 | Mostajo Orosco, Maria Fernanda    | U202312874  |
+| Chavez Viera, Joseph Manuel| u202314019  |
+| Pastor Napa, Juan Carlos    | u202217288  |
 
 <strong> Septiembre 2026</strong><br>
 </div>
