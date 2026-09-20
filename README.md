@@ -1,6 +1,8 @@
 <div align="center">
 
-
+<p align="center" style="margin: 0 0 1.75rem;">
+  <img src="Assets/upc-logo.png" alt="Logo UPC" style="max-width: 200px; width: 55%; height: auto; display: inline-block;" />
+</p>
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
@@ -48,7 +50,7 @@
 
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
-| 1.0     | 08/09/2026 | Romina Tuesta Marin | Cargó archivos, Descripción de la Startup|
+| 1.0     | 19/09/2026 | Todos los Integrantes | Se realizo los capitulos del 1 - 4|
 
 
 # Tabla de contenidos
