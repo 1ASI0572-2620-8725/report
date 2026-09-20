@@ -41,7 +41,7 @@
 # Project Report Collaboration Insights
 
 **AV1:**
-![pcav1](assets/.png)
+![pcav1](Assets/contribucionesav1.png)
 
 
 <div style="page-break-after: always;"></div>
