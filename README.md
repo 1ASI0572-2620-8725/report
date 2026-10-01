@@ -248,7 +248,7 @@ El problema ocurre durante el almacenamiento y conservación de los productos, e
 
 #### Who? (¿Quién?)
 
-Los principales usuarios de FreshSense son los propietarios, administradores y encargados de restaurantes, así como los responsables de negocios de alimentos fríos que necesitan controlar la conservación de sus productos, reducir mermas y proteger la rentabilidad del negocio.
+Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, así como los administradores de negocios de distribución de alimentos fríos que necesitan controlar la conservación de sus productos, reducir mermas y proteger la rentabilidad del negocio.
 
 #### How? (¿Cómo?)
 
@@ -276,7 +276,7 @@ El modelo de negocio considera:
 
 ### 1.2.2.1. Lean UX Problem Statements.
 
-Los restaurantes y negocios de alimentos fríos pueden sufrir pérdidas económicas debido al deterioro de productos perecibles que no es detectado oportunamente. La falta de monitoreo continuo de las condiciones de conservación dificulta tomar decisiones preventivas sobre el inventario, generando mermas, costos de reposición y reducción de la rentabilidad.
+Los restaurantes y negocios de distribución de alimentos fríos pueden sufrir pérdidas económicas debido al deterioro de productos perecibles que no es detectado oportunamente. La falta de monitoreo continuo de las condiciones de conservación dificulta tomar decisiones preventivas sobre el inventario, generando mermas, costos de reposición y reducción de la rentabilidad.
 
 La gestión manual del inventario y las condiciones de conservación también dificulta conocer en tiempo real qué productos presentan mayor riesgo de deterioro y cuáles requieren atención prioritaria.
 
@@ -325,7 +325,7 @@ La gestión manual del inventario y las condiciones de conservación también di
 * Mejorar la rentabilidad de los negocios mediante una gestión eficiente del inventario.
 * Lograr la adopción y retención de usuarios mediante una solución simple y útil.
 * Generar ingresos recurrentes mediante la venta del dispositivo y suscripción premium.
-* Validar un modelo de negocio escalable para restaurantes y negocios de alimentos fríos.
+* Validar un modelo de negocio escalable para restaurantes y negocios de distribución de alimentos fríos.
 
 ##### User Assumptions
 
@@ -334,13 +334,13 @@ La gestión manual del inventario y las condiciones de conservación también di
 **Nuestros usuarios principales son:**
 
 * Propietarios y administradores de restaurantes que necesitan controlar sus insumos perecibles y reducir pérdidas económicas.
-* Propietarios y encargados de negocios de alimentos fríos que necesitan monitorear la conservación de sus productos y reducir mermas.
+* Encargados de negocios distribución de alimentos fríos que necesitan monitorear la conservación de sus productos y reducir mermas.
 
 ###### ¿Dónde encaja nuestro producto en su vida o trabajo?
 
 Para los restaurantes, FreshSense se integra en la gestión diaria de insumos, permitiendo conocer el estado de los productos, recibir alertas y tomar decisiones para evitar pérdidas.
 
-Para los negocios de alimentos fríos, FreshSense se integra en el proceso de almacenamiento y conservación, proporcionando información sobre las condiciones de los productos y alertando ante situaciones que puedan generar pérdidas.
+Para los negocios de distribución de alimentos fríos, FreshSense se integra en el proceso de almacenamiento y conservación, proporcionando información sobre las condiciones de los productos y alertando ante situaciones que puedan generar pérdidas.
 
 ###### ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
 
@@ -409,7 +409,7 @@ La aplicación debe estar disponible durante la jornada operativa del negocio y 
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.
 
-**Creemos que** los restaurantes y negocios de alimentos fríos necesitan una solución que les permita monitorear sus productos y detectar oportunamente condiciones que puedan generar pérdidas económicas.
+**Creemos que** los restaurantes y negocios de distribución de alimentos fríos necesitan una solución que les permita monitorear sus productos y detectar oportunamente condiciones que puedan generar pérdidas económicas.
 
 **Creemos que** las alertas de deterioro y las sugerencias de comercialización ayudarán a los negocios a reducir la merma de productos.
 
@@ -435,7 +435,7 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 **Edad:** 28 a 50 años
 
-**Perfil:** Emprendedores que administran restaurantes pequeños y gestionan insumos perecibles para la preparación de alimentos.
+**Perfil:** Emprendedores que administran restaurantes que gestionan insumos perecibles para la preparación de alimentos.
 
 **Estilo de vida:** Dinámico y enfocado en las operaciones diarias, atención al cliente y control del negocio.
 
@@ -445,11 +445,11 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 **Beneficios buscados:** Alertas sobre productos en riesgo de deterioro, monitoreo de las condiciones de conservación, gestión del inventario y reportes que permitan identificar pérdidas y mejorar la rentabilidad.
 
-##### Propietarios y Encargados de Negocios de Alimentos Fríos
+##### Propietarios y Encargados de Negocios de distribución de alimentos fríos
 
 **Edad:** 30 a 55 años
 
-**Perfil:** Emprendedores y encargados de negocios dedicados al almacenamiento, conservación y comercialización de productos que requieren cadena de frío.
+**Perfil:** Emprendedores y encargados de negocios dedicados a la distribución y conservación de productos que requieren cadena de frío.
 
 **Estilo de vida:** Ocupado y enfocado en la operación diaria, supervisión de productos, atención al cliente y gestión del inventario.
 
@@ -680,8 +680,8 @@ Los resultados obtenidos permitirán validar los principales supuestos de FreshS
 
 Los segmentos considerados son:
 
-- **Segmento 1: Empresas de distribución y cadena de frío.**
-- **Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles.**
+- **Segmento 1: Propietarios y administradores de restaurantes**
+- **Segmento 2: Encargados de Negocio de Distribución de alimentos en frio**
 
 
 ### 2.2.1. Diseño de entrevistas
@@ -690,31 +690,27 @@ Las entrevistas serán de tipo semiestructurado, utilizando preguntas orientadas
 
 Las preguntas han sido diseñadas de acuerdo con las características de cada segmento objetivo y buscan obtener información suficiente para identificar necesidades, objetivos, frustraciones y patrones de comportamiento que posteriormente serán utilizados en la construcción de los arquetipos de usuario.
 
-#### Segmento 1: Empresas de distribución y cadena de frío
+#### Segmento 1: Propietarios y administradores de restaurantes
 
-1. ¿Cuál es su cargo dentro de la empresa y qué responsabilidades tiene relacionadas con el almacenamiento, transporte o distribución de productos perecibles?
-
-2. ¿Qué tipo de productos perecibles maneja la empresa y en qué etapas del proceso considera más importante controlar sus condiciones de conservación?
-
-3. ¿Cómo monitorean actualmente variables como temperatura y humedad durante el almacenamiento o transporte?
-
-4. ¿Han tenido problemas relacionados con rupturas de la cadena de frío o condiciones fuera de los rangos permitidos? ¿Qué consecuencias generaron?
-
-5. Cuando ocurre una incidencia, ¿cómo se enteran actualmente y cuánto tiempo suele tomar identificarla?
-
-6. ¿Utilizan sensores, registradores, plataformas digitales u otras herramientas para realizar este monitoreo?
-
-7. ¿Qué información considera más importante consultar durante una operación: temperatura, humedad, ubicación, estado del lote, historial de lecturas u otra?
-
-8. ¿Qué tan útil sería recibir alertas automáticas cuando las condiciones se encuentren fuera de los límites establecidos?
-
-9. ¿Cómo realizan actualmente el seguimiento de los lotes durante el almacenamiento y distribución?
-
-10. En caso de una incidencia, ¿qué tan importante sería poder identificar rápidamente qué lote fue afectado y revisar su historial de condiciones?
-
-11. ¿Qué características debería tener una solución de monitoreo para que resulte útil y fácil de implementar dentro de su empresa?
-
-12. ¿Qué factores influirían más en la decisión de adoptar una solución como FreshSense: precio, precisión, facilidad de instalación, alertas, reportes, soporte u otros?
+1. ¿Qué tipo de alimentos manejas en tu negocio y cuáles son más propensos a perderse o malograrse?
+   
+3. ¿Con qué frecuencia enfrentas pérdidas por deterioro de productos?
+   
+4. ¿Tienes actualmente un método para controlar la frescura de tus ingredientes (listas, hojas de Excel, memoria, otro)?
+   
+5. ¿Qué impacto tiene para tu negocio perder productos perecibles? (económico, reputación, tiempo, clientes).
+   
+6. ¿Qué importancia le das a la calidad y frescura de los alimentos que vendes?
+   
+7. ¿Qué tipo de alertas o reportes te gustaría recibir para mejorar tu control de inventario?
+   
+8. ¿Te resultaría útil tener un dispositivo que monitoree automáticamente el estado de los productos dentro de tu refrigerador?
+   
+9. ¿Qué características serían imprescindibles para que confíes en este tipo de solución
+   
+10. ¿Pagarías por una herramienta que te ayude a reducir pérdidas y mantener la frescura? ¿Prefieres un pago único por el dispositivo o una suscripción mensual con funciones adicionales?
+    
+11. ¿Si el sistema pudiera darte estadísticas de consumo, desperdicio y hasta proyecciones de compras, ¿te serviría para tu negocio? 
 
 ---
 
