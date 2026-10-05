@@ -852,7 +852,13 @@ Para este apartado, el wireflow se diseñó para representar de forma detallada 
 
 5.4.2. Applications Mock-ups.
 
-
+![mockupapp1](Assets/mockupapp1.png)
+![mockupapp2](Assets/mockupapp2.png)
+![mockupapp3](Assets/mockupapp3.png)
+![mockupapp4](Assets/mockupapp4.png)
+![mockupapp5](Assets/mockupapp5.png)
+![mockupapp6](Assets/mockupapp6.png)
+![mockupapp7](Assets/mockupapp7.png)
 
 5.4.3. Applications User Flow Diagrams.
 
