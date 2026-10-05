@@ -882,7 +882,7 @@ Cada figura del diagrama tiene un significado específico dentro del flujo de us
 
 - Notification: mensaje o alerta mostrado al usuario.
 
-![alt text](assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
+![alt text](Assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
 
 Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
 
