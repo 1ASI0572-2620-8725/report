@@ -862,6 +862,30 @@ Para este apartado, el wireflow se diseñó para representar de forma detallada 
 
 5.4.3. Applications User Flow Diagrams.
 
+![alt text](Assets/cuadritosFLOW.jpg)
+
+Cada figura del diagrama tiene un significado específico dentro del flujo de usuario:
+
+- Start: punto de inicio del recorrido.
+
+- Page: pantalla normal de la aplicación.
+
+- Option Page: menú o sección con varias opciones.
+
+- End: final del flujo o salida de la app.
+
+- Input: ingreso de datos por parte del usuario.
+
+- Decision: condición que define diferentes caminos.
+
+- Result: acción realizada con éxito.
+
+- Notification: mensaje o alerta mostrado al usuario.
+
+![alt text](assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
+
+Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
+
 ## 5.5. Applications Prototyping
 
 Para validar la navegación y la interacción de los usuarios con FreshSense se desarrolló un prototipo interactivo de la aplicación. Este prototipo permite recorrer las principales vistas y funcionalidades definidas durante el proceso de diseño UX/UI, simulando el comportamiento esperado de la solución antes de su implementación completa.
