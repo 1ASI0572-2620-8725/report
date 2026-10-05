@@ -848,7 +848,7 @@ En la sección de Applications UX/UI Design nos enfocamos en el diseño de la in
 
 Para este apartado, el wireflow se diseñó para representar de forma detallada el proceso de uso desde el inicio de sesión hasta las funcionalidades principales, como la gestión del inventario de alimentos, el monitoreo en tiempo real, la recepción de alertas, la consulta de recetas, el seguimiento de logros y la personalización de ajustes. De esta manera, se asegura que la navegación sea coherente, intuitiva y centrada en mejorar la experiencia del usuario final.
 
-![alt text](Assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
+![alt text](Assets/FreshSense_Web_Applications_Wireflow_Diagrams.png)
 
 5.4.2. Applications Mock-ups.
 
@@ -882,7 +882,7 @@ Cada figura del diagrama tiene un significado específico dentro del flujo de us
 
 - Notification: mensaje o alerta mostrado al usuario.
 
-![alt text](Assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
+![alt text](Assets/FreshSense_Web_Applications_Userflow_Diagrams.jpg)
 
 Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
 
