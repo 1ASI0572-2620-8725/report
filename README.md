@@ -769,6 +769,28 @@ Considera útil una solución que permita monitorear temperatura y humedad, envi
 
 ##### Entrevista 2
 
+##### Entrevista 2
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Romy Panduro |
+| Edad | 46 años |
+| Ubicación | San Borja |
+| Empresa / sector | Restobar karaoke |
+| Cargo | Propietaria |
+| Inicio de entrevista | 25:01 |
+| Duración | 9:04 |
+| Enlace | https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=sharing |
+
+![Evidencia entrevista Romy Panduro](Assets/2.png)
+
+**Resumen:**
+
+Romy Panduro tiene 46 años y administra un restobar karaoke ubicado en Tarapoto, con aproximadamente dos años de funcionamiento. En su negocio trabaja principalmente con carnes rojas, pollo y pescado, siendo este último el producto que considera más propenso a deteriorarse.
+
+Actualmente utiliza una aplicación para registrar el stock, mientras que sus trabajadores realizan manualmente la rotación de los productos según su antigüedad. Debido a ello, considera útil contar con una solución que permita recibir alertas automáticas sobre el estado y calidad de los alimentos almacenados en las congeladoras, pudiendo consultar esta información desde cualquier lugar.
+
+Respecto a una solución como FreshSense, valora especialmente el monitoreo automático y las notificaciones. Además, estaría interesada en un modelo de pago anual que incluya actualizaciones y mejoras continuas del sistema.
 
 ##### Entrevista 3
 
