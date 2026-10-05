@@ -832,15 +832,27 @@ Una vez se realizaron los wireframes, usamos los Style Guidelines, para desarrol
 
 5.4. Applications UX/UI Design.
 
+En la sección de Applications UX/UI Design nos enfocamos en el diseño de la interfaz y la experiencia de usuario de la aplicación web de FreshSenser, donde incluimos una visualización funcional por cada parte del aplicativo con sus flujos de interacción completos. Se elaboraron wireframes en formato mobile que facilitan la disposición de las funciones de la plataforma a través de su dispositivo móvil frecuente, con elementos en pantallas que son la introducción al app, el login up, el sign up, el home o dashboard, el menú, el inventario de insumos, el detalle de cada insumo, el monitoreo de insumos, alertas, recetas, reportes, logros y soporte. En base a estos esquemas se diseñaron los mockups con alta fidelidad. En los siguientes sprints se muestra el desarrollo de cada vista de la app y cómo estas interactúan.
 
 5.4.1. Applications Wireframes.
 
+![wireframeapp1](Assets/wireframeapp1.png)
+![wireframeapp2](Assets/wireframeapp2.png)
+![wireframeapp3](Assets/wireframeapp3.png)
+![wireframeapp4](Assets/wireframeapp4.png)
+![wireframeapp5](Assets/wireframeapp5.png)
+![wireframeapp6](Assets/wireframeapp6.png)
+![wireframeapp7](Assets/wireframeapp7.png)
 
 5.4.2. Applications Wireflow Diagrams.
 
+Para este apartado, el wireflow se diseñó para representar de forma detallada el proceso de uso desde el inicio de sesión hasta las funcionalidades principales, como la gestión del inventario de alimentos, el monitoreo en tiempo real, la recepción de alertas, la consulta de recetas, el seguimiento de logros y la personalización de ajustes. De esta manera, se asegura que la navegación sea coherente, intuitiva y centrada en mejorar la experiencia del usuario final.
 
+![alt text](Assets/FreshSense_Web_Applications_Wireflow_Diagrams.jpg)
 
 5.4.2. Applications Mock-ups.
+
+
 
 5.4.3. Applications User Flow Diagrams.
 
