@@ -249,7 +249,7 @@ El problema ocurre durante el almacenamiento y conservación de los productos, e
 
 #### Who? (¿Quién?)
 
-Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, así como los administradores de negocios de distribución de alimentos fríos que necesitan controlar la conservación de sus productos, reducir mermas y proteger la rentabilidad del negocio.
+Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos. Los dos necesitan controlar la conservación de sus productos, reducir mermas y cuidar la plata del negocio.
 
 #### How? (¿Cómo?)
 
@@ -335,7 +335,7 @@ La gestión manual del inventario y las condiciones de conservación también di
 **Nuestros usuarios principales son:**
 
 * Propietarios y administradores de restaurantes que necesitan controlar sus insumos perecibles y reducir pérdidas económicas.
-* Encargados de negocios distribución de alimentos fríos que necesitan monitorear la conservación de sus productos y reducir mermas.
+* Encargados de negocios de distribución de alimentos en fríos que necesitan monitorear la conservación de sus productos y reducir mermas.
 
 ###### ¿Dónde encaja nuestro producto en su vida o trabajo?
 
@@ -432,7 +432,7 @@ A continuación se presenta el Lean UX Canvas:
 
 Para el proyecto FreshSense se han seleccionado dos segmentos principales de usuarios a los cuales la solución aporta un valor adaptado a sus necesidades específicas:
 
-##### Propietarios y Gerentes de Restaurantes Pequeños
+##### Propietarios y administradores de restaurantes
 
 **Edad:** 28 a 50 años
 
@@ -446,7 +446,7 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 **Beneficios buscados:** Alertas sobre productos en riesgo de deterioro, monitoreo de las condiciones de conservación, gestión del inventario y reportes que permitan identificar pérdidas y mejorar la rentabilidad.
 
-##### Propietarios y Encargados de Negocios de distribución de alimentos fríos
+##### Encargados de negocios de distribución de alimentos en fríos
 
 **Edad:** 30 a 55 años
 
@@ -466,7 +466,7 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 El análisis de competidores de FreshSense se enfoca en soluciones empresariales relacionadas con monitoreo de cadena de frío, control de condiciones ambientales, trazabilidad y supervisión de productos sensibles a la temperatura.
 
-Debido al enfoque actual de FreshSense hacia empresas de distribución y cadena de frío, así como empresas productoras y comercializadoras de alimentos perecibles, se seleccionaron tres competidores directos que ofrecen soluciones basadas en dispositivos IoT y plataformas digitales para el monitoreo de productos durante almacenamiento o transporte:
+El análisis lo hicimos pensando en los dos segmentos del proyecto, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos. Por eso se tomaron tres competidores que ya monitorean temperatura y condiciones de conservación con dispositivos IoT:
 
 - **Sensitech**
 - **Tive**
@@ -490,7 +490,7 @@ Los competidores seleccionados representan alternativas consolidadas dentro del 
 | **Overview** | Solución IoT enfocada en el monitoreo de productos perecibles mediante dispositivos que recopilan temperatura y humedad y transmiten información hacia una plataforma digital. | Empresa especializada en visibilidad y monitoreo de cadena de frío, con soluciones para almacenamiento y transporte de productos sensibles. | Plataforma de visibilidad logística en tiempo real que combina rastreadores IoT con una plataforma cloud para monitorear envíos. | Plataforma de visibilidad de cadena de suministro que combina dispositivos IoT, sensores, conectividad y análisis para monitorear mercancías y activos. |
 | **Ventaja competitiva** | Propuesta enfocada específicamente en empresas que trabajan con alimentos perecibles, con una arquitectura simplificada basada en dispositivos IoT, monitoreo de lotes, alertas y trazabilidad. | Amplio portafolio especializado en cadena de frío, experiencia empresarial y soluciones para almacenamiento y transporte. | Amplia capacidad de monitoreo multimodal y dispositivos capaces de medir múltiples variables en tiempo real. | Integración de monitoreo de condiciones, ubicación, analítica y visibilidad logística en una misma plataforma. |
 | **Valor ofrecido al cliente** | Centralizar información sobre condiciones de conservación, dispositivos, lotes y alertas para detectar desviaciones y reducir pérdidas por deterioro. | Proteger la integridad de productos mediante monitoreo continuo, alertas y visibilidad de extremo a extremo. | Detectar desviaciones durante el transporte en tiempo real para actuar antes de que el producto resulte comprometido. | Proporcionar información en tiempo real y señales relacionadas con condiciones y ubicación para mejorar la toma de decisiones logísticas. |
-| **Mercado objetivo** | Empresas de distribución y cadena de frío; productores y comercializadores de alimentos perecibles. | Alimentos, ciencias de la vida, industria y organizaciones con cadenas de suministro sensibles a temperatura. | Alimentos y bebidas, productos perecibles, farmacéutica, ciencias de la vida, bienes de alto valor y operadores logísticos. | Empresas de logística, alimentos y bebidas, farmacéutica, manufactura y organizaciones con cadenas de suministro complejas. |
+| **Mercado objetivo** | Propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. | Alimentos, ciencias de la vida, industria y organizaciones con cadenas de suministro sensibles a temperatura. | Alimentos y bebidas, productos perecibles, farmacéutica, ciencias de la vida, bienes de alto valor y operadores logísticos. | Empresas de logística, alimentos y bebidas, farmacéutica, manufactura y organizaciones con cadenas de suministro complejas. |
 | **Estrategia de marketing** | Marketing B2B orientado a demostrar reducción de pérdidas, control de condiciones y facilidad de monitoreo. | Demostraciones comerciales, contenido especializado, casos de uso e información dirigida a industrias reguladas y cadenas de frío. | Demostraciones, pruebas de producto, contenido especializado y comunicación centrada en visibilidad logística y prevención de pérdidas. | Demostraciones, pruebas del servicio, contenido sobre supply chain y comunicación orientada a visibilidad y analítica logística. |
 | **Productos y servicios** | Dispositivo IoT con ESP32 + DHT22, Edge API, plataforma Web/Mobile, monitoreo de temperatura y humedad, lotes, dispositivos, alertas, trazabilidad y reportes. | SensiWatch Platform, TempTale, ColdStream Site y distintos sensores/registradores para monitoreo estacionario y en tránsito. | Plataforma Tive, trackers Solo Lite, Solo 5G, Solo Pro, sensores, alertas, reportes e integraciones. | Plataforma de visibilidad, dispositivos como BeeSense, monitoreo de temperatura, humedad, ubicación y eventos de transporte. |
 | **Precios y costos** | Modelo previsto basado en dispositivo IoT y servicio digital. Los precios comerciales deben validarse posteriormente con los segmentos objetivo. | No publica una lista estándar de precios; el acceso comercial se gestiona mediante contacto y demostración. | Los precios de los trackers principales no se publican de forma general y dependen del volumen y contrato. La plataforma dispone de niveles Essential, Plus y Premium. | Utiliza modelos de suscripción y planes bajo demanda definidos mediante órdenes comerciales según cantidad de dispositivos, activos o envíos. |
@@ -659,7 +659,7 @@ Las principales estrategias y tácticas serán las siguientes:
 
 - **Experiencia simplificada:** diferenciarse de plataformas empresariales de mayor complejidad mediante una interfaz centrada en las funciones principales: monitoreo, lotes, dispositivos, alertas y trazabilidad.
 
-- **Adaptación al mercado objetivo:** utilizar las entrevistas B2B para identificar rangos de temperatura, procesos, reportes y necesidades específicas de empresas de distribución, productores y comercializadores.
+- **Adaptación al mercado objetivo:** usar las entrevistas para ver qué temperatura, reportes y alertas necesitan los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos.
 
 - **Modelo comercial flexible:** evaluar alternativas de venta o provisión de dispositivos combinadas con una suscripción por acceso a la plataforma, evitando establecer precios definitivos antes de validar la disposición de pago de los segmentos.
 
@@ -682,7 +682,7 @@ Los resultados obtenidos permitirán validar los principales supuestos de FreshS
 Los segmentos considerados son:
 
 - **Segmento 1: Propietarios y administradores de restaurantes**
-- **Segmento 2: Encargados de Negocio de Distribución de alimentos en frio**
+- **Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
 
 ### 2.2.1. Diseño de entrevistas
@@ -715,7 +715,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 
 ---
 
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 1. ¿Cuál es su cargo dentro de la empresa y qué responsabilidades tiene relacionadas con producción, almacenamiento, calidad o comercialización?
 
@@ -794,7 +794,7 @@ Respecto a una solución como FreshSense, valora especialmente el monitoreo auto
 ##### Entrevista 3
 
 
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 ##### Entrevista 1
 
@@ -839,7 +839,7 @@ También se observó que el **100 % considera importante relacionar las condicio
 
 En este segmento, las principales necesidades identificadas son el monitoreo continuo, las alertas oportunas, la trazabilidad y la centralización de la información.
 
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 En este segmento, el **100 % de los entrevistados utiliza algún mecanismo para controlar la temperatura**, aunque las tres empresas también realizan verificaciones manuales periódicas.
 
@@ -859,15 +859,15 @@ Los resultados respaldan principalmente cuatro funcionalidades de FreshSense: **
 
 ### 2.3.1. User Personas.
 
-#### SEGMENTO 1: Propietarios y Encargados de Negocios de Alimentos Fríos
+#### SEGMENTO 1: Propietarios y administradores de restaurantes
 ![User Person1](Assets\Jose_userP1.png)
 
-El perfil de José Jiménez representa a los adultos jóvenes con rutinas ocupadas que buscan optimizar su presupuesto alimentario sin invertir demasiado tiempo. Requiere un sistema automatizado para monitorear la caducidad de sus compras, evitando mermas económicas y simplificando la gestión del hogar.
+José Jiménez representa a un propietario o administrador de restaurante. En el día a día tiene que ver los insumos de la cocina y de las cámaras, porque si algo se vence o la cámara falla, esa comida se bota y el local pierde plata. Lo que necesita es enterarse a tiempo, sin estar abriendo el refrigerador a cada rato.
 
-### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
+### SEGMENTO 2: Encargados de negocios de distribución de alimentos en fríos
 ![User Person2](Assets/Luisa_userP2.png)
 
-El perfil de Luisa Pérez representa a las emprendedoras de repostería y alimentos caseros que necesitan asegurar la frescura de sus insumos. Su prioridad es minimizar pérdidas financieras por ingredientes vencidos, garantizar estándares de calidad para sus clientes y llevar un control eficiente del inventario.
+Luisa Pérez representa a una encargada de un negocio de distribución de alimentos en fríos. Su problema es la mercadería que se malogra si la cámara se sale de temperatura o si el lote no sale a tiempo. Quiere ver el estado de las cámaras y saber qué lote está en riesgo antes de entregarlo.
 
 
 ### 2.3.2. User Task Matrix
@@ -876,8 +876,8 @@ El perfil de Luisa Pérez representa a las emprendedoras de repostería y alimen
   <thead>
     <tr>
       <th rowspan="2">Tareas</th>
-      <th colspan="2">José Jimenez<br>(Propietarios de Negocios de Alimentos Fríos)</th>
-      <th colspan="2">Luisa Pérez<br>(Emprendedora de alimentos)</th>
+      <th colspan="2">José Jimenez<br>(Propietarios y administradores de restaurantes)</th>
+      <th colspan="2">Luisa Pérez<br>(Encargados de negocios de distribución de alimentos en fríos)</th>
     </tr>
     <tr>
       <th>Frecuencia</th>
@@ -948,42 +948,42 @@ El perfil de Luisa Pérez representa a las emprendedoras de repostería y alimen
 
 El análisis de la matriz de tareas evidencia una clara diferencia en las prioridades operativas y patrones de uso entre ambos perfiles de usuario.
 
-En el caso de José Jiménez, quien representa al público de adultos jóvenes con agendas ajustadas, el valor principal radica en la supervisión rápida de la frescura y la recepción de avisos de caducidad; ambas funcionalidades le resultan esenciales para evitar el desperdicio de comida y proteger su economía personal. Otras herramientas, como el catálogo de recetas recomendadas o la difusión de logros en plataformas digitales, son utilizadas de forma secundaria sin representar un factor crítico dentro de su rutina diaria.
+José Jiménez, del segmento de propietarios y administradores de restaurantes, usa más la revisión del estado de los alimentos y las alertas de vencimiento. Las recetas le sirven cuando tiene insumos por salir, pero no es lo primero que mira en el turno.
 
-Por su parte, Luisa Pérez, orientada a la gestión de su negocio de comida casera, enfoca su interacción en herramientas de control riguroso, tales como el monitoreo constante del inventario, la revisión de métricas y la proyección de abastecimiento. Para su perfil, estas funciones son vitales para garantizar la calidad en sus productos finales y mitigar las mermas de insumos. Por el contrario, la búsqueda de recetas o funciones lúdicas resulta poco relevante para sus objetivos comerciales.
+Luisa Pérez, del segmento de encargados de negocios de distribución de alimentos en fríos, se queda más en el inventario, las métricas y la reposición. Para ella la receta no es lo central: le importa que el lote siga en frío y salga antes de que se malogre.
 
 ### 2.3.3. User Journey Mapping
 
-**Segmento 1: Propietarios y Encargados de Negocios de Alimentos Fríos**
+**Segmento 1: Propietarios y administradores de restaurantes**
 
-A través de este mapa de viaje se analiza el flujo de interacción que siguen los dueños de negocios de alimentos fríos al gestionar sus productos perecibles y supervisar sus condiciones de conservación. Este grupo está conformado por propietarios que deben controlar constantemente el estado de sus productos y mantener adecuadas condiciones de almacenamiento, especialmente en la cadena de frío. La falta de monitoreo oportuno puede ocasionar el deterioro de productos, mermas y pérdidas económicas. Por ello, buscan alternativas tecnológicas intuitivas y eficientes que les permitan monitorear las condiciones de conservación, recibir alertas ante posibles riesgos y gestionar su inventario de manera ágil para reducir pérdidas y mejorar la rentabilidad del negocio.
+En este recorrido se ve el día de un propietario o administrador de restaurante. Revisa la cámara de la cocina, mira qué insumos están por vencer y decide si los usa en el servicio o los da de baja. Si nadie le avisa que la temperatura subió, se entera cuando el producto ya no sirve.
 
 ![José Segmento 1 Journey Map](Assets/Jose_Segmento1_Map.png)
 
-**Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
+**Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
-El presente mapa refleja la secuencia de pasos que efectúan los usuarios del segundo segmento con el fin de supervisar sus materias primas y garantizar insumos óptimos a sus consumidores. Este perfil engloba a emprendimientos gastronómicos del hogar que experimentan merma financiera ante el vencimiento de sus ingredientes por llevar un registro manual. Priorizan sistemas que sistematicen la medición de frescura, emitan análisis de stock e indicadores de reabastecimiento, ayudando a sostener el estándar de sus entregas y la lealtad comercial de sus clientes.
+En este recorrido se ve el día de un encargado de un negocio de distribución de alimentos en fríos. Controla las cámaras y las vitrinas, revisa los lotes y decide qué mercadería puede salir. Si la cadena de frío se corta y no queda registro, no puede saber qué lote se afectó.
 
 ![Luisa Segmento 2 Journey Map](Assets/Luisa_Segmento2_Map.png)
 
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento 1: Propietarios y Encargados de Negocios de Alimentos Fríos**
+**Segmento 1: Propietarios y administradores de restaurantes**
 
-El esquema de empatía enfocado en José ilustra el perfil de un dueño de un negocio de alimentos fríos que requiere controlar de manera constante sus productos perecibles para reducir pérdidas económicas e ineficiencias. Experimenta preocupación cuando sus productos se deterioran debido a fallas en las condiciones de conservación y busca herramientas digitales ágiles que faciliten el monitoreo de su inventario, generen alertas oportunas y contribuyan a mantener la calidad de sus productos y mejorar la rentabilidad del negocio.
+José representa a quien administra un restaurante. Le preocupa botar insumos porque se vencieron o porque la cámara de la cocina falló. Quiere un aviso claro y ver el inventario sin perder el turno de cocina.
 
 ![Empathy Map Segmento 1](Assets/Empathymap_Segmento1.png)
 
-**Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
+**Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
-El mapa de empatía representativo de Luisa sintetiza la perspectiva de una emprendedora comprometida con mantener la calidad de sus insumos y resguardar el prestigio de su marca. Requiere una plataforma accesible que aminore la merma económica, simplifique la organización del almacenamiento y consolide el respaldo de su clientela.
+Luisa representa a quien está a cargo de un negocio de distribución de alimentos en fríos. Le preocupa entregar un lote que ya no está en buen estado y no tener cómo demostrar a qué temperatura estuvo la cámara. Necesita el historial y la alerta antes de que la mercadería salga.
 
 ![Empathy Map Segmento 2](Assets/Empathymap_Segmento2.png)
 
 ## 2.4. Big Picture EventStorming
 
-Con la finalidad de estructurar una solución integral y alineada a las dinámicas del negocio, el equipo llevó a cabo una sesión colaborativa de EventStorming para mapear el flujo de eventos del sistema, orientándolo a nuestros dos segmentos objetivos: **Restaurantes** (control de insumos en cocina, estandarización de recetas/porciones y prevención de mermas) y **Negocios de venta de alimentos en frío** (monitoreo de la cadena de frío, gestión de stock en congeladores/vitrinas y rotación de productos):
+Hicimos el EventStorming pensando en los dos segmentos con los que trabajamos: **propietarios y administradores de restaurantes** (insumos de cocina, recetas y mermas) y **encargados de negocios de distribución de alimentos en fríos** (cámaras, vitrinas, lotes y cadena de frío):
 
 ![event storming1](Assets/Event1.PNG)
 ![event storming2](Assets/Event2.PNG)
@@ -1020,13 +1020,13 @@ Con la finalidad de estructurar una solución integral y alineada a las dinámic
 
 ## 3.1. User Stories
 
-Las historias de usuario de FreshSense atienden a dos segmentos objetivo: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en frío. Cada historia incluye tres escenarios de aceptación: el camino principal, un camino alterno y una excepción.
+Las historias están escritas para los dos segmentos del proyecto: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. Cada historia tiene tres escenarios.
 
 | User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic) |
 | :--- | :--- | :--- | :--- | :--- |
-| **US01** | Visualización de propuesta B2B | Como administrador de restaurante o negocio de frío, deseo comprender la propuesta de valor de FreshSense al ingresar al portal para evaluar sus beneficios operativos. | **Escenario 1: Carga limpia y mensaje claro**<br>Dado que un visitante comercial navega a la página web<br>Cuando la plataforma cargue completamente<br>Entonces se mostrará el mensaje central de valor sobre reducción de mermas y conservación de la cadena de frío.<br><br>**Escenario 2: Mensaje según el rubro**<br>Dado que el visitante identifica su negocio como restaurante o como distribución de alimentos en frío<br>Cuando recorra la portada<br>Entonces verá el beneficio operativo de su rubro: mermas de cocina o control de cámaras y vitrinas.<br><br>**Escenario 3: Fallo de carga**<br>Dado que la portada no termina de cargar<br>Cuando el visitante espera el contenido principal<br>Entonces verá un aviso de error con opción de reintentar, y no una pantalla vacía presentada como propuesta comercial. | **EP01** (Landing Page) |
-| **US02** | Sección para Restaurantes y Negocios en Frío | Como gestor gastronómico o de venta comercial, requiero información enfocada en mi rubro para entender el retorno de inversión y las ventajas operativas en mis cámaras. | **Escenario 1: Navegación por perfil comercial**<br>Dado que un potencial cliente B2B está en la landing page<br>Cuando abra la pestaña «Restaurantes» o «Comercio en Frío»<br>Entonces verá los módulos de mermas de cocina, control de vitrinas frías y planes corporativos de ese rubro.<br><br>**Escenario 2: Cambio de rubro**<br>Dado que el visitante está en «Restaurantes»<br>Cuando pase a «Comercio en Frío»<br>Entonces el contenido cambia al rubro de distribución en frío sin recargar el sitio ni mezclar ambos textos.<br><br>**Escenario 3: Sección no disponible**<br>Dado que el enlace de una pestaña no resuelve a un módulo válido<br>Cuando el visitante lo activa<br>Entonces permanece en la vista general del portal y no ve un módulo vacío como si fuera información del rubro. | **EP01** (Landing Page) |
-| **US03** | Formulario de contacto y demos B2B | Como gerente interesado, quiero enviar una solicitud de contacto de forma ágil para coordinar una prueba piloto o agendar una demostración técnica. | **Escenario 1: Envío exitoso de consulta**<br>Dado que el representante completa datos de contacto válidos y el tipo de negocio<br>Cuando presione enviar<br>Entonces el sistema registra la solicitud y muestra la confirmación en pantalla.<br><br>**Escenario 2: Solicitud identificada por rubro**<br>Dado que el gerente elige «Restaurante» o «Negocio de alimentos en frío»<br>Cuando la solicitud se registra<br>Entonces la confirmación y el registro conservan ese tipo de negocio para coordinar la demo.<br><br>**Escenario 3: Datos inválidos**<br>Dado que falta el correo, el tipo de negocio o el correo no tiene formato válido<br>Cuando presione enviar<br>Entonces la solicitud no se registra y se señalan los campos que debe corregir. | **EP01** (Landing Page) |
+| **US01** | Visualización de propuesta B2B | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero comprender la propuesta de valor de FreshSense al ingresar al portal para evaluar sus beneficios operativos. | **Escenario 1: Carga limpia y mensaje claro**<br>Dado que un visitante comercial navega a la página web<br>Cuando la plataforma cargue completamente<br>Entonces se mostrará el mensaje central de valor sobre reducción de mermas y conservación de la cadena de frío.<br><br>**Escenario 2: Mensaje según el rubro**<br>Dado que el visitante identifica su negocio como restaurante o como encargado de un negocio de distribución de alimentos en fríos<br>Cuando recorra la portada<br>Entonces verá el beneficio operativo de su rubro: mermas de cocina o control de cámaras y vitrinas.<br><br>**Escenario 3: Fallo de carga**<br>Dado que la portada no termina de cargar<br>Cuando el visitante espera el contenido principal<br>Entonces verá un aviso de error con opción de reintentar, y no una pantalla vacía presentada como propuesta comercial. | **EP01** (Landing Page) |
+| **US02** | Sección para Restaurantes y Negocios en Frío | Como gestor gastronómico o de venta comercial, requiero información enfocada en mi rubro para entender el retorno de inversión y las ventajas operativas en mis cámaras. | **Escenario 1: Navegación por perfil comercial**<br>Dado que un potencial cliente B2B está en la landing page<br>Cuando abra la pestaña «Restaurantes» o «Distribución de alimentos en fríos»<br>Entonces verá los módulos de mermas de cocina, control de vitrinas frías y planes corporativos de ese rubro.<br><br>**Escenario 2: Cambio de rubro**<br>Dado que el visitante está en «Restaurantes»<br>Cuando pase a «Distribución de alimentos en fríos»<br>Entonces el contenido cambia al segmento de encargados de negocios de distribución de alimentos en fríos sin recargar el sitio ni mezclar ambos textos.<br><br>**Escenario 3: Sección no disponible**<br>Dado que el enlace de una pestaña no resuelve a un módulo válido<br>Cuando el visitante lo activa<br>Entonces permanece en la vista general del portal y no ve un módulo vacío como si fuera información del rubro. | **EP01** (Landing Page) |
+| **US03** | Formulario de contacto y demos B2B | Como gerente interesado, quiero enviar una solicitud de contacto de forma ágil para coordinar una prueba piloto o agendar una demostración técnica. | **Escenario 1: Envío exitoso de consulta**<br>Dado que el representante completa datos de contacto válidos y el tipo de negocio<br>Cuando presione enviar<br>Entonces el sistema registra la solicitud y muestra la confirmación en pantalla.<br><br>**Escenario 2: Solicitud identificada por rubro**<br>Dado que el gerente elige «Restaurante» o «Distribución de alimentos en fríos»<br>Cuando la solicitud se registra<br>Entonces la confirmación y el registro conservan ese tipo de negocio para coordinar la demo.<br><br>**Escenario 3: Datos inválidos**<br>Dado que falta el correo, el tipo de negocio o el correo no tiene formato válido<br>Cuando presione enviar<br>Entonces la solicitud no se registra y se señalan los campos que debe corregir. | **EP01** (Landing Page) |
 | **US04** | Call to Action (CTA) Corporativo | Como cliente potencial B2B, deseo disponer de un botón de acción visible para solicitar una demostración o iniciar la prueba comercial gratuita. | **Escenario 1: Redirección desde el CTA**<br>Dado que el usuario explora los planes comerciales<br>Cuando haga clic en «Solicitar demo comercial»<br>Entonces llega al formulario de registro de empresa.<br><br>**Escenario 2: CTA en tablet o teléfono**<br>Dado que el supervisor abre los planes desde una tablet de cocina o un teléfono<br>Cuando pulse el mismo llamado a la acción<br>Entonces también llega al formulario, con el botón visible y accionable.<br><br>**Escenario 3: Formulario no disponible**<br>Dado que el destino del formulario no responde<br>Cuando pulse «Solicitar demo comercial»<br>Entonces ve un aviso de que la solicitud no pudo abrirse y permanece en la página de planes. | **EP01** (Landing Page) |
 | **US05** | Adaptabilidad en dispositivos móviles y tablets | Como chef o supervisor en movimiento, quiero navegar por la plataforma desde tablets de cocina o teléfonos sin distorsión de contenido. | **Escenario 1: Ajuste a la pantalla**<br>Dado que el supervisor ingresa desde una tablet o un navegador móvil<br>Cuando recorra las secciones<br>Entonces márgenes, tablas y botones se ajustan al ancho de la pantalla.<br><br>**Escenario 2: Cambio de orientación**<br>Dado que la tablet está en vertical<br>Cuando el supervisor la gire a horizontal<br>Entonces la sección en la que estaba sigue visible y las tablas se reacomodan sin cortar botones.<br><br>**Escenario 3: Ancho mínimo**<br>Dado que el ancho de pantalla es el mínimo soportado para operación en planta<br>Cuando interactúe con alertas, inventario o planes<br>Entonces el texto y los controles permanecen legibles, sin quedar fuera de la pantalla. | **EP01** (Landing Page) |
 | **US06** | Telemetría y monitoreo IoT de cámaras frías | Como encargado de almacén/cocina, necesito que el sensor recolecte métricas de temperatura, humedad y gas etileno para prevenir el deterioro de los insumos y stock comercial. | **Escenario 1: Transmisión continua de telemetría**<br>Dado que el dispositivo FreshSense está en línea en una cámara o vitrina<br>Cuando detecte un cambio de temperatura, humedad o etileno<br>Entonces envía la lectura y el panel se actualiza con esos valores.<br><br>**Escenario 2: Notificación por pérdida de señal**<br>Dado que el sensor pierde enlace con la red<br>Cuando el servidor deja de recibir señal de esa cámara<br>Entonces notifica al supervisor el fallo de conectividad del área afectada.<br><br>**Escenario 3: Lectura incompleta**<br>Dado que el sensor envía una lectura sin temperatura, humedad o etileno<br>Cuando el panel procese ese envío<br>Entonces no la presenta como una medición válida de la cámara. | **EP02** (Monitoreo IoT) |
@@ -1090,10 +1090,10 @@ Las historias de usuario de FreshSense atienden a dos segmentos objetivo: propie
 
 ![impact mapping](Assets/ImpactMap_FreshSense.PNG)
 
-En conclusión, el Impact Mapping permitió establecer una trazabilidad nítida entre la visión de negocio y la implementación del software para nuestros dos segmentos objetivos (**Restaurantes** y **Negocios de venta de alimentos en frío**). Esto garantiza que cada desarrollo atienda un requisito técnico específico y genere una transformación medible en las operaciones comerciales, optimizando el rendimiento de las cámaras de frío, disminuyendo las mermas de cocina e inventario, y acelerando el crecimiento sostenible de FreshSense.
+El Impact Mapping junta lo que quiere el negocio con lo que vamos a construir, para los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. La idea es que cada función sirva para bajar la merma de la cocina o para cuidar la mercadería que está en frío.
 ## 3.3. Product Backlog
 
-A continuación se presenta el **Product Backlog** priorizado del proyecto FreshSense, estimando el esfuerzo en Story Points mediante la escala de Fibonacci (1, 2, 3, 5, 8) e integrando la totalidad de las 45 historias definidas, enfocadas en nuestros dos segmentos objetivos (**Restaurantes** y **Negocios de venta de alimentos en frío**):
+El Product Backlog junta las 45 historias, ordenadas por prioridad. El esfuerzo está en story points con la escala de Fibonacci (1, 2, 3, 5, 8). Las historias sirven a los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
 
 | Orden (#) | User Story ID | Título de la Historia / Tarea Técnica | Descripción Sintetizada | Story Points |
 | :-: | :--- | :--- | :--- | :-: |
@@ -1114,7 +1114,7 @@ A continuación se presenta el **Product Backlog** priorizado del proyecto Fresh
 | **15** | **US11** | Modificación manual de stock e insumos | Ajuste y corrección de cantidades y categorías tras realizar arqueos de inventario. | **2** |
 | **16** | **US37** | Gestión de colaboradores por local | Invitación y asignación de permisos a empleados del restaurante o tienda sobre el inventario. | **3** |
 | **17** | **US12** | Reporte semanal de mermas | Consolidado periódico que detalla el volumen y costo de insumos consumidos y descartados. | **3** |
-| **18** | **US13** | Fichas técnicas y rotación de insumos | Algoritmo que sugiere uso prioritario en recetas (Restaurantes) o salida FIFO (Negocios en frío). | **5** |
+| **18** | **US13** | Fichas técnicas y rotación de insumos | Algoritmo que sugiere uso prioritario en recetas (Restaurantes) o salida FIFO (encargados de negocios de distribución de alimentos en fríos). | **5** |
 | **19** | **US14** | Filtrado avanzado de insumos y lotes | Búsqueda y filtrado por cámara fría, fecha de caducidad, lote o categoría de producto. | **3** |
 | **20** | **US39** | Búsqueda global de inventario y lotes | Barra de búsqueda centralizada para ubicar insumos, lotes y recetas con sugerencias en vivo. | **3** |
 | **21** | **US15** | Onboarding comercial interactivo | Guía interactiva para capacitar al nuevo personal operativo en el uso del sistema. | **2** |
@@ -1458,6 +1458,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 |---|---|---|
 | id | UUID | Identificador del rol. |
 | name | Roles (enum) | ROLE_USER, ROLE_PREMIUM o ROLE_ADMIN. |
+
 | Método | Descripción |
 |---|---|
 | getDefaultRole() | Devuelve ROLE_USER. |
@@ -1471,6 +1472,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 | tokenHash | String | Hash del token enviado por correo. |
 | expiresAt | DateTime | Vencimiento del enlace de recuperación. |
 | used | boolean | Indica si ya fue consumido. |
+
 | Método | Descripción |
 |---|---|
 | isExpired() | Evalúa si el token venció. |
@@ -1521,6 +1523,7 @@ La Interface Layer del User Management expone los puntos de entrada del contexto
 | POST | /api/v1/authentication/sign-in | Autentica al usuario y genera un token de acceso. |
 | POST | /api/v1/authentication/forgot-password | Envía el enlace de restablecimiento (US35). |
 | POST | /api/v1/authentication/reset-password | Restablece la contraseña con el token recibido. |
+
    - *Dependencias:* UserCommandService
 
 2. **UsersController** — Gestiona las operaciones relacionadas con los usuarios.
@@ -1530,6 +1533,7 @@ La Interface Layer del User Management expone los puntos de entrada del contexto
 | GET | /api/v1/users | Obtiene la lista de todos los usuarios (solo ROLE_ADMIN). |
 | GET | /api/v1/users/{userId} | Obtiene los detalles de un usuario específico por su ID. |
 | PATCH | /api/v1/users/{userId}/roles | Modifica los roles del usuario (US36). |
+
    - *Dependencias:* UserQueryService, UserCommandService
 
 3. **RolesController** — Gestiona las consultas relacionadas con los roles.
@@ -1537,6 +1541,7 @@ La Interface Layer del User Management expone los puntos de entrada del contexto
 | Método | Endpoint | Descripción |
 |---|---|---|
 | GET | /api/v1/roles | Obtiene la lista de todos los roles disponibles. |
+
    - *Dependencias:* RoleQueryService
 
 **Resources**
@@ -1664,6 +1669,7 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
 | externalRef | String | Identificador del cobro en la pasarela. |
 | paidAt | DateTime | Fecha de confirmación. |
 | invoiceUrl | String | Enlace al comprobante en PDF (US38). |
+
 | Método | Descripción |
 |---|---|
 | confirm(externalRef) | Marca el pago como confirmado tras el webhook. |
@@ -1711,6 +1717,7 @@ La Interface Layer del Subscription Management expone los puntos de entrada del 
 | GET | /api/v1/subscriptions/me | Obtiene la suscripción vigente del usuario autenticado. |
 | POST | /api/v1/subscriptions/upgrade | Inicia el cambio a plan PREMIUM consumiendo el Sistema de Pago para crear el cobro (TS44). |
 | POST | /api/v1/subscriptions/cancel | Cancela la renovación automática. |
+
    - *Dependencias:* SubscriptionCommandService, SubscriptionQueryService
 
 2. **PaymentsController** — Expone el historial de pagos y los comprobantes (US38).
@@ -1719,6 +1726,7 @@ La Interface Layer del Subscription Management expone los puntos de entrada del 
 |---|---|---|
 | GET | /api/v1/payments | Lista los cobros del usuario. |
 | GET | /api/v1/payments/{paymentId}/invoice | Descarga el comprobante en PDF. |
+
    - *Dependencias:* PaymentQueryService
 
 3. **BillingWebhookController** — Recibe las notificaciones de la pasarela de pagos (TS44).
@@ -1726,6 +1734,7 @@ La Interface Layer del Subscription Management expone los puntos de entrada del 
 | Método | Endpoint | Descripción |
 |---|---|---|
 | POST | /api/v1/billing/webhook | Procesa la notificación del Sistema de Pago y extiende la vigencia. |
+
    - *Dependencias:* SubscriptionCommandService
 
 **Resources**
@@ -1844,6 +1853,7 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | userId | UUID | Usuario vinculado. |
 | role | MemberRole (VO) | OWNER, MEMBER o STAFF. |
 | joinedAt | DateTime | Fecha de incorporación. |
+
 | Método | Descripción |
 |---|---|
 | canManageInventory() | Indica si el rol permite editar el inventario compartido. |
@@ -1856,6 +1866,7 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | token | String | Token único del enlace de vinculación. |
 | expiresAt | DateTime | Vencimiento de la invitación. |
 | status | InvitationStatus | PENDING, ACCEPTED o EXPIRED. |
+
 | Método | Descripción |
 |---|---|
 | accept(userId) | Convierte la invitación en un `HouseholdMember`. |
@@ -1870,6 +1881,7 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | pushEnabled | boolean | Habilita las notificaciones push. |
 | quietHours | TimeWindow (VO) | Rango de silencio (por ejemplo, 22:00–07:00). |
 | updatedAt | DateTime | Última modificación. |
+
 | Método | Descripción |
 |---|---|
 | isQuiet(at) | Indica si un instante cae dentro del horario de silencio. |
@@ -1918,6 +1930,7 @@ La Interface Layer del Profile Management expone los puntos de entrada del conte
 | POST | /api/v1/households/{id}/invitations | Envía una invitación a un nuevo miembro (US37). |
 | POST | /api/v1/invitations/{token}/accept | Acepta la invitación y vincula al usuario. |
 | DELETE | /api/v1/households/{id}/members/{userId} | Desvincula a un miembro. |
+
    - *Dependencias:* HouseholdCommandService, HouseholdQueryService
 
 2. **NotificationPreferencesController** — Gestiona las preferencias de notificación (US09, US24).
@@ -1926,6 +1939,7 @@ La Interface Layer del Profile Management expone los puntos de entrada del conte
 |---|---|---|
 | GET | /api/v1/notification-preferences | Obtiene las preferencias del usuario. |
 | PUT | /api/v1/notification-preferences | Actualiza canales y horario de silencio. |
+
    - *Dependencias:* NotificationPreferenceCommandService
 
 **Resources**
@@ -2049,6 +2063,7 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | name | String | Nombre asignado (por ejemplo, «Cámara Fría 1» o «Congelador Carnes»). |
 | type | ZoneType (VO) | FRIDGE, FREEZER o COLD_ROOM. |
 | targetTempC | float | Temperatura objetivo de la zona. |
+
 | Método | Descripción |
 |---|---|
 | appliesRulesTo(PantryItem) | Indica si un alimento hereda las reglas de temperatura de la zona. |
@@ -2097,6 +2112,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 | POST | /api/v1/devices/pair | Vincula un dispositivo escaneando su código QR (US31). |
 | PATCH | /api/v1/devices/{id}/calibration | Registra la temperatura base de calibración. |
 | PATCH | /api/v1/devices/{id}/zone | Asigna el dispositivo a una zona de almacenamiento. |
+
    - *Dependencias:* DeviceCommandService, DeviceQueryService
 
 2. **StorageZonesController** — Administra las zonas de almacenamiento del negocio (US33).
@@ -2106,6 +2122,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 | GET | /api/v1/storage-zones | Lista las zonas configuradas. |
 | POST | /api/v1/storage-zones | Crea una nueva cámara, congelador o refrigerador. |
 | DELETE | /api/v1/storage-zones/{id} | Elimina una zona sin dispositivos asociados. |
+
    - *Dependencias:* StorageZoneCommandService
 
 3. **DeviceHeartbeatController** — Recibe la señal periódica de vida del dispositivo (US06).
@@ -2113,6 +2130,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 | Método | Endpoint | Descripción |
 |---|---|---|
 | POST | /api/v1/devices/{id}/heartbeat | Registra el *ping* del dispositivo y actualiza su estado. |
+
    - *Dependencias:* DeviceCommandService
 
 **Resources**
@@ -2238,6 +2256,7 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | category | String | Agrupación (Fruta, Verdura, Lácteo, Carne). |
 | shelfLifeDays | int | Vida útil estimada en días. |
 | rulesJson | ShelfLifeRules (VO) | Umbrales de temperatura, humedad y etileno aplicables. |
+
 | Método | Descripción |
 |---|---|
 | rulesFor(zoneType) | Devuelve los umbrales ajustados al tipo de zona de almacenamiento. |
@@ -2289,6 +2308,7 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 | PUT | /api/v1/pantry-items/{id} | Actualiza cantidad, unidad o etiquetas (US11, US28). |
 | POST | /api/v1/pantry-items/{id}/consume | Marca el alimento como consumido. |
 | POST | /api/v1/pantry-items/{id}/discard | Marca el alimento como descartado con su causa (US34). |
+
    - *Dependencias:* PantryItemCommandService, PantryItemQueryService
 
 2. **FoodModelsController** — Expone el catálogo de categorías y vida útil.
@@ -2297,6 +2317,7 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 |---|---|---|
 | GET | /api/v1/food-models | Lista las categorías disponibles. |
 | GET | /api/v1/food-models/{id} | Obtiene las reglas de vida útil de una categoría. |
+
    - *Dependencias:* FoodModelQueryService
 
 3. **InventorySearchController** — Búsqueda global con autocompletado sobre el inventario (US39).
@@ -2304,6 +2325,7 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 | Método | Endpoint | Descripción |
 |---|---|---|
 | GET | /api/v1/inventory/search | Devuelve coincidencias en vivo de alimentos y recetas. |
+
    - *Dependencias:* PantryItemQueryService
 
 **Resources**
@@ -2312,7 +2334,7 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 |---|---|
 | PantryItemResource | id, name, quantity, unit, addedAt, bestBefore, status, notes |
 | CreatePantryItemResource | name, quantity, unit, foodModelId, barcode? |
-| DiscardResource | reason (EXPIRED | CONTAMINATED | BAD_ON_PURCHASE) |
+| DiscardResource | reason (EXPIRED, CONTAMINATED o BAD_ON_PURCHASE) |
 | FoodModelResource | id, name, category, shelfLifeDays |
 
 **Transformers / Assemblers**
@@ -2425,6 +2447,7 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 | qty | Quantity (VO) | Cantidad requerida. |
 | unit | Unit (VO) | Unidad de medida. |
 | optional | boolean | Indica si el ingrediente es opcional. |
+
 | Método | Descripción |
 |---|---|
 | isSatisfiedBy(pantryItems) | Indica si el inventario cubre este ingrediente. |
@@ -2439,6 +2462,7 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 | reason | DiscardReason? | Causa del descarte, si aplica (US34). |
 | estimatedValue | Money (VO) | Valor económico del alimento. |
 | recordedAt | DateTime | Fecha del registro. |
+
 | Método | Descripción |
 |---|---|
 | isWaste() | Indica si el registro representa una merma. |
@@ -2488,6 +2512,7 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 | GET | /api/v1/recipes/suggested | Devuelve las recetas sugeridas según los alimentos en riesgo (US13). |
 | GET | /api/v1/recipes/{id} | Obtiene el detalle e ingredientes de una receta. |
 | POST | /api/v1/recipes/{id}/ratings | Registra una calificación y reseña (US40). |
+
    - *Dependencias:* RecipeQueryService, RecipeCommandService
 
 2. **ConsumptionController** — Expone el historial de consumo y descarte.
@@ -2496,6 +2521,7 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 |---|---|---|
 | GET | /api/v1/consumption | Lista los registros de consumo y merma por periodo. |
 | GET | /api/v1/consumption/export | Descarga el historial en CSV o Excel (US29). |
+
    - *Dependencias:* ConsumptionQueryService
 
 **Resources**
@@ -2619,6 +2645,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | type | AlertType (VO) | NEARING_EXPIRY, HIGH_ETHYLENE o TEMP_RISK. |
 | status | AlertStatus (VO) | OPEN, SENT, SNOOZED o RESOLVED. |
 | meta | String | Valores que motivaron la alerta. |
+
 | Método | Descripción |
 |---|---|
 | resolve() | Marca la alerta como resuelta cuando el alimento se consume o descarta. |
@@ -2633,6 +2660,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | maxTemperatureC | float | Temperatura máxima tolerada. |
 | maxEthylenePpm | float | Concentración máxima de etileno tolerada. |
 | vacationMode | boolean | Indica si el modo de baja sensibilidad está activo (US32). |
+
 | Método | Descripción |
 |---|---|
 | applyVacationMode() | Recalibra los umbrales al no abrirse la puerta durante 24 horas. |
@@ -2683,6 +2711,7 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 |---|---|---|
 | POST | /api/v1/sensor-readings | Recibe un JSON con temperatura, humedad y etileno; valida el token del dispositivo y responde 201. |
 | GET | /api/v1/sensor-readings | Consulta el histórico de lecturas por dispositivo y periodo. |
+
    - *Dependencias:* MonitoringCommandService, MonitoringQueryService
 
 2. **AlertsController** — Expone y gestiona las alertas de expiración (US08).
@@ -2692,6 +2721,7 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 | GET | /api/v1/alerts | Lista las alertas abiertas del usuario. |
 | POST | /api/v1/alerts/{id}/snooze | Pospone la alerta según las preferencias (US09). |
 | POST | /api/v1/alerts/{id}/resolve | Marca la alerta como resuelta. |
+
    - *Dependencias:* AlertCommandService, AlertQueryService
 
 3. **ThresholdsController** — Configura los umbrales y el Modo Vacaciones (US32).
@@ -2700,6 +2730,7 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 |---|---|---|
 | GET | /api/v1/thresholds/{zoneId} | Obtiene el perfil de umbrales de la zona. |
 | PUT | /api/v1/thresholds/{zoneId} | Actualiza los umbrales o activa el Modo Vacaciones. |
+
    - *Dependencias:* ThresholdCommandService
 
 **Resources**
@@ -2823,6 +2854,7 @@ La Domain Layer del Report Management Bounded Context encapsula la lógica de ne
 | type | SectionType (VO) | INVENTORY, CONSUMPTION, QUALITY o SUSTAINABILITY. |
 | metricsJson | String | Métricas calculadas serializadas. |
 | order | int | Posición dentro del reporte. |
+
 | Método | Descripción |
 |---|---|
 | render(format) | Produce la representación de la sección en el formato solicitado. |
@@ -2871,6 +2903,7 @@ La Interface Layer del Report Management expone los puntos de entrada del contex
 | POST | /api/v1/reports | Genera un reporte para el periodo indicado (US12). |
 | GET | /api/v1/reports/{id} | Obtiene el detalle del reporte y sus secciones. |
 | GET | /api/v1/reports/{id}/export | Descarga el reporte en PDF, Excel o CSV (US29). |
+
    - *Dependencias:* ReportCommandService, ReportQueryService
 
 2. **AnalyticsController** — Expone la analítica avanzada y el panel de ahorro (US17, US18).
@@ -2880,6 +2913,7 @@ La Interface Layer del Report Management expone los puntos de entrada del contex
 | GET | /api/v1/analytics/rotation | Gráficos de rotación de inventario (solo PREMIUM). |
 | GET | /api/v1/analytics/savings | Ahorro acumulado estimado en moneda local. |
 | GET | /api/v1/analytics/sustainability | Métricas de CO₂ evitado y agua preservada (US20). |
+
    - *Dependencias:* ReportQueryService
 
 **Resources**
@@ -3010,209 +3044,151 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ## 6.1. Software Configuration Management
 
-FreshSense controla la configuración del producto y del informe en la organización de GitHub `1ASI0572-2620-8725`. El producto atiende a dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en frío. La misma base de código cubre ambos segmentos; lo que cambia es el contexto operativo (cocina y cámaras del restaurante, o cámaras, vitrinas y lotes del negocio de frío).
+El código y el informe están en GitHub, en la organización 1ASI0572-2620-8725. FreshSense lo estamos armando para dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. Es la misma aplicación. En el restaurante se mira la cocina y las cámaras de insumos. En el negocio de distribución se miran las cámaras, las vitrinas y los lotes que se van a entregar.
 
 ### 6.1.1. Software Development Environment Configuration
 
-El entorno de desarrollo queda separado entre la aplicación web y los servicios de backend.
+Para el frontend usamos Node.js 20, npm 10 y Angular 20. El backend lo levantamos en este orden: Eureka en el puerto 8761, alertas en 8083, recetas en 8082 y el monolito en 8080. El frontend en desarrollo queda en el puerto 4200.
 
-| Componente | Herramienta | Versión o puerto | Uso |
-| :--- | :--- | :--- | :--- |
-| Frontend | Node.js y npm | Node.js 20 o superior, npm 10 o superior | Compilación de la aplicación Angular |
-| Aplicación web | Angular | 20, componentes standalone | Interfaz de inventario, monitoreo, alertas y recetas |
-| Contenedores | Docker Desktop y Docker Compose | Compose v2 | Levantar frontend, backend, microservicios y MySQL |
-| Descubrimiento | Eureka Server | 8761 | Registro de servicios |
-| Alertas | Alerts Service | 8083 | Evaluación y consulta de alertas |
-| Recetas | Recipes Service | 8082 | Fichas y sugerencias de recetas |
-| API principal | Monolito | 8080 | Inventario, cuentas, reportes y monitoreo |
-| Frontend en desarrollo | Angular CLI | 4200 | `npm start`, con recarga al guardar |
-
-Orden de arranque local: primero el backend (Eureka, Alerts, Recipes y el monolito) y después el frontend. Con Docker, desde la carpeta que contiene `docker-compose.yml`:
+Si se quiere ver frontend, backend y base de datos juntos, desde la carpeta del `docker-compose.yml` se corre:
 
 ```bash
 docker compose build
 docker compose up
 ```
 
-La aplicación queda en `http://localhost`. El usuario de demostración es `demo@freshsense.com` / `Demo1234!`.
+La aplicación abre en `http://localhost`. Para entrar usamos `demo@freshsense.com` con la clave `Demo1234!`.
 
-Sin Docker, el frontend se instala y ejecuta así:
+Si solo se levanta el frontend, el backend ya tiene que estar corriendo:
 
 ```bash
 npm install
 npm start
 ```
 
-La URL de desarrollo es `http://localhost:4200`. La base del API en local está en `src/environments/environment.ts` y apunta a `http://localhost:8080/api`.
+Queda en `http://localhost:4200`. En local el API está en `http://localhost:8080/api`, eso está en `src/environments/environment.ts`.
 
 ### 6.1.2. Source Code Management
 
-El código fuente y el informe se versionan con Git y se publican en GitHub. No se versionan secretos ni archivos de entorno con credenciales.
+El frontend está en el repositorio privado [Frontend](https://github.com/1ASI0572-2620-8725/Frontend) y el informe en el repositorio público [report](https://github.com/1ASI0572-2620-8725/report). En los dos la rama estable es `main`.
 
-| Repositorio | Visibilidad | Rama estable | Contenido |
-| :--- | :--- | :--- | :--- |
-| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | Privado | `main` | Aplicación web FreshSense |
-| [1ASI0572-2620-8725/report](https://github.com/1ASI0572-2620-8725/report) | Público | `main` | Informe del proyecto y carpeta `Assets/` |
-
-**Ramas del informe**
-
-| Tipo de rama | Ejemplo | Función |
+| Repositorio | Rama | Qué guarda |
 | :--- | :--- | :--- |
-| `main` | `main` | Versión publicada del informe |
-| `develop` | `develop` | Integración del informe |
-| `chapterN-vN` | `chapter2-v3` | Cierre de una versión de capítulo |
-| `feature/chapter-…` | `feature/chapter-6.1-6.1.2-6.2.1.3-6.2.1.6` | Entrega de un tramo del informe |
+| Frontend | `main` | La aplicación web |
+| report | `main` | El informe y la carpeta `Assets/` |
 
-Esta entrega parte de `chapter2-v3` y se publica en `feature/chapter-6.1-6.1.2-6.2.1.3-6.2.1.6`. Git no admite espacios en el nombre de la rama, por eso los números de sección van unidos con guiones, igual que `feature/chapter-2.3-3.3`.
+En el informe usamos `develop` para juntar avances, ramas `chapter` cuando cerramos una versión (por ejemplo `chapter2-v3`) y ramas `feature` para una entrega, como `feature/chapter-6.1-6.1.2-6.2.1.3-6.2.1.6`.
 
-**Flujo de trabajo**
+El flujo es este: se crea la rama feature desde la versión del capítulo en la que estamos, se edita el `README.md`, se hace el commit con `docs:` y se sube la rama. A `main` no pasamos el cambio hasta revisarlo.
 
-1. Crear la rama `feature/` desde la versión vigente del informe.
-2. Modificar `README.md` y, si hace falta, agregar figuras en `Assets/`.
-3. Registrar el cambio con un commit `docs:` que explique la sección actualizada.
-4. Subir la rama a GitHub. La integración a `main` queda para después de la revisión.
+El frontend está partido por módulos: `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications`, `billing`, `achievements` y `challenges`. Cada uno tiene `domain`, `application`, `infrastructure` y `presentation`. Los textos de pantalla están en `public/i18n/es.json` y `public/i18n/en.json`. Las figuras del informe van en `Assets/`.
 
-**Estructura del frontend**
-
-Cada módulo de negocio sigue Domain-Driven Design:
-
-```text
-src/app/{modulo}/
-  domain/           modelos
-  application/      estado y casos de uso
-  infrastructure/   acceso HTTP
-  presentation/     vistas
-```
-
-Los módulos actuales son `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications`, `billing`, `achievements` y `challenges`. Los textos visibles salen de `public/i18n/es.json` y `public/i18n/en.json`.
-
-**Reglas de versionado**
-
-- La rama `main` del frontend recibe el despliegue automático.
-- Cada push de informe se hace sobre una rama `feature/` o `chapterN-vN`, no directo sobre una versión ya cerrada.
-- Las imágenes del informe permanecen en `Assets/` con el nombre usado en el Markdown.
-- Las URLs de API viven en `environment.ts`, `environment.production.ts` y `environment.docker.ts`, no en el código de las vistas.
+Las contraseñas no van al repositorio. Las URLs del API están en `environment.ts`, `environment.production.ts` y `environment.docker.ts`.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-El frontend aplica estas convenciones:
+En el frontend seguimos esto:
 
-| Convención | Regla |
+| Qué | Cómo lo hacemos |
 | :--- | :--- |
-| Componentes | Standalone, sin NgModules. Las vistas terminan en el sufijo `View`. |
-| Estado | Signals de Angular. En servicios y stores se usa `inject()` en lugar de inyección por constructor. |
-| Suscripciones | `takeUntilDestroyed()` en toda suscripción. |
-| Selectores | Prefijo `fs-` en los selectores de componente. |
-| Formato | Prettier con comillas simples y `printWidth` de 100. |
-| Textos | No se dejan cadenas visibles fijas en los componentes. Se usan claves de `@ngx-translate/core`. |
-| Idioma | Español por defecto e inglés en el selector EN/ES. |
-| Autenticación | El JWT viaja en la cookie HttpOnly `authToken`. El frontend no lo guarda en `localStorage`. Las peticiones usan `withCredentials: true`. |
+| Vistas | Componentes standalone. El nombre de la clase termina en `View`. |
+| Estado | Signals. En los servicios usamos `inject()`. |
+| Suscripciones | `takeUntilDestroyed()` para que no se queden abiertas. |
+| CSS | El selector del componente lleva el prefijo `fs-`. |
+| Formato | Prettier, comillas simples y ancho de 100. |
+| Textos | No dejamos el texto escrito en el componente. Va en los archivos de i18n. |
+| Idioma | Español por defecto. También está el cambio a inglés. |
+| Login | El token va en la cookie `authToken`. No lo guardamos en `localStorage`. |
 
-Roles de la aplicación: `USER_STANDARD`, `USER_PREMIUM` y `ADMIN`.
+Los roles que tenemos ahora son `USER_STANDARD`, `USER_PREMIUM` y `ADMIN`.
 
 ### 6.1.4. Software Deployment Configuration
 
-| Recurso | Destino |
+| Qué | Dónde está |
 | :--- | :--- |
-| Frontend | Azure Static Web Apps: `https://proud-rock-06bc9ad10.7.azurestaticapps.net` |
+| Frontend | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` |
 | API | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` |
 | Swagger | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/swagger-ui/index.html` |
-| Build del frontend | `dist/frontend/browser` |
-| Workflow | `.github/workflows/azure-static-web-apps-proud-rock-06bc9ad10.yml` |
+| Build | `dist/frontend/browser` |
 
-Cada push a `main` del frontend compila Angular y despliega en Azure Static Web Apps. En Docker, Nginx publica el frontend y reenvía `/api` al backend. Esa configuración usa `environment.docker.ts`, con `apiBaseUrl: '/api'`.
-
-Producción usa `environment.production.ts` y apunta al API de Azure Container Apps. El arranque con Docker no exige instalar Node ni Java en la máquina de quien revisa.
+Cuando se hace push a `main` del frontend, el workflow de Azure Static Web Apps compila y publica. En Docker, Nginx sirve la página y manda `/api` al backend. Esa build usa `environment.docker.ts`. La de producción usa `environment.production.ts` y apunta al API de Azure.
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
 ### 6.2.1. Sprint 1
 
-El Sprint 1 entrega el primer recorrido útil para los dos segmentos: entender la propuesta comercial, identificarse y consultar el estado de una cámara de frío con semáforo y alerta.
+En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda entender FreshSense, pedir una demo y entrar a ver la cámara: la lectura, el color y la alerta. Los segmentos son propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
 
 #### 6.2.1.1. Sprint Planning 1
 
-| Dato | Valor |
+| Dato | Detalle |
 | :--- | :--- |
-| Objetivo | Un propietario o administrador de restaurante, y un encargado de distribución de alimentos en frío, pueden conocer FreshSense, solicitar una demo e ingresar a un panel que muestra telemetría, semáforo de frescura y alerta de quiebre de frío. |
+| Objetivo | Que el dueño o administrador del restaurante, y el encargado del negocio de distribución en fríos, vean la propuesta, dejen sus datos y entren al panel de la cámara. |
 | Duración | 2 semanas |
-| Fuente | Product Backlog, orden 1 al 11 |
-| Segmentos | Propietarios y administradores de restaurantes; encargados de negocios de distribución de alimentos en frío |
+| De dónde sale | Product Backlog, del puesto 1 al 11 |
+| Segmentos | Propietarios y administradores de restaurantes. Encargados de negocios de distribución de alimentos en fríos. |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
-Esta sección se completará en una siguiente entrega, cuando el equipo asigne responsables por aspecto del sprint.
-
 #### 6.2.1.3. Sprint Backlog 1
 
-El Sprint Backlog 1 toma las primeras once historias del Product Backlog. Sumadas dan 37 story points. Cubren la landing B2B, el acceso con roles, la ingesta de sensores, el tablero con semáforo y la alerta de temperatura. Esas historias sirven a los dos segmentos: en restaurantes la cámara es de cocina; en distribución, de conservación y despacho.
+Para este sprint agarramos las primeras 11 historias del backlog. Son 37 puntos. Alcanza para la landing, el login con roles, la llegada de datos del sensor, el semáforo y la alerta de temperatura. Sirven para los dos segmentos: en el restaurante la cámara es la de cocina, y en la distribución es la cámara donde está la mercadería.
 
-| Orden | ID | Título | Story Points | Segmentos |
+| Orden | ID | Título | Puntos | Segmento |
 | :-: | :--- | :--- | :--- | :--- |
-| 1 | US01 | Visualización de propuesta B2B | 2 | Ambos |
-| 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Ambos |
-| 3 | US03 | Formulario de contacto y demos B2B | 2 | Ambos |
-| 4 | US04 | Call to Action (CTA) Corporativo | 2 | Ambos |
-| 5 | US05 | Adaptabilidad en móviles y tablets | 3 | Ambos |
-| 6 | TS43 | API Gestor de Autenticación y RBAC B2B | 5 | Ambos |
-| 7 | TS41 | API Ingesta de Sensores IoT B2B | 5 | Ambos |
-| 8 | US06 | Telemetría y monitoreo IoT de cámaras frías | 5 | Ambos |
-| 9 | US07 | Dashboard con semáforo comercial | 3 | Ambos |
-| 10 | US08 | Alertas preventivas de temperatura | 5 | Ambos |
-| 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Ambos |
+| 1 | US01 | Visualización de propuesta B2B | 2 | Los dos segmentos |
+| 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Los dos segmentos |
+| 3 | US03 | Formulario de contacto y demos B2B | 2 | Los dos segmentos |
+| 4 | US04 | Call to Action (CTA) Corporativo | 2 | Los dos segmentos |
+| 5 | US05 | Adaptabilidad en móviles y tablets | 3 | Los dos segmentos |
+| 6 | TS43 | API Gestor de Autenticación y RBAC B2B | 5 | Los dos segmentos |
+| 7 | TS41 | API Ingesta de Sensores IoT B2B | 5 | Los dos segmentos |
+| 8 | US06 | Telemetría y monitoreo IoT de cámaras frías | 5 | Los dos segmentos |
+| 9 | US07 | Dashboard con semáforo comercial | 3 | Los dos segmentos |
+| 10 | US08 | Alertas preventivas de temperatura | 5 | Los dos segmentos |
+| 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Los dos segmentos |
 
-Criterio de cierre del sprint: las once historias cumplen sus tres escenarios de aceptación, o el escenario que no se pueda ejecutar queda registrado como pendiente con la causa.
+Para dar la historia por cerrada tienen que cumplirse sus tres escenarios. Si uno no se puede probar todavía, se anota por qué.
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
-Esta sección se completará en una siguiente entrega con las capturas del desarrollo de cada historia del Sprint 1.
-
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
-
-Esta sección se completará en una siguiente entrega con la evidencia de la suite de pruebas del Sprint 1.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
-La ejecución de revisión usa la aplicación desplegada y, en local, el mismo flujo con Docker o con `npm start`. El usuario de demostración es `demo@freshsense.com` / `Demo1234!`.
+Para revisar el sprint se puede entrar a la aplicación publicada o levantarla en local. El usuario de prueba es `demo@freshsense.com` / `Demo1234!`.
 
-| Ambiente | Dirección | Qué demuestra |
+| Dónde | Dirección | Para qué |
 | :--- | :--- | :--- |
-| Producción | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | Recorrido de un administrador de restaurante o de un encargado de frío |
-| API | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` | Servicios consumidos por el panel |
-| Swagger | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/swagger-ui/index.html` | Contrato de los servicios del sprint |
-| Local con Docker | `http://localhost` | Misma aplicación sin instalar Node ni Java |
-| Local en desarrollo | `http://localhost:4200` | Frontend con el API en `http://localhost:8080/api` |
+| Publicado | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | Recorrer la app como administrador de restaurante o como encargado de distribución en fríos |
+| API | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` | Lo que consume el panel |
+| Swagger | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/swagger-ui/index.html` | Ver los servicios |
+| Docker | `http://localhost` | La misma app sin instalar Node ni Java |
+| Desarrollo | `http://localhost:4200` | Frontend contra `http://localhost:8080/api` |
 
-**Procedimiento de ejecución**
+Pasos:
 
-1. Abrir la URL de producción o levantar el entorno local.
-2. Iniciar sesión con `demo@freshsense.com` y `Demo1234!`.
-3. Entrar a `/monitoring` y comprobar temperatura, humedad y estado de frescura.
-4. Entrar a `/alerts` y comprobar que una condición crítica queda visible para el responsable.
-5. Entrar a `/inventory` y comprobar el stock asociado a la cámara.
-6. Repetir la lectura del panel interpretándola para los dos segmentos: cámara de cocina del restaurante y cámara de conservación del negocio de distribución en frío.
+1. Abrir la URL publicada o levantar el local.
+2. Entrar con `demo@freshsense.com` y `Demo1234!`.
+3. Ir a `/monitoring` y ver temperatura, humedad y el color del estado.
+4. Ir a `/alerts` y ver si una cámara en mal estado deja la alerta.
+5. Ir a `/inventory` y ver el producto ligado a esa cámara.
 
-**Resultado esperado**
+Lo mismo se lee de las dos formas. Si el usuario es propietario o administrador de un restaurante, la cámara es la de la cocina. Si es encargado de un negocio de distribución de alimentos en fríos, la cámara es la de la mercadería.
 
-| Paso | Historia | Resultado para ambos segmentos |
+| Qué se prueba | Historia | Qué se espera |
 | :--- | :--- | :--- |
-| Inicio de sesión | TS43 | La sesión se restaura con la cookie `authToken`. Un rol sin permiso no entra a facturación ni analítica avanzada. |
-| Monitoreo | US06 y US07 | El panel muestra la última lectura y clasifica el insumo en verde, amarillo o rojo. Sin lectura reciente, el estado no se muestra como verde. |
-| Alertas | US08 y TS42 | Una cámara en estado crítico genera una alerta visible. Si el canal push o SMS falla, la alerta permanece en el panel como no entregada. |
-| Inventario | US07 | La ficha del lote muestra cantidad y vencimiento ligados a la cámara observada. |
-| Landing y demo | US01 a US05 | El visitante distingue la propuesta de restaurantes y la de comercio en frío, y puede dejar una solicitud de demo. Esta parte se contrasta con la landing publicada; el panel autenticado se contrasta con las rutas anteriores. |
+| Login | TS43 | Entra con la cookie `authToken`. El rol de cocinero no entra a facturación. |
+| Cámara | US06 y US07 | Se ve la última lectura y el color: verde, amarillo o rojo. Si no hay lectura, no se marca verde. |
+| Alerta | US08 y TS42 | Si la cámara está en rojo, la alerta queda en el panel. Si el SMS o el push no sale, igual se ve en la app. |
+| Inventario | US07 | La ficha muestra cantidad y vencimiento de lo que está en esa cámara. |
+| Landing | US01 a US05 | Se distingue la parte de restaurantes y la de distribución de alimentos en fríos, y se puede dejar el pedido de demo. |
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
-Esta sección se completará en una siguiente entrega con la documentación de servicios del Sprint 1.
-
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
-Esta sección se completará en una siguiente entrega con la evidencia de despliegue del Sprint 1.
-
 #### 6.2.1.9. Team Collaboration Insights during Sprint
-
-Esta sección se completará en una siguiente entrega con las conclusiones de colaboración del Sprint 1.
 
 ## 6.3. Validation Interviews
 
