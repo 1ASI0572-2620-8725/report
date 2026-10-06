@@ -3044,7 +3044,9 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ## 6.1. Software Configuration Management
 
-El código y el informe están en GitHub, en la organización 1ASI0572-2620-8725. FreshSense lo estamos armando para dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. Es la misma aplicación. En el restaurante se mira la cocina y las cámaras de insumos. En el negocio de distribución se miran las cámaras, las vitrinas y los lotes que se van a entregar.
+Acá dejamos cómo está ordenado el código y el informe de FreshSense. Todo está en GitHub, en la organización `1ASI0572-2620-8725`. No armamos un sistema distinto por cliente: es una sola aplicación para los dos segmentos, propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. Lo que cambia es lo que cada uno mira. En el restaurante son la cocina y las cámaras de insumos. En la distribución son las cámaras, las vitrinas y los lotes que salen a entrega.
+
+Para no mezclar versiones, el producto y el informe van en repositorios separados. El detalle del entorno, del estilo y del despliegue está en los apartados de abajo. En 6.1.2 queda cómo manejamos las ramas y qué sí entra al repositorio.
 
 ### 6.1.1. Software Development Environment Configuration
 
@@ -3070,20 +3072,27 @@ Queda en `http://localhost:4200`. En local el API está en `http://localhost:808
 
 ### 6.1.2. Source Code Management
 
-El frontend está en el repositorio privado [Frontend](https://github.com/1ASI0572-2620-8725/Frontend) y el informe en el repositorio público [report](https://github.com/1ASI0572-2620-8725/report). En los dos la rama estable es `main`.
+El código de la aplicación y el informe no están en el mismo repositorio, para poder versionar cada uno sin pisar al otro.
 
-| Repositorio | Rama | Qué guarda |
+| Repositorio | Visibilidad | Rama estable | Qué guarda |
+| :--- | :--- | :--- | :--- |
+| [Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | Privado | `main` | Aplicación web que usan los dos segmentos |
+| [report](https://github.com/1ASI0572-2620-8725/report) | Público | `main` | Este informe y las figuras de `Assets/` |
+
+En el informe usamos estas ramas:
+
+| Rama | Para qué la usamos | Ejemplo |
 | :--- | :--- | :--- |
-| Frontend | `main` | La aplicación web |
-| report | `main` | El informe y la carpeta `Assets/` |
+| `main` | Versión que ya se puede mostrar | `main` |
+| `develop` | Juntar avances antes de pasarlos a `main` | `develop` |
+| `chapterN-vN` | Cierre de un capítulo | `chapter2-v3` |
+| `feature/...` | Una entrega concreta, sin tocar la versión cerrada | `feature/chapter-6.1-6.1.2-6.2.1.3-6.2.1.6` |
 
-En el informe usamos `develop` para juntar avances, ramas `chapter` cuando cerramos una versión (por ejemplo `chapter2-v3`) y ramas `feature` para una entrega, como `feature/chapter-6.1-6.1.2-6.2.1.3-6.2.1.6`.
+El flujo del informe es corto. Se saca la rama `feature` desde la versión del capítulo que estamos usando, se modifica `README.md`, el commit lleva el prefijo `docs:` y se sube esa rama. Recién después de la revisión se integra a `main`.
 
-El flujo es este: se crea la rama feature desde la versión del capítulo en la que estamos, se edita el `README.md`, se hace el commit con `docs:` y se sube la rama. A `main` no pasamos el cambio hasta revisarlo.
+El frontend está dividido por lo que hace cada parte del negocio, y esa división sirve para los dos segmentos. Los módulos son `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications`, `billing`, `achievements` y `challenges`. Dentro de cada uno están `domain`, `application`, `infrastructure` y `presentation`. Los textos de la pantalla no van sueltos en el componente: están en `public/i18n/es.json` y `public/i18n/en.json`.
 
-El frontend está partido por módulos: `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications`, `billing`, `achievements` y `challenges`. Cada uno tiene `domain`, `application`, `infrastructure` y `presentation`. Los textos de pantalla están en `public/i18n/es.json` y `public/i18n/en.json`. Las figuras del informe van en `Assets/`.
-
-Las contraseñas no van al repositorio. Las URLs del API están en `environment.ts`, `environment.production.ts` y `environment.docker.ts`.
+Lo que no subimos al repositorio son contraseñas ni llaves. La URL del API va en `environment.ts` para local, en `environment.production.ts` para Azure y en `environment.docker.ts` cuando se levanta con Docker.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
@@ -3132,9 +3141,15 @@ En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda
 
 #### 6.2.1.3. Sprint Backlog 1
 
-Para este sprint se tomaron las primeras 11 historias del backlog. Son 37 puntos. Alcanza para la landing, el login con roles, la llegada de datos del sensor, el semáforo y la alerta de temperatura. Sirven para los dos segmentos: en el restaurante la cámara es la de cocina, y en la distribución es la cámara donde está la mercadería.
+Del Product Backlog se tomaron las primeras 11 historias. Suman 37 puntos. Con eso el sprint 1 cubre tres cosas, y las tres sirven a propietarios y administradores de restaurantes y a encargados de negocios de distribución de alimentos en fríos:
 
-| Orden | ID | Título | Puntos | Segmento |
+1. Que los dos puedan entrar a la página, ver su rubro y dejar sus datos para una demo (US01 a US05).
+2. Que puedan identificarse y que el sensor de la cámara llegue al sistema (TS43 y TS41).
+3. Que vean la lectura, el color del semáforo y la alerta si la cámara se sale de frío (US06, US07, US08 y TS42).
+
+En el restaurante esa cámara es la de cocina. En el negocio de distribución es la cámara o la vitrina donde está la mercadería por entregar. Las fichas de platillo y el costeo no entran en este sprint: eso es solo del restaurante y está más adelante en el backlog.
+
+| Orden | ID | Título | Puntos | A quién le sirve |
 | :-: | :--- | :--- | :--- | :--- |
 | 1 | US01 | Visualización de propuesta B2B | 2 | Los dos segmentos |
 | 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Los dos segmentos |
@@ -3148,7 +3163,7 @@ Para este sprint se tomaron las primeras 11 historias del backlog. Son 37 puntos
 | 10 | US08 | Alertas preventivas de temperatura | 5 | Los dos segmentos |
 | 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Los dos segmentos |
 
-Para dar la historia por cerrada tienen que cumplirse sus tres escenarios. Si uno no se puede probar todavía, se anota por qué.
+Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si en la revisión falta uno, se deja anotado cuál y por qué no se pudo probar.
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
@@ -3156,33 +3171,30 @@ Para dar la historia por cerrada tienen que cumplirse sus tres escenarios. Si un
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
-Para revisar el sprint se puede entrar a la aplicación publicada o levantarla en local. El usuario de prueba es `demo@freshsense.com` / `Demo1234!`.
+La revisión del sprint 1 se hace con la aplicación publicada o con la misma app en local. El usuario de prueba es `demo@freshsense.com` y la clave es `Demo1234!`. Se recorre dos veces el mismo flujo: una como propietario o administrador de restaurante y otra como encargado de un negocio de distribución de alimentos en fríos. La diferencia no es otra pantalla, es cómo se lee la cámara.
 
-| Dónde | Dirección | Para qué |
+| Dónde se ejecuta | Dirección | Qué se revisa |
 | :--- | :--- | :--- |
-| Publicado | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | Recorrer la app como administrador de restaurante o como encargado de distribución en fríos |
-| API | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` | Lo que consume el panel |
-| Swagger | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/swagger-ui/index.html` | Ver los servicios |
-| Docker | `http://localhost` | La misma app sin instalar Node ni Java |
+| Publicado | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | El recorrido de los dos segmentos |
+| API | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` | Que el panel esté hablando con el backend |
+| Swagger | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/swagger-ui/index.html` | Ingesta del sensor, login y alertas |
+| Docker | `http://localhost` | El mismo recorrido sin instalar Node ni Java |
 | Desarrollo | `http://localhost:4200` | Frontend contra `http://localhost:8080/api` |
 
-Pasos:
+Pasos, iguales para los dos segmentos:
 
-1. Abrir la URL publicada o levantar el local.
-2. Entrar con `demo@freshsense.com` y `Demo1234!`.
-3. Ir a `/monitoring` y ver temperatura, humedad y el color del estado.
-4. Ir a `/alerts` y ver si una cámara en mal estado deja la alerta.
-5. Ir a `/inventory` y ver el producto ligado a esa cámara.
+1. Abrir la landing y comprobar que se distingue la parte de restaurantes y la de distribución de alimentos en fríos, y que el pedido de demo no se envía si faltan datos (US01 a US05).
+2. Entrar con el usuario de prueba (TS43).
+3. Abrir `/monitoring` y revisar temperatura, humedad y el color: verde, amarillo o rojo (US06 y US07).
+4. Abrir `/alerts`. Si la cámara está en rojo, la alerta tiene que verse en el panel aunque el SMS o el push no haya salido (US08 y TS42).
+5. Abrir `/inventory` y ver cantidad y vencimiento del producto de esa cámara (US07).
 
-Lo mismo se lee de las dos formas. Si el usuario es propietario o administrador de un restaurante, la cámara es la de la cocina. Si es encargado de un negocio de distribución de alimentos en fríos, la cámara es la de la mercadería.
-
-| Qué se prueba | Historia | Qué se espera |
+| Quién ejecuta | Qué mira en la cámara | Resultado que se acepta |
 | :--- | :--- | :--- |
-| Login | TS43 | Entra con la cookie `authToken`. El rol de cocinero no entra a facturación. |
-| Cámara | US06 y US07 | Se ve la última lectura y el color: verde, amarillo o rojo. Si no hay lectura, no se marca verde. |
-| Alerta | US08 y TS42 | Si la cámara está en rojo, la alerta queda en el panel. Si el SMS o el push no sale, igual se ve en la app. |
-| Inventario | US07 | La ficha muestra cantidad y vencimiento de lo que está en esa cámara. |
-| Landing | US01 a US05 | Se distingue la parte de restaurantes y la de distribución de alimentos en fríos, y se puede dejar el pedido de demo. |
+| Propietario o administrador de restaurante | Cámara de cocina y los insumos del servicio | Ve el semáforo, la alerta si el frío se pierde y el insumo con su vencimiento |
+| Encargado de negocio de distribución de alimentos en fríos | Cámara o vitrina de la mercadería por entregar | Ve la misma lectura, pero la usa para decidir si el lote puede salir |
+| Cualquiera de los dos, sin lectura reciente | La cámara no manda datos | El producto no se marca en verde |
+| Usuario sin permiso de facturación | Intenta abrir facturación | No entra. El login sí lo deja en el panel de la cámara |
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
