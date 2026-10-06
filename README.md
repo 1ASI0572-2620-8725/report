@@ -249,7 +249,7 @@ El problema ocurre durante el almacenamiento y conservación de los productos, e
 
 #### Who? (¿Quién?)
 
-Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos. Los dos necesitan controlar la conservación de sus productos, reducir mermas y cuidar la plata del negocio.
+Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos. Los dos necesitan controlar la conservación de sus productos, reducir mermas y cuidar la rentabilidad del negocio.
 
 #### How? (¿Cómo?)
 
@@ -862,7 +862,7 @@ Los resultados respaldan principalmente cuatro funcionalidades de FreshSense: **
 #### SEGMENTO 1: Propietarios y administradores de restaurantes
 ![User Person1](Assets\Jose_userP1.png)
 
-José Jiménez representa a un propietario o administrador de restaurante. En el día a día tiene que ver los insumos de la cocina y de las cámaras, porque si algo se vence o la cámara falla, esa comida se bota y el local pierde plata. Lo que necesita es enterarse a tiempo, sin estar abriendo el refrigerador a cada rato.
+José Jiménez representa a un propietario o administrador de restaurante. En el día a día tiene que ver los insumos de la cocina y de las cámaras, porque si algo se vence o la cámara falla, esa comida se bota y el restaurante pierde dinero. Lo que necesita es enterarse a tiempo, sin estar abriendo el refrigerador a cada rato.
 
 ### SEGMENTO 2: Encargados de negocios de distribución de alimentos en fríos
 ![User Person2](Assets/Luisa_userP2.png)
@@ -3132,7 +3132,7 @@ En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda
 
 #### 6.2.1.3. Sprint Backlog 1
 
-Para este sprint agarramos las primeras 11 historias del backlog. Son 37 puntos. Alcanza para la landing, el login con roles, la llegada de datos del sensor, el semáforo y la alerta de temperatura. Sirven para los dos segmentos: en el restaurante la cámara es la de cocina, y en la distribución es la cámara donde está la mercadería.
+Para este sprint se tomaron las primeras 11 historias del backlog. Son 37 puntos. Alcanza para la landing, el login con roles, la llegada de datos del sensor, el semáforo y la alerta de temperatura. Sirven para los dos segmentos: en el restaurante la cámara es la de cocina, y en la distribución es la cámara donde está la mercadería.
 
 | Orden | ID | Título | Puntos | Segmento |
 | :-: | :--- | :--- | :--- | :--- |
