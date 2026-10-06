@@ -769,8 +769,6 @@ Considera útil una solución que permita monitorear temperatura y humedad, envi
 
 ##### Entrevista 2
 
-##### Entrevista 2
-
 | Dato | Información |
 | --- | --- |
 | Nombre y apellidos | Romy Panduro |
