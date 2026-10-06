@@ -778,7 +778,7 @@ Considera útil una solución que permita monitorear temperatura y humedad, envi
 | Ubicación | San Borja |
 | Empresa / sector | Restobar karaoke |
 | Cargo | Propietaria |
-| Inicio de entrevista | 25:01 |
+| Inicio de entrevista | 00:00 |
 | Duración | 9:04 |
 | Enlace | https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=sharing |
 
@@ -799,6 +799,25 @@ Respecto a una solución como FreshSense, valora especialmente el monitoreo auto
 
 ##### Entrevista 1
 
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Silvia |
+| Edad | 40 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión del almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 3:52 |
+| Enlace | https://drive.google.com/file/d/1im0wnd2XqLIU5hLwFVeBPy_K5FL50XW8/view?usp=sharing |
+
+![Evidencia entrevista Silvia](Assets/EntrevistaSilvia.png)
+
+**Resumen:**
+
+Silvia tiene 40 años y trabaja en una empresa dedicada a la comercialización y distribución de alimentos perecibles, donde participa en la supervisión del almacenamiento y control del inventario. La empresa maneja principalmente carnes, lácteos y productos congelados, siendo las carnes y los lácteos los que requieren mayor cuidado debido a su sensibilidad ante cambios de temperatura.
+
+Actualmente realizan inspecciones manuales, revisiones periódicas de los equipos de refrigeración y registros de inventario, utilizando también Excel. Sin embargo, el proceso todavía depende considerablemente de verificaciones realizadas por el personal. Silvia señala que una variación de temperatura no detectada a tiempo puede deteriorar productos, generar pérdidas económicas y afectar los pedidos planificados.
+
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad en tiempo real, enviar alertas ante condiciones inadecuadas y consultar el historial de cada lote. Para ella, la plataforma debería ser fácil de utilizar, ofrecer mediciones confiables y generar reportes que permitan identificar problemas ocurridos durante el almacenamiento.
 
 
 ##### Entrevista 2
