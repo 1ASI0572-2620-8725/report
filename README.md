@@ -3044,9 +3044,9 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ## 6.1. Software Configuration Management
 
-Acá dejamos cómo está ordenado el código y el informe de FreshSense. Todo está en GitHub, en la organización `1ASI0572-2620-8725`. No armamos un sistema distinto por cliente: es una sola aplicación para los dos segmentos, propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. Lo que cambia es lo que cada uno mira. En el restaurante son la cocina y las cámaras de insumos. En la distribución son las cámaras, las vitrinas y los lotes que salen a entrega.
+FreshSense se configura como un solo producto para los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. No hay una rama ni un repositorio por rubro. Los dos usan el mismo frontend y el mismo API. En el restaurante la cámara es la de cocina. En la distribución es la cámara o la vitrina del lote.
 
-Para no mezclar versiones, el producto y el informe van en repositorios separados. El detalle del entorno, del estilo y del despliegue está en los apartados de abajo. En 6.1.2 queda cómo manejamos las ramas y qué sí entra al repositorio.
+El código de esa aplicación y este informe se versionan aparte, en la organización `1ASI0572-2620-8725`. Así un cambio del informe no mezcla el historial de la app. El entorno de desarrollo está en 6.1.1, el manejo de ramas y módulos en 6.1.2, el estilo en 6.1.3 y el despliegue en 6.1.4.
 
 ### 6.1.1. Software Development Environment Configuration
 
@@ -3090,9 +3090,11 @@ En el informe usamos estas ramas:
 
 El flujo del informe es corto. Se saca la rama `feature` desde la versión del capítulo que estamos usando, se modifica `README.md`, el commit lleva el prefijo `docs:` y se sube esa rama. Recién después de la revisión se integra a `main`.
 
-El frontend está dividido por lo que hace cada parte del negocio, y esa división sirve para los dos segmentos. Los módulos son `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications`, `billing`, `achievements` y `challenges`. Dentro de cada uno están `domain`, `application`, `infrastructure` y `presentation`. Los textos de la pantalla no van sueltos en el componente: están en `public/i18n/es.json` y `public/i18n/en.json`.
+El frontend está dividido según lo que hace la aplicación, y esos módulos son los mismos para los dos segmentos. En `src/app` están `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications` y `billing`. `shared` y `core` son soporte, no un rubro distinto. Las rutas de las pantallas están en `src/app/app.routes.ts`: al entrar redirige a `/login`, y con sesión se abre `/inventory`, `/monitoring`, `/devices`, `/alerts`, `/recipes`, `/reports`, `/notifications` y `/settings`.
 
-Lo que no subimos al repositorio son contraseñas ni llaves. La URL del API va en `environment.ts` para local, en `environment.production.ts` para Azure y en `environment.docker.ts` cuando se levanta con Docker.
+Dentro de cada módulo de negocio van `domain`, `application`, `infrastructure` y `presentation`. Los textos de pantalla están en `public/i18n/es.json` y `public/i18n/en.json`.
+
+No subimos contraseñas ni llaves. La URL del API va en `src/environments/environment.ts` cuando se corre en local (`http://localhost:8080/api`), en `environment.production.ts` para la app de Azure y en `environment.docker.ts` cuando Nginx publica `/api`.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
@@ -3141,13 +3143,13 @@ En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda
 
 #### 6.2.1.3. Sprint Backlog 1
 
-Del Product Backlog se tomaron las primeras 11 historias. Suman 37 puntos. Con eso el sprint 1 cubre tres cosas, y las tres sirven a propietarios y administradores de restaurantes y a encargados de negocios de distribución de alimentos en fríos:
+Del Product Backlog se tomaron las primeras 11 historias. Suman 37 puntos. El sprint 1 no arma dos productos. Arma el mismo recorrido para propietarios y administradores de restaurantes y para encargados de negocios de distribución de alimentos en fríos:
 
-1. Que los dos entren por la misma aplicación: registro e ingreso, sin una web distinta por rubro (US01 a US05 y TS43).
-2. Que puedan identificarse y que el sensor de la cámara llegue al sistema (TS43 y TS41).
-3. Que vean la lectura, el color del semáforo y la alerta si la cámara se sale de frío (US06, US07, US08 y TS42).
+1. Entrar a la misma aplicación, por registro o por login (US01 a US05 y TS43). En el código eso es `/register` y `/login`.
+2. Recibir la lectura del sensor de la cámara (TS41). En el API es `POST /api/edge/readings` y `POST /api/monitoring`.
+3. Ver esa lectura con color, y la alerta si el frío se pierde (US06, US07, US08 y TS42). En la app son `/monitoring` y `/alerts`.
 
-En el restaurante esa cámara es la de cocina. En el negocio de distribución es la cámara o la vitrina donde está la mercadería por entregar. Las fichas de platillo y el costeo no entran en este sprint: eso es solo del restaurante y está más adelante en el backlog.
+En el restaurante la cámara es la de cocina y el producto es un insumo. En la distribución la cámara es la de la mercadería y el producto es un lote. Las fichas de platillo y el costeo no entran aquí: son del restaurante y van después en el backlog.
 
 | Orden | ID | Título | Puntos | A quién le sirve |
 | :-: | :--- | :--- | :--- | :--- |
@@ -3173,36 +3175,33 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
 
-El frontend está en [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend). El API que usa esa aplicación se revisa en `http://35.224.123.160:8080/swagger-ui/index.html`. El registro queda abierto en `http://35.224.123.160:8080/swagger-ui/index.html#/Auth/register_1`.
+El frontend de [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) y el Swagger de `http://35.224.123.160:8080/swagger-ui/index.html` son la evidencia de este sprint. El registro del API está en `http://35.224.123.160:8080/swagger-ui/index.html#/Auth/register_1`. La app publicada sigue en `https://proud-rock-06bc9ad10.7.azurestaticapps.net` y su `environment.production.ts` apunta al API de Azure, no a esa IP. En local, `environment.ts` apunta a `http://localhost:8080/api`.
 
-| Dónde | Dirección |
-| :--- | :--- |
-| Código del frontend | `https://github.com/1ASI0572-2620-8725/Frontend` |
-| App en local | `http://localhost:4200` |
-| App publicada | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` |
-| Swagger del backend | `http://35.224.123.160:8080/swagger-ui/index.html` |
-| API publicado anterior | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` |
+| Dónde | Dirección | Para qué se abre |
+| :--- | :--- | :--- |
+| Código del frontend | `https://github.com/1ASI0572-2620-8725/Frontend` | Rutas en `src/app/app.routes.ts` |
+| App en local | `http://localhost:4200` | El mismo recorrido, contra el API local |
+| App publicada | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | El recorrido ya desplegado. Usuario `demo@freshsense.com`, clave `Demo1234!` |
+| Swagger | `http://35.224.123.160:8080/swagger-ui/index.html` | Contrastar cada pantalla con su operación |
 
-En local el frontend apunta a `http://localhost:8080/api`. La app publicada apunta al API de Azure. El Swagger de `35.224.123.160` es el backend con el que se contrastan las operaciones de este sprint.
+El recorrido es uno solo. Se hace igual si quien entra es propietario o administrador de un restaurante, o encargado de un negocio de distribución de alimentos en fríos.
 
-Recorrido, el mismo para los dos segmentos:
+1. `/register` crea la cuenta. Si ya existe, `/login`. En Swagger: `POST /api/accounts/register` y `POST /api/accounts/login`.
+2. `/monitoring` muestra temperatura, humedad y el color verde, amarillo o rojo. En Swagger: `GET /api/monitoring/latest` y `POST /api/monitoring`. El sensor manda la lectura con `POST /api/edge/readings`.
+3. `/alerts` lista el aviso si la cámara está en rojo. En Swagger: `GET /api/alerts` y `POST /api/alerts`.
+4. `/inventory` muestra el producto, la cantidad y el vencimiento. En Swagger: `GET /api/products` y `POST /api/products`.
+5. `/devices` empareja el sensor de esa cámara. En Swagger: `POST /api/devices`.
 
-1. Abrir `/register` y crear la cuenta, o `/login` si ya existe. En Swagger eso es `POST /api/accounts/register` y `POST /api/accounts/login`.
-2. Entrar a `/monitoring`. Se ve temperatura, humedad y el color verde, amarillo o rojo. En Swagger, `GET /api/monitoring/latest` y `POST /api/monitoring`. La lectura del sensor entra por `POST /api/edge/readings`.
-3. Entrar a `/alerts`. Si la cámara está en rojo, la alerta queda en la lista. En Swagger, `GET /api/alerts` y `POST /api/alerts`.
-4. Entrar a `/inventory`. Se ve el producto, la cantidad y el vencimiento. En Swagger, `GET /api/products` y `POST /api/products`.
-5. Entrar a `/devices` para emparejar el sensor de esa cámara. En Swagger, `POST /api/devices`.
-
-| Pantalla | Ruta | Operación del API | Restaurante | Distribución en fríos |
+| Pantalla | Ruta | Operación | Cómo lo lee el restaurante | Cómo lo lee la distribución en fríos |
 | :--- | :--- | :--- | :--- | :--- |
 | Registro | `/register` | `POST /api/accounts/register` | Alta del administrador del local | Alta del encargado del negocio |
 | Ingreso | `/login` | `POST /api/accounts/login` | Entra al turno de cocina | Entra a revisar la mercadería |
 | Monitoreo | `/monitoring` | `GET /api/monitoring/latest` | Cámara de cocina | Cámara o vitrina del lote |
-| Alertas | `/alerts` | `GET /api/alerts` | Aviso si se pierde el frío de los insumos | Aviso si el lote no puede salir |
+| Alertas | `/alerts` | `GET /api/alerts` | El frío de los insumos se perdió | El lote no está para salir |
 | Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
-| Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cámara de cocina | Sensor de la cámara de distribución |
+| Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cocina | Sensor de la cámara de distribución |
 
-Si no hay una lectura reciente, el producto no se marca en verde. Si el usuario no tiene permiso de facturación, `/login` igual lo deja en el panel y `/plan` no le muestra el cobro. El usuario de prueba de la app publicada es `demo@freshsense.com` / `Demo1234!`.
+Si no llega una lectura reciente, esa fila no se marca en verde. Quien no tiene permiso de facturación igual entra por `/login` al panel. `/plan` queda para la suscripción, no para esta revisión de la cámara.
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
