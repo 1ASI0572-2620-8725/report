@@ -53,6 +53,7 @@
 | 1.0     | 19/09/2026 | Todos los Integrantes | Se realizo los capitulos del 1 - 4|
 | 1.1     | 06/10/2026 | Todos los Integrantes | Se completaron los tres escenarios de cada historia de usuario y las secciones 6.1, 6.1.2, 6.2.1.3 y 6.2.1.6 |
 | 1.2     | 07/10/2026 | Joseph | Se agregaron las capturas del recorrido del sprint 1 en 6.2.1.6 |
+| 1.3     | 07/10/2026 | Joseph | En 6.2.1.6 se deja la landing publicada y el front publico pendiente del despliegue |
 
 
 # Tabla de contenidos
@@ -3176,16 +3177,20 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
 
-El frontend de [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) y el Swagger de `http://35.224.123.160:8080/swagger-ui/index.html` son la evidencia de este sprint. El registro del API está en `http://35.224.123.160:8080/swagger-ui/index.html#/Auth/register_1`. La app publicada sigue en `https://proud-rock-06bc9ad10.7.azurestaticapps.net` y su `environment.production.ts` apunta al API de Azure, no a esa IP. En local, `environment.ts` apunta a `http://localhost:8080/api`.
+Lo que ya está publicado es el back y la landing. El front de la aplicación se recorrió en local; el enlace público se reemplaza cuando Juan Carlos termine el despliegue. El Swagger está en `http://35.224.123.160:8080/swagger-ui/index.html` y el registro del API en `http://35.224.123.160:8080/swagger-ui/index.html#/Auth/register_1`.
 
 | Dónde | Dirección | Para qué se abre |
 | :--- | :--- | :--- |
-| Código del frontend | `https://github.com/1ASI0572-2620-8725/Frontend` | Rutas en `src/app/app.routes.ts` |
-| App en local | `http://localhost:4200` | El mismo recorrido, contra el API local |
-| App publicada | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | Al tomar las capturas respondió 404. El recorrido se hizo en local con `demo@freshsense.com` / `Demo1234!` |
-| Swagger | `http://35.224.123.160:8080/swagger-ui/index.html` | Contrastar cada pantalla con su operación |
+| Landing | [https://1asi0572-2620-8725.github.io/landing-page/](https://1asi0572-2620-8725.github.io/landing-page/) | Ya desplegada. El repo es [1ASI0572-2620-8725/landing-page](https://github.com/1ASI0572-2620-8725/landing-page) |
+| Swagger | `http://35.224.123.160:8080/swagger-ui/index.html` | Back. Contrastar cada pantalla con su operación |
+| Front en local | `http://localhost:4200` | Recorrido de la app con `demo@freshsense.com` / `Demo1234!` |
+| Front publicado | Pendiente | Se reemplaza este enlace cuando Juan Carlos termine el despliegue |
 
-El recorrido es uno solo. Se hace igual si quien entra es propietario o administrador de un restaurante, o encargado de un negocio de distribución de alimentos en fríos.
+![Landing publicada](Assets/sprint1-landing.png)
+
+Landing ya desplegada. Desde ahí se entra a la aplicación. La misma página es la puerta para el propietario o administrador del restaurante y para el encargado de la distribución de alimentos en fríos.
+
+El recorrido de la aplicación es uno solo. Se hace igual si quien entra es propietario o administrador de un restaurante, o encargado de un negocio de distribución de alimentos en fríos.
 
 1. `/register` crea la cuenta. Si ya existe, `/login`. En Swagger: `POST /api/accounts/register` y `POST /api/accounts/login`.
 2. `/monitoring` muestra temperatura, humedad y el color verde, amarillo o rojo. En Swagger: `GET /api/monitoring/latest` y `POST /api/monitoring`. El sensor manda la lectura con `POST /api/edge/readings`.
@@ -3202,7 +3207,7 @@ El recorrido es uno solo. Se hace igual si quien entra es propietario o administ
 | Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
 | Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cocina | Sensor de la cámara de distribución |
 
-Las capturas salen del mismo recorrido, con la cuenta demo, en `http://localhost:4200` apuntando al API `http://35.224.123.160:8080/api`. La app publicada en Azure respondió 404, así que las fotos son de local. La cuenta no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
+Las capturas de la aplicación salen del recorrido en local (`http://localhost:4200`) apuntando al API `http://35.224.123.160:8080/api`. El enlace público del front se pone cuando Juan Carlos lo publique. La cuenta demo no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
 
 ![Registro /register](Assets/sprint1-registro.png)
 
