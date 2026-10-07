@@ -54,6 +54,7 @@
 | 1.1     | 06/10/2026 | Todos los Integrantes | Se completaron los tres escenarios de cada historia de usuario y las secciones 6.1, 6.1.2, 6.2.1.3 y 6.2.1.6 |
 | 1.2     | 07/10/2026 | Joseph | Se agregaron las capturas del recorrido del sprint 1 en 6.2.1.6 |
 | 1.3     | 07/10/2026 | Joseph | En 6.2.1.6 se deja la landing publicada y el front publico pendiente del despliegue |
+| 1.4     | 07/10/2026 | Joseph | En 6.2.1.6 quedan el enlace del back y el de la landing; el del front se reemplaza cuando lo pasen |
 
 
 # Tabla de contenidos
@@ -3177,14 +3178,13 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
 
-Lo que ya está publicado es el back y la landing. El front de la aplicación se recorrió en local; el enlace público se reemplaza cuando Juan Carlos termine el despliegue. El Swagger está en `http://35.224.123.160:8080/swagger-ui/index.html` y el registro del API en `http://35.224.123.160:8080/swagger-ui/index.html#/Auth/register_1`.
+En esta parte van tres enlaces. El back y la landing ya están. El del front se cambia cuando nos lo pasen.
 
-| Dónde | Dirección | Para qué se abre |
-| :--- | :--- | :--- |
-| Landing | [https://1asi0572-2620-8725.github.io/landing-page/](https://1asi0572-2620-8725.github.io/landing-page/) | Ya desplegada. El repo es [1ASI0572-2620-8725/landing-page](https://github.com/1ASI0572-2620-8725/landing-page) |
-| Swagger | `http://35.224.123.160:8080/swagger-ui/index.html` | Back. Contrastar cada pantalla con su operación |
-| Front en local | `http://localhost:4200` | Recorrido de la app con `demo@freshsense.com` / `Demo1234!` |
-| Front publicado | Pendiente | Se reemplaza este enlace cuando Juan Carlos termine el despliegue |
+| Dónde | Enlace |
+| :--- | :--- |
+| Back | [http://35.224.123.160:8080/swagger-ui/index.html](http://35.224.123.160:8080/swagger-ui/index.html) |
+| Landing | [https://1asi0572-2620-8725.github.io/landing-page/](https://1asi0572-2620-8725.github.io/landing-page/) |
+| Front | Pendiente. Reemplazar este enlace cuando nos pasen el del front. |
 
 ![Landing publicada](Assets/sprint1-landing.png)
 
@@ -3207,7 +3207,7 @@ El recorrido de la aplicación es uno solo. Se hace igual si quien entra es prop
 | Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
 | Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cocina | Sensor de la cámara de distribución |
 
-Las capturas de la aplicación salen del recorrido en local (`http://localhost:4200`) apuntando al API `http://35.224.123.160:8080/api`. El enlace público del front se pone cuando Juan Carlos lo publique. La cuenta demo no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
+Las capturas de abajo son del recorrido de la aplicación. El enlace público del front se reemplaza en la tabla de arriba cuando nos lo pasen. La cuenta demo no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
 
 ![Registro /register](Assets/sprint1-registro.png)
 
