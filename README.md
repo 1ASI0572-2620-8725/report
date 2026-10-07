@@ -864,14 +864,14 @@ Los resultados respaldan principalmente cuatro funcionalidades de FreshSense: **
 ### 2.3.1. User Personas.
 
 #### SEGMENTO 1: Propietarios y administradores de restaurantes
-![User Person1](Assets\Jose_userP1.png)
+![User Person1](Assets/Jose_userP1.png)
 
-José Jiménez representa a un propietario o administrador de restaurante. En el día a día tiene que ver los insumos de la cocina y de las cámaras, porque si algo se vence o la cámara falla, esa comida se bota y el restaurante pierde dinero. Lo que necesita es enterarse a tiempo, sin estar abriendo el refrigerador a cada rato.
+José Jiménez tiene 30 años y es cocinero. Representa a un propietario o administrador de restaurante. En el turno ve los insumos de la cocina y de la cámara. Si algo se vence o la cámara pierde frío, esa comida se bota y el local pierde plata. Necesita el aviso a tiempo, sin abrir la cámara a cada rato.
 
 ### SEGMENTO 2: Encargados de negocios de distribución de alimentos en fríos
 ![User Person2](Assets/Luisa_userP2.png)
 
-Luisa Pérez representa a una encargada de un negocio de distribución de alimentos en fríos. Su problema es la mercadería que se malogra si la cámara se sale de temperatura o si el lote no sale a tiempo. Quiere ver el estado de las cámaras y saber qué lote está en riesgo antes de entregarlo.
+Luisa Pérez tiene 40 años y vive en Lima. Es encargada de un negocio de distribución de alimentos en fríos. Su problema es la mercadería que se malogra si la cámara o la vitrina se salen de temperatura, o si el lote no sale a tiempo. Quiere ver el estado de las cámaras y saber qué lote está en riesgo antes de despacharlo.
 
 
 ### 2.3.2. User Task Matrix
@@ -960,7 +960,7 @@ Luisa Pérez, del segmento de encargados de negocios de distribución de aliment
 
 **Segmento 1: Propietarios y administradores de restaurantes**
 
-En este recorrido se ve el día de un propietario o administrador de restaurante. Revisa la cámara de la cocina, mira qué insumos están por vencer y decide si los usa en el servicio o los da de baja. Si nadie le avisa que la temperatura subió, se entera cuando el producto ya no sirve.
+En este recorrido se ve el día de José en el restaurante. Entra por la landing, crea la cuenta y vincula el sensor de la cámara de cocina. En el turno recibe el aviso, mira el color del insumo y decide si entra al servicio o se da de baja. Si la merma no baja, no justifica seguir.
 
 ![José Segmento 1 Journey Map](Assets/Jose_Segmento1_Map.png)
 
