@@ -3143,7 +3143,7 @@ En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda
 
 Del Product Backlog se tomaron las primeras 11 historias. Suman 37 puntos. Con eso el sprint 1 cubre tres cosas, y las tres sirven a propietarios y administradores de restaurantes y a encargados de negocios de distribución de alimentos en fríos:
 
-1. Que los dos puedan entrar a la página, ver su rubro y dejar sus datos para una demo (US01 a US05).
+1. Que los dos entren por la misma aplicación: registro e ingreso, sin una web distinta por rubro (US01 a US05 y TS43).
 2. Que puedan identificarse y que el sensor de la cámara llegue al sistema (TS43 y TS41).
 3. Que vean la lectura, el color del semáforo y la alerta si la cámara se sale de frío (US06, US07, US08 y TS42).
 
@@ -3171,30 +3171,38 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
-La revisión del sprint 1 se hace con la aplicación publicada o con la misma app en local. El usuario de prueba es `demo@freshsense.com` y la clave es `Demo1234!`. Se recorre dos veces el mismo flujo: una como propietario o administrador de restaurante y otra como encargado de un negocio de distribución de alimentos en fríos. La diferencia no es otra pantalla, es cómo se lee la cámara.
+La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
 
-| Dónde se ejecuta | Dirección | Qué se revisa |
-| :--- | :--- | :--- |
-| Publicado | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | El recorrido de los dos segmentos |
-| API | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` | Que el panel esté hablando con el backend |
-| Swagger | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/swagger-ui/index.html` | Ingesta del sensor, login y alertas |
-| Docker | `http://localhost` | El mismo recorrido sin instalar Node ni Java |
-| Desarrollo | `http://localhost:4200` | Frontend contra `http://localhost:8080/api` |
+El frontend está en [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend). El API que usa esa aplicación se revisa en `http://35.224.123.160:8080/swagger-ui/index.html`. El registro queda abierto en `http://35.224.123.160:8080/swagger-ui/index.html#/Auth/register_1`.
 
-Pasos, iguales para los dos segmentos:
+| Dónde | Dirección |
+| :--- | :--- |
+| Código del frontend | `https://github.com/1ASI0572-2620-8725/Frontend` |
+| App en local | `http://localhost:4200` |
+| App publicada | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` |
+| Swagger del backend | `http://35.224.123.160:8080/swagger-ui/index.html` |
+| API publicado anterior | `https://freshsense-backend.mangoground-03a86fb8.eastus.azurecontainerapps.io/api` |
 
-1. Abrir la landing y comprobar que se distingue la parte de restaurantes y la de distribución de alimentos en fríos, y que el pedido de demo no se envía si faltan datos (US01 a US05).
-2. Entrar con el usuario de prueba (TS43).
-3. Abrir `/monitoring` y revisar temperatura, humedad y el color: verde, amarillo o rojo (US06 y US07).
-4. Abrir `/alerts`. Si la cámara está en rojo, la alerta tiene que verse en el panel aunque el SMS o el push no haya salido (US08 y TS42).
-5. Abrir `/inventory` y ver cantidad y vencimiento del producto de esa cámara (US07).
+En local el frontend apunta a `http://localhost:8080/api`. La app publicada apunta al API de Azure. El Swagger de `35.224.123.160` es el backend con el que se contrastan las operaciones de este sprint.
 
-| Quién ejecuta | Qué mira en la cámara | Resultado que se acepta |
-| :--- | :--- | :--- |
-| Propietario o administrador de restaurante | Cámara de cocina y los insumos del servicio | Ve el semáforo, la alerta si el frío se pierde y el insumo con su vencimiento |
-| Encargado de negocio de distribución de alimentos en fríos | Cámara o vitrina de la mercadería por entregar | Ve la misma lectura, pero la usa para decidir si el lote puede salir |
-| Cualquiera de los dos, sin lectura reciente | La cámara no manda datos | El producto no se marca en verde |
-| Usuario sin permiso de facturación | Intenta abrir facturación | No entra. El login sí lo deja en el panel de la cámara |
+Recorrido, el mismo para los dos segmentos:
+
+1. Abrir `/register` y crear la cuenta, o `/login` si ya existe. En Swagger eso es `POST /api/accounts/register` y `POST /api/accounts/login`.
+2. Entrar a `/monitoring`. Se ve temperatura, humedad y el color verde, amarillo o rojo. En Swagger, `GET /api/monitoring/latest` y `POST /api/monitoring`. La lectura del sensor entra por `POST /api/edge/readings`.
+3. Entrar a `/alerts`. Si la cámara está en rojo, la alerta queda en la lista. En Swagger, `GET /api/alerts` y `POST /api/alerts`.
+4. Entrar a `/inventory`. Se ve el producto, la cantidad y el vencimiento. En Swagger, `GET /api/products` y `POST /api/products`.
+5. Entrar a `/devices` para emparejar el sensor de esa cámara. En Swagger, `POST /api/devices`.
+
+| Pantalla | Ruta | Operación del API | Restaurante | Distribución en fríos |
+| :--- | :--- | :--- | :--- | :--- |
+| Registro | `/register` | `POST /api/accounts/register` | Alta del administrador del local | Alta del encargado del negocio |
+| Ingreso | `/login` | `POST /api/accounts/login` | Entra al turno de cocina | Entra a revisar la mercadería |
+| Monitoreo | `/monitoring` | `GET /api/monitoring/latest` | Cámara de cocina | Cámara o vitrina del lote |
+| Alertas | `/alerts` | `GET /api/alerts` | Aviso si se pierde el frío de los insumos | Aviso si el lote no puede salir |
+| Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
+| Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cámara de cocina | Sensor de la cámara de distribución |
+
+Si no hay una lectura reciente, el producto no se marca en verde. Si el usuario no tiene permiso de facturación, `/login` igual lo deja en el panel y `/plan` no le muestra el cobro. El usuario de prueba de la app publicada es `demo@freshsense.com` / `Demo1234!`.
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
