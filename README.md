@@ -52,6 +52,7 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 19/09/2026 | Todos los Integrantes | Se realizo los capitulos del 1 - 4|
 | 1.1     | 06/10/2026 | Todos los Integrantes | Se completaron los tres escenarios de cada historia de usuario y las secciones 6.1, 6.1.2, 6.2.1.3 y 6.2.1.6 |
+| 1.2     | 07/10/2026 | Joseph | Se agregaron las capturas del recorrido del sprint 1 en 6.2.1.6 |
 
 
 # Tabla de contenidos
@@ -3181,7 +3182,7 @@ El frontend de [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-87
 | :--- | :--- | :--- |
 | Código del frontend | `https://github.com/1ASI0572-2620-8725/Frontend` | Rutas en `src/app/app.routes.ts` |
 | App en local | `http://localhost:4200` | El mismo recorrido, contra el API local |
-| App publicada | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | El recorrido ya desplegado. Usuario `demo@freshsense.com`, clave `Demo1234!` |
+| App publicada | `https://proud-rock-06bc9ad10.7.azurestaticapps.net` | Al tomar las capturas respondió 404. El recorrido se hizo en local con `demo@freshsense.com` / `Demo1234!` |
 | Swagger | `http://35.224.123.160:8080/swagger-ui/index.html` | Contrastar cada pantalla con su operación |
 
 El recorrido es uno solo. Se hace igual si quien entra es propietario o administrador de un restaurante, o encargado de un negocio de distribución de alimentos en fríos.
@@ -3200,6 +3201,44 @@ El recorrido es uno solo. Se hace igual si quien entra es propietario o administ
 | Alertas | `/alerts` | `GET /api/alerts` | El frío de los insumos se perdió | El lote no está para salir |
 | Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
 | Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cocina | Sensor de la cámara de distribución |
+
+Las capturas salen del mismo recorrido, con la cuenta demo, en `http://localhost:4200` apuntando al API `http://35.224.123.160:8080/api`. La app publicada en Azure respondió 404, así que las fotos son de local. La cuenta no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
+
+![Registro /register](Assets/sprint1-registro.png)
+
+Registro. La misma pantalla sirve para el administrador del restaurante y para el encargado de la distribución de alimentos en fríos.
+
+![Ingreso /login](Assets/sprint1-login.png)
+
+Ingreso. Después de entrar, el panel es el mismo para los dos segmentos.
+
+![Panel después del login](Assets/sprint1-panel.png)
+
+Panel de la cuenta demo. Temperatura y humedad salen sin datos porque no había una lectura reciente.
+
+![Monitoreo /monitoring](Assets/sprint1-monitoreo.png)
+
+Monitoreo. En el restaurante se lee como la cámara de cocina; en la distribución, como la cámara o vitrina del lote.
+
+![Alertas /alerts](Assets/sprint1-alertas.png)
+
+Alertas. Sin aviso activo en la cuenta demo.
+
+![Inventario /inventory](Assets/sprint1-inventario.png)
+
+Inventario. Sin productos cargados: insumo en el restaurante, lote en la distribución.
+
+![Dispositivos /devices](Assets/sprint1-dispositivos.png)
+
+Dispositivos. Aquí se registra el sensor de la cocina o el de la cámara de distribución.
+
+![Swagger FreshSense API](Assets/sprint1-swagger.png)
+
+Swagger del API en `http://35.224.123.160:8080`.
+
+![Swagger POST /api/accounts/register](Assets/sprint1-swagger-registro.png)
+
+Operación de registro en Swagger, la misma que usa `/register`.
 
 Si no llega una lectura reciente, esa fila no se marca en verde. Quien no tiene permiso de facturación igual entra por `/login` al panel. `/plan` queda para la suscripción, no para esta revisión de la cámara.
 
