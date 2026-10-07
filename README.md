@@ -820,6 +820,25 @@ Considera útil una solución como FreshSense que permita monitorear temperatura
 
 ##### Entrevista 2
 
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Jesús Pérez |
+| Edad | 45 años |
+| Empresa / sector | Distribución de alimentos refrigerados |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 4:57|
+| Enlace | https://drive.google.com/file/d/1NCnw1minxYLf-k89c6vxbyryJ1yoyXz-/view?usp=sharing |
+
+![Evidencia entrevista Jesús Pérez](Assets/EntrevistaJesusPerez.png)
+
+**Resumen:**
+
+Jesús Pérez tiene 45 años y trabaja en una empresa dedicada a la distribución de alimentos refrigerados, donde supervisa el almacenamiento, controla el inventario y verifica el estado de los productos antes de su distribución. Trabajan principalmente con carnes, pollo, lácteos y productos congelados, siendo las carnes y los lácteos los que requieren mayor control.
+
+Actualmente realizan revisiones periódicas de las cámaras de refrigeración, verificaciones de temperatura y controles visuales, además de utilizar registros internos para el seguimiento de los lotes. Sin embargo, Jesús señala que cuando una variación de temperatura no se detecta rápidamente puede ocasionar deterioro de productos y pérdidas económicas, además de dificultar la identificación exacta de los lotes afectados.
+
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad en tiempo real, enviar alertas rápidas y relacionar las mediciones con los lotes almacenados. También valora contar con historiales y reportes, y considera importantes la precisión de los sensores, la facilidad de uso, el costo y la posibilidad de consultar la información desde una computadora o celular.
 
 ##### Entrevista 3
 
