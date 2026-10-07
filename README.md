@@ -3096,9 +3096,128 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo de FreshEat aplica en todos los productos de FreshSense. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
+
+#### Convenciones generales
+
+| Aspecto | Convención | Ejemplo |
+|---|---|---|
+| Idioma del código | Inglés | `pantryItem`, `getFreshnessStatus()` |
+| Indentación | 2 espacios (HTML, CSS, JS, TS); 4 espacios (Java) | — |
+| Codificación de archivos | UTF-8, salto de línea LF | — |
+| Longitud de línea | Máximo 100 caracteres (TS/JS/Java) | — |
+| Comentarios | Solo donde aportan contexto; en inglés | `// Threshold based on food category` |
+| Formateo automático | Prettier (front) y formateador del IDE (Java) | `.prettierrc` en cada repositorio |
+
+#### HTML (Landing Page y templates de Angular)
+
+Referencias: *HTML Style Guide and Coding Conventions* (W3Schools) y *Google HTML/CSS Style Guide*.
+
+- Elementos y atributos en minúsculas; los valores de atributos siempre entre comillas dobles: `<section class="hero-section">`.
+- Uso de etiquetas semánticas (`header`, `nav`, `main`, `section`, `article`, `footer`) en lugar de `div` genéricos.
+- Toda imagen incluye el atributo `alt` con una descripción significativa.
+- Se declara `<!DOCTYPE html>`, `lang="es"` y las meta tags de `charset` y `viewport` en el Landing Page.
+- No se usan estilos en línea (`style="..."`); los estilos van en hojas CSS.
+- Identificadores y clases en *kebab-case*: `id="contact-form"`, `class="plan-card"`.
+
+#### CSS
+
+Referencia: *Google HTML/CSS Style Guide*.
+
+- Nombres de clases en *kebab-case* y descriptivos según su función, no su apariencia: `.alert-banner` en lugar de `.red-box`.
+- Se adopta la metodología **BEM** para componentes del Landing Page: `.pricing-card`, `.pricing-card__title`, `.pricing-card--featured`.
+- Colores, tipografías y espaciados se definen como variables CSS (`--color-primary`, `--spacing-md`) siguiendo la guía de estilos del Capítulo V.
+- Diseño responsive con enfoque *mobile-first* y media queries en orden ascendente.
+- Se evita el uso de `!important` y de selectores por ID para estilos.
+
+#### JavaScript (Landing Page)
+
+Referencia: *Google JavaScript Style Guide*.
+
+- Variables y funciones en *camelCase*: `submitContactForm()`, `isFormValid`.
+- Constantes globales en *UPPER_SNAKE_CASE*: `MAX_MESSAGE_LENGTH`.
+- Uso de `const` por defecto y `let` solo cuando el valor cambia; no se usa `var`.
+- Siempre se usa punto y coma y comparación estricta (`===`).
+- Archivos en *kebab-case*: `contact-form.js`, `language-switcher.js`.
+
+#### TypeScript y Angular (Frontend Web Application)
+
+Referencias: *Angular Coding Style Guide* y *Google TypeScript Style Guide*.
+
+- **Archivos** en *kebab-case* con sufijo según su tipo: `pantry-item-list.component.ts`, `pantry-item.service.ts`, `pantry-item.entity.ts`, `auth.guard.ts`.
+- **Clases, interfaces y enums** en *PascalCase*: `PantryItemListComponent`, `PantryItemService`, `FreshnessStatus`.
+- **Propiedades y métodos** en *camelCase*: `loadPantryItems()`, `selectedZoneId`.
+- **Selectores de componentes** con el prefijo `app-`: `<app-freshness-dashboard>`.
+- **Una responsabilidad por archivo**: un componente, servicio o modelo por archivo.
+- **Organización por bounded context**, alineada con el diseño táctico del Capítulo IV:
+
+```
+src/app/
+├── iam/                     # User Management
+├── inventory/               # Inventory Management
+├── monitoring/              # IoT Monitoring
+├── shared/                  # componentes y servicios reutilizables
+└── public/                  # páginas comunes (home, not-found)
+    └── <bounded-context>/
+        ├── components/
+        ├── pages/
+        ├── services/
+        └── model/
+```
+
+- Uso de **Angular Material** como única librería de componentes de UI, según las restricciones del proyecto.
+- Los textos visibles se externalizan con **ngx-translate** en `assets/i18n/en.json` y `assets/i18n/es.json`; las claves se escriben en inglés y en *dot.case*: `"inventory.list.title"`.
+- Se usa tipado explícito y se evita `any`.
+
+#### Java y Spring Boot (Web Services – desde el Sprint 2)
+
+Referencias: *Google Java Style Guide* y *Spring Boot Features*.
+
+- Paquetes en minúsculas, organizados por bounded context y capa: `com.fresheat.freshsense.inventory.domain.model.aggregates`.
+- Clases en *PascalCase* con sufijo según su rol: `PantryItem`, `PantryItemCommandService`, `PantryItemsController`, `PantryItemResource`.
+- Métodos y atributos en *camelCase*; constantes en *UPPER_SNAKE_CASE*.
+- Endpoints REST en plural y en *kebab-case*, con versión: `/api/v1/pantry-items`, `/api/v1/storage-zones`.
+- Tablas de base de datos en *snake_case* y en plural: `pantry_items`, `sensor_readings`.
+
+#### Gherkin (Acceptance Tests)
+
+Referencia: *Gherkin Conventions for Readable Specifications*.
+
+- Archivos `.feature` en inglés y en *kebab-case*, uno por User Story: `us07-freshness-dashboard.feature`.
+- Cada `Feature` lleva el ID de la User Story en su título.
+- Los escenarios se escriben desde la perspectiva del usuario con la estructura `Given` / `When` / `Then`, y `And` para pasos adicionales.
+- Se usa `Scenario Outline` con `Examples` cuando un escenario se repite con distintos datos.
+
+```gherkin
+Feature: US07 - Freshness traffic-light dashboard
+  As a restaurant manager
+  I want to see the freshness status of my products by color
+  So that I can prioritize the items at risk
+
+  Scenario: Product close to expiration is shown in yellow
+    Given the manager is logged in
+    And a product expires in 2 days
+    When the manager opens the dashboard
+    Then the product is displayed with a yellow indicator
+```
+
+#### Convenciones de commits
+
+Los mensajes de commit siguen **Conventional Commits** (detallado en la sección 6.1.2): `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`. Ejemplo: `feat(inventory): add freshness filter to pantry list`.
+
+---
+
 ### 6.1.4. Software Deployment Configuration
 
 ## 6.2. Landing Page, Services & Applications Implementation
+
+En esta sección se presenta la evidencia del proceso de implementación, pruebas, documentación y despliegue de los productos digitales de FreshSense, organizada por Sprint. Cada Sprint incluye su planificación, la distribución de liderazgo entre los integrantes, el backlog trabajado y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo.
+
+El Sprint 1 se enfoca en dos productos: el Landing Page (HTML5, CSS3 y JavaScript), que comunica la propuesta de valor de FreshSense a nuestros segmentos objetivo, y la primera versión de la Frontend Web Application (Angular 19 con Angular Material). La implementación de los Web Services en Spring Boot, el Edge API y la aplicación embebida del dispositivo FreshSense se abordará en los siguientes Sprints.
+
+Link a Landing Page desplegada:
+
+https://1asi0572-2620-8725.github.io/landing-page/
 
 ### 6.2.X. Sprint n
 
