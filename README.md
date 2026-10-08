@@ -838,7 +838,7 @@ Considera útil una solución como FreshSense que permita monitorear temperatura
 | Duración | 3:52 |
 | Enlace | https://drive.google.com/file/d/1im0wnd2XqLIU5hLwFVeBPy_K5FL50XW8/view?usp=sharing |
 
-![Evidencia entrevista Silvia](Assets/EntrevistaSilvia.png)
+![Evidencia entrevista Silvia](Assets/entrevistasilvia.png)
 
 **Resumen:**
 
