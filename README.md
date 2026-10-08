@@ -56,6 +56,7 @@
 | 1.3     | 07/10/2026 | Joseph | En 6.2.1.6 se deja la landing publicada y el front publico pendiente del despliegue |
 | 1.4     | 07/10/2026 | Joseph | En 6.2.1.6 quedan el enlace del back y el de la landing; el del front se reemplaza cuando lo pasen |
 | 1.5     | 07/10/2026 | Joseph | Se agregó el perfil de Joseph y su aporte en el Student Outcome |
+| 1.6     | 08/10/2026 | Joseph | Se colocaron los enlaces del front y del back, el tablero de EventStorming y las fichas nuevas de empatía y recorrido |
 
 
 # Tabla de contenidos
@@ -966,7 +967,7 @@ En este recorrido se ve el día de José en el restaurante. Entra por la landing
 
 **Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
-En este recorrido se ve el día de un encargado de un negocio de distribución de alimentos en fríos. Controla las cámaras y las vitrinas, revisa los lotes y decide qué mercadería puede salir. Si la cadena de frío se corta y no queda registro, no puede saber qué lote se afectó.
+En este recorrido se ve el día de Luisa en la distribución de alimentos en fríos. Entra por la landing, crea la cuenta e instala el sensor de la cámara o la vitrina. Antes del despacho mira el lote y decide si sale o se retiene. Si no ve el historial ni la merma, no justifica seguir.
 
 ![Luisa Segmento 2 Journey Map](Assets/Luisa_Segmento2_Map.png)
 
@@ -987,16 +988,16 @@ Luisa representa a quien está a cargo de un negocio de distribución de aliment
 
 ## 2.4. Big Picture EventStorming
 
-Hicimos el EventStorming pensando en los dos segmentos con los que trabajamos: **propietarios y administradores de restaurantes** (insumos de cocina, recetas y mermas) y **encargados de negocios de distribución de alimentos en fríos** (cámaras, vitrinas, lotes y cadena de frío):
+Hicimos el EventStorming pensando en los dos segmentos con los que trabajamos: **propietarios y administradores de restaurantes** (insumos de cocina, recetas y mermas) y **encargados de negocios de distribución de alimentos en fríos** (cámaras, vitrinas, lotes y cadena de frío). El tablero está en [Miro](https://miro.com/app/board/uXjVHkmn1fM=/).
 
 ![event storming1](Assets/Event1.PNG)
 ![event storming2](Assets/Event2.PNG)
 ![event storming3](Assets/Event3.PNG)
 ![event storming4](Assets/Event4.PNG)
 ![event storming5](Assets/Event5.jpeg)
-![event storming6](Assets/Event6.jpeg)
-![event storming7](Assets/Event7.jpeg)
-![event storming8](Assets/Event8.jpeg)
+![event storming6](Assets/Event6.png)
+![event storming7](Assets/Event7.png)
+![event storming8](Assets/Event8.png)
 ![event storming9](Assets/Event9.jpeg)
 ![event storming10](Assets/Event10.jpeg)
 
@@ -3179,13 +3180,13 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
 
-En esta parte van tres enlaces. El back y la landing ya están. El del front se cambia cuando nos lo pasen.
+En esta parte van tres enlaces. El back, la landing y el front ya están publicados.
 
 | Dónde | Enlace |
 | :--- | :--- |
-| Back | [http://35.224.123.160:8080/swagger-ui/index.html](http://35.224.123.160:8080/swagger-ui/index.html) |
+| Back | [https://35-224-123-160.sslip.io/swagger-ui/index.html](https://35-224-123-160.sslip.io/swagger-ui/index.html) |
 | Landing | [https://1asi0572-2620-8725.github.io/landing-page/](https://1asi0572-2620-8725.github.io/landing-page/) |
-| Front | Pendiente. Reemplazar este enlace cuando nos pasen el del front. |
+| Front | [https://35-224-123-160.sslip.io/login](https://35-224-123-160.sslip.io/login) |
 
 ![Landing publicada](Assets/sprint1-landing.png)
 
@@ -3208,7 +3209,7 @@ El recorrido de la aplicación es uno solo. Se hace igual si quien entra es prop
 | Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
 | Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cocina | Sensor de la cámara de distribución |
 
-Las capturas de abajo son del recorrido de la aplicación. El enlace público del front se reemplaza en la tabla de arriba cuando nos lo pasen. La cuenta demo no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
+Las capturas de abajo son del recorrido de la aplicación. El front publicado está en [https://35-224-123-160.sslip.io/login](https://35-224-123-160.sslip.io/login). La cuenta demo no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
 
 ![Registro /register](Assets/sprint1-registro.png)
 
@@ -3240,7 +3241,7 @@ Dispositivos. Aquí se registra el sensor de la cocina o el de la cámara de dis
 
 ![Swagger FreshSense API](Assets/sprint1-swagger.png)
 
-Swagger del API en `http://35.224.123.160:8080`.
+Swagger del API en [https://35-224-123-160.sslip.io/swagger-ui/index.html](https://35-224-123-160.sslip.io/swagger-ui/index.html).
 
 ![Swagger POST /api/accounts/register](Assets/sprint1-swagger-registro.png)
 
