@@ -58,6 +58,7 @@
 | 1.5     | 07/10/2026 | Joseph | Se agregó el perfil de Joseph y su aporte en el Student Outcome |
 | 1.6     | 08/10/2026 | Joseph | Se colocaron los enlaces del front y del back, el tablero de EventStorming y las fichas nuevas de empatía y recorrido |
 | 1.7     | 08/10/2026 | Joseph | Se integró el capítulo V, el diseño de software alineado a los segmentos, el entorno y el despliegue, las convenciones de código y las entrevistas 3 |
+| 1.8     | 08/10/2026 | Joseph | Se corrigió la figura de Impact Mapping para que se vea en el informe |
 
 
 # Tabla de contenidos
@@ -1135,7 +1136,7 @@ Las historias están escritas para los dos segmentos del proyecto: propietarios 
 
 ## 3.2. Impact Mapping
 
-![impact mapping](Assets/ImpactMap_FreshSense.PNG)
+![impact mapping](Assets/ImpactMap_FreshSense.png)
 
 El Impact Mapping junta lo que quiere el negocio con lo que vamos a construir, para los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. La idea es que cada función sirva para bajar la merma de la cocina o para cuidar la mercadería que está en frío.
 ## 3.3. Product Backlog
