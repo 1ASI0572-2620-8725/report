@@ -206,7 +206,7 @@ La startup plantea un modelo de negocio basado en la comercialización de los di
 
 <table border="1">
   <tr>
-      <td style="text-align:center;"><img a src="Assets/Romina.png" /></td>
+      <td style="text-align:center;"><img a src="Assets/Romina.jpeg" /></td>
       <td><strong> Romina Alejandra Tuesta Marin - u202211706 </strong><br> estudio Ingeniería de Software en la UPC. Me considero una persona organizada, responsable y comprometida con el trabajo en equipo. Me interesan el desarrollo web y el diseño de soluciones tecnológicas que resuelvan problemas reales. Como integrante del equipo, me comprometo a apoyar en la planificación y coordinación del proyecto para cumplir los objetivos en los tiempos establecidos. </td>
   </tr>
 <tr>
