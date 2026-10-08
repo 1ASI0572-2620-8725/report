@@ -1439,6 +1439,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
    - *Propósito:* Agregado raíz que representa a una persona con cuenta en FreshSense. Encapsula credenciales, datos de identidad y roles de acceso.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador único del usuario. |
@@ -1447,7 +1448,9 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 | passwordHash | PasswordHash (VO) | Contraseña almacenada con hash BCrypt (nunca en texto plano). |
 | roles | Set&lt;Role&gt; | Roles asignados (ROLE_USER, ROLE_PREMIUM, ROLE_ADMIN). |
 | createdAt / updatedAt | DateTime | Campos de auditoría. |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | User(SignUpCommand, Set&lt;Role&gt;) | Crea un usuario validando unicidad del email y la política de contraseña. |
@@ -1455,6 +1458,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 | requestPasswordReset() | Genera un `ResetToken` temporal y único para la recuperación (US35). |
 | resetPassword(token, newHash) | Valida el token vigente, reemplaza el hash y lo invalida (uso único). |
 | registerSignIn() | Registra el último acceso y habilita la emisión del JWT. |
+
 **Entities**
 
 1. **Role** — Rol que puede asignarse a un usuario para el control de acceso RBAC (TS43, US36).
@@ -1646,6 +1650,7 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
    - *Propósito:* Agregado raíz que representa el plan contratado por un usuario y su vigencia.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la suscripción. |
@@ -1654,13 +1659,16 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
 | startedAt | DateTime | Fecha de inicio de la vigencia. |
 | endsAt | DateTime? | Fecha de término; nula para el plan FREE. |
 | active | boolean | Indica si la suscripción está vigente. |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | isActive() | Indica si el plan está vigente a la fecha actual. |
 | upgradeToPremium(period) | Cambia el plan a PREMIUM y fija la fecha de término. |
 | renew(days) | Extiende la vigencia al confirmarse el webhook de pago (TS44). |
 | cancel() | Desactiva la renovación automática y marca el fin del periodo. |
+
 **Entities**
 
 1. **Payment** — Cobro procesado por la pasarela para una suscripción (TS44, US38).
@@ -1834,19 +1842,23 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
    - *Propósito:* Agregado raíz que representa el hogar o negocio de alimentos al que pertenecen los usuarios, los dispositivos y el inventario compartido.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del hogar o negocio. |
 | name | String | Nombre asignado (por ejemplo, «Casa» o «Restaurante El Sabor»). |
 | members | List&lt;HouseholdMember&gt; | Miembros vinculados con su rol. |
 | createdAt / updatedAt | DateTime | Campos de auditoría. |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | invite(email, role) | Emite una invitación para incorporar a un miembro (US37). |
 | addMember(userId, role) | Vincula un usuario al hogar cuando acepta la invitación. |
 | removeMember(userId) | Desvincula a un miembro y revoca su acceso al inventario. |
 | changeMemberRole(userId, role) | Modifica el rol del miembro dentro del hogar. |
+
 **Entities**
 
 1. **HouseholdMember** — Vínculo entre un usuario y un hogar o negocio, con el rol que desempeña (US37).
@@ -2039,6 +2051,7 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
    - *Propósito:* Agregado raíz que representa un dispositivo FreshSense instalado en un refrigerador, cámara fría o congelador.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del dispositivo. |
@@ -2049,7 +2062,9 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | zoneId | UUID? | Zona de almacenamiento asignada (US33). |
 | calibration | Calibration (VO) | Temperatura base configurada durante la instalación (US31). |
 | registeredAt / updatedAt | DateTime | Campos de auditoría. |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | register() | Da de alta el dispositivo en el sistema. |
@@ -2057,6 +2072,7 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | calibrate(baseTemperature) | Registra la temperatura base del refrigerador para ajustar los umbrales. |
 | assignToZone(zoneId) | Asigna el dispositivo a una cámara o congelador concreto (US33). |
 | markOffline() | Marca el dispositivo como desconectado al no recibirse el *heartbeat* (US06). |
+
 **Entities**
 
 1. **StorageZone** — Área de almacenamiento del hogar o negocio, con sus propias reglas de temperatura (US33).
@@ -2230,6 +2246,7 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
    - *Propósito:* Agregado raíz que representa un alimento registrado en la despensa, con su cantidad, vencimiento estimado y estado de frescura.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del alimento. |
@@ -2242,7 +2259,9 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | bestBefore | DateTime? | Fecha estimada de consumo preferente. |
 | status | FreshnessStatus (VO) | FRESH, AT_RISK o SPOILED. |
 | notes | String | Observaciones y etiquetas personalizadas (US28). |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | markConsumed() | Registra el consumo del alimento y descuenta la cantidad. |
@@ -2250,6 +2269,7 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | updateQuantity(qty) | Corrige manualmente el stock disponible (US11). |
 | updateStatus(FreshnessStatus) | Actualiza el estado de frescura según la evaluación del dominio. |
 | estimateBestBefore(FoodModel) | Calcula la fecha de consumo preferente a partir de la vida útil del catálogo. |
+
 **Entities**
 
 1. **FoodModel** — Catálogo que define la vida útil y las reglas de conservación de cada categoría de alimento.
@@ -2425,6 +2445,7 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
    - *Propósito:* Agregado raíz que representa una receta sugerida por la plataforma para aprovechar alimentos próximos a vencer.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la receta. |
@@ -2434,12 +2455,15 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 | instructions | String | Pasos de preparación. |
 | ingredients | List&lt;RecipeIngredient&gt; | Ingredientes requeridos. |
 | isPremium | boolean | Indica si pertenece al catálogo gourmet exclusivo (US19). |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | matches(atRiskItems) | Evalúa cuántos ingredientes en riesgo cubre la receta (US13). |
 | addIngredient(name, qty, unit, optional) | Incorpora un ingrediente a la receta. |
 | rate(userId, stars, comment) | Registra la calificación y reseña de un usuario (US40). |
+
 **Entities**
 
 1. **RecipeIngredient** — Ingrediente que forma parte de una receta.
@@ -2623,6 +2647,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
    - *Propósito:* Agregado raíz que representa una lectura de telemetría enviada por el dispositivo FreshSense.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la lectura. |
@@ -2632,12 +2657,15 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | humidityPct | float | Humedad relativa en porcentaje. |
 | ethylenePpm | float | Concentración de gas etileno en ppm. |
 | meta | String | Metadatos del envío (versión de firmware, calidad de señal). |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | isValid() | Valida que los rangos de las tres magnitudes sean físicamente posibles. |
 | exceeds(ShelfLifeRules) | Indica si la lectura supera los umbrales de la categoría del alimento. |
 | toQualityRecord() | Proyecta la lectura al histórico de calidad consultado en los reportes. |
+
 **Entities**
 
 1. **ExpirationAlert** — Alerta generada cuando un alimento entra en riesgo de deterioro (US08).
@@ -2833,6 +2861,7 @@ La Domain Layer del Report Management Bounded Context encapsula la lógica de ne
    - *Propósito:* Agregado raíz que representa un reporte consolidado de consumo, merma y ahorro para un periodo determinado.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del reporte. |
@@ -2842,12 +2871,15 @@ La Domain Layer del Report Management Bounded Context encapsula la lógica de ne
 | wasteReducedKgCO2 | float | Kilogramos de CO₂ evitados (US20). |
 | sections | List&lt;ReportSection&gt; | Bloques del reporte: inventario, consumo, calidad. |
 | createdAt | DateTime | Fecha de generación. |
+
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | generate(inventory, consumption, quality) | Construye el reporte a partir de los tres contextos fuente. |
 | exportTo(format) | Exporta el reporte a PDF o Excel (US29). |
 | isPremiumOnly() | Indica si el nivel de detalle requiere plan PREMIUM (US17). |
+
 **Entities**
 
 1. **ReportSection** — Bloque temático del reporte con sus métricas calculadas.
