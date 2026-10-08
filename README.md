@@ -790,7 +790,29 @@ Actualmente utiliza una aplicación para registrar el stock, mientras que sus tr
 
 Respecto a una solución como FreshSense, valora especialmente el monitoreo automático y las notificaciones. Además, estaría interesada en un modelo de pago anual que incluya actualizaciones y mejoras continuas del sistema.
 
+
 ##### Entrevista 3
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Persona A (seudónimo) |
+| Edad | 27 años |
+| Empresa / sector | Restaurante |
+| Cargo | Administrador |
+| Función | Supervisión de operaciones, compras y gestión de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 4:44 |
+| Enlace | https://drive.google.com/file/d/1aCd80YB6zoBtOJcUTQrDffn5Tb8MfSop/view?usp=sharing |
+
+![Evidencia entrevista Persona A](Assets/EntrevistaPersonaA.png)
+
+**Resumen:**
+
+Persona A tiene 27 años y trabaja como administrador de un restaurante, donde supervisa las operaciones, las compras y el manejo de los alimentos. El negocio utiliza principalmente carnes, pollo, pescado, verduras, lácteos y productos congelados, siendo las carnes, el pescado y algunas verduras los más propensos a deteriorarse si no se almacenan correctamente.
+
+Actualmente, el control de frescura se realiza mediante revisiones manuales de fechas de vencimiento, inspecciones visuales, verificación de temperatura y registros de inventario. Sin embargo, menciona que ocasionalmente se producen pérdidas por compras excesivas o productos almacenados durante demasiado tiempo. Estas situaciones generan gastos adicionales y pueden afectar la preparación de los pedidos.
+
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad, enviar alertas sobre cambios de temperatura o productos próximos a vencer y consultar historiales de mediciones. También valora la precisión de los sensores, la facilidad de uso y la rapidez de las notificaciones. Finalmente, estaría dispuesto a adquirir el dispositivo y pagar una suscripción económica, siempre que contribuya a reducir pérdidas y mejorar la gestión del restaurante.
 
 
 #### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
