@@ -51,6 +51,14 @@
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 19/09/2026 | Todos los Integrantes | Se realizo los capitulos del 1 - 4|
+| 1.1     | 06/10/2026 | Todos los Integrantes | Se completaron los tres escenarios de cada historia de usuario y las secciones 6.1, 6.1.2, 6.2.1.3 y 6.2.1.6 |
+| 1.2     | 07/10/2026 | Joseph | Se agregaron las capturas del recorrido del sprint 1 en 6.2.1.6 |
+| 1.3     | 07/10/2026 | Joseph | En 6.2.1.6 se deja la landing publicada y el front publico pendiente del despliegue |
+| 1.4     | 07/10/2026 | Joseph | En 6.2.1.6 quedan el enlace del back y el de la landing; el del front se reemplaza cuando lo pasen |
+| 1.5     | 07/10/2026 | Joseph | Se agregó el perfil de Joseph y su aporte en el Student Outcome |
+| 1.6     | 08/10/2026 | Joseph | Se colocaron los enlaces del front y del back, el tablero de EventStorming y las fichas nuevas de empatía y recorrido |
+| 1.7     | 08/10/2026 | Joseph | Se integró el capítulo V, el diseño de software alineado a los segmentos, el entorno y el despliegue, las convenciones de código y las entrevistas 3 |
+| 1.8     | 08/10/2026 | Joseph | Se corrigió la figura de Impact Mapping para que se vea en el informe |
 
 
 # Tabla de contenidos
@@ -142,16 +150,16 @@
     - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-    - [6.2.X. Sprint n](#62x-sprint-n)
-      - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-      - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-      - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-      - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-      - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-      - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-      - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-      - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-      - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -174,10 +182,11 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 5.
+
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo :** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes.<br><br>  **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. | **AV1:** <br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario.<br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances <br><br> **Maria Fernanda Mostajo :** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. | **AV1:** La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos.|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo :** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes.<br><br>  **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. Además tomé la gestión de la configuración y del código (6.1 y 6.1.2), el sprint backlog 1 (6.2.1.3) y la evidencia de ejecución (6.2.1.6). Lo coordiné con el equipo para los dos segmentos, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos, dejando el mismo recorrido para los dos. Cuando Romina indicó que la landing ya estaba publicada y que el front lo seguía desplegando Juan Carlos, ajusté esa evidencia: quedó el enlace del back y el de la landing, y el del front pendiente para cambiarlo cuando nos lo pasen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. | **AV1:** <br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario.<br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances <br><br> **Maria Fernanda Mostajo :** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. Además organicé las 11 historias del sprint 1 y armé la evidencia con las capturas del recorrido, el Swagger del back y la landing. Fui cerrando esa parte con lo que el equipo ya tenía definido y dejé anotado el enlace del front para reemplazarlo apenas nos lo entreguen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. | **AV1:** La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos.|
 
 <div style="page-break-after: always;"></div>
 
@@ -205,8 +214,8 @@ La startup plantea un modelo de negocio basado en la comercialización de los di
       <td><strong>-</strong><br>-</td>
   </tr>
 <tr>
-      <td style="text-align:center;"><img a src="" /></td>
-      <td><strong>-</strong><br>-</td>
+      <td style="text-align:center;"><img alt="Juan Carlos Pastor Napa" src="Assets/FotoJuanCarlos.png" /></td>
+      <td><strong>Juan Carlos Pastor Napa - u202217288</strong><br>Mi nombre es Juan Carlos Pastor Napa. Soy estudiante de la carrera de Ingeniería de Software en la UPC, con conocimientos en Java, Spring Boot, Angular y en el despliegue de aplicaciones en Linux y la nube. Me considero una persona responsable y analítica, con interés por la arquitectura de software. Como integrante del equipo, me comprometo a aportar en el diseño de la solución y a apoyar a mis compañeros para cumplir los objetivos del proyecto.</td>
   </tr>
   <tr>
       <td style="text-align:center;"><img alt="Eduardo Cossar" src="Assets/FotoEduardo.png" /></td>
@@ -217,8 +226,8 @@ La startup plantea un modelo de negocio basado en la comercialización de los di
       <td><strong>Maria Fernanda Mostajo - u202312874</strong><br>Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.</td>
   </tr>
   <tr>
-      <td style="text-align:center;"><img a src="" /></td>
-      <td><strong>-</strong><br>-</td>
+      <td style="text-align:center;"><img alt="Joseph Manuel Chavez Viera" src="Assets/FotoJoseph.jpg" /></td>
+      <td><strong>Joseph Manuel Chavez Viera - U202314019</strong><br>Soy un estudiante de séptimo ciclo de Ingeniería de Software en la UPC, con manejo de C++, Python y Java. Me considero una persona adaptable, comunicativa y con gran gusto por el trabajo en equipo. Apuesto por la mejora continua y el aprendizaje constante, buscando siempre involucrarme en proyectos que me pongan a prueba y me permitan aportar valor real mientras sigo sumando experiencia.</td>
   </tr>
 </table>
 
@@ -248,7 +257,7 @@ El problema ocurre durante el almacenamiento y conservación de los productos, e
 
 #### Who? (¿Quién?)
 
-Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, así como los administradores de negocios de distribución de alimentos fríos que necesitan controlar la conservación de sus productos, reducir mermas y proteger la rentabilidad del negocio.
+Los principales usuarios de FreshSense son los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos. Los dos necesitan controlar la conservación de sus productos, reducir mermas y cuidar la rentabilidad del negocio.
 
 #### How? (¿Cómo?)
 
@@ -334,7 +343,7 @@ La gestión manual del inventario y las condiciones de conservación también di
 **Nuestros usuarios principales son:**
 
 * Propietarios y administradores de restaurantes que necesitan controlar sus insumos perecibles y reducir pérdidas económicas.
-* Encargados de negocios distribución de alimentos fríos que necesitan monitorear la conservación de sus productos y reducir mermas.
+* Encargados de negocios de distribución de alimentos en fríos que necesitan monitorear la conservación de sus productos y reducir mermas.
 
 ###### ¿Dónde encaja nuestro producto en su vida o trabajo?
 
@@ -431,7 +440,7 @@ A continuación se presenta el Lean UX Canvas:
 
 Para el proyecto FreshSense se han seleccionado dos segmentos principales de usuarios a los cuales la solución aporta un valor adaptado a sus necesidades específicas:
 
-##### Propietarios y Gerentes de Restaurantes Pequeños
+##### Propietarios y administradores de restaurantes
 
 **Edad:** 28 a 50 años
 
@@ -445,7 +454,7 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 **Beneficios buscados:** Alertas sobre productos en riesgo de deterioro, monitoreo de las condiciones de conservación, gestión del inventario y reportes que permitan identificar pérdidas y mejorar la rentabilidad.
 
-##### Propietarios y Encargados de Negocios de distribución de alimentos fríos
+##### Encargados de negocios de distribución de alimentos en fríos
 
 **Edad:** 30 a 55 años
 
@@ -465,7 +474,7 @@ Para el proyecto FreshSense se han seleccionado dos segmentos principales de usu
 
 El análisis de competidores de FreshSense se enfoca en soluciones empresariales relacionadas con monitoreo de cadena de frío, control de condiciones ambientales, trazabilidad y supervisión de productos sensibles a la temperatura.
 
-Debido al enfoque actual de FreshSense hacia empresas de distribución y cadena de frío, así como empresas productoras y comercializadoras de alimentos perecibles, se seleccionaron tres competidores directos que ofrecen soluciones basadas en dispositivos IoT y plataformas digitales para el monitoreo de productos durante almacenamiento o transporte:
+El análisis lo hicimos pensando en los dos segmentos del proyecto, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos. Por eso se tomaron tres competidores que ya monitorean temperatura y condiciones de conservación con dispositivos IoT:
 
 - **Sensitech**
 - **Tive**
@@ -489,7 +498,7 @@ Los competidores seleccionados representan alternativas consolidadas dentro del 
 | **Overview** | Solución IoT enfocada en el monitoreo de productos perecibles mediante dispositivos que recopilan temperatura y humedad y transmiten información hacia una plataforma digital. | Empresa especializada en visibilidad y monitoreo de cadena de frío, con soluciones para almacenamiento y transporte de productos sensibles. | Plataforma de visibilidad logística en tiempo real que combina rastreadores IoT con una plataforma cloud para monitorear envíos. | Plataforma de visibilidad de cadena de suministro que combina dispositivos IoT, sensores, conectividad y análisis para monitorear mercancías y activos. |
 | **Ventaja competitiva** | Propuesta enfocada específicamente en empresas que trabajan con alimentos perecibles, con una arquitectura simplificada basada en dispositivos IoT, monitoreo de lotes, alertas y trazabilidad. | Amplio portafolio especializado en cadena de frío, experiencia empresarial y soluciones para almacenamiento y transporte. | Amplia capacidad de monitoreo multimodal y dispositivos capaces de medir múltiples variables en tiempo real. | Integración de monitoreo de condiciones, ubicación, analítica y visibilidad logística en una misma plataforma. |
 | **Valor ofrecido al cliente** | Centralizar información sobre condiciones de conservación, dispositivos, lotes y alertas para detectar desviaciones y reducir pérdidas por deterioro. | Proteger la integridad de productos mediante monitoreo continuo, alertas y visibilidad de extremo a extremo. | Detectar desviaciones durante el transporte en tiempo real para actuar antes de que el producto resulte comprometido. | Proporcionar información en tiempo real y señales relacionadas con condiciones y ubicación para mejorar la toma de decisiones logísticas. |
-| **Mercado objetivo** | Empresas de distribución y cadena de frío; productores y comercializadores de alimentos perecibles. | Alimentos, ciencias de la vida, industria y organizaciones con cadenas de suministro sensibles a temperatura. | Alimentos y bebidas, productos perecibles, farmacéutica, ciencias de la vida, bienes de alto valor y operadores logísticos. | Empresas de logística, alimentos y bebidas, farmacéutica, manufactura y organizaciones con cadenas de suministro complejas. |
+| **Mercado objetivo** | Propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. | Alimentos, ciencias de la vida, industria y organizaciones con cadenas de suministro sensibles a temperatura. | Alimentos y bebidas, productos perecibles, farmacéutica, ciencias de la vida, bienes de alto valor y operadores logísticos. | Empresas de logística, alimentos y bebidas, farmacéutica, manufactura y organizaciones con cadenas de suministro complejas. |
 | **Estrategia de marketing** | Marketing B2B orientado a demostrar reducción de pérdidas, control de condiciones y facilidad de monitoreo. | Demostraciones comerciales, contenido especializado, casos de uso e información dirigida a industrias reguladas y cadenas de frío. | Demostraciones, pruebas de producto, contenido especializado y comunicación centrada en visibilidad logística y prevención de pérdidas. | Demostraciones, pruebas del servicio, contenido sobre supply chain y comunicación orientada a visibilidad y analítica logística. |
 | **Productos y servicios** | Dispositivo IoT con ESP32 + DHT22, Edge API, plataforma Web/Mobile, monitoreo de temperatura y humedad, lotes, dispositivos, alertas, trazabilidad y reportes. | SensiWatch Platform, TempTale, ColdStream Site y distintos sensores/registradores para monitoreo estacionario y en tránsito. | Plataforma Tive, trackers Solo Lite, Solo 5G, Solo Pro, sensores, alertas, reportes e integraciones. | Plataforma de visibilidad, dispositivos como BeeSense, monitoreo de temperatura, humedad, ubicación y eventos de transporte. |
 | **Precios y costos** | Modelo previsto basado en dispositivo IoT y servicio digital. Los precios comerciales deben validarse posteriormente con los segmentos objetivo. | No publica una lista estándar de precios; el acceso comercial se gestiona mediante contacto y demostración. | Los precios de los trackers principales no se publican de forma general y dependen del volumen y contrato. La plataforma dispone de niveles Essential, Plus y Premium. | Utiliza modelos de suscripción y planes bajo demanda definidos mediante órdenes comerciales según cantidad de dispositivos, activos o envíos. |
@@ -658,7 +667,7 @@ Las principales estrategias y tácticas serán las siguientes:
 
 - **Experiencia simplificada:** diferenciarse de plataformas empresariales de mayor complejidad mediante una interfaz centrada en las funciones principales: monitoreo, lotes, dispositivos, alertas y trazabilidad.
 
-- **Adaptación al mercado objetivo:** utilizar las entrevistas B2B para identificar rangos de temperatura, procesos, reportes y necesidades específicas de empresas de distribución, productores y comercializadores.
+- **Adaptación al mercado objetivo:** usar las entrevistas para ver qué temperatura, reportes y alertas necesitan los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos.
 
 - **Modelo comercial flexible:** evaluar alternativas de venta o provisión de dispositivos combinadas con una suscripción por acceso a la plataforma, evitando establecer precios definitivos antes de validar la disposición de pago de los segmentos.
 
@@ -681,7 +690,7 @@ Los resultados obtenidos permitirán validar los principales supuestos de FreshS
 Los segmentos considerados son:
 
 - **Segmento 1: Propietarios y administradores de restaurantes**
-- **Segmento 2: Encargados de Negocio de Distribución de alimentos en frio**
+- **Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
 
 ### 2.2.1. Diseño de entrevistas
@@ -714,7 +723,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 
 ---
 
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 1. ¿Cuál es su cargo dentro de la empresa y qué responsabilidades tiene relacionadas con producción, almacenamiento, calidad o comercialización?
 
@@ -742,176 +751,133 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento 1: Empresas de distribución y cadena de frío
-
+#### Segmento 1: Propietarios y administradores de restaurantes
 
 ##### Entrevista 1
 
 | Dato | Información |
 | --- | --- |
-| Nombre y apellidos | Carlos Mendoza Ruiz |
+| Nombre y apellidos | Guillermo |
 | Edad | 26 años |
-| Distrito | Callao |
-| Empresa / sector | Distribución refrigerada de alimentos |
-| Cargo | Supervisor de Logística |
+| Ubicación | Lima |
+| Empresa / sector | Restaurante |
+| Cargo | Propietario |
 | Inicio de entrevista | 00:00 |
-| Duración | 08:42 |
-| Enlace | [Ver entrevista](URL) |
+| Duración | 06:18 |
+| Enlace | https://drive.google.com/file/d/1NJtkNjEPtNI9XM_wAJCINVNJYsAqRvtj/view?usp=sharing |
 
-![Evidencia entrevista](Assets/EntrevistaS21.png)
+![Evidencia entrevista Guillermo](Assets/EntrevistaGuillermo.png)
 
-**Resumen:**  
-Carlos Mendoza trabaja como supervisor de logística en una empresa dedicada a la distribución refrigerada de alimentos. Dentro de sus funciones supervisa el almacenamiento y transporte de productos como lácteos, carnes y alimentos congelados.
+**Resumen:**
 
-Explicó que actualmente realizan el control de temperatura mediante termómetros instalados en cámaras de refrigeración y registradores ubicados en algunas unidades de transporte. Parte de la información es revisada manualmente y posteriormente registrada en hojas de cálculo.
+Guillermo tiene 26 años y es propietario de un restaurante en Lima, donde supervisa las compras, el inventario y el estado de los alimentos. Trabaja principalmente con carnes, pescado, pollo, verduras y lácteos, siendo las carnes, el pescado y algunas verduras los productos más propensos a deteriorarse.
 
-Señaló que uno de los principales problemas ocurre cuando existen variaciones de temperatura durante el transporte y estas se detectan recién al finalizar el recorrido. Este tipo de incidencias puede ocasionar revisión adicional de mercadería, retrasos y, en algunos casos, pérdida de productos.
+Actualmente, el control de frescura se realiza mediante revisión manual, fechas de vencimiento, etiquetas y registros en Excel. Sin embargo, este proceso depende bastante del personal y puede generar pérdidas cuando algún producto no se revisa a tiempo. Para Guillermo, estas pérdidas representan un impacto económico y también afectan la operatividad del restaurante.
 
-Considera que recibir alertas automáticas sería especialmente útil para reaccionar antes de que una desviación genere un daño importante. Entre la información que considera prioritaria se encuentran la temperatura, humedad, ubicación del producto, identificación del lote y el historial de lecturas.
-
-También indicó que una solución como FreshSense debería ser fácil de instalar, contar con información clara y permitir revisar rápidamente qué producto o lote fue afectado. Para una eventual adopción considera importantes la precisión de los sensores, el precio y la disponibilidad de soporte técnico.
-
+Considera útil una solución que permita monitorear temperatura y humedad, enviar alertas ante variaciones anormales y avisar sobre productos próximos a vencer. También valora contar con reportes de desperdicio y consumo para mejorar las compras. Estaría dispuesto a pagar por una herramienta de este tipo siempre que sea precisa, fácil de usar y contribuya realmente a reducir pérdidas.
 
 ##### Entrevista 2
 
 | Dato | Información |
 | --- | --- |
-| Nombre y apellidos | Carlos Guimaraes |
+| Nombre y apellidos | Romy Panduro |
+| Edad | 46 años |
+| Ubicación | San Borja |
+| Empresa / sector | Restobar karaoke |
+| Cargo | Propietaria |
+| Inicio de entrevista | 00:00 |
+| Duración | 9:04 |
+| Enlace | https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=sharing |
+
+![Evidencia entrevista Romy Panduro](Assets/2.png)
+
+**Resumen:**
+
+Romy Panduro tiene 46 años y administra un restobar karaoke ubicado en Tarapoto, con aproximadamente dos años de funcionamiento. En su negocio trabaja principalmente con carnes rojas, pollo y pescado, siendo este último el producto que considera más propenso a deteriorarse.
+
+Actualmente utiliza una aplicación para registrar el stock, mientras que sus trabajadores realizan manualmente la rotación de los productos según su antigüedad. Debido a ello, considera útil contar con una solución que permita recibir alertas automáticas sobre el estado y calidad de los alimentos almacenados en las congeladoras, pudiendo consultar esta información desde cualquier lugar.
+
+Respecto a una solución como FreshSense, valora especialmente el monitoreo automático y las notificaciones. Además, estaría interesada en un modelo de pago anual que incluya actualizaciones y mejoras continuas del sistema.
+
+##### Entrevista 3
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Persona A (seudónimo) |
 | Edad | 27 años |
-| Distrito | Villa El Salvador |
-| Empresa / sector | Producción y almacenamiento de carnes y productos congelados |
-| Cargo | Jefe de Almacén |
-| Inicio de entrevista | 0:00 |
-| Duración | 08:36 |
-| Enlace | [Ver entrevista](https://drive.google.com/file/d/1Q8i84GD9mqFdKOLVYLR2PqdWQVT1MYik/view?usp=drive_link) |
-
-![Evidencia entrevista](Assets/1.png)
-
-**Resumen:**  
-Carlos Guimaraes se desempeña como jefe de almacén en una empresa que trabaja con carnes y productos congelados. Dentro de sus funciones se encuentra supervisar el ingreso y salida de mercadería, verificar las condiciones de las cámaras frigoríficas y coordinar el movimiento de los diferentes lotes almacenados.
-
-Explicó que los controles se realizan mediante termómetros instalados en las cámaras y verificaciones periódicas del personal. La identificación de lotes se gestiona mediante registros internos y etiquetas asociadas a cada ingreso de mercadería.
-
-Indicó que los principales problemas pueden aparecer cuando existen fallas en los equipos de refrigeración o cuando las cámaras permanecen abiertas durante demasiado tiempo. Estas situaciones pueden ocasionar incrementos temporales de temperatura que deben ser identificados rápidamente.
-
-Considera especialmente útil contar con alertas que indiquen cuándo una cámara o producto se encuentra fuera del rango permitido. También mencionó que sería importante identificar rápidamente qué lotes se encontraban almacenados durante una incidencia.
-
-Para una posible implementación, considera relevantes el costo del sistema, la facilidad de instalación, la confiabilidad de las mediciones y la disponibilidad de soporte técnico.
-
-
-##### Entrevista 3
-
-| Dato | Información |
-| --- | --- |
-| Nombre y apellidos | Daniela Vargas Medina |
-| Edad | 22 años |
-| Distrito | Lurín |
-| Empresa / sector | Comercialización y almacenamiento de frutas y vegetales |
-| Cargo | Coordinadora de Operaciones |
+| Empresa / sector | Restaurante |
+| Cargo | Administrador |
+| Función | Supervisión de operaciones, compras y gestión de productos |
 | Inicio de entrevista | 00:00 |
-| Duración | 09:04 |
-| Enlace | [Ver entrevista](https://drive.google.com/file/d/1AqFpCV5FGpSXy3RIi9gN7BdsXJm4ywSU/view?usp=drive_link) |
+| Duración | 4:44 |
+| Enlace | https://drive.google.com/file/d/1aCd80YB6zoBtOJcUTQrDffn5Tb8MfSop/view?usp=sharing |
 
-![Evidencia entrevista](Assets/4.png)
+![Evidencia entrevista Persona A](Assets/EntrevistaPersonaA.png)
 
-**Resumen:**  
-Daniela Vargas trabaja como coordinadora de operaciones en una empresa dedicada al almacenamiento y comercialización de frutas y vegetales. Sus responsabilidades incluyen coordinar el ingreso de productos, revisar el inventario disponible y supervisar las condiciones generales de almacenamiento.
+**Resumen:**
 
-Comentó que algunos controles de temperatura se realizan mediante equipos instalados en las cámaras, mientras que la revisión de humedad y estado de los productos depende en mayor medida de inspecciones realizadas por el personal.
+Persona A tiene 27 años y trabaja como administrador de un restaurante, donde supervisa las operaciones, las compras y el manejo de los alimentos. El negocio utiliza principalmente carnes, pollo, pescado, verduras, lácteos y productos congelados, siendo las carnes, el pescado y algunas verduras los más propensos a deteriorarse si no se almacenan correctamente.
 
-Uno de los problemas que identifica es que diferentes productos requieren condiciones distintas de conservación y no siempre resulta sencillo mantener un seguimiento constante de todos los lotes almacenados.
+Actualmente, el control de frescura se realiza mediante revisiones manuales de fechas de vencimiento, inspecciones visuales, verificación de temperatura y registros de inventario. Sin embargo, menciona que ocasionalmente se producen pérdidas por compras excesivas o productos almacenados durante demasiado tiempo. Estas situaciones generan gastos adicionales y pueden afectar la preparación de los pedidos.
 
-Considera que una plataforma que permita visualizar lotes, condiciones ambientales e incidencias desde un mismo lugar ayudaría a mejorar el control de la operación. También considera útil contar con alertas configurables según el tipo de producto.
-
-Entre las funcionalidades que considera importantes destacó el historial de mediciones, los reportes, la identificación de lotes afectados y una interfaz sencilla que pueda ser utilizada tanto por responsables de operaciones como por personal de calidad.
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad, enviar alertas sobre cambios de temperatura o productos próximos a vencer y consultar historiales de mediciones. También valora la precisión de los sensores, la facilidad de uso y la rapidez de las notificaciones. Finalmente, estaría dispuesto a adquirir el dispositivo y pagar una suscripción económica, siempre que contribuya a reducir pérdidas y mejorar la gestión del restaurante.
 
 
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 ##### Entrevista 1
 
 | Dato | Información |
 | --- | --- |
-| Nombre y apellidos | María Fernanda Rojas Díaz |
-| Edad | 36 años |
-| Distrito | Santa Anita |
-| Empresa / sector | Producción y comercialización de productos lácteos |
-| Cargo | Supervisora de Calidad |
+| Nombre y apellidos | Silvia |
+| Edad | 40 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión del almacenamiento, control de inventario y conservación de productos |
 | Inicio de entrevista | 00:00 |
-| Duración | 09:18 |
-| Enlace | [Ver entrevista](https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=drive_link) |
+| Duración | 3:52 |
+| Enlace | https://drive.google.com/file/d/1im0wnd2XqLIU5hLwFVeBPy_K5FL50XW8/view?usp=sharing |
 
-![Evidencia entrevista](Assets/2.png)
+![Evidencia entrevista Silvia](Assets/EntrevistaSilvia.png)
 
-**Resumen:**  
-María Fernanda Rojas trabaja como supervisora de calidad en una empresa dedicada a la producción y comercialización de productos lácteos. Entre sus responsabilidades se encuentra verificar las condiciones de almacenamiento de productos terminados y coordinar controles relacionados con temperatura y calidad.
+**Resumen:**
 
-Comentó que actualmente utilizan termómetros digitales y realizan registros periódicos de temperatura en las áreas de almacenamiento. Parte de esta información es trasladada posteriormente a hojas de cálculo para mantener evidencia de los controles realizados.
+Silvia tiene 40 años y trabaja en una empresa dedicada a la comercialización y distribución de alimentos perecibles, donde participa en la supervisión del almacenamiento y control del inventario. La empresa maneja principalmente carnes, lácteos y productos congelados, siendo las carnes y los lácteos los que requieren mayor cuidado debido a su sensibilidad ante cambios de temperatura.
 
-Según indicó, uno de los principales problemas se presenta cuando una desviación ocurre entre dos controles manuales, debido a que puede pasar cierto tiempo antes de ser detectada. Esto puede generar revisiones adicionales del producto y, en algunos casos, la separación de lotes hasta confirmar que mantienen condiciones adecuadas.
+Actualmente realizan inspecciones manuales, revisiones periódicas de los equipos de refrigeración y registros de inventario, utilizando también Excel. Sin embargo, el proceso todavía depende considerablemente de verificaciones realizadas por el personal. Silvia señala que una variación de temperatura no detectada a tiempo puede deteriorar productos, generar pérdidas económicas y afectar los pedidos planificados.
 
-Considera que contar con información disponible en tiempo real y recibir alertas automáticas facilitaría el trabajo del área de calidad. También considera importante poder revisar el historial de temperatura y humedad correspondiente a cada lote.
-
-Entre los factores más relevantes para adoptar una solución de este tipo destacó la precisión de los sensores, la facilidad de uso, la generación de reportes y la posibilidad de acceder a información histórica.
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad en tiempo real, enviar alertas ante condiciones inadecuadas y consultar el historial de cada lote. Para ella, la plataforma debería ser fácil de utilizar, ofrecer mediciones confiables y generar reportes que permitan identificar problemas ocurridos durante el almacenamiento.
 
 
 ##### Entrevista 2
-
-| Dato | Información |
-| --- | --- |
-| Nombre y apellidos | Andrea Salazar Paredes |
-| Edad | 29 años |
-| Distrito | Ate |
-| Empresa / sector | Operador logístico de productos refrigerados |
-| Cargo | Coordinadora de Operaciones |
-| Inicio de entrevista | 00:00 |
-| Duración | 09:15 |
-| Enlace | [Ver entrevista](https://drive.google.com/file/d/1iQW9Vu0lRPL9HhDX3PIfNHNQqrBESufE/view?usp=drive_link) |
-
-![Evidencia entrevista](Assets/5.png)
-
-**Resumen:**  
-Andrea Salazar se desempeña como coordinadora de operaciones en una empresa que almacena y distribuye productos refrigerados para diferentes clientes del sector alimentario.
-
-Indicó que la empresa trabaja con cámaras de refrigeración y vehículos acondicionados para mantener determinadas temperaturas. El control se realiza mediante sensores en algunos puntos de almacenamiento y verificaciones periódicas efectuadas por el personal.
-
-Comentó que una dificultad importante es que la información de almacenamiento, transporte y lotes se encuentra distribuida entre diferentes registros. Cuando ocurre una incidencia, identificar cuándo sucedió y qué mercadería estuvo expuesta puede requerir revisar distintas fuentes de información.
-
-Para ella, una plataforma centralizada que permita relacionar dispositivos, lotes e incidencias facilitaría considerablemente el trabajo operativo. Considera especialmente importantes las alertas en tiempo real y la posibilidad de consultar un historial de temperatura y humedad.
-
-Señaló también que una solución tecnológica debería ser sencilla de utilizar por diferentes perfiles de empleados y ofrecer reportes que puedan ser revisados posteriormente. En una decisión de compra priorizaría la confiabilidad, facilidad de implementación y capacidad de generar alertas oportunas.
 
 
 ##### Entrevista 3
 
 | Dato | Información |
 | --- | --- |
-| Nombre y apellidos | Javier Torres Castillo |
-| Edad | 26 años |
-| Distrito | San Luis |
-| Empresa / sector | Distribución mayorista de alimentos perecibles |
-| Cargo | Responsable de Cadena de Frío |
+| Nombre y apellidos | Carmen |
+| Edad | 54 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
 | Inicio de entrevista | 00:00 |
-| Duración | 08:57 |
-| Enlace | [Ver entrevista](https://drive.google.com/file/d/1_Jg-67dLuuAXt6bTV69x12lShay-IJ0v/view?usp=drive_link) |
+| Duración | 6:07|
+| Enlace | https://drive.google.com/file/d/17b7sV7W1QHlYEh9eXrvsy_Lgdfv51viF/view?usp=sharing |
 
-![Evidencia entrevista](Assets/3.png)
+![Evidencia entrevista Carmen](Assets/EntrevistaCarmen.png)
 
-**Resumen:**  
-Javier Torres trabaja como responsable de cadena de frío en una empresa distribuidora de productos perecibles. Sus principales responsabilidades incluyen supervisar las condiciones de almacenamiento, coordinar despachos y verificar que los productos mantengan condiciones adecuadas durante su traslado.
+**Resumen:**
 
-Actualmente utilizan termómetros digitales y controles manuales realizados por el personal. Algunos vehículos disponen de dispositivos capaces de registrar temperatura, aunque señaló que no toda la información se encuentra disponible en una única plataforma.
+Carmen tiene 54 años y trabaja en una empresa dedicada a la comercialización y distribución de alimentos perecibles, donde supervisa el almacenamiento, el inventario y la conservación de productos. La empresa maneja principalmente carnes, pollo, lácteos y alimentos congelados, siendo las carnes y los lácteos los que requieren mayor cuidado debido a su sensibilidad ante cambios de temperatura.
 
-Según su experiencia, las principales incidencias están relacionadas con variaciones de temperatura ocasionadas por aperturas prolongadas, problemas de refrigeración o retrasos durante la distribución. Estas situaciones pueden afectar la calidad de los productos y ocasionar devoluciones.
+Actualmente realizan revisiones periódicas de las cámaras de refrigeración, controles visuales y registros de inventario mediante herramientas internas y Excel. Sin embargo, Carmen señala que las verificaciones todavía dependen considerablemente del personal, lo que dificulta detectar fallas de refrigeración a tiempo. Estas situaciones pueden generar pérdidas económicas, afectar los pedidos y complicar la identificación de los lotes que estuvieron expuestos a condiciones inadecuadas.
 
-Considera que contar con alertas automáticas y un historial asociado a cada lote ayudaría a detectar problemas más rápidamente y facilitaría la identificación de responsabilidades frente a una incidencia.
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad automáticamente, recibir alertas inmediatas y consultar historiales de mediciones asociados a los lotes almacenados. También valora la facilidad de uso, la precisión de los sensores y el acceso desde computadoras o celulares. Finalmente, considera que el costo y la capacidad del sistema para reducir pérdidas serían factores importantes para decidir su implementación.
 
-Entre las características que considera indispensables mencionó facilidad de uso, precisión de las mediciones, disponibilidad de información histórica y generación de reportes. También considera importante que la solución pueda implementarse progresivamente, comenzando con determinados almacenes o vehículos antes de extenderse al resto de la operación.
 
 
 ### 2.2.3. Análisis de entrevistas
 
-#### Segmento 1: Empresas de distribución y cadena de frío
+#### Segmento 1:  Propietarios y administradores de restaurantes
 
 A partir de las tres entrevistas realizadas, se identificó que el **100 % de los entrevistados realiza algún control de temperatura**, aunque todos mencionaron que parte del proceso todavía depende de verificaciones manuales.
 
@@ -921,7 +887,7 @@ También se observó que el **100 % considera importante relacionar las condicio
 
 En este segmento, las principales necesidades identificadas son el monitoreo continuo, las alertas oportunas, la trazabilidad y la centralización de la información.
 
-#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 En este segmento, el **100 % de los entrevistados utiliza algún mecanismo para controlar la temperatura**, aunque las tres empresas también realizan verificaciones manuales periódicas.
 
@@ -941,15 +907,15 @@ Los resultados respaldan principalmente cuatro funcionalidades de FreshSense: **
 
 ### 2.3.1. User Personas.
 
-#### SEGMENTO 1: Propietarios y Encargados de Negocios de Alimentos Fríos
-![User Person1](Assets\Jose_userP1.png)
+#### SEGMENTO 1: Propietarios y administradores de restaurantes
+![User Person1](Assets/Jose_userP1.png)
 
-El perfil de José Jiménez representa a los adultos jóvenes con rutinas ocupadas que buscan optimizar su presupuesto alimentario sin invertir demasiado tiempo. Requiere un sistema automatizado para monitorear la caducidad de sus compras, evitando mermas económicas y simplificando la gestión del hogar.
+José Jiménez tiene 30 años y es cocinero. Representa a un propietario o administrador de restaurante. En el turno ve los insumos de la cocina y de la cámara. Si algo se vence o la cámara pierde frío, esa comida se bota y el local pierde plata. Necesita el aviso a tiempo, sin abrir la cámara a cada rato.
 
-### SEGMENTO 2: Pequeños negocios / emprendedores de alimentos caseros
+### SEGMENTO 2: Encargados de negocios de distribución de alimentos en fríos
 ![User Person2](Assets/Luisa_userP2.png)
 
-El perfil de Luisa Pérez representa a las emprendedoras de repostería y alimentos caseros que necesitan asegurar la frescura de sus insumos. Su prioridad es minimizar pérdidas financieras por ingredientes vencidos, garantizar estándares de calidad para sus clientes y llevar un control eficiente del inventario.
+Luisa Pérez tiene 40 años y vive en Lima. Es encargada de un negocio de distribución de alimentos en fríos. Su problema es la mercadería que se malogra si la cámara o la vitrina se salen de temperatura, o si el lote no sale a tiempo. Quiere ver el estado de las cámaras y saber qué lote está en riesgo antes de despacharlo.
 
 
 ### 2.3.2. User Task Matrix
@@ -958,8 +924,8 @@ El perfil de Luisa Pérez representa a las emprendedoras de repostería y alimen
   <thead>
     <tr>
       <th rowspan="2">Tareas</th>
-      <th colspan="2">José Jimenez<br>(Propietarios de Negocios de Alimentos Fríos)</th>
-      <th colspan="2">Luisa Pérez<br>(Emprendedora de alimentos)</th>
+      <th colspan="2">José Jimenez<br>(Propietarios y administradores de restaurantes)</th>
+      <th colspan="2">Luisa Pérez<br>(Encargados de negocios de distribución de alimentos en fríos)</th>
     </tr>
     <tr>
       <th>Frecuencia</th>
@@ -1030,51 +996,51 @@ El perfil de Luisa Pérez representa a las emprendedoras de repostería y alimen
 
 El análisis de la matriz de tareas evidencia una clara diferencia en las prioridades operativas y patrones de uso entre ambos perfiles de usuario.
 
-En el caso de José Jiménez, quien representa al público de adultos jóvenes con agendas ajustadas, el valor principal radica en la supervisión rápida de la frescura y la recepción de avisos de caducidad; ambas funcionalidades le resultan esenciales para evitar el desperdicio de comida y proteger su economía personal. Otras herramientas, como el catálogo de recetas recomendadas o la difusión de logros en plataformas digitales, son utilizadas de forma secundaria sin representar un factor crítico dentro de su rutina diaria.
+José Jiménez, del segmento de propietarios y administradores de restaurantes, usa más la revisión del estado de los alimentos y las alertas de vencimiento. Las recetas le sirven cuando tiene insumos por salir, pero no es lo primero que mira en el turno.
 
-Por su parte, Luisa Pérez, orientada a la gestión de su negocio de comida casera, enfoca su interacción en herramientas de control riguroso, tales como el monitoreo constante del inventario, la revisión de métricas y la proyección de abastecimiento. Para su perfil, estas funciones son vitales para garantizar la calidad en sus productos finales y mitigar las mermas de insumos. Por el contrario, la búsqueda de recetas o funciones lúdicas resulta poco relevante para sus objetivos comerciales.
+Luisa Pérez, del segmento de encargados de negocios de distribución de alimentos en fríos, se queda más en el inventario, las métricas y la reposición. Para ella la receta no es lo central: le importa que el lote siga en frío y salga antes de que se malogre.
 
 ### 2.3.3. User Journey Mapping
 
-**Segmento 1: Propietarios y Encargados de Negocios de Alimentos Fríos**
+**Segmento 1: Propietarios y administradores de restaurantes**
 
-A través de este mapa de viaje se analiza el flujo de interacción que siguen los dueños de negocios de alimentos fríos al gestionar sus productos perecibles y supervisar sus condiciones de conservación. Este grupo está conformado por propietarios que deben controlar constantemente el estado de sus productos y mantener adecuadas condiciones de almacenamiento, especialmente en la cadena de frío. La falta de monitoreo oportuno puede ocasionar el deterioro de productos, mermas y pérdidas económicas. Por ello, buscan alternativas tecnológicas intuitivas y eficientes que les permitan monitorear las condiciones de conservación, recibir alertas ante posibles riesgos y gestionar su inventario de manera ágil para reducir pérdidas y mejorar la rentabilidad del negocio.
+En este recorrido se ve el día de José en el restaurante. Entra por la landing, crea la cuenta y vincula el sensor de la cámara de cocina. En el turno recibe el aviso, mira el color del insumo y decide si entra al servicio o se da de baja. Si la merma no baja, no justifica seguir.
 
 ![José Segmento 1 Journey Map](Assets/Jose_Segmento1_Map.png)
 
-**Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
+**Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
-El presente mapa refleja la secuencia de pasos que efectúan los usuarios del segundo segmento con el fin de supervisar sus materias primas y garantizar insumos óptimos a sus consumidores. Este perfil engloba a emprendimientos gastronómicos del hogar que experimentan merma financiera ante el vencimiento de sus ingredientes por llevar un registro manual. Priorizan sistemas que sistematicen la medición de frescura, emitan análisis de stock e indicadores de reabastecimiento, ayudando a sostener el estándar de sus entregas y la lealtad comercial de sus clientes.
+En este recorrido se ve el día de Luisa en la distribución de alimentos en fríos. Entra por la landing, crea la cuenta e instala el sensor de la cámara o la vitrina. Antes del despacho mira el lote y decide si sale o se retiene. Si no ve el historial ni la merma, no justifica seguir.
 
 ![Luisa Segmento 2 Journey Map](Assets/Luisa_Segmento2_Map.png)
 
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento 1: Propietarios y Encargados de Negocios de Alimentos Fríos**
+**Segmento 1: Propietarios y administradores de restaurantes**
 
-El esquema de empatía enfocado en José ilustra el perfil de un dueño de un negocio de alimentos fríos que requiere controlar de manera constante sus productos perecibles para reducir pérdidas económicas e ineficiencias. Experimenta preocupación cuando sus productos se deterioran debido a fallas en las condiciones de conservación y busca herramientas digitales ágiles que faciliten el monitoreo de su inventario, generen alertas oportunas y contribuyan a mantener la calidad de sus productos y mejorar la rentabilidad del negocio.
+José representa a quien administra un restaurante. Le preocupa botar insumos porque se vencieron o porque la cámara de la cocina falló. Quiere un aviso claro y ver el inventario sin perder el turno de cocina.
 
 ![Empathy Map Segmento 1](Assets/Empathymap_Segmento1.png)
 
-**Segmento 2: Pequeños Negocios y Emprendedores de Alimentos**
+**Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
 
-El mapa de empatía representativo de Luisa sintetiza la perspectiva de una emprendedora comprometida con mantener la calidad de sus insumos y resguardar el prestigio de su marca. Requiere una plataforma accesible que aminore la merma económica, simplifique la organización del almacenamiento y consolide el respaldo de su clientela.
+Luisa representa a quien está a cargo de un negocio de distribución de alimentos en fríos. Le preocupa entregar un lote que ya no está en buen estado y no tener cómo demostrar a qué temperatura estuvo la cámara. Necesita el historial y la alerta antes de que la mercadería salga.
 
 ![Empathy Map Segmento 2](Assets/Empathymap_Segmento2.png)
 
 ## 2.4. Big Picture EventStorming
 
-Con la finalidad de estructurar una solución integral y alineada a las dinámicas del negocio, el equipo llevó a cabo una sesión colaborativa de EventStorming para mapear el flujo de eventos del sistema, orientándolo a nuestros dos segmentos objetivos: **Restaurantes** (control de insumos en cocina, estandarización de recetas/porciones y prevención de mermas) y **Negocios de venta de alimentos en frío** (monitoreo de la cadena de frío, gestión de stock en congeladores/vitrinas y rotación de productos):
+Hicimos el EventStorming pensando en los dos segmentos con los que trabajamos: **propietarios y administradores de restaurantes** (insumos de cocina, recetas y mermas) y **encargados de negocios de distribución de alimentos en fríos** (cámaras, vitrinas, lotes y cadena de frío). El tablero está en [Miro](https://miro.com/app/board/uXjVHkmn1fM=/).
 
 ![event storming1](Assets/Event1.PNG)
 ![event storming2](Assets/Event2.PNG)
 ![event storming3](Assets/Event3.PNG)
 ![event storming4](Assets/Event4.PNG)
 ![event storming5](Assets/Event5.jpeg)
-![event storming6](Assets/Event6.jpeg)
-![event storming7](Assets/Event7.jpeg)
-![event storming8](Assets/Event8.jpeg)
+![event storming6](Assets/Event6.png)
+![event storming7](Assets/Event7.png)
+![event storming8](Assets/Event8.png)
 ![event storming9](Assets/Event9.jpeg)
 ![event storming10](Assets/Event10.jpeg)
 
@@ -1102,53 +1068,55 @@ Con la finalidad de estructurar una solución integral y alineada a las dinámic
 
 ## 3.1. User Stories
 
+Las historias están escritas para los dos segmentos del proyecto: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. Cada historia tiene tres escenarios.
+
 | User Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con (Epic) |
 | :--- | :--- | :--- | :--- | :--- |
-| **US01** | Visualización de propuesta B2B | Como administrador de restaurante o negocio de frío, deseo comprender la propuesta de valor de FreshSense al ingresar al portal para evaluar sus beneficios operativos. | **Escenario 1: Carga limpia y mensaje claro**<br>Dado que un visitante comercial navega a la página web<br>Cuando la plataforma cargue completamente<br>Entonces se desplegará el mensaje central de valor enfocado en reducción de mermas y conservación de la cadena de frío. | **EP01** (Landing Page) |
-| **US02** | Sección para Restaurantes y Negocios en Frío | Como gestor gastronómico o de venta comercial, requiero información enfocada en mi rubro para entender el retorno de inversión y las ventajas operativas en mis cámaras. | **Escenario 1: Navegación por perfil comercial**<br>Dado que un potencial cliente B2B interactúa con la landing page<br>Cuando acceda a las pestañas de "Restaurantes" o "Comercio en Frío"<br>Entonces visualizará los módulos dedicados a mermas de cocina, control de vitrinas frías y planes corporativos. | **EP01** (Landing Page) |
-| **US03** | Formulario de contacto y demos B2B | Como gerente interesado, quiero enviar una solicitud de contacto de forma ágil para coordinar una prueba piloto o agendar una demostración técnica. | **Escenario 1: Envío exitoso de consulta**<br>Dado que el representante comercial llena sus datos de contacto válidos y tipo de negocio<br>Cuando presione el botón de envío<br>Entonces el sistema registrará la solicitud y mostrará un mensaje de confirmación en pantalla. | **EP01** (Landing Page) |
-| **US04** | Call to Action (CTA) Corporativo | Como cliente potencial B2B, deseo disponer de un botón de acción visible para solicitar una demostración o iniciar la prueba comercial gratuita. | **Escenario 1: Redirección desde el CTA**<br>Dado que el usuario explora los planes comerciales<br>Cuando haga clic en "Solicitar Demo Comercial"<br>Entonces será redirigido inmediatamente al formulario de registro de empresa. | **EP01** (Landing Page) |
-| **US05** | Adaptabilidad en dispositivos móviles y tablets | Como chef o supervisor en movimiento, quiero navegar por la plataforma desde tablets de cocina o teléfonos sin distorsión de contenido. | **Escenario 1: Renders responsivos**<br>Dado que el supervisor ingresa mediante una tablet o navegador móvil<br>Cuando explore las secciones<br>Entonces la interfaz ajustará dinámicamente sus márgenes, tablas y botones a la pantalla. | **EP01** (Landing Page) |
-| **US06** | Telemetría y monitoreo IoT de cámaras frías | Como encargado de almacén/cocina, necesito que el sensor recolecte métricas de temperatura, humedad y gas etileno para prevenir el deterioro de los insumos y stock comercial. | **Escenario 1: Transmisión continua de telemetría**<br>Dado que el dispositivo FreshSense está instalado en una cámara/vitrina en línea<br>Cuando detecte un cambio en las condiciones del ambiente<br>Entonces enviará los datos a la app en tiempo real para actualizar el panel de control.<br><br>**Escenario 2: Notificación por pérdida de señal**<br>Dado que el sensor pierda enlace con la red industrial<br>Cuando el servidor detecte la falta de ping<br>Entonces notificará al supervisor sobre el fallo de conectividad en el área afectada. | **EP02** (Monitoreo IoT) |
-| **US07** | Dashboard de inventario con semáforo | Como chef o jefe de tienda, quiero supervisar el estado del stock mediante un código de colores para identificar el riesgo de pérdida o caducidad. | **Escenario 1: Vista por código de colores**<br>Dado que el usuario consulta el inventario comercial<br>Cuando la interfaz procese la lectura de los sensores<br>Entonces catalogará cada insumo/producto en verde (óptimo), amarillo (priorizar uso/venta) o rojo (crítico/merma).<br><br>**Escenario 2: Inspección detallada del lote**<br>Dado que el usuario haga clic en un insumo o lote<br>Cuando se abra la tarjeta del producto<br>Entonces mostrará la fecha estimada de caducidad, lote y niveles de etileno o variación térmica. | **EP02** (Monitoreo IoT) |
-| **US08** | Sistema de alertas preventivas de temperatura | Como encargado de cadena de frío o cocina, requiero notificaciones oportunas cuando una cámara o vitrina pierda temperatura o un insumo esté en riesgo. | **Escenario 1: Notificación de quiebre de temperatura**<br>Dado que una cámara o lote pase a estado crítico<br>Cuando el motor de reglas procese los datos<br>Entonces enviará una alerta push o SMS al personal responsable.<br><br>**Escenario 2: Ausencia de falsas alarmas**<br>Dado que no existan desviaciones en los parámetros de la cámara<br>Cuando el sistema realice el chequeo periódico<br>Entonces no emitirá ninguna notificación innecesaria. | **EP03** (Alertas Inteligentes) |
-| **US09** | Preferencias de alertas por turno de trabajo | Como administrador, deseo parametrizar las alertas según los turnos de trabajo o niveles de urgencia para no saturar al personal fuera de hora. | **Escenario 1: Ajuste de canal por severidad**<br>Dado que se active una alerta leve fuera del turno operativo<br>Cuando el sistema procese la severidad<br>Entonces registrará el evento en el panel sin disparar alarmas sonoras de emergencia. | **EP03** (Alertas Inteligentes) |
-| **US10** | Alta de insumos por lector de código de barras y QR | Como personal de recepción de mercadería, quiero ingresar insumos o productos al inventario mediante código de barras o QR para agilizar la entrada. | **Escenario 1: Alta rápida de lote por scanner**<br>Dado que el recepcionista escanee el código de un paquete o caja de insumos<br>Cuando la app identifique el código en el catálogo<br>Entonces registrará automáticamente el insumo, la fecha de ingreso y categoría. | **EP04** (Gestión de Inventario) |
-| **US11** | Modificación manual de stock e insumos | Como jefe de almacén, quiero corregir o actualizar las cantidades del inventario manualmente tras los arqueos de cocina o tienda. | **Escenario 1: Actualización de existencias**<br>Dado que el supervisor ajuste las unidades restantes de un insumo<br>Cuando guarde la modificación<br>Entonces el sistema reajustará el stock disponible y emitirá el registro de auditoría. | **EP04** (Gestión de Inventario) |
-| **US12** | Reporte semanal de mermas y desperdicios | Como gerente de restaurante o tienda, requiero un informe periódico de mermas e insumos descartados para evaluar el impacto económico. | **Escenario 1: Emisión de reporte de mermas**<br>Dado que se cumpla el ciclo semanal o mensual<br>Cuando el servidor consolide las bajas e incidencias<br>Entonces enviará un resumen gráfico al correo de administración y al panel general. | **EP04** (Gestión de Inventario) |
-| **US13** | Estandarización de recetas y fichas técnicas | Como Chef Ejecutivo (Restaurantes), quiero vincular insumos a fichas técnicas de platillos para calcular la salida automática de ingredientes. | **Escenario 1: Descuento de insumos por comanda/receta**<br>Dado que existan insumos en alerta amarilla<br>Cuando el chef consulte el módulo de recetas<br>Entonces el sistema priorizará la sugerencia de platillos del menú que utilicen dichos insumos prontos a vencer. | **EP05** (Recetas Personalizadas) |
-| **US14** | Filtrado avanzado de insumos y lotes | Como supervisor, quiero filtrar el inventario por cámara fría, fecha de caducidad, lote o categoría (carnes, lácteos, vegetales). | **Escenario 1: Aplicación de filtros combinados**<br>Dado que el usuario seleccione "Cámara 1", "Vegetales" y "Vencimiento < 3 días"<br>Cuando ejecute la búsqueda<br>Entonces la pantalla desplegará únicamente los insumos que cumplan con todos los criterios. | **EP05** (Recetas Personalizadas) |
-| **US15** | Onboarding comercial e inducción de personal | Como administrador, deseo contar con un tutorial interactivo para que los nuevos empleados de cocina o tienda aprendan a usar la plataforma. | **Escenario 1: Módulo de aprendizaje comercial**<br>Dado que un colaborador inicie sesión por primera vez<br>Cuando se abra la pantalla principal<br>Entonces se desplegará una guía paso a paso sobre el registro de mermas y lectura de alertas. | **EP06** (UX y Accesibilidad) |
-| **US16** | Interfaz optimizada para entornos operativos | Como personal de cocina o almacén, quiero disponer de una interfaz clara, con texto grande y alto contraste para operar rápido con tablets. | **Escenario 1: Navegación accesible en planta**<br>Dado que el trabajador explore el tablero en la tablet de cocina<br>Cuando interactúe con los botones y alertas<br>Entonces la interfaz responderá de manera fluida y adaptada a condiciones de alta operatividad. | **EP06** (UX y Accesibilidad) |
-| **US17** | Analítica avanzada de rotación e inventarios | Como gerente B2B, deseo visualizar gráficos detallados de rotación de stock (FIFO) y velocidad de consumo para optimizar las órdenes de compra. | **Escenario 1: Acceso a métricas corporativas**<br>Dado un usuario con plan Enterprise/B2B activo<br>Cuando acceda al menú de analítica<br>Entonces podrá inspeccionar gráficos comparativos de entradas, rotación y mermas por periodos. | **EP07** (Suscripción Premium) |
-| **US18** | Panel de impacto financiero de mermas rescatadas | Como director financiero del negocio, quiero evaluar el dinero ahorrado al reducir las pérdidas de insumos y mercadería en frío. | **Escenario 1: Cálculo de ahorro operativo**<br>Dado que el sistema registre alimentos e insumos utilizados/vendidos antes de su vencimiento gracias a las alertas<br>Cuando el gerente consulte el panel financiero<br>Entonces visualizará una estimación en moneda local del valor rescatado. | **EP07** (Suscripción Premium) |
-| **US19** | Módulo de fichas técnicas gourmet/avanzadas | Como chef ejecutivo, quiero acceder a plantillas avanzadas de costeo de recetas e insumos para optimizar los márgenes de los platillos. | **Escenario 1: Desbloqueo de herramientas de costeo**<br>Dado un restaurante con suscripción Premium/Enterprise<br>Cuando consulte la sección de recetas avanzadas<br>Entonces dispondrá de cálculo de rendimiento de merma por corte e insumo. | **EP07** (Suscripción Premium) |
-| **US20** | Métricas de impacto ambiental corporativo | Como empresa comprometida con la sostenibilidad, quiero revisar la reducción de CO₂ y huella hídrica derivada de evitar desperdicios comerciales. | **Escenario 1: Reporte ESG corporativo**<br>Dado el registro de insumos salvados durante el periodo<br>Cuando el usuario visite la pestaña de sostenibilidad<br>Entonces la app generará las equivalencias en CO₂ no emitido y litros de agua preservados para auditorías ambientales. | **EP08** (Sostenibilidad) |
-| **US21** | Difusión de sellos de sostenibilidad | Como negocio sostenible, quiero exportar insignias y reportes de desperdicio cero para mostrarlos en mis redes o local comercial. | **Escenario 1: Descarga de certificado ambiental**<br>Dado que el local alcance la meta mensual de reducción de mermas<br>Cuando presione "Generar Sello Verde"<br>Entonces la plataforma emitirá una imagen certificada lista para difusión o impresión. | **EP08** (Sostenibilidad) |
-| **US22** | Sincronización con equipos de refrigeración industrial | Como gerente de operaciones, quiero enlazar FreshSense con sistemas de frío o heladeras comerciales inteligentes vía API. | **Escenario 1: Mapeo de refrigeración industrial**<br>Dado un equipo de refrigeración comercial compatible<br>Cuando se complete el emparejamiento mediante API<br>Entonces la app consolidará la información de los compresores y sensores en el panel central. | **EP09** (Integración IoT) |
-| **US23** | Consultas por voz en estaciones de trabajo | Como chef o preparador de pedidos, quiero consultar el estado de insumos críticos mediante comandos de voz para mantener las manos libres. | **Escenario 1: Consulta verbal de insumos**<br>Dado que el terminal de cocina esté vinculado con el asistente de voz<br>Cuando el chef pregunte "¿Qué insumos de la Cámara 1 vencen hoy?"<br>Entonces el asistente leerá en voz alta los artículos marcados en alerta. | **EP09** (Integración IoT) |
-| **US24** | Ruteo de alertas multidispositivo por jerarquía | Como administrador de local, quiero seleccionar qué alertas críticas van al teléfono del gerente de guardia y cuáles a la pantalla de cocina. | **Escenario 1: Ruteo jerárquico**<br>Dado que se detecte una caída crítica de temperatura en la madrugada<br>Cuando se dispare la alerta roja<br>Entonces el servidor la enviará directamente al celular del gerente de turno. | **EP09** (Integración IoT) |
-| **US25** | Gamificación y metas de equipo | Como jefe de tienda/cocina, quiero establecer metas de desperdicio cero para motivar a mis empleados a registrar y cuidar el stock. | **Escenario 1: Adjudicación de reconocimientos al equipo**<br>Dado que la cocina pase 30 días operando sin mermas por negligencia<br>Cuando el sistema verifique el registro<br>Entonces otorgará una insignia al perfil de la sucursal y sumará puntos al programa comercial. | **EP10** (Gamificación) |
-| **US26** | Red de proveedores e intercambio de buenas prácticas | Como gerente comercial, quiero acceder a un foro B2B para intercambiar técnicas de conservación y proveedores de insumos frescos. | **Escenario 1: Publicación en la red B2B**<br>Dado que el usuario ingrese a la comunidad de comercios<br>Cuando busque o publique un consejo de calibración o conservación<br>Entonces otros gerentes registrados podrán interactuar y guardar la sugerencia. | **EP10** (Gamificación) |
-| **US27** | Benchmarking entre sucursales | Como director de una cadena de restaurantes o locales fríos, quiero comparar el rendimiento de mermas entre mis distintas sedes. | **Escenario 1: Posicionamiento en tabla interna**<br>Dado que la empresa gestione 3 o más sucursales<br>Cuando consulte la comparativa del mes<br>Entonces el panel ordenará las sedes de menor a mayor porcentaje de mermas. | **EP10** (Gamificación) |
-| **US28** | Categorización personalizada de insumos y cámaras | Como jefe de almacén, quiero crear categorías a medida (ej. "Insumos de Marisquería", "Vitrinas de Charcutería") para ordenar el stock. | **Escenario 1: Creación de categorías custom**<br>Dado que el usuario agregue la categoría "Mariscos Congelados"<br>Cuando catalogue un nuevo lote<br>Entonces podrá filtrar todo el inventario y establecer alertas bajo ese grupo específico. | **EP11** (Gestión Avanzada) |
-| **US29** | Historial de mermas e inventario exportable | Como auditor o contador del negocio, quiero descargar la lista histórica de bajas, mermas e insumos consumidos para ajustar costos y balances. | **Escenario 1: Exportación de archivo contable**<br>Dado que el usuario defina un rango de fechas y sucursal<br>Cuando presione "Exportar historial comercial"<br>Entonces el sistema descargará un archivo en formato CSV o Excel con el desglose por lotes y costos. | **EP11** (Gestión Avanzada) |
-| **US30** | Algoritmo de sugerencias de reposición de stock | Como comprador de insumos, quiero recibir sugerencias automáticas de abastecimiento según el consumo histórico y tiempos de vida útil. | **Escenario 1: Generación de orden sugerida**<br>Dado el historial de ventas e insumos utilizados en los últimos 30 días<br>Cuando el encargado prepare la orden de compra<br>Entonces la plataforma recomendará las cantidades de reposición para evitar sobre-stock. | **EP11** (Gestión Avanzada) |
-| **US31** | Vinculación y calibración de sensores de cámaras | Como instalador o supervisor, quiero vincular un sensor FreshSense escaneando su QR e ingresar los umbrales de frío de la cámara correspondiente. | **Escenario 1: Vinculación QR exitosa**<br>Dado que el supervisor abre el módulo de hardware<br>Cuando escanee el código QR del sensor colocado en la cámara de congelación<br>Entonces el equipo quedará asociado a esa zona y calibrado a la temperatura límite definida. | **EP02** (Monitoreo IoT) |
-| **US32** | Modo de mantenimiento de equipos fríos | Como encargado de mantenimiento, quiero activar el "Modo Mantenimiento/Limpieza" en una cámara para pausar las alarmas mientras se limpia o repara. | **Escenario 1: Pausa temporal de alertas**<br>Dado que el técnico active el "Modo Mantenimiento" en la Cámara 2<br>Cuando transcurran los 60 minutos programados de limpieza<br>Entonces el sistema suspenderá las alertas por puerta abierta o alza de temperatura en esa zona. | **EP03** (Alertas Inteligentes) |
-| **US33** | Gestión de múltiples áreas y cámaras frías | Como gerente de local, quiero crear y estructurar la jerarquía de mis zonas de conservación (ej. "Cocina Central", "Cámara de Carnes", "Exhibidor Verduras"). | **Escenario 1: Asignación de ubicación física**<br>Dado que el usuario crea la zona "Vitrinas Lácteos"<br>Cuando vincule un sensor a dicha zona<br>Entonces los productos almacenados allí heredarán automáticamente las reglas de frío de ese exhibidor. | **EP11** (Gestión Avanzada) |
-| **US34** | Registro de causas corporativas de merma | Como auditor de calidad, quiero registrar el motivo exacto por el cual se descarta un insumo (ej. "Falla de Frío", "Caducidad", "Contaminación Cruzada", "Mal Estado de Proveedor"). | **Escenario 1: Registro de causa de baja**<br>Dado que el cocinero o empleado dé de baja un lote<br>Cuando la app solicite la causa obligatoria<br>Entonces guardará el motivo para incluirlo en los gráficos analíticos de auditoría. | **EP04** (Gestión de Inventario) |
-| **US35** | Recuperación corporativa de contraseña | Como colaborador registrado, quiero restablecer mi clave mediante un correo seguro corporativo cuando olvide mis credenciales de acceso. | **Escenario 1: Restablecimiento seguro**<br>Dado que el usuario solicite el cambio de clave en la pantalla de ingreso<br>Cuando presione "Enviar enlace de recuperación"<br>Entonces el sistema despachará un token temporal único al correo corporativo registrado. | **EP12** (Core API) |
-| **US36** | Panel de administración de usuarios y roles B2B | Como administrador del sistema FreshSense, quiero gestionar cuentas corporativas, modificar permisos (Chef, Supervisor, Gerente, Admin) y suspender accesos. | **Escenario 1: Modificación de permisos de usuario**<br>Dado un colaborador asignado al rol "Cocinero"<br>Cuando el administrador actualice su usuario al rol "Jefe de Cocina"<br>Entonces obtendrá permisos inmediatos para autorizar bajas de insumos y editar fichas técnicas. | **EP12** (Core API) |
-| **US37** | Gestión de colaboradores de local/sucursal | Como gerente de sede, quiero invitar a empleados del restaurante o tienda para que gestionen el inventario del local con sus respectivos permisos. | **Escenario 1: Aceptación de invitación de colaborador**<br>Dado que el gerente envíe una invitación al correo corporativo del nuevo supervisor<br>Cuando el invitado acepte el enlace de vinculación<br>Entonces podrá acceder al inventario asignado a su turno y sucursal. | **EP04** (Gestión de Inventario) |
-| **US38** | Descarga de facturación y comprobantes B2B | Como departamento de contabilidad, quiero descargar las facturas o comprobantes fiscales de la suscripción SaaS para sustentar gastos operativos. | **Escenario 1: Descarga de factura PDF/XML**<br>Dado que el cobro mensual de la suscripción corporativa haya sido procesado<br>Cuando el contador acceda a la sección "Facturación B2B"<br>Entonces podrá descargar el comprobante en formato PDF y datos fiscales. | **EP07** (Suscripción Premium) |
-| **US39** | Búsqueda global de inventario y lotes | Como encargado de almacén, quiero buscar rápidamente cualquier insumo, lote o receta escribiendo en un buscador con sugerencias en tiempo real. | **Escenario 1: Búsqueda dinámica de insumos**<br>Dado que el usuario escriba "Lomo" en el buscador corporativo<br>Cuando el sistema procese la búsqueda<br>Entonces desplegará inmediatamente la ubicación en cámaras, fechas de caducidad y lotes asociados. | **EP06** (UX y Accesibilidad) |
-| **US40** | Evaluación de calidad de proveedores de insumos | Como jefe de compras, quiero calificar y registrar notas sobre la durabilidad real de la mercadería recibida por cada proveedor. | **Escenario 1: Registro de evaluación de proveedor**<br>Dado que un lote de verduras se deteriore antes del tiempo previsto<br>Cuando el usuario registre la incidencia en la ficha de la compra<br>Entonces el sistema actualizará la puntuación histórica de frescura de dicho proveedor. | **EP05** (Recetas Personalizadas) |
-| **TS41** | API Ingesta de Sensores IoT B2B | Como desarrollador Backend, requiero un endpoint RESTful/MQTT seguro de alta velocidad para almacenar masivamente las lecturas de los microcontroladores de las cámaras. | **Escenario 1: Persistencia exitosa de telemetría**<br>Dado que un sensor autenticado envíe un JSON con lecturas de etileno, humedad y temperatura<br>Cuando el backend valide el token JWT del hardware<br>Entonces almacenará los registros en la base de datos de serie temporal y responderá un código HTTP 201. | **EP12** (Core API) |
-| **TS42** | Microservicio de Notificaciones de Emergencia | Como desarrollador Backend, necesito un módulo independiente para la gestión y despacho prioritario de avisos push, SMS y correos sobre fallas de frío. | **Escenario 1: Despacho asíncrono de alertas críticas**<br>Dado un evento de alza crítica de temperatura en una cámara fría<br>Cuando el microservicio reciba el mensaje del broker de eventos<br>Then procesará la plantilla de emergencia y la despachará hacia el proveedor de mensajería (Firebase/Twilio/SendGrid). | **EP12** (Core API) |
-| **TS43** | API Gestor de Autenticación y RBAC B2B | Como desarrollador Backend, preciso implementar un control de acceso basado en roles (RBAC) con tokens JWT para gestionar permisos según jerarquía comercial. | **Escenario 1: Validación de permisos por rol**<br>Dado que un usuario con rol "Cocinero" intente acceder a endpoints de facturación o analítica avanzada<br>Cuando el middleware analice el token JWT<br>Entonces bloqueará la solicitud devolviendo un estado HTTP 403 Forbidden. | **EP12** (Core API) |
-| **TS44** | Integración de Pasarela de Pagos B2B (Stripe/PayPal) | Como desarrollador Backend, necesito integrar los webhooks de cobro recurrente para automatizar la activación de planes corporativos e historial de facturación. | **Escenario 1: Confirmación de pago por Webhook**<br>Dado que la pasarela procese exitosamente el pago del plan Enterprise del restaurante<br>Cuando el servidor reciba la notificación del Webhook<br>Entonces extenderá automáticamente la vigencia de la suscripción y emitirá el comprobante contable. | **EP07** (Suscripción Premium) |
-| **TS45** | Caching de Consultas Frecuentes e Inventarios en Tiempo Real | Como desarrollador Backend, necesito implementar una capa de caché con Redis para optimizar el tiempo de respuesta del panel de inventario y listado de insumos. | **Escenario 1: Respuesta acelerada desde memoria caché**<br>Dado que una consulta de stock de local haya sido solicitada previamente<br>Cuando un nuevo usuario de la misma sucursal abra el inventario<br>Entonces la API servirá la información estructurada desde Redis reduciendo el tiempo de respuesta a menos de 50ms. | **EP12** (Core API) |
+| **US01** | Visualización de propuesta B2B | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero entender la propuesta de FreshSense al entrar a la página, para ver si me ayuda a bajar la merma de mi local. | **Escenario 1: Carga limpia y mensaje claro**<br>Dado que un visitante comercial navega a la página web<br>Cuando la plataforma cargue completamente<br>Entonces se mostrará el mensaje central de valor sobre reducción de mermas y conservación de la cadena de frío.<br><br>**Escenario 2: Mensaje según el rubro**<br>Dado que el visitante identifica su negocio como restaurante o como encargado de un negocio de distribución de alimentos en fríos<br>Cuando recorra la portada<br>Entonces verá el beneficio operativo de su rubro: mermas de cocina o control de cámaras y vitrinas.<br><br>**Escenario 3: Fallo de carga**<br>Dado que la portada no termina de cargar<br>Cuando el visitante espera el contenido principal<br>Entonces verá un aviso de error con opción de reintentar, y no una pantalla vacía presentada como propuesta comercial. | **EP01** (Landing Page) |
+| **US02** | Sección para Restaurantes y Negocios en Frío | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero ver la información de mi rubro, para saber qué me aporta en las cámaras. | **Escenario 1: Navegación por perfil comercial**<br>Dado que un potencial cliente B2B está en la landing page<br>Cuando abra la pestaña «Restaurantes» o «Distribución de alimentos en fríos»<br>Entonces verá los módulos de mermas de cocina, control de vitrinas frías y planes corporativos de ese rubro.<br><br>**Escenario 2: Cambio de rubro**<br>Dado que el visitante está en «Restaurantes»<br>Cuando pase a «Distribución de alimentos en fríos»<br>Entonces el contenido cambia al segmento de encargados de negocios de distribución de alimentos en fríos sin recargar el sitio ni mezclar ambos textos.<br><br>**Escenario 3: Sección no disponible**<br>Dado que el enlace de una pestaña no resuelve a un módulo válido<br>Cuando el visitante lo activa<br>Entonces permanece en la vista general del portal y no ve un módulo vacío como si fuera información del rubro. | **EP01** (Landing Page) |
+| **US03** | Formulario de contacto y demos B2B | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero dejar mis datos, para coordinar una demo o una prueba en el local. | **Escenario 1: Envío exitoso de consulta**<br>Dado que el representante completa datos de contacto válidos y el tipo de negocio<br>Cuando presione enviar<br>Entonces el sistema registra la solicitud y muestra la confirmación en pantalla.<br><br>**Escenario 2: Solicitud identificada por rubro**<br>Dado que el gerente elige «Restaurante» o «Distribución de alimentos en fríos»<br>Cuando la solicitud se registra<br>Entonces la confirmación y el registro conservan ese tipo de negocio para coordinar la demo.<br><br>**Escenario 3: Datos inválidos**<br>Dado que falta el correo, el tipo de negocio o el correo no tiene formato válido<br>Cuando presione enviar<br>Entonces la solicitud no se registra y se señalan los campos que debe corregir. | **EP01** (Landing Page) |
+| **US04** | Call to Action (CTA) Corporativo | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero encontrar un botón claro para pedir la demo, para no buscar el formulario. | **Escenario 1: Redirección desde el CTA**<br>Dado que el usuario explora los planes comerciales<br>Cuando haga clic en «Solicitar demo comercial»<br>Entonces llega al formulario de registro de empresa.<br><br>**Escenario 2: CTA en tablet o teléfono**<br>Dado que el supervisor abre los planes desde una tablet de cocina o un teléfono<br>Cuando pulse el mismo llamado a la acción<br>Entonces también llega al formulario, con el botón visible y accionable.<br><br>**Escenario 3: Formulario no disponible**<br>Dado que el destino del formulario no responde<br>Cuando pulse «Solicitar demo comercial»<br>Entonces ve un aviso de que la solicitud no pudo abrirse y permanece en la página de planes. | **EP01** (Landing Page) |
+| **US05** | Adaptabilidad en dispositivos móviles y tablets | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero abrir la plataforma en la tablet o en el celular, para revisarla mientras estoy en el local. | **Escenario 1: Ajuste a la pantalla**<br>Dado que el supervisor ingresa desde una tablet o un navegador móvil<br>Cuando recorra las secciones<br>Entonces márgenes, tablas y botones se ajustan al ancho de la pantalla.<br><br>**Escenario 2: Cambio de orientación**<br>Dado que la tablet está en vertical<br>Cuando el supervisor la gire a horizontal<br>Entonces la sección en la que estaba sigue visible y las tablas se reacomodan sin cortar botones.<br><br>**Escenario 3: Ancho mínimo**<br>Dado que el ancho de pantalla es el mínimo soportado para operación en planta<br>Cuando interactúe con alertas, inventario o planes<br>Entonces el texto y los controles permanecen legibles, sin quedar fuera de la pantalla. | **EP01** (Landing Page) |
+| **US06** | Telemetría y monitoreo IoT de cámaras frías | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero que el sensor mida temperatura, humedad y etileno de la cámara, para enterarme antes de que el producto se malogre. | **Escenario 1: Transmisión continua de telemetría**<br>Dado que el dispositivo FreshSense está en línea en una cámara o vitrina<br>Cuando detecte un cambio de temperatura, humedad o etileno<br>Entonces envía la lectura y el panel se actualiza con esos valores.<br><br>**Escenario 2: Notificación por pérdida de señal**<br>Dado que el sensor pierde enlace con la red<br>Cuando el servidor deja de recibir señal de esa cámara<br>Entonces notifica al supervisor el fallo de conectividad del área afectada.<br><br>**Escenario 3: Lectura incompleta**<br>Dado que el sensor envía una lectura sin temperatura, humedad o etileno<br>Cuando el panel procese ese envío<br>Entonces no la presenta como una medición válida de la cámara. | **EP02** (Monitoreo IoT) |
+| **US07** | Dashboard de inventario con semáforo | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero ver el inventario en verde, amarillo o rojo, para saber qué está bien, qué hay que sacar pronto y qué ya está crítico. | **Escenario 1: Vista por código de colores**<br>Dado que el usuario consulta el inventario<br>Cuando la interfaz procese la lectura de los sensores<br>Entonces cada insumo queda en verde (óptimo), amarillo (priorizar uso o venta) o rojo (crítico).<br><br>**Escenario 2: Inspección detallada del lote**<br>Dado que el usuario selecciona un insumo o lote<br>Cuando se abra su ficha<br>Entonces verá la fecha estimada de caducidad, el lote y los niveles de etileno o la variación térmica.<br><br>**Escenario 3: Sin lectura utilizable**<br>Dado que un producto no tiene una lectura reciente de su cámara<br>Cuando el usuario consulte el inventario<br>Entonces ese producto figura como estado desconocido y no como verde. | **EP02** (Monitoreo IoT) |
+| **US08** | Sistema de alertas preventivas de temperatura | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero recibir un aviso cuando la cámara pierda frío o un producto esté en riesgo, para actuar antes de perderlo. | **Escenario 1: Notificación de quiebre de temperatura**<br>Dado que una cámara o lote pasa a estado crítico<br>Cuando el motor de reglas procese los datos<br>Entonces envía una alerta push o SMS al personal responsable y la deja visible en el panel.<br><br>**Escenario 2: Ausencia de falsas alarmas**<br>Dado que la cámara se mantiene dentro de sus umbrales<br>Cuando el sistema haga el chequeo periódico<br>Entonces no emite ninguna notificación.<br><br>**Escenario 3: Fallo del canal externo**<br>Dado que la condición es crítica y el envío push o SMS no se entrega<br>Cuando el motor termine de procesar el evento<br>Entonces la alerta queda en el panel como pendiente de envío y no figura como entregada. | **EP03** (Alertas Inteligentes) |
+| **US09** | Preferencias de alertas por turno de trabajo | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero configurar las alertas según el turno, para que una alerta leve no suene fuera de hora. | **Escenario 1: Alerta leve fuera de turno**<br>Dado que se activa una alerta leve fuera del turno operativo<br>Cuando el sistema evalúe su severidad y el horario<br>Entonces registra el evento en el panel y no dispara alarma sonora de emergencia.<br><br>**Escenario 2: Alerta crítica en cualquier horario**<br>Dado que una cámara cae a estado rojo fuera del turno de cocina o de tienda<br>Cuando el sistema evalúe la severidad<br>Entonces notifica al responsable de guardia por el canal configurado para alertas críticas.<br><br>**Escenario 3: Configuración incompleta**<br>Dado que el administrador no indicó horario o canal<br>Cuando intente guardar las preferencias<br>Entonces el sistema no las aplica y señala los datos que faltan. | **EP03** (Alertas Inteligentes) |
+| **US10** | Alta de insumos por lector de código de barras y QR | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero dar de alta la mercadería con código de barras o QR, para no registrar el lote a mano. | **Escenario 1: Alta rápida de lote por scanner**<br>Dado que el recepcionista escanea el código de un paquete o caja<br>Cuando la aplicación lo identifique en el catálogo<br>Entonces registra el insumo, la fecha de ingreso y la categoría.<br><br>**Escenario 2: Nuevo ingreso de un insumo ya existente**<br>Dado que el código corresponde a un insumo que ya está en la sucursal<br>Cuando el recepcionista confirme la cantidad recibida<br>Entonces suma esa cantidad al stock y conserva el registro del nuevo ingreso.<br><br>**Escenario 3: Código fuera de catálogo**<br>Dado que el código escaneado no existe en el catálogo<br>Cuando la aplicación lo procese<br>Entonces no crea el insumo automáticamente y ofrece completar el alta manual. | **EP04** (Gestión de Inventario) |
+| **US11** | Modificación manual de stock e insumos | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero corregir las cantidades después del conteo, para que el sistema coincida con lo que hay en la cámara. | **Escenario 1: Actualización de existencias**<br>Dado que el supervisor ajusta las unidades restantes de un insumo<br>Cuando guarde la modificación<br>Entonces el stock disponible queda con la nueva cantidad y se genera el registro de auditoría.<br><br>**Escenario 2: Auditoría del ajuste**<br>Dado que el ajuste se guardó<br>Cuando un auditor consulte ese insumo<br>Entonces ve usuario, fecha, cantidad anterior y cantidad nueva.<br><br>**Escenario 3: Cantidad no válida**<br>Dado que el supervisor ingresa una cantidad negativa o un valor no numérico<br>Cuando intente guardar<br>Entonces el stock no cambia y se indica que la cantidad no es válida. | **EP04** (Gestión de Inventario) |
+| **US12** | Reporte semanal de mermas y desperdicios | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero recibir el reporte de lo descartado en la semana, para ver cuánto se perdió. | **Escenario 1: Emisión de reporte de mermas**<br>Dado que se cumple el ciclo semanal o mensual configurado<br>Cuando el servidor consolide las bajas y los descartes<br>Entonces envía el resumen al correo de administración y lo publica en el panel.<br><br>**Escenario 2: Consulta en el panel**<br>Dado que el resumen del periodo ya fue consolidado<br>Cuando el gerente lo abra en el panel antes de revisar el correo<br>Entonces ve el mismo volumen de mermas y el mismo costo del periodo.<br><br>**Escenario 3: Periodo sin mermas**<br>Dado que en el ciclo no hubo descartes ni bajas<br>Cuando se genere el reporte<br>Entonces el resumen indica cero mermas y no agrega pérdidas. | **EP04** (Gestión de Inventario) |
+| **US13** | Estandarización de recetas y fichas técnicas | Como propietario o administrador de un restaurante, quiero armar la ficha del platillo con sus insumos, para descontar lo que sale en cocina y usar primero lo que está por vencer. | **Escenario 1: Prioridad de insumos en alerta**<br>Dado que existen insumos en alerta amarilla<br>Cuando el chef consulte el módulo de recetas<br>Entonces el sistema sugiere primero los platillos que usan esos insumos.<br><br>**Escenario 2: Descuento por ficha técnica**<br>Dado que el platillo tiene una ficha con insumos y cantidades<br>Cuando el chef confirme la preparación<br>Entonces el inventario descuenta las cantidades indicadas en la ficha.<br><br>**Escenario 3: Stock insuficiente**<br>Dado que un insumo de la ficha no alcanza para la preparación<br>Cuando el chef intente confirmarla<br>Entonces no se descuenta ningún insumo de esa preparación y se indica el faltante. | **EP05** (Recetas Personalizadas) |
+| **US14** | Filtrado avanzado de insumos y lotes | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero filtrar por cámara, vencimiento, lote o categoría, para ubicar lo que tengo que mover. | **Escenario 1: Aplicación de filtros combinados**<br>Dado que el usuario selecciona «Cámara 1», «Vegetales» y vencimiento menor a 3 días<br>Cuando ejecute la búsqueda<br>Entonces solo aparecen los insumos que cumplen las tres condiciones.<br><br>**Escenario 2: Quitar un filtro**<br>Dado que la lista está filtrada por cámara, categoría y vencimiento<br>Cuando el usuario quite el filtro de categoría<br>Entonces la lista se actualiza con los insumos que siguen cumpliendo los filtros restantes.<br><br>**Escenario 3: Sin coincidencias**<br>Dado que ningún insumo cumple la combinación elegida<br>Cuando ejecute la búsqueda<br>Entonces la pantalla muestra un resultado vacío y no el inventario completo. | **EP05** (Recetas Personalizadas) |
+| **US15** | Onboarding comercial e inducción de personal | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero dejar un tutorial para el personal nuevo, para que sepa registrar una merma y leer una alerta. | **Escenario 1: Primer ingreso**<br>Dado que un colaborador inicia sesión por primera vez<br>Cuando se abra la pantalla principal<br>Entonces aparece una guía paso a paso sobre el registro de mermas y la lectura de alertas.<br><br>**Escenario 2: Retomar la guía**<br>Dado que el colaborador omitió la guía en el primer ingreso<br>Cuando elija volver a verla desde su perfil<br>Entonces la guía se abre en el primer paso, sin borrar su avance operativo.<br><br>**Escenario 3: Ingreso posterior**<br>Dado que el colaborador ya completó u omitió la guía<br>Cuando vuelva a iniciar sesión<br>Entonces entra directo al panel y la guía no bloquea la pantalla. | **EP06** (UX y Accesibilidad) |
+| **US16** | Interfaz optimizada para entornos operativos | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero una pantalla clara en la tablet, para usarla en la cocina o en el almacén sin detenerme. | **Escenario 1: Lectura en planta**<br>Dado que el trabajador abre el tablero en la tablet de cocina o almacén<br>Cuando revise botones y alertas<br>Entonces distingue el estado de cada insumo por texto, color y contraste suficientes para esa pantalla.<br><br>**Escenario 2: Acción táctil**<br>Dado que el trabajador necesita atender una alerta o abrir un lote<br>Cuando pulse el control correspondiente<br>Entonces el área táctil responde en un solo toque, sin exigir precisión de puntero.<br><br>**Escenario 3: Contenido que no cabe**<br>Dado que el nombre del insumo o el mensaje de alerta es más largo que el ancho disponible<br>Cuando se muestre en la tablet<br>Entonces el texto se ajusta sin tapar el semáforo ni el botón de acción. | **EP06** (UX y Accesibilidad) |
+| **US17** | Analítica avanzada de rotación e inventarios | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero ver cómo rota el stock, para comprar mejor y no llenar la cámara de más. | **Escenario 1: Acceso con plan activo**<br>Dado un usuario con plan Enterprise o B2B activo<br>Cuando abra el menú de analítica<br>Entonces ve gráficos de entradas, rotación y mermas del periodo.<br><br>**Escenario 2: Cambio de periodo**<br>Dado que el gerente está viendo la analítica del mes<br>Cuando seleccione otra semana u otro mes<br>Entonces los gráficos se recalculan solo con los movimientos de ese periodo.<br><br>**Escenario 3: Plan sin analítica avanzada**<br>Dado un usuario cuyo plan no incluye analítica Enterprise<br>Cuando intente abrir ese menú<br>Entonces no ve los gráficos comparativos y se informa que la función corresponde a otro plan. | **EP07** (Suscripción Premium) |
+| **US18** | Panel de impacto financiero de mermas rescatadas | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero ver cuánto dinero se salvó al usar o vender el producto antes del vencimiento, para saber si el control está sirviendo. | **Escenario 1: Ahorro del periodo**<br>Dado que el sistema registró alimentos utilizados o vendidos antes de su vencimiento gracias a las alertas<br>Cuando el gerente consulte el panel financiero<br>Entonces ve la estimación en moneda local del valor rescatado.<br><br>**Escenario 2: Desglose del ahorro**<br>Dado que el periodo tiene rescates en más de una cámara o categoría<br>Cuando abra el detalle<br>Entonces el valor rescatado se muestra separado por categoría de insumo.<br><br>**Escenario 3: Periodo sin rescates**<br>Dado que no hubo insumos aprovechados por alerta en el periodo<br>Cuando consulte el panel financiero<br>Entonces el ahorro figura en cero. | **EP07** (Suscripción Premium) |
+| **US19** | Módulo de fichas técnicas gourmet/avanzadas | Como propietario o administrador de un restaurante, quiero el costeo del platillo y la merma del corte, para ver si el plato deja margen. | **Escenario 1: Costeo con plan premium**<br>Dado un restaurante con suscripción Premium o Enterprise<br>Cuando consulte las recetas avanzadas<br>Entonces puede calcular el rendimiento de merma por corte e insumo.<br><br>**Escenario 2: Recálculo del costo**<br>Dado que el chef modifica el rendimiento de merma de un corte<br>Cuando guarde la ficha<br>Entonces el costo del platillo se actualiza con ese rendimiento.<br><br>**Escenario 3: Plan sin costeo avanzado**<br>Dado un local sin suscripción Premium o Enterprise<br>Cuando abra la sección de recetas avanzadas<br>Entonces ve la función bloqueada y no los costos por corte. | **EP07** (Suscripción Premium) |
+| **US20** | Métricas de impacto ambiental corporativo | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero ver el CO2 y el agua que se dejó de perder al rescatar producto, para tener el dato del periodo. | **Escenario 1: Reporte del periodo**<br>Dado el registro de insumos salvados durante el periodo<br>Cuando el usuario abra la pestaña de sostenibilidad<br>Entonces ve el CO₂ no emitido y los litros de agua preservados de ese periodo.<br><br>**Escenario 2: Otro rango de fechas**<br>Dado que el usuario cambia el rango del reporte<br>Cuando la pestaña se actualice<br>Entonces las equivalencias corresponden solo a los insumos salvados en ese rango.<br><br>**Escenario 3: Sin insumos salvados**<br>Dado que el periodo no tiene insumos salvados<br>Cuando abra la pestaña<br>Entonces CO₂ y agua preservada figuran en cero. | **EP08** (Sostenibilidad) |
+| **US21** | Difusión de sellos de sostenibilidad | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero descargar un sello cuando cumpla la meta de merma, para mostrarlo en el local. | **Escenario 1: Meta cumplida**<br>Dado que el local alcanzó la meta mensual de reducción de mermas<br>Cuando presione «Generar sello verde»<br>Entonces obtiene una imagen del sello, con el periodo y la sede, lista para difusión o impresión.<br><br>**Escenario 2: Nueva descarga del mismo sello**<br>Dado que el sello del mes ya fue generado<br>Cuando lo vuelva a descargar<br>Entonces obtiene la misma certificación del periodo, sin crear otra meta cumplida.<br><br>**Escenario 3: Meta no alcanzada**<br>Dado que el local no cumplió la meta mensual<br>Cuando presione «Generar sello verde»<br>Entonces no se emite el certificado de ese mes. | **EP08** (Sostenibilidad) |
+| **US22** | Sincronización con equipos de refrigeración industrial | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero enlazar FreshSense con el equipo de frío del local, para ver sus lecturas en el mismo panel. | **Escenario 1: Emparejamiento exitoso**<br>Dado un equipo de refrigeración compatible<br>Cuando se complete el emparejamiento mediante API<br>Entonces el panel central muestra la información de sus compresores y sensores.<br><br>**Escenario 2: Varias cámaras del mismo equipo**<br>Dado que el equipo vinculado controla más de una cámara<br>Cuando el gerente abra el panel<br>Entonces cada cámara aparece identificada con sus propias lecturas.<br><br>**Escenario 3: Credenciales o equipo no compatible**<br>Dado que la API rechaza las credenciales o el equipo no es compatible<br>Cuando se intente el emparejamiento<br>Entonces no se crea el vínculo y el panel no muestra lecturas de ese equipo. | **EP09** (Integración IoT) |
+| **US23** | Consultas por voz en estaciones de trabajo | Como propietario o administrador de un restaurante, quiero preguntar por voz qué insumos de una cámara vencen hoy, para no soltar la preparación. | **Escenario 1: Consulta reconocida**<br>Dado que el terminal de cocina está vinculado al asistente de voz<br>Cuando el chef pregunte qué insumos de la Cámara 1 vencen hoy<br>Entonces el asistente lee en voz alta los artículos en alerta de esa cámara.<br><br>**Escenario 2: Consulta de otra cámara**<br>Dado que el asistente ya respondió por la Cámara 1<br>Cuando el chef pregunte por otra cámara de la misma sede<br>Entonces la respuesta corresponde solo a los insumos en alerta de esa segunda cámara.<br><br>**Escenario 3: Voz no disponible o no entendida**<br>Dado que el terminal no está vinculado o el comando no se reconoce<br>Cuando el chef haga la consulta<br>Entonces no se modifica el inventario y se indica que debe repetir la consulta o usar la pantalla. | **EP09** (Integración IoT) |
+| **US24** | Ruteo de alertas multidispositivo por jerarquía | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero elegir si la alerta crítica le llega al responsable de turno o se muestra en la pantalla del local. | **Escenario 1: Alerta roja al gerente de turno**<br>Dado que hay una caída crítica de temperatura en la madrugada y el destino configurado es el gerente de guardia<br>Cuando se dispare la alerta roja<br>Entonces el aviso llega al teléfono de ese gerente.<br><br>**Escenario 2: Alerta operativa a la pantalla de cocina**<br>Dado que la regla envía las alertas de prioridad de cocina a la pantalla del turno<br>Cuando se active una de esas alertas dentro del horario de cocina<br>Entonces se muestra en la pantalla de cocina y no se trata como aviso de madrugada al gerente.<br><br>**Escenario 3: Destinatario sin canal**<br>Dado que la alerta es crítica y el gerente de guardia no tiene un teléfono configurado<br>Cuando se dispare<br>Entonces queda visible en el panel con el estado de destinatario no disponible y no figura como entregada al teléfono. | **EP09** (Integración IoT) |
+| **US25** | Gamificación y metas de equipo | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero poner una meta de merma al equipo, para que registren y cuiden el stock. | **Escenario 1: Meta cumplida**<br>Dado que la cocina o tienda cumple el periodo configurado sin mermas por negligencia<br>Cuando el sistema cierre ese periodo<br>Entonces otorga la insignia al perfil de la sucursal y suma los puntos de la meta.<br><br>**Escenario 2: Puntos visibles para el equipo**<br>Dado que la sucursal recibió la insignia<br>Cuando el jefe de cocina o tienda abra el perfil de la sede<br>Entonces ve la insignia y los puntos acumulados de esa meta.<br><br>**Escenario 3: Meta no cumplida**<br>Dado que en el periodo hubo una merma registrada por negligencia<br>Cuando el sistema cierre el periodo<br>Entonces no otorga la insignia ni suma esos puntos. | **EP10** (Gamificación) |
+| **US26** | Red de proveedores e intercambio de buenas prácticas | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero ver y dejar consejos de conservación con otros locales del mismo rubro. | **Escenario 1: Publicación en la red B2B**<br>Dado que el usuario entra a la comunidad de comercios<br>Cuando publique un consejo de calibración o conservación<br>Entonces los demás gerentes registrados pueden verlo y responder.<br><br>**Escenario 2: Guardar una sugerencia**<br>Dado que otro gerente publicó una práctica de conservación<br>Cuando el usuario elija guardarla<br>Entonces queda en sus sugerencias guardadas y sigue visible en la comunidad.<br><br>**Escenario 3: Publicación vacía**<br>Dado que el mensaje no tiene contenido<br>Cuando intente publicarlo<br>Entonces no aparece en la comunidad. | **EP10** (Gamificación) |
+| **US27** | Benchmarking entre sucursales | Como propietario o administrador de un restaurante con varias sedes, o como encargado de un negocio de distribución de alimentos en fríos con varias sedes, quiero comparar la merma entre locales, para ver cuál está perdiendo más. | **Escenario 1: Comparativa del mes**<br>Dado que la empresa tiene 3 o más sucursales con datos del mes<br>Cuando consulte la comparativa<br>Entonces las sedes quedan ordenadas de menor a mayor porcentaje de mermas.<br><br>**Escenario 2: Otro mes**<br>Dado que el director cambia el mes de la comparativa<br>Cuando el panel se actualice<br>Entonces el orden usa solo las mermas de ese mes.<br><br>**Escenario 3: Menos de tres sucursales**<br>Dado que la empresa tiene una o dos sucursales<br>Cuando abra la comparativa<br>Entonces ve el aviso de que el ranking requiere al menos tres sedes y no un orden presentado como benchmarking completo. | **EP10** (Gamificación) |
+| **US28** | Categorización personalizada de insumos y cámaras | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero crear mis categorías, para ordenar el stock como lo trabajo en el local. | **Escenario 1: Nueva categoría**<br>Dado que el usuario crea la categoría «Mariscos congelados»<br>Cuando catalogue un lote nuevo<br>Entonces puede asignarlo a esa categoría, filtrarlo y definir alertas para ese grupo.<br><br>**Escenario 2: Alerta de la categoría**<br>Dado que «Mariscos congelados» tiene una regla de alerta propia<br>Cuando un lote de esa categoría entre en la condición configurada<br>Entonces la alerta se genera con esa categoría y no con una regla de otro grupo.<br><br>**Escenario 3: Nombre repetido**<br>Dado que ya existe una categoría con el mismo nombre en la sede<br>Cuando intente crearla otra vez<br>Entonces no se duplica. | **EP11** (Gestión Avanzada) |
+| **US29** | Historial de mermas e inventario exportable | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero descargar el historial de mermas en Excel o CSV, para pasarlo a contabilidad. | **Escenario 1: Exportación del rango**<br>Dado que el usuario define un rango de fechas y una sucursal<br>Cuando presione «Exportar historial comercial»<br>Entonces descarga un CSV o Excel con lotes, cantidades, causas y costos de ese rango.<br><br>**Escenario 2: Contenido del archivo**<br>Dado que en el rango hay ingresos, consumos y descartes<br>Cuando abra el archivo descargado<br>Entonces cada movimiento incluye fecha, sucursal, lote, acción y costo.<br><br>**Escenario 3: Rango sin movimientos**<br>Dado que la sucursal no tiene movimientos en las fechas elegidas<br>Cuando intente exportar<br>Entonces no descarga un archivo con filas de movimiento e informa que no hay datos en ese rango. | **EP11** (Gestión Avanzada) |
+| **US30** | Algoritmo de sugerencias de reposición de stock | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero una sugerencia de cuánto reponer según lo consumido, para no comprar de más. | **Escenario 1: Orden sugerida**<br>Dado el historial de los últimos 30 días de la sucursal<br>Cuando el encargado prepare la orden de compra<br>Entonces la plataforma recomienda cantidades de reposición para los insumos con historial suficiente.<br><br>**Escenario 2: Ajuste de la sugerencia**<br>Dado que el sistema recomendó una cantidad<br>Cuando el comprador la modifique antes de usar la orden<br>Entonces la orden conserva la cantidad editada y deja visible la cantidad que había sugerido el sistema.<br><br>**Escenario 3: Historial insuficiente**<br>Dado que un insumo no tiene consumo suficiente en los últimos 30 días<br>Cuando se prepare la sugerencia<br>Entonces ese insumo no recibe una cantidad recomendada y se indica que falta historial. | **EP11** (Gestión Avanzada) |
+| **US31** | Vinculación y calibración de sensores de cámaras | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero vincular el sensor leyendo su QR y guardar el límite de temperatura de esa cámara. | **Escenario 1: Vinculación QR exitosa**<br>Dado que el supervisor abre el módulo de hardware<br>Cuando escanee el QR del sensor de la cámara de congelación e indique el umbral<br>Entonces el sensor queda asociado a esa zona y calibrado con la temperatura límite definida.<br><br>**Escenario 2: Umbral distinto por tipo de cámara**<br>Dado que una sede tiene cámara de congelación y vitrina de refrigeración<br>Cuando el supervisor calibre cada sensor con su propio límite<br>Entonces cada zona conserva su umbral y no hereda el de la otra.<br><br>**Escenario 3: QR inválido o ya usado**<br>Dado que el código no corresponde a un sensor FreshSense o ya está vinculado a otra zona<br>Cuando el supervisor intente asociarlo<br>Entonces el sistema no lo vincula e indica el motivo. | **EP02** (Monitoreo IoT) |
+| **US32** | Modo de mantenimiento de equipos fríos | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero pausar las alarmas de una cámara mientras se limpia o se repara. | **Escenario 1: Pausa de alertas de la cámara**<br>Dado que el técnico activa el modo mantenimiento en la Cámara 2 por 60 minutos<br>Cuando confirme la pausa<br>Entonces el sistema suspende las alertas de puerta abierta o alza de temperatura solo en esa cámara.<br><br>**Escenario 2: Fin del tiempo programado**<br>Dado que el modo mantenimiento de la Cámara 2 está activo<br>Cuando se cumplan los 60 minutos<br>Entonces las alertas de esa cámara vuelven a evaluarse solas.<br><br>**Escenario 3: Activación inválida**<br>Dado que el técnico no eligió una cámara o indicó una duración no permitida<br>Cuando confirme el modo mantenimiento<br>Entonces no se pausa ninguna alerta. | **EP03** (Alertas Inteligentes) |
+| **US33** | Gestión de múltiples áreas y cámaras frías | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero crear las zonas del local, como la cocina, la cámara de carnes o la vitrina, y que cada una use su regla de frío. | **Escenario 1: Zona con sensor**<br>Dado que el usuario crea la zona «Vitrinas lácteos»<br>Cuando vincule un sensor a esa zona<br>Entonces los productos almacenados allí usan las reglas de frío de ese exhibidor.<br><br>**Escenario 2: Cambio de zona de un producto**<br>Dado que un producto pasa de «Vitrinas lácteos» a otra cámara con otras reglas<br>Cuando se confirme el traslado<br>Entonces el producto queda evaluado con las reglas de la cámara de destino.<br><br>**Escenario 3: Zona duplicada o sin nombre**<br>Dado que el nombre de la zona está vacío o ya existe en la sede<br>Cuando intente crearla<br>Entonces no se agrega la zona y los sensores siguen en sus zonas actuales. | **EP11** (Gestión Avanzada) |
+| **US34** | Registro de causas corporativas de merma | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero anotar por qué se dio de baja un lote: falla de frío, vencimiento, contaminación o el proveedor. | **Escenario 1: Causa obligatoria**<br>Dado que un empleado da de baja un lote<br>Cuando la aplicación solicite el motivo<br>Entonces guarda una causa válida, como falla de frío, caducidad, contaminación cruzada o mal estado de proveedor.<br><br>**Escenario 2: Causa disponible para auditoría**<br>Dado que la baja quedó con una causa<br>Cuando el auditor abra los gráficos del periodo<br>Entonces esa baja aparece agrupada por el motivo registrado.<br><br>**Escenario 3: Baja sin causa**<br>Dado que el empleado no selecciona un motivo<br>Cuando confirme el descarte<br>Entonces el lote no se da de baja. | **EP04** (Gestión de Inventario) |
+| **US35** | Recuperación corporativa de contraseña | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero recuperar mi clave por el correo del local cuando no pueda entrar. | **Escenario 1: Envío del enlace**<br>Dado que el usuario solicita recuperar la clave con su correo corporativo registrado<br>Cuando presione «Enviar enlace de recuperación»<br>Entonces recibe un enlace de un solo uso, con vencimiento, en ese correo.<br><br>**Escenario 2: Clave nueva**<br>Dado que el enlace está vigente y no fue usado<br>Cuando defina y confirme la nueva clave<br>Entonces puede ingresar con la clave nueva y el enlace queda inutilizado.<br><br>**Escenario 3: Enlace vencido o ya usado**<br>Dado que el enlace expiró o ya se utilizó<br>Cuando intente definir otra clave con ese mismo enlace<br>Entonces la clave no cambia. | **EP12** (Core API) |
+| **US36** | Panel de administración de usuarios y roles B2B | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero cambiar el rol de un trabajador y quitarle el acceso si ya no está en el local. | **Escenario 1: Cambio de rol**<br>Dado un colaborador con rol «Cocinero»<br>Cuando el administrador lo actualice a «Jefe de cocina»<br>Entonces puede autorizar bajas de insumos y editar fichas técnicas desde ese momento.<br><br>**Escenario 2: Suspensión de acceso**<br>Dado un colaborador con acceso activo<br>Cuando el administrador suspenda su cuenta<br>Entonces no puede iniciar sesión ni operar el inventario de la sede.<br><br>**Escenario 3: Reducción de permisos**<br>Dado un jefe de cocina con permiso para autorizar bajas<br>Cuando el administrador lo regrese al rol «Cocinero»<br>Entonces deja de poder autorizar bajas y editar fichas desde la siguiente acción. | **EP12** (Core API) |
+| **US37** | Gestión de colaboradores de local/sucursal | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero invitar a mi personal para que vea el inventario de su sede y de su turno. | **Escenario 1: Aceptación de la invitación**<br>Dado que el gerente envía una invitación al correo del nuevo supervisor<br>Cuando el invitado acepte el enlace<br>Entonces accede al inventario de su turno y su sucursal.<br><br>**Escenario 2: Alcance de la sucursal**<br>Dado que el colaborador aceptó la invitación de una sede<br>Cuando consulte el inventario<br>Entonces solo opera sobre la sucursal asignada.<br><br>**Escenario 3: Invitación no vigente**<br>Dado que el enlace expiró o el correo ya tiene acceso vigente a esa sede<br>Cuando intente aceptarlo<br>Entonces no se crea otro acceso y se informa que la invitación no es válida. | **EP04** (Gestión de Inventario) |
+| **US38** | Descarga de facturación y comprobantes B2B | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero descargar el comprobante de la suscripción, para entregarlo a contabilidad. | **Escenario 1: Descarga del comprobante**<br>Dado que el cobro mensual de la suscripción corporativa ya fue procesado<br>Cuando el contador entre a «Facturación B2B»<br>Entonces descarga el comprobante en PDF y los datos fiscales.<br><br>**Escenario 2: Comprobante del periodo correcto**<br>Dado que existen cobros de varios meses<br>Cuando el contador elija un mes<br>Entonces descarga solo el comprobante de ese periodo.<br><br>**Escenario 3: Cobro aún no procesado**<br>Dado que el periodo seleccionado no tiene un cobro confirmado<br>Cuando intente descargarlo<br>Entonces no se genera un comprobante de ese mes. | **EP07** (Suscripción Premium) |
+| **US39** | Búsqueda global de inventario y lotes | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero buscar un insumo o un lote por nombre y ver en qué cámara está y cuándo vence. | **Escenario 1: Búsqueda de un insumo**<br>Dado que el usuario escribe «Lomo» en el buscador<br>Cuando el sistema procese el texto<br>Entonces muestra la cámara, la fecha de caducidad y los lotes asociados de su sucursal.<br><br>**Escenario 2: Sugerencias mientras escribe**<br>Dado que el usuario escribió al menos los caracteres mínimos de búsqueda<br>Cuando pause un instante sobre el buscador<br>Entonces aparecen sugerencias de insumos, lotes y recetas coincidentes antes de confirmar.<br><br>**Escenario 3: Sin resultados en la sucursal**<br>Dado que el texto no coincide con insumos, lotes ni recetas de su sede<br>Cuando ejecute la búsqueda<br>Entonces ve un resultado vacío y no registros de otra sucursal. | **EP06** (UX y Accesibilidad) |
+| **US40** | Evaluación de calidad de proveedores de insumos | Como propietario o administrador de un restaurante, o como encargado de un negocio de distribución de alimentos en fríos, quiero anotar si la mercadería de un proveedor se malogró antes de tiempo, para tener su historial. | **Escenario 1: Incidencia sobre un lote**<br>Dado que un lote de verduras se deteriora antes del tiempo previsto<br>Cuando el usuario registre la incidencia en la ficha de la compra<br>Entonces se actualiza la puntuación histórica de frescura de ese proveedor.<br><br>**Escenario 2: Historial del proveedor**<br>Dado que el proveedor ya tiene evaluaciones anteriores<br>Cuando el jefe de compras abra su ficha<br>Entonces ve las notas, los lotes afectados y la puntuación acumulada.<br><br>**Escenario 3: Evaluación sin lote**<br>Dado que la incidencia no está asociada a un lote recibido<br>Cuando intente guardarla<br>Entonces la puntuación del proveedor no cambia. | **EP05** (Recetas Personalizadas) |
+| **TS41** | API Ingesta de Sensores IoT B2B | Como desarrollador del backend, quiero guardar las lecturas de temperatura, humedad y etileno de las cámaras, para que los propietarios y administradores de restaurantes y los encargados de negocios de distribución de alimentos en fríos vean el estado en el panel. | **Escenario 1: Lectura aceptada**<br>Dado que un sensor autenticado envía temperatura, humedad y etileno<br>Cuando el backend valide su token<br>Entonces guarda la lectura y responde HTTP 201.<br><br>**Escenario 2: Lectura duplicada**<br>Dado que esa misma lectura ya fue almacenada con su identificador<br>Cuando el sensor la reenvíe<br>Entonces el backend no crea otro registro y responde que la lectura ya existe.<br><br>**Escenario 3: Token inválido**<br>Dado que la petición no trae un token válido del hardware<br>Cuando llegue al endpoint de ingesta<br>Entonces no guarda la lectura y responde HTTP 401. | **EP12** (Core API) |
+| **TS42** | Microservicio de Notificaciones de Emergencia | Como desarrollador del backend, quiero un servicio aparte que envíe la alerta de falla de frío por push, SMS o correo a los dos segmentos. | **Escenario 1: Alerta crítica despachada**<br>Dado un alza crítica de temperatura en una cámara<br>Cuando el microservicio reciba el evento<br>Entonces procesa la plantilla de emergencia y la entrega al proveedor de mensajería configurado.<br><br>**Escenario 2: Evento que no es de emergencia**<br>Dado un evento informativo que no es falla de frío<br>Cuando llegue al microservicio<br>Entonces no usa la plantilla de emergencia ni el canal de aviso crítico.<br><br>**Escenario 3: Proveedor no disponible**<br>Dado un evento crítico y una falla del proveedor de mensajería<br>Cuando el microservicio intente el despacho<br>Entonces deja el aviso en reintento y no lo marca como entregado. | **EP12** (Core API) |
+| **TS43** | API Gestor de Autenticación y RBAC B2B | Como desarrollador del backend, quiero controlar el acceso por rol, para que el personal del restaurante o del negocio de distribución en fríos solo entre a lo que le corresponde. | **Escenario 1: Rol sin permiso**<br>Dado un usuario con rol «Cocinero» y un token vigente<br>Cuando solicite facturación o analítica avanzada<br>Entonces el middleware responde HTTP 403 y no entrega esos datos.<br><br>**Escenario 2: Rol con permiso**<br>Dado un usuario cuyo rol sí incluye analítica avanzada y un token vigente<br>Cuando solicite ese recurso<br>Entonces el middleware permite la consulta y responde HTTP 200.<br><br>**Escenario 3: Token ausente o vencido**<br>Dado que la petición no incluye token o el token expiró<br>Cuando llegue a un endpoint protegido<br>Entonces responde HTTP 401 y no evalúa el rol como si la sesión fuera válida. | **EP12** (Core API) |
+| **TS44** | Integración de Pasarela de Pagos B2B (Stripe/PayPal) | Como desarrollador del backend, quiero que el pago del plan active la suscripción del restaurante o del negocio de distribución en fríos y deje el comprobante. | **Escenario 1: Pago confirmado**<br>Dado que la pasarela procesa el pago del plan Enterprise<br>Cuando el servidor reciba el webhook de confirmación<br>Entonces extiende la vigencia de la suscripción y deja disponible el comprobante.<br><br>**Escenario 2: Pago rechazado**<br>Dado que la pasarela notifica un pago rechazado<br>Cuando el servidor reciba ese webhook<br>Entonces la vigencia actual no se extiende y el intento queda registrado.<br><br>**Escenario 3: Webhook repetido**<br>Dado que el mismo pago confirmado se notifica otra vez<br>Cuando el servidor reciba el webhook duplicado<br>Entonces no extiende de nuevo el mismo periodo ni emite otro comprobante por ese cobro. | **EP07** (Suscripción Premium) |
+| **TS45** | Caching de Consultas Frecuentes e Inventarios en Tiempo Real | Como desarrollador del backend, quiero que el inventario de la sede cargue rápido, para que el personal de los dos segmentos no espere al abrir el stock. | **Escenario 1: Respuesta desde caché**<br>Dado que el inventario de la sucursal ya fue consultado y sigue vigente en caché<br>Cuando otro usuario de la misma sucursal lo abra<br>Entonces la API responde desde Redis en menos de 50 ms con ese inventario.<br><br>**Escenario 2: Inventario modificado**<br>Dado que se registró un alta, consumo o descarte en la sucursal<br>Cuando otro usuario abra el inventario después de ese cambio<br>Entonces la respuesta refleja la cantidad nueva y no la copia anterior de Redis.<br><br>**Escenario 3: Redis no disponible**<br>Dado que Redis no responde<br>Cuando un usuario abra el inventario<br>Entonces la API consulta el almacén principal y devuelve el inventario vigente, sin entregar una lista vacía por la falla de caché. | **EP12** (Core API) |
 ## Epics (Épicas)
 
 | Epic ID | Título de la Épica | Alcance y Descripción Corta |
@@ -1168,12 +1136,12 @@ Con la finalidad de estructurar una solución integral y alineada a las dinámic
 
 ## 3.2. Impact Mapping
 
-![impact mapping](Assets/ImpactMap_FreshSense.PNG)
+![impact mapping](Assets/ImpactMap_FreshSense.png)
 
-En conclusión, el Impact Mapping permitió establecer una trazabilidad nítida entre la visión de negocio y la implementación del software para nuestros dos segmentos objetivos (**Restaurantes** y **Negocios de venta de alimentos en frío**). Esto garantiza que cada desarrollo atienda un requisito técnico específico y genere una transformación medible en las operaciones comerciales, optimizando el rendimiento de las cámaras de frío, disminuyendo las mermas de cocina e inventario, y acelerando el crecimiento sostenible de FreshSense.
+El Impact Mapping junta lo que quiere el negocio con lo que vamos a construir, para los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. La idea es que cada función sirva para bajar la merma de la cocina o para cuidar la mercadería que está en frío.
 ## 3.3. Product Backlog
 
-A continuación se presenta el **Product Backlog** priorizado del proyecto FreshSense, estimando el esfuerzo en Story Points mediante la escala de Fibonacci (1, 2, 3, 5, 8) e integrando la totalidad de las 45 historias definidas, enfocadas en nuestros dos segmentos objetivos (**Restaurantes** y **Negocios de venta de alimentos en frío**):
+El Product Backlog junta las 45 historias, ordenadas por prioridad. El esfuerzo está en story points con la escala de Fibonacci (1, 2, 3, 5, 8). Las historias sirven a los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
 
 | Orden (#) | User Story ID | Título de la Historia / Tarea Técnica | Descripción Sintetizada | Story Points |
 | :-: | :--- | :--- | :--- | :-: |
@@ -1194,7 +1162,7 @@ A continuación se presenta el **Product Backlog** priorizado del proyecto Fresh
 | **15** | **US11** | Modificación manual de stock e insumos | Ajuste y corrección de cantidades y categorías tras realizar arqueos de inventario. | **2** |
 | **16** | **US37** | Gestión de colaboradores por local | Invitación y asignación de permisos a empleados del restaurante o tienda sobre el inventario. | **3** |
 | **17** | **US12** | Reporte semanal de mermas | Consolidado periódico que detalla el volumen y costo de insumos consumidos y descartados. | **3** |
-| **18** | **US13** | Fichas técnicas y rotación de insumos | Algoritmo que sugiere uso prioritario en recetas (Restaurantes) o salida FIFO (Negocios en frío). | **5** |
+| **18** | **US13** | Fichas técnicas y rotación de insumos | Algoritmo que sugiere uso prioritario en recetas (Restaurantes) o salida FIFO (encargados de negocios de distribución de alimentos en fríos). | **5** |
 | **19** | **US14** | Filtrado avanzado de insumos y lotes | Búsqueda y filtrado por cámara fría, fecha de caducidad, lote o categoría de producto. | **3** |
 | **20** | **US39** | Búsqueda global de inventario y lotes | Barra de búsqueda centralizada para ubicar insumos, lotes y recetas con sugerencias en vivo. | **3** |
 | **21** | **US15** | Onboarding comercial interactivo | Guía interactiva para capacitar al nuevo personal operativo en el uso del sistema. | **2** |
@@ -1311,11 +1279,11 @@ Identificar contextos candidatos es un paso clave para gestionar la complejidad 
 | Bounded Context candidato | Responsabilidad principal |
 |---|---|
 | User Management | Registro, autenticación y recuperación de cuentas. |
-| Profile Management | Datos personales, segmento de usuario y preferencias de notificación. |
+| Profile Management | Negocio (restaurante o distribuidora en frío), su personal y las preferencias de notificación por turno. |
 | Subscription Management | Plan contratado (FREE/PREMIUM) y límites asociados. |
 | Sensor Management | Instalación, sincronización y configuración del dispositivo FreshSense. |
-| Inventory Management | Organización del inventario, colaboradores, zonas y recetas. |
-| Consumption Management | Lista de alimentos, vencimientos y registro de consumo. |
+| Inventory Management | Inventario de insumos y lotes por cámara o zona, con alta por código de barras/QR. |
+| Consumption Management | Consumo y merma, fichas técnicas del restaurante, rotación FIFO de la distribuidora y proveedores. |
 | IoT Monitoring | Lecturas del sensor, umbrales, alertas y calidad del alimento. |
 | Report Management | Reportes de inventario, calidad y consumo con métricas de sostenibilidad. |
 
@@ -1330,7 +1298,7 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 <figcaption style="font-size:0.9em;color:#555;margin-top:0.4em"><em>Notación utilizada en los Domain Message Flows.</em></figcaption>
 </figure>
 
-**Escenario 1 — Registro de usuario y asignación del plan gratuito.** El adulto joven se registra en la app; **User Management** valida y crea la cuenta, publica `UserRegistered`, y **Subscription Management** reacciona asignando automáticamente el plan FREE, que a su vez habilita el perfil.
+**Escenario 1 — Registro de usuario y asignación del plan gratuito.** El propietario o administrador del restaurante (o el encargado del negocio de distribución en frío) se registra en la app; **User Management** valida y crea la cuenta, publica `UserRegistered`, y **Subscription Management** reacciona asignando automáticamente el plan FREE, que a su vez habilita la creación del negocio en **Profile Management**.
 
 <figure id="fig-dmfm1" style="margin:1.5em 0;text-align:center">
 <img src="Assets/flujo-mensajes-alta-suscripcion.png" alt="Escenario: User Onboarding & Free Plan Assignment." style="max-width:100%;height:auto"/>
@@ -1344,7 +1312,7 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 <figcaption style="font-size:0.9em;color:#555;margin-top:0.4em"><em>Escenario: Sensor Reading & Ethylene Alert.</em></figcaption>
 </figure>
 
-**Escenario 3 — Generación de un reporte de inventario.** El emprendedor solicita un reporte general; **Report Management** verifica el acceso premium y consulta a los contextos de Inventory, Consumption y Monitoring antes de generar y entregar el reporte.
+**Escenario 3 — Generación de un reporte de inventario.** El encargado del negocio de distribución en frío solicita un reporte general; **Report Management** verifica el acceso premium y consulta a los contextos de Inventory, Consumption y Monitoring antes de generar y entregar el reporte.
 
 <figure id="fig-dmfm3" style="margin:1.5em 0;text-align:center">
 <img src="Assets/flujo-mensajes-generacion-reporte.png" alt="Escenario: Inventory Report Generation." style="max-width:100%;height:auto"/>
@@ -1514,6 +1482,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
    - *Propósito:* Agregado raíz que representa a una persona con cuenta en FreshSense. Encapsula credenciales, datos de identidad y roles de acceso.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador único del usuario. |
@@ -1523,6 +1492,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 | roles | Set&lt;Role&gt; | Roles asignados (ROLE_USER, ROLE_PREMIUM, ROLE_ADMIN). |
 | createdAt / updatedAt | DateTime | Campos de auditoría. |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | User(SignUpCommand, Set&lt;Role&gt;) | Crea un usuario validando unicidad del email y la política de contraseña. |
@@ -1530,6 +1500,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 | requestPasswordReset() | Genera un `ResetToken` temporal y único para la recuperación (US35). |
 | resetPassword(token, newHash) | Valida el token vigente, reemplaza el hash y lo invalida (uso único). |
 | registerSignIn() | Registra el último acceso y habilita la emisión del JWT. |
+
 **Entities**
 
 1. **Role** — Rol que puede asignarse a un usuario para el control de acceso RBAC (TS43, US36).
@@ -1538,6 +1509,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 |---|---|---|
 | id | UUID | Identificador del rol. |
 | name | Roles (enum) | ROLE_USER, ROLE_PREMIUM o ROLE_ADMIN. |
+
 | Método | Descripción |
 |---|---|
 | getDefaultRole() | Devuelve ROLE_USER. |
@@ -1551,6 +1523,7 @@ La Domain Layer del User Management Bounded Context encapsula la lógica de nego
 | tokenHash | String | Hash del token enviado por correo. |
 | expiresAt | DateTime | Vencimiento del enlace de recuperación. |
 | used | boolean | Indica si ya fue consumido. |
+
 | Método | Descripción |
 |---|---|
 | isExpired() | Evalúa si el token venció. |
@@ -1716,6 +1689,7 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
    - *Propósito:* Agregado raíz que representa el plan contratado por un usuario y su vigencia.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la suscripción. |
@@ -1725,12 +1699,14 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
 | endsAt | DateTime? | Fecha de término; nula para el plan FREE. |
 | active | boolean | Indica si la suscripción está vigente. |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | isActive() | Indica si el plan está vigente a la fecha actual. |
 | upgradeToPremium(period) | Cambia el plan a PREMIUM y fija la fecha de término. |
 | renew(days) | Extiende la vigencia al confirmarse el webhook de pago (TS44). |
 | cancel() | Desactiva la renovación automática y marca el fin del periodo. |
+
 **Entities**
 
 1. **Payment** — Cobro procesado por la pasarela para una suscripción (TS44, US38).
@@ -1744,6 +1720,7 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
 | externalRef | String | Identificador del cobro en la pasarela. |
 | paidAt | DateTime | Fecha de confirmación. |
 | invoiceUrl | String | Enlace al comprobante en PDF (US38). |
+
 | Método | Descripción |
 |---|---|
 | confirm(externalRef) | Marca el pago como confirmado tras el webhook. |
@@ -1760,7 +1737,7 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
 
 | Servicio | Descripción |
 |---|---|
-| PlanEntitlementService | Determina qué funcionalidades (analítica avanzada, recetas gourmet, exportación) habilita cada plan. |
+| PlanEntitlementService | Determina qué funcionalidades (analítica avanzada, costeo de fichas técnicas, exportación) habilita cada plan. |
 
 **Domain Events**
 
@@ -1888,7 +1865,7 @@ La Infrastructure Layer del Subscription Management implementa la persistencia y
 
 ### 4.2.3 Bounded Context: Profile Management
 
-El **Profile Management Bounded Context** modela el **hogar o negocio** (`Household`) que agrupa a los usuarios y sus dispositivos, la gestión de miembros exigida por la **US37**, y las preferencias de notificación de la **US09** y **US24**. Es el contexto que permite que varias personas —familiares o empleados— compartan un mismo inventario, y que cada una configure cómo y cuándo recibir alertas.
+El **Profile Management Bounded Context** modela el **negocio** (`Business`) que agrupa a los usuarios y sus dispositivos, la gestión de miembros exigida por la **US37**, y las preferencias de notificación de la **US09** y **US24**. Representa a los dos segmentos objetivo: el **restaurante** y el **negocio de distribución de alimentos en frío**. Es el contexto que permite que el propietario, el administrador y el personal de cocina o almacén compartan un mismo inventario, y que cada uno configure cómo y en qué turno recibir alertas.
 
 #### 4.2.3.1. Domain Layer
 
@@ -1896,34 +1873,39 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 
 **Aggregates**
 
-1. **Household**
-   - *Propósito:* Agregado raíz que representa el hogar o negocio de alimentos al que pertenecen los usuarios, los dispositivos y el inventario compartido.
+1. **Business**
+   - *Propósito:* Agregado raíz que representa el negocio (restaurante o distribuidora en frío) al que pertenecen los usuarios, los dispositivos y el inventario compartido.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
-| id | UUID | Identificador del hogar o negocio. |
-| name | String | Nombre asignado (por ejemplo, «Casa» o «Restaurante El Sabor»). |
-| members | List&lt;HouseholdMember&gt; | Miembros vinculados con su rol. |
+| id | UUID | Identificador del negocio. |
+| name | String | Nombre comercial (por ejemplo, «Restaurante El Sabor» o «Distribuidora Frío Norte»). |
+| segment | BusinessSegment (VO) | RESTAURANT o COLD_DISTRIBUTION: segmento objetivo al que pertenece. |
+| members | List&lt;BusinessMember&gt; | Miembros vinculados con su rol. |
 | createdAt / updatedAt | DateTime | Campos de auditoría. |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | invite(email, role) | Emite una invitación para incorporar a un miembro (US37). |
-| addMember(userId, role) | Vincula un usuario al hogar cuando acepta la invitación. |
+| addMember(userId, role) | Vincula un usuario al negocio cuando acepta la invitación. |
 | removeMember(userId) | Desvincula a un miembro y revoca su acceso al inventario. |
-| changeMemberRole(userId, role) | Modifica el rol del miembro dentro del hogar. |
+| changeMemberRole(userId, role) | Modifica el rol del miembro dentro del negocio. |
+
 **Entities**
 
-1. **HouseholdMember** — Vínculo entre un usuario y un hogar o negocio, con el rol que desempeña (US37).
+1. **BusinessMember** — Vínculo entre un usuario y un negocio, con el rol que desempeña (US37).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del vínculo. |
-| householdId | UUID | Hogar o negocio al que pertenece. |
+| businessId | UUID | Negocio al que pertenece. |
 | userId | UUID | Usuario vinculado. |
-| role | MemberRole (VO) | OWNER, MEMBER o STAFF. |
+| role | MemberRole (VO) | OWNER, MANAGER o STAFF. |
 | joinedAt | DateTime | Fecha de incorporación. |
+
 | Método | Descripción |
 |---|---|
 | canManageInventory() | Indica si el rol permite editar el inventario compartido. |
@@ -1936,11 +1918,12 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | token | String | Token único del enlace de vinculación. |
 | expiresAt | DateTime | Vencimiento de la invitación. |
 | status | InvitationStatus | PENDING, ACCEPTED o EXPIRED. |
+
 | Método | Descripción |
 |---|---|
-| accept(userId) | Convierte la invitación en un `HouseholdMember`. |
+| accept(userId) | Convierte la invitación en un `BusinessMember`. |
 | isExpired() | Evalúa el vencimiento. |
-3. **NotificationPreference** — Preferencias de canal y horario de silencio de cada usuario (US09, US24).
+3. **NotificationPreference** — Preferencias de canal y turno operativo de cada usuario (US09, US24).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
@@ -1948,40 +1931,42 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | userId | UUID | Usuario propietario. |
 | emailEnabled | boolean | Habilita el envío por correo. |
 | pushEnabled | boolean | Habilita las notificaciones push. |
-| quietHours | TimeWindow (VO) | Rango de silencio (por ejemplo, 22:00–07:00). |
+| operatingShift | TimeWindow (VO) | Turno operativo del usuario (por ejemplo, 06:00–23:00). |
 | updatedAt | DateTime | Última modificación. |
+
 | Método | Descripción |
 |---|---|
-| isQuiet(at) | Indica si un instante cae dentro del horario de silencio. |
+| isOffShift(at) | Indica si un instante cae fuera del turno operativo. |
 | routeFor(severity) | Determina el canal de destino según la severidad (US24). |
 **Value Objects**
 
 | Value Object | Descripción |
 |---|---|
-| MemberRole | Enumeración: `OWNER`, `MEMBER`, `STAFF`. |
-| TimeWindow | Rango horario con inicio y fin, usado para el modo silencio. |
+| MemberRole | Enumeración: `OWNER` (propietario), `MANAGER` (administrador o encargado), `STAFF` (personal de cocina o almacén). |
+| BusinessSegment | Enumeración: `RESTAURANT`, `COLD_DISTRIBUTION`. |
+| TimeWindow | Rango horario con inicio y fin, usado para el turno operativo. |
 | InvitationStatus | Enumeración: `PENDING`, `ACCEPTED`, `EXPIRED`. |
 
 **Domain Services**
 
 | Servicio | Descripción |
 |---|---|
-| NotificationRoutingService | Decide el canal de entrega (push, correo, reloj inteligente) según severidad y preferencias (US24). |
+| NotificationRoutingService | Decide el canal y el destinatario (responsable de turno o pantalla del local) según severidad y preferencias (US24). |
 
 **Domain Events**
 
 | Evento | Descripción |
 |---|---|
-| HouseholdCreated | Se creó el hogar o negocio tras registrarse el usuario. |
+| BusinessCreated | Se creó el negocio tras registrarse el usuario. |
 | MemberInvited | Se envió una invitación a un nuevo miembro (US37). |
-| MemberJoined | Un invitado aceptó y quedó vinculado al hogar. |
+| MemberJoined | Un invitado aceptó y quedó vinculado al negocio. |
 | NotificationPreferencesUpdated | El usuario cambió sus preferencias de alerta (US09). |
-| QuietHoursConfigured | Se definió el rango de silencio para las notificaciones. |
+| OperatingShiftConfigured | Se definió el turno operativo para las notificaciones (US09). |
 
 **Policies**
 
-- **Crear hogar al registrarse**: cuando ocurre `UserRegistered`, se crea un `Household` con el usuario como `OWNER`.
-- **Retener alertas en silencio**: cuando se dispara una alerta de baja severidad dentro del rango de quietud, se retiene hasta que finalice el periodo (US09).
+- **Crear negocio al registrarse**: cuando ocurre `UserRegistered`, se crea un `Business` con el usuario como `OWNER`.
+- **Retener alertas leves fuera de turno**: cuando se dispara una alerta de baja severidad fuera del turno operativo, se retiene hasta el inicio del siguiente turno (US09).
 - **Invitación de un solo uso**: una invitación aceptada o vencida no puede volver a utilizarse.
 
 #### 4.2.3.2. Interface Layer
@@ -1990,38 +1975,38 @@ La Interface Layer del Profile Management expone los puntos de entrada del conte
 
 **Controllers**
 
-1. **HouseholdsController** — Gestiona el hogar o negocio y sus miembros.
+1. **BusinessesController** — Gestiona el negocio y sus miembros.
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/households/me | Obtiene el hogar del usuario autenticado y sus miembros. |
-| POST | /api/v1/households/{id}/invitations | Envía una invitación a un nuevo miembro (US37). |
+| GET | /api/v1/businesses/me | Obtiene el negocio del usuario autenticado y sus miembros. |
+| POST | /api/v1/businesses/{id}/invitations | Envía una invitación a un nuevo miembro (US37). |
 | POST | /api/v1/invitations/{token}/accept | Acepta la invitación y vincula al usuario. |
-| DELETE | /api/v1/households/{id}/members/{userId} | Desvincula a un miembro. |
-   - *Dependencias:* HouseholdCommandService, HouseholdQueryService
+| DELETE | /api/v1/businesses/{id}/members/{userId} | Desvincula a un miembro. |
+   - *Dependencias:* BusinessCommandService, BusinessQueryService
 
 2. **NotificationPreferencesController** — Gestiona las preferencias de notificación (US09, US24).
 
 | Método | Endpoint | Descripción |
 |---|---|---|
 | GET | /api/v1/notification-preferences | Obtiene las preferencias del usuario. |
-| PUT | /api/v1/notification-preferences | Actualiza canales y horario de silencio. |
+| PUT | /api/v1/notification-preferences | Actualiza canales y turno operativo. |
    - *Dependencias:* NotificationPreferenceCommandService
 
 **Resources**
 
 | Resource | Campos |
 |---|---|
-| HouseholdResource | id, name, members[] |
-| HouseholdMemberResource | userId, fullName, role, joinedAt |
+| BusinessResource | id, name, segment, members[] |
+| BusinessMemberResource | userId, fullName, role, joinedAt |
 | InvitationResource | email, role |
-| NotificationPreferenceResource | emailEnabled, pushEnabled, quietStart, quietEnd |
+| NotificationPreferenceResource | emailEnabled, pushEnabled, shiftStart, shiftEnd |
 
 **Transformers / Assemblers**
 
 | Assembler | Transformación |
 |---|---|
-| HouseholdResourceFromEntityAssembler | Convierte `Household` y sus miembros en `HouseholdResource`. |
+| BusinessResourceFromEntityAssembler | Convierte `Business` y sus miembros en `BusinessResource`. |
 | NotificationPreferenceResourceFromEntityAssembler | Convierte `NotificationPreference` en su recurso. |
 | InviteMemberCommandFromResourceAssembler | Convierte `InvitationResource` en `InviteMemberCommand`. |
 
@@ -2033,21 +2018,21 @@ La Application Layer del Profile Management coordina las operaciones entre la In
 
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
-| HouseholdCommandServiceImpl | CreateHouseholdCommand, InviteMemberCommand, AcceptInvitationCommand, RemoveMemberCommand | Crea el hogar, gestiona invitaciones y administra la membresía compartida (US37). |
-| NotificationPreferenceCommandServiceImpl | UpdatePreferencesCommand, SetQuietHoursCommand | Actualiza canales y horarios de silencio de las alertas (US09). |
+| BusinessCommandServiceImpl | CreateBusinessCommand, InviteMemberCommand, AcceptInvitationCommand, RemoveMemberCommand | Crea el negocio, gestiona invitaciones y administra la membresía compartida (US37). |
+| NotificationPreferenceCommandServiceImpl | UpdatePreferencesCommand, SetOperatingShiftCommand | Actualiza canales y turno operativo de las alertas (US09). |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| HouseholdQueryServiceImpl | GetHouseholdByUserQuery, GetMembersQuery | Recupera el hogar y sus miembros. |
-| ProfileContextFacade | getHouseholdOf(userId), getPreferencesOf(userId) | Open Host Service consultado por Inventory (inventario compartido) y por IoT Monitoring (envío de alertas). |
+| BusinessQueryServiceImpl | GetBusinessByUserQuery, GetMembersQuery | Recupera el negocio y sus miembros. |
+| ProfileContextFacade | getBusinessOf(userId), getPreferencesOf(userId) | Open Host Service consultado por Inventory (inventario compartido) y por IoT Monitoring (envío de alertas). |
 
 **Event Handlers**
 
 | Handler | Evento que escucha | Reacción |
 |---|---|---|
-| UserRegisteredEventHandler | UserRegistered (User Management) | Crea el `Household` inicial con el usuario como OWNER y sus preferencias de notificación por defecto. |
+| UserRegisteredEventHandler | UserRegistered (User Management) | Crea el `Business` inicial, con el segmento elegido en el registro y el usuario como OWNER, y sus preferencias de notificación por defecto. |
 | PlanTypeAcquiredEventHandler | PlanTypeAcquired (Subscription Management) | Ajusta el número máximo de miembros permitidos según el plan contratado. |
 
 #### 4.2.3.4. Infrastructure Layer
@@ -2056,8 +2041,8 @@ La Infrastructure Layer del Profile Management implementa la persistencia y las 
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| HouseholdRepository | JPA Repository | Persistencia de hogares; `findByMemberUserId`. |
-| HouseholdMemberRepository | JPA Repository | Persistencia de los vínculos usuario–hogar. |
+| BusinessRepository | JPA Repository | Persistencia de negocios; `findByMemberUserId`. |
+| BusinessMemberRepository | JPA Repository | Persistencia de los vínculos usuario–negocio. |
 | InvitationRepository | JPA Repository | Persistencia de invitaciones pendientes (US37). |
 | NotificationPreferenceRepository | JPA Repository | Persistencia de las preferencias de alerta. |
 | ExternalUserService | ACL entrante | Consulta el `IamContextFacade` para resolver los datos del usuario. |
@@ -2097,13 +2082,14 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 **Aggregates**
 
 1. **SensorDevice**
-   - *Propósito:* Agregado raíz que representa un dispositivo FreshSense instalado en un refrigerador, cámara fría o congelador.
+   - *Propósito:* Agregado raíz que representa un dispositivo FreshSense instalado en una cámara fría, congelador o vitrina del negocio.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del dispositivo. |
-| householdId | UUID | Hogar o negocio propietario. |
+| businessId | UUID | Negocio propietario. |
 | model | String | Modelo del hardware. |
 | firmwareVersion | String | Versión de firmware instalada. |
 | status | DeviceStatus (VO) | ACTIVE, OFFLINE o UNPAIRED. |
@@ -2111,33 +2097,36 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | calibration | Calibration (VO) | Temperatura base configurada durante la instalación (US31). |
 | registeredAt / updatedAt | DateTime | Campos de auditoría. |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | register() | Da de alta el dispositivo en el sistema. |
-| pairToHousehold(Household) | Vincula el dispositivo al hogar tras escanear su código QR (US31). |
-| calibrate(baseTemperature) | Registra la temperatura base del refrigerador para ajustar los umbrales. |
+| pairToBusiness(Business) | Vincula el dispositivo al negocio tras escanear su código QR (US31). |
+| calibrate(baseTemperature) | Registra la temperatura base de la cámara para ajustar los umbrales. |
 | assignToZone(zoneId) | Asigna el dispositivo a una cámara o congelador concreto (US33). |
 | markOffline() | Marca el dispositivo como desconectado al no recibirse el *heartbeat* (US06). |
+
 **Entities**
 
-1. **StorageZone** — Área de almacenamiento del hogar o negocio, con sus propias reglas de temperatura (US33).
+1. **StorageZone** — Área de almacenamiento del negocio, con sus propias reglas de temperatura (US33).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la zona. |
-| householdId | UUID | Hogar o negocio propietario. |
+| businessId | UUID | Negocio propietario. |
 | name | String | Nombre asignado (por ejemplo, «Cámara Fría 1» o «Congelador Carnes»). |
-| type | ZoneType (VO) | FRIDGE, FREEZER o COLD_ROOM. |
+| type | ZoneType (VO) | FRIDGE, FREEZER, COLD_ROOM o DISPLAY_CASE (vitrina). |
 | targetTempC | float | Temperatura objetivo de la zona. |
+
 | Método | Descripción |
 |---|---|
-| appliesRulesTo(PantryItem) | Indica si un alimento hereda las reglas de temperatura de la zona. |
+| appliesRulesTo(InventoryItem) | Indica si un alimento hereda las reglas de temperatura de la zona. |
 **Value Objects**
 
 | Value Object | Descripción |
 |---|---|
 | DeviceStatus | Enumeración: `ACTIVE`, `OFFLINE`, `UNPAIRED`. |
-| ZoneType | Enumeración: `FRIDGE`, `FREEZER`, `COLD_ROOM`. |
+| ZoneType | Enumeración: `FRIDGE`, `FREEZER`, `COLD_ROOM`, `DISPLAY_CASE`. |
 | Calibration | Temperatura base y desviación aceptada, definidas al instalar el equipo (US31). |
 | PairingCode | Código QR impreso en el hardware que identifica al dispositivo durante la vinculación. |
 
@@ -2152,14 +2141,14 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | Evento | Descripción |
 |---|---|
 | SensorRegistered | Se dio de alta un dispositivo en el sistema. |
-| SensorPaired | El dispositivo quedó vinculado al hogar tras escanear el QR (ES: *sensor instalado*). |
-| SensorCalibrated | Se registró la temperatura base del refrigerador (US31). |
+| SensorPaired | El dispositivo quedó vinculado al negocio tras escanear el QR (ES: *sensor instalado*). |
+| SensorCalibrated | Se registró la temperatura base de la cámara (US31). |
 | SensorConfigured | Se asignó el dispositivo a una zona de almacenamiento (ES: *sensor configurado*). |
 | SensorDisconnected | El dispositivo perdió el enlace Wi-Fi y se notificó al usuario (US06). |
 
 **Policies**
 
-- **Vinculación única**: un código QR solo puede vincularse a un hogar a la vez.
+- **Vinculación única**: un código QR solo puede vincularse a un negocio a la vez.
 - **Notificar desconexión**: cuando el servidor no recibe *heartbeat* dentro de la ventana esperada, se marca el dispositivo OFFLINE y se avisa al usuario (US06).
 - **Heredar reglas de zona**: cuando un dispositivo se asigna a una zona, los alimentos asociados adoptan sus umbrales de temperatura (US33).
 
@@ -2173,7 +2162,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/devices | Lista los dispositivos del hogar. |
+| GET | /api/v1/devices | Lista los dispositivos del negocio. |
 | POST | /api/v1/devices/pair | Vincula un dispositivo escaneando su código QR (US31). |
 | PATCH | /api/v1/devices/{id}/calibration | Registra la temperatura base de calibración. |
 | PATCH | /api/v1/devices/{id}/zone | Asigna el dispositivo a una zona de almacenamiento. |
@@ -2200,7 +2189,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 | Resource | Campos |
 |---|---|
 | DeviceResource | id, model, firmwareVersion, status, zoneId, calibration |
-| PairDeviceResource | pairingCode (QR), householdId |
+| PairDeviceResource | pairingCode (QR), businessId |
 | CalibrationResource | baseTemperatureC |
 | StorageZoneResource | id, name, type, targetTempC |
 
@@ -2221,21 +2210,21 @@ La Application Layer del Sensor Management coordina las operaciones entre la Int
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
 | DeviceCommandServiceImpl | RegisterDeviceCommand, PairDeviceCommand, CalibrateDeviceCommand, AssignZoneCommand, RegisterHeartbeatCommand | Da de alta, vincula, calibra y monitorea el estado de conexión de los dispositivos. |
-| StorageZoneCommandServiceImpl | CreateZoneCommand, DeleteZoneCommand | Administra las áreas de almacenamiento del hogar o negocio (US33). |
+| StorageZoneCommandServiceImpl | CreateZoneCommand, DeleteZoneCommand | Administra las áreas de almacenamiento del negocio (US33). |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| DeviceQueryServiceImpl | GetDevicesByHouseholdQuery, GetDeviceByIdQuery | Recupera los dispositivos y su estado. |
-| StorageZoneQueryServiceImpl | GetZonesByHouseholdQuery | Recupera las zonas configuradas. |
+| DeviceQueryServiceImpl | GetDevicesByBusinessQuery, GetDeviceByIdQuery | Recupera los dispositivos y su estado. |
+| StorageZoneQueryServiceImpl | GetZonesByBusinessQuery | Recupera las zonas configuradas. |
 | SensorContextFacade | existsDevice(id), getZoneOf(deviceId), getCalibration(deviceId) | Open Host Service consultado por IoT Monitoring para validar el origen de las lecturas. |
 
 **Event Handlers**
 
 | Handler | Evento que escucha | Reacción |
 |---|---|---|
-| HouseholdCreatedEventHandler | HouseholdCreated (Profile Management) | Crea la zona de almacenamiento por defecto («Refrigerador principal») para el nuevo hogar. |
+| BusinessCreatedEventHandler | BusinessCreated (Profile Management) | Crea la zona de almacenamiento por defecto («Cámara principal») para el nuevo negocio. |
 | PlanTypeAcquiredEventHandler | PlanTypeAcquired (Subscription Management) | Ajusta el número máximo de dispositivos y zonas permitidos según el plan. |
 
 #### 4.2.4.4. Infrastructure Layer
@@ -2244,10 +2233,10 @@ La Infrastructure Layer del Sensor Management implementa la persistencia y las i
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| SensorDeviceRepository | JPA Repository | Persistencia de dispositivos; `findByHouseholdId`, `findByPairingCode`. |
+| SensorDeviceRepository | JPA Repository | Persistencia de dispositivos; `findByBusinessId`, `findByPairingCode`. |
 | StorageZoneRepository | JPA Repository | Persistencia de las zonas de almacenamiento. |
 | HeartbeatScheduler | Spring Scheduler | Revisa periódicamente los *heartbeats* y marca los dispositivos OFFLINE (US06). |
-| ExternalHouseholdService | ACL entrante | Consulta el `ProfileContextFacade` para validar el hogar propietario. |
+| ExternalBusinessService | ACL entrante | Consulta el `ProfileContextFacade` para validar el negocio propietario. |
 | NotificationGatewayAdapter | ACL saliente | Notifica al usuario la desconexión del dispositivo (TS42). |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
@@ -2275,7 +2264,7 @@ La Infrastructure Layer del Sensor Management implementa la persistencia y las i
 
 ### 4.2.5 Bounded Context: Inventory Management
 
-El **Inventory Management Bounded Context** administra la despensa digital del hogar o negocio: el alta de alimentos por voz o escaneo de código de barras (**US10**), la edición manual del stock (**US11**), la categorización personalizada (**US28**) y el registro del motivo de descarte (**US34**). Contiene el agregado `PantryItem` y el catálogo `FoodModel`, que define la vida útil estimada por categoría de alimento y las reglas usadas para estimar la fecha de consumo preferente.
+El **Inventory Management Bounded Context** administra el inventario de insumos y lotes del negocio, ya sea la cocina de un restaurante o el almacén de una distribuidora en frío: el alta por código de barras o QR (**US10**), el filtrado por cámara, lote y vencimiento (**US14**), la edición manual del stock (**US11**), la categorización personalizada (**US28**) y el registro del motivo de descarte (**US34**). Contiene el agregado `InventoryItem` y el catálogo `FoodModel`, que define la vida útil estimada por categoría de alimento y las reglas usadas para estimar la fecha de consumo preferente.
 
 #### 4.2.5.1. Domain Layer
 
@@ -2283,30 +2272,37 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 
 **Aggregates**
 
-1. **PantryItem**
-   - *Propósito:* Agregado raíz que representa un alimento registrado en la despensa, con su cantidad, vencimiento estimado y estado de frescura.
+1. **InventoryItem**
+   - *Propósito:* Agregado raíz que representa un insumo o lote registrado en el inventario del negocio, con su cantidad, vencimiento estimado y estado de frescura.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del alimento. |
-| userId | UUID | Usuario o miembro que lo registró. |
+| businessId | UUID | Negocio propietario del inventario. |
+| userId | UUID | Miembro del personal que lo registró. |
+| zoneId | UUID | Cámara, congelador o vitrina donde se almacena (US14, US33). |
+| lotCode | String | Código de lote leído del código de barras o QR (US10, US14). |
+| supplier | String | Proveedor que entregó el lote (US40). |
 | foodModelId | UUID | Categoría del catálogo que define su vida útil. |
 | name | String | Nombre del alimento. |
 | quantity | Quantity (VO) | Cantidad disponible. |
 | unit | Unit (VO) | Unidad de medida (kg, unidades, litros). |
-| addedAt | DateTime | Fecha de registro en la despensa. |
+| addedAt | DateTime | Fecha de registro en el inventario. |
 | bestBefore | DateTime? | Fecha estimada de consumo preferente. |
 | status | FreshnessStatus (VO) | FRESH, AT_RISK o SPOILED. |
 | notes | String | Observaciones y etiquetas personalizadas (US28). |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | markConsumed() | Registra el consumo del alimento y descuenta la cantidad. |
-| markDiscarded(reason) | Registra el descarte indicando la causa: caducado, contaminado o mal estado (US34). |
+| markDiscarded(reason) | Registra la baja indicando la causa: falla de frío, vencimiento, contaminación o proveedor (US34). |
 | updateQuantity(qty) | Corrige manualmente el stock disponible (US11). |
 | updateStatus(FreshnessStatus) | Actualiza el estado de frescura según la evaluación del dominio. |
 | estimateBestBefore(FoodModel) | Calcula la fecha de consumo preferente a partir de la vida útil del catálogo. |
+
 **Entities**
 
 1. **FoodModel** — Catálogo que define la vida útil y las reglas de conservación de cada categoría de alimento.
@@ -2318,6 +2314,7 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | category | String | Agrupación (Fruta, Verdura, Lácteo, Carne). |
 | shelfLifeDays | int | Vida útil estimada en días. |
 | rulesJson | ShelfLifeRules (VO) | Umbrales de temperatura, humedad y etileno aplicables. |
+
 | Método | Descripción |
 |---|---|
 | rulesFor(zoneType) | Devuelve los umbrales ajustados al tipo de zona de almacenamiento. |
@@ -2329,20 +2326,20 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | Quantity | Cantidad con validación de no negatividad. |
 | Unit | Unidad de medida del alimento (kg, g, L, unidades). |
 | ShelfLifeRules | Reglas de vida útil y umbrales por categoría, serializadas en JSON. |
-| DiscardReason | Enumeración: `EXPIRED`, `CONTAMINATED`, `BAD_ON_PURCHASE` (US34). |
+| DiscardReason | Enumeración: `COLD_FAILURE`, `EXPIRED`, `CONTAMINATED`, `SUPPLIER_DEFECT` (US34). |
 
 **Domain Services**
 
 | Servicio | Descripción |
 |---|---|
 | ShelfLifeEstimationService | Estima la fecha de consumo preferente combinando el `FoodModel` y la zona de almacenamiento. |
-| BarcodeLookupService | Resuelve el nombre y la categoría del producto a partir del código de barras escaneado (US10). |
+| BarcodeLookupService | Resuelve el producto, la categoría y el lote a partir del código de barras o QR escaneado (US10). |
 
 **Domain Events**
 
 | Evento | Descripción |
 |---|---|
-| FoodItemRegistered | Se agregó un alimento a la despensa (ES: *alimento agregado*). |
+| FoodItemRegistered | Se agregó un alimento al inventario (ES: *alimento agregado*). |
 | FoodItemUpdated | Se modificó manualmente la cantidad o los datos del alimento (US11). |
 | FoodItemConsumed | El alimento fue consumido (ES: *alimento consumido*). |
 | FoodItemDiscarded | El alimento fue descartado indicando la causa (US34). |
@@ -2360,16 +2357,16 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 
 **Controllers**
 
-1. **PantryItemsController** — Gestiona el inventario de alimentos del hogar o negocio.
+1. **InventoryItemsController** — Gestiona el inventario de alimentos del negocio.
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/pantry-items | Lista los alimentos con su estado de frescura (semáforo, US07). |
-| POST | /api/v1/pantry-items | Registra un alimento por voz, código de barras o manualmente (US10). |
-| PUT | /api/v1/pantry-items/{id} | Actualiza cantidad, unidad o etiquetas (US11, US28). |
-| POST | /api/v1/pantry-items/{id}/consume | Marca el alimento como consumido. |
-| POST | /api/v1/pantry-items/{id}/discard | Marca el alimento como descartado con su causa (US34). |
-   - *Dependencias:* PantryItemCommandService, PantryItemQueryService
+| GET | /api/v1/inventory-items | Lista los insumos con su estado de frescura (semáforo, US07) y filtros por cámara, lote y vencimiento (US14). |
+| POST | /api/v1/inventory-items | Registra un insumo o lote por código de barras, QR o manualmente (US10). |
+| PUT | /api/v1/inventory-items/{id} | Actualiza cantidad, unidad o etiquetas (US11, US28). |
+| POST | /api/v1/inventory-items/{id}/consume | Marca el alimento como consumido. |
+| POST | /api/v1/inventory-items/{id}/discard | Marca el alimento como descartado con su causa (US34). |
+   - *Dependencias:* InventoryItemCommandService, InventoryItemQueryService
 
 2. **FoodModelsController** — Expone el catálogo de categorías y vida útil.
 
@@ -2383,25 +2380,25 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/inventory/search | Devuelve coincidencias en vivo de alimentos y recetas. |
-   - *Dependencias:* PantryItemQueryService
+| GET | /api/v1/inventory/search | Devuelve coincidencias en vivo de insumos, lotes y fichas técnicas. |
+   - *Dependencias:* InventoryItemQueryService
 
 **Resources**
 
 | Resource | Campos |
 |---|---|
-| PantryItemResource | id, name, quantity, unit, addedAt, bestBefore, status, notes |
-| CreatePantryItemResource | name, quantity, unit, foodModelId, barcode? |
-| DiscardResource | reason (EXPIRED | CONTAMINATED | BAD_ON_PURCHASE) |
+| InventoryItemResource | id, name, lotCode, zoneId, supplier, quantity, unit, addedAt, bestBefore, status, notes |
+| CreateInventoryItemResource | name, quantity, unit, foodModelId, zoneId, lotCode?, supplier?, barcode? |
+| DiscardResource | reason (COLD_FAILURE | EXPIRED | CONTAMINATED | SUPPLIER_DEFECT) |
 | FoodModelResource | id, name, category, shelfLifeDays |
 
 **Transformers / Assemblers**
 
 | Assembler | Transformación |
 |---|---|
-| PantryItemResourceFromEntityAssembler | Convierte `PantryItem` en `PantryItemResource`. |
+| InventoryItemResourceFromEntityAssembler | Convierte `InventoryItem` en `InventoryItemResource`. |
 | FoodModelResourceFromEntityAssembler | Convierte `FoodModel` en su recurso. |
-| CreatePantryItemCommandFromResourceAssembler | Convierte el recurso de alta en `RegisterFoodItemCommand`. |
+| CreateInventoryItemCommandFromResourceAssembler | Convierte el recurso de alta en `RegisterFoodItemCommand`. |
 
 #### 4.2.5.3 Application Layer
 
@@ -2411,22 +2408,22 @@ La Application Layer del Inventory Management coordina las operaciones entre la 
 
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
-| PantryItemCommandServiceImpl | RegisterFoodItemCommand, UpdateFoodItemCommand, ConsumeFoodItemCommand, DiscardFoodItemCommand | Registra, actualiza, consume y descarta alimentos, publicando los eventos correspondientes. |
+| InventoryItemCommandServiceImpl | RegisterFoodItemCommand, UpdateFoodItemCommand, ConsumeFoodItemCommand, DiscardFoodItemCommand | Registra, actualiza, consume y descarta alimentos, publicando los eventos correspondientes. |
 | FoodModelCommandServiceImpl | SeedFoodModelsCommand | Carga el catálogo inicial de categorías y vidas útiles al iniciar el sistema. |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| PantryItemQueryServiceImpl | GetPantryItemsQuery, GetItemsAtRiskQuery, SearchInventoryQuery | Recupera el inventario, los alimentos en riesgo y las coincidencias de búsqueda (US39). |
+| InventoryItemQueryServiceImpl | GetInventoryItemsQuery, GetItemsAtRiskQuery, SearchInventoryQuery | Recupera el inventario, los alimentos en riesgo y las coincidencias de búsqueda (US39). |
 | FoodModelQueryServiceImpl | GetAllFoodModelsQuery, GetFoodModelByIdQuery | Recupera el catálogo de categorías. |
-| InventoryContextFacade | getInventorySnapshot(householdId), getItemsAtRisk(userId) | Open Host Service consultado por Consumption y Report Management. |
+| InventoryContextFacade | getInventorySnapshot(businessId), getItemsAtRisk(userId) | Open Host Service consultado por Consumption y Report Management. |
 
 **Event Handlers**
 
 | Handler | Evento que escucha | Reacción |
 |---|---|---|
-| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Actualiza el `status` del `PantryItem` a AT_RISK o SPOILED según la evaluación del FreshnessService. |
+| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Actualiza el `status` del `InventoryItem` a AT_RISK o SPOILED según la evaluación del FreshnessService. |
 | SensorConfiguredEventHandler | SensorConfigured (Sensor Management) | Asocia los alimentos de la zona con el dispositivo que la monitorea. |
 
 #### 4.2.5.4. Infrastructure Layer
@@ -2435,9 +2432,9 @@ La Infrastructure Layer del Inventory Management implementa la persistencia y la
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| PantryItemRepository | JPA Repository | Persistencia del inventario; `findByUserId`, `findByStatus`. |
+| InventoryItemRepository | JPA Repository | Persistencia del inventario; `findByBusinessId`, `findByZoneId`, `findByStatus`. |
 | FoodModelRepository | JPA Repository | Persistencia del catálogo de categorías. |
-| BarcodeApiAdapter | ACL saliente | Consulta el catálogo externo de códigos de barras (US10). |
+| BarcodeApiAdapter | ACL saliente | Consulta el catálogo externo de códigos de barras y QR (US10). |
 | RedisCacheAdapter | Caché | Almacena el catálogo y las consultas frecuentes del inventario (TS45). |
 | ExternalSensorService | ACL entrante | Consulta el `SensorContextFacade` para conocer la zona del alimento. |
 
@@ -2466,7 +2463,7 @@ La Infrastructure Layer del Inventory Management implementa la persistencia y la
 
 ### 4.2.6 Bounded Context: Consumption Management
 
-El **Consumption Management Bounded Context** registra el consumo y descarte efectivo de los alimentos y gestiona el **motor de sugerencia de recetas** (**EP05**). Propone platillos priorizando los ingredientes en riesgo (**US13**), permite filtrarlos por tiempo, dificultad y tipo de dieta (**US14**), y recoge las calificaciones de la comunidad (**US40**). Su registro de consumo es la fuente de los reportes de ahorro e impacto ambiental.
+El **Consumption Management Bounded Context** registra el consumo y la merma efectiva de los insumos y gestiona las **fichas técnicas y la rotación** (**EP05**). En el restaurante, la ficha técnica descuenta los insumos de cada platillo y prioriza los que están por vencer (**US13**), con costeo y merma por corte en el plan premium (**US19**). En la distribución en frío, sugiere la salida FIFO de los lotes (**US13**). También registra las incidencias de calidad de cada proveedor (**US40**). Su registro de consumo es la fuente de los reportes de ahorro e impacto ambiental.
 
 #### 4.2.6.1. Domain Layer
 
@@ -2475,50 +2472,57 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 **Aggregates**
 
 1. **Recipe**
-   - *Propósito:* Agregado raíz que representa una receta sugerida por la plataforma para aprovechar alimentos próximos a vencer.
+   - *Propósito:* Agregado raíz que representa la ficha técnica estandarizada de un platillo del restaurante, con sus insumos y porciones; se usa para descontar insumos y priorizar los que están por vencer (US13).
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
-| id | UUID | Identificador de la receta. |
+| id | UUID | Identificador de la ficha técnica. |
+| businessId | UUID | Restaurante al que pertenece la ficha. |
 | title | String | Nombre del platillo. |
 | prepMinutes | int | Tiempo de preparación en minutos. |
-| difficulty | Difficulty (VO) | EASY, MEDIUM o HARD. |
+| portions | int | Porciones que rinde la ficha. |
 | instructions | String | Pasos de preparación. |
 | ingredients | List&lt;RecipeIngredient&gt; | Ingredientes requeridos. |
-| isPremium | boolean | Indica si pertenece al catálogo gourmet exclusivo (US19). |
+| isPremium | boolean | Indica si usa el costeo avanzado y la merma por corte (US19). |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
-| matches(atRiskItems) | Evalúa cuántos ingredientes en riesgo cubre la receta (US13). |
-| addIngredient(name, qty, unit, optional) | Incorpora un ingrediente a la receta. |
-| rate(userId, stars, comment) | Registra la calificación y reseña de un usuario (US40). |
+| matches(atRiskItems) | Evalúa cuántos insumos en riesgo usa la ficha técnica (US13). |
+| addIngredient(name, qty, unit, optional) | Incorpora un insumo a la ficha técnica. |
+| costPerPortion() | Calcula el costo por porción a partir de los insumos (US19). |
+
 **Entities**
 
-1. **RecipeIngredient** — Ingrediente que forma parte de una receta.
+1. **RecipeIngredient** — Insumo que forma parte de una ficha técnica.
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador. |
-| recipeId | UUID | Receta a la que pertenece. |
+| recipeId | UUID | Ficha técnica a la que pertenece. |
 | name | String | Nombre del ingrediente. |
 | qty | Quantity (VO) | Cantidad requerida. |
 | unit | Unit (VO) | Unidad de medida. |
 | optional | boolean | Indica si el ingrediente es opcional. |
+
 | Método | Descripción |
 |---|---|
-| isSatisfiedBy(pantryItems) | Indica si el inventario cubre este ingrediente. |
+| isSatisfiedBy(inventoryItems) | Indica si el inventario cubre este ingrediente. |
 2. **ConsumptionRecord** — Registro histórico de cada alimento consumido o descartado, base de los reportes (US29, US34).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del registro. |
 | userId | UUID | Usuario que realizó la acción. |
-| pantryItemId | UUID | Alimento afectado. |
+| inventoryItemId | UUID | Alimento afectado. |
 | action | ConsumptionAction (VO) | CONSUMED o DISCARDED. |
-| reason | DiscardReason? | Causa del descarte, si aplica (US34). |
+| reason | DiscardReason? | Causa de la merma, si aplica (US34). |
+| supplier | String? | Proveedor del lote, usado en las incidencias de calidad (US40). |
 | estimatedValue | Money (VO) | Valor económico del alimento. |
 | recordedAt | DateTime | Fecha del registro. |
+
 | Método | Descripción |
 |---|---|
 | isWaste() | Indica si el registro representa una merma. |
@@ -2527,16 +2531,15 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 
 | Value Object | Descripción |
 |---|---|
-| Difficulty | Enumeración: `EASY`, `MEDIUM`, `HARD`. |
 | ConsumptionAction | Enumeración: `CONSUMED`, `DISCARDED`. |
-| DietTag | Etiqueta dietética de la receta: vegana, keto, sin gluten (US14). |
-| Rating | Calificación de 1 a 5 estrellas con reseña opcional (US40). |
+| SupplierIncident | Incidencia registrada contra un proveedor cuando su lote se malogra antes de tiempo (US40). |
 
 **Domain Services**
 
 | Servicio | Descripción |
 |---|---|
-| RecipeSuggestionService | Selecciona y ordena las recetas según los alimentos en estado AT_RISK del inventario (US13). |
+| RecipeSuggestionService | Prioriza las fichas técnicas que usan insumos en estado AT_RISK del inventario del restaurante (US13). |
+| RotationSuggestionService | Ordena la salida FIFO de los lotes de la distribuidora según su vencimiento (US13). |
 | WasteValuationService | Calcula el valor económico y la huella de carbono del consumo y la merma (US18, US20). |
 
 **Domain Events**
@@ -2545,14 +2548,14 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 |---|---|
 | ConsumptionRegistered | Se registró el consumo de un alimento (ES: *alimento consumido*). |
 | WasteRegistered | Se registró el descarte de un alimento con su causa (ES: *alimento desechado*). |
-| RecipeSuggested | Se propusieron recetas a partir de los alimentos en riesgo (ES: *receta sugerida*). |
-| RecipeRated | Un usuario calificó una receta (US40). |
+| RecipeSuggested | Se priorizaron fichas técnicas a partir de los insumos en riesgo (ES: *receta sugerida*). |
+| SupplierIncidentRecorded | Se registró una incidencia de calidad contra un proveedor (US40). |
 
 **Policies**
 
-- **Sugerir recetas al detectar riesgo**: cuando existen alimentos en estado AT_RISK, el motor propone recetas que los utilicen como base (US13).
+- **Priorizar insumos en riesgo**: cuando existen insumos en estado AT_RISK, el restaurante ve primero las fichas técnicas que los usan y la distribuidora ve esos lotes al inicio de la salida FIFO (US13).
 - **Registrar valor al consumir**: cuando ocurre `FoodItemConsumed`, se crea un `ConsumptionRecord` con el valor económico estimado.
-- **Restringir catálogo gourmet**: cuando un usuario sin plan PREMIUM consulta las recetas exclusivas, el acceso se bloquea (US19).
+- **Restringir costeo avanzado**: cuando un usuario sin plan PREMIUM consulta el costeo o la merma por corte, el acceso se bloquea (US19).
 
 #### 4.2.6.2. Interface Layer
 
@@ -2560,14 +2563,14 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 
 **Controllers**
 
-1. **RecipesController** — Expone el catálogo y las sugerencias de recetas.
+1. **RecipesController** — Expone las fichas técnicas del restaurante y su priorización.
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/recipes | Lista las recetas con filtros de tiempo, dificultad y dieta (US14). |
-| GET | /api/v1/recipes/suggested | Devuelve las recetas sugeridas según los alimentos en riesgo (US13). |
-| GET | /api/v1/recipes/{id} | Obtiene el detalle e ingredientes de una receta. |
-| POST | /api/v1/recipes/{id}/ratings | Registra una calificación y reseña (US40). |
+| GET | /api/v1/recipes | Lista las fichas técnicas del restaurante (US13). |
+| GET | /api/v1/recipes/suggested | Devuelve las fichas priorizadas según los insumos en riesgo (US13). |
+| GET | /api/v1/recipes/{id} | Obtiene el detalle, los insumos y el costo por porción de una ficha (US19). |
+| POST | /api/v1/recipes | Crea una ficha técnica con sus insumos (US13). |
    - *Dependencias:* RecipeQueryService, RecipeCommandService
 
 2. **ConsumptionController** — Expone el historial de consumo y descarte.
@@ -2576,16 +2579,18 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 |---|---|---|
 | GET | /api/v1/consumption | Lista los registros de consumo y merma por periodo. |
 | GET | /api/v1/consumption/export | Descarga el historial en CSV o Excel (US29). |
+| GET | /api/v1/consumption/rotation | Devuelve el orden FIFO de salida de los lotes (US13). |
+| POST | /api/v1/consumption/supplier-incidents | Registra una incidencia de calidad de un proveedor (US40). |
    - *Dependencias:* ConsumptionQueryService
 
 **Resources**
 
 | Resource | Campos |
 |---|---|
-| RecipeResource | id, title, prepMinutes, difficulty, instructions, ingredients[] |
+| RecipeResource | id, title, portions, prepMinutes, instructions, ingredients[], costPerPortion |
 | RecipeIngredientResource | name, qty, unit, optional |
-| RatingResource | stars, comment |
-| ConsumptionRecordResource | id, pantryItemId, action, reason, estimatedValue, recordedAt |
+| SupplierIncidentResource | supplier, inventoryItemId, description |
+| ConsumptionRecordResource | id, inventoryItemId, action, reason, estimatedValue, recordedAt |
 
 **Transformers / Assemblers**
 
@@ -2593,7 +2598,7 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 |---|---|
 | RecipeResourceFromEntityAssembler | Convierte `Recipe` y sus ingredientes en `RecipeResource`. |
 | ConsumptionRecordResourceFromEntityAssembler | Convierte `ConsumptionRecord` en su recurso. |
-| RatingCommandFromResourceAssembler | Convierte `RatingResource` en `RateRecipeCommand`. |
+| SupplierIncidentCommandFromResourceAssembler | Convierte `SupplierIncidentResource` en `RecordSupplierIncidentCommand`. |
 
 #### 4.2.6.3 Application Layer
 
@@ -2603,15 +2608,15 @@ La Application Layer del Consumption Management coordina las operaciones entre l
 
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
-| RecipeCommandServiceImpl | SeedRecipesCommand, RateRecipeCommand | Carga el catálogo de recetas y registra las calificaciones de la comunidad (US40). |
-| ConsumptionCommandServiceImpl | RegisterConsumptionCommand, RegisterWasteCommand | Crea los registros de consumo y merma con su valoración económica y ambiental. |
+| RecipeCommandServiceImpl | CreateRecipeCommand, UpdateRecipeCommand | Crea y mantiene las fichas técnicas del restaurante (US13, US19). |
+| ConsumptionCommandServiceImpl | RegisterConsumptionCommand, RegisterWasteCommand, RecordSupplierIncidentCommand | Crea los registros de consumo y merma con su valoración económica y ambiental, y las incidencias de proveedores (US40). |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| RecipeQueryServiceImpl | GetRecipesQuery, GetSuggestedRecipesQuery, GetRecipeByIdQuery | Recupera el catálogo y las sugerencias priorizadas por riesgo (US13, US14). |
-| ConsumptionQueryServiceImpl | GetConsumptionByPeriodQuery, ExportConsumptionQuery | Recupera el historial y genera la exportación en CSV/Excel (US29). |
+| RecipeQueryServiceImpl | GetRecipesQuery, GetSuggestedRecipesQuery, GetRecipeByIdQuery | Recupera las fichas técnicas y su priorización por riesgo (US13). |
+| ConsumptionQueryServiceImpl | GetConsumptionByPeriodQuery, ExportConsumptionQuery, GetRotationQuery | Recupera el historial, genera la exportación en CSV/Excel (US29) y el orden FIFO de salida (US13). |
 | ConsumptionContextFacade | getConsumptionSummary(userId, period) | Open Host Service consultado por Report Management para construir los reportes. |
 
 **Event Handlers**
@@ -2620,7 +2625,7 @@ La Application Layer del Consumption Management coordina las operaciones entre l
 |---|---|---|
 | FoodItemConsumedEventHandler | FoodItemConsumed (Inventory Management) | Crea un `ConsumptionRecord` de tipo CONSUMED y calcula el valor económico rescatado. |
 | FoodItemDiscardedEventHandler | FoodItemDiscarded (Inventory Management) | Crea un `ConsumptionRecord` de tipo DISCARDED con su causa y estima la huella de carbono. |
-| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Recalcula las sugerencias de recetas cuando un alimento entra en estado AT_RISK (US13). |
+| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Recalcula la priorización de fichas y la rotación FIFO cuando un insumo entra en estado AT_RISK (US13). |
 
 #### 4.2.6.4. Infrastructure Layer
 
@@ -2628,10 +2633,10 @@ La Infrastructure Layer del Consumption Management implementa la persistencia y 
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| RecipeRepository | JPA Repository | Persistencia de recetas; `findByDifficulty`, `findByIngredientName`. |
-| RecipeIngredientRepository | JPA Repository | Persistencia de los ingredientes de cada receta. |
+| RecipeRepository | JPA Repository | Persistencia de fichas técnicas; `findByBusinessId`, `findByIngredientName`. |
+| RecipeIngredientRepository | JPA Repository | Persistencia de los insumos de cada ficha técnica. |
 | ConsumptionRecordRepository | JPA Repository | Persistencia del historial de consumo y merma. |
-| RedisCacheAdapter | Caché | Sirve el catálogo de recetas filtradas en menos de 50 ms (TS45). |
+| RedisCacheAdapter | Caché | Sirve las fichas técnicas y el inventario más consultados en menos de 50 ms (TS45). |
 | CsvExcelExporter | Servicio técnico | Genera el archivo CSV/Excel del historial con Apache POI (US29). |
 | ExternalInventoryService | ACL entrante | Consulta el `InventoryContextFacade` para obtener los alimentos en riesgo. |
 
@@ -2660,7 +2665,7 @@ La Infrastructure Layer del Consumption Management implementa la persistencia y 
 
 ### 4.2.7 Bounded Context: IoT Monitoring
 
-El **IoT Monitoring Bounded Context** es el núcleo de la integración IoT del producto. Recibe la telemetría del dispositivo FreshSense mediante el endpoint REST seguro definido en la **TS41**, evalúa las lecturas contra los umbrales de cada alimento a través del `FreshnessService` del modelo de dominio, y emite las alertas preventivas de la **US08**, respetando el **Modo Vacaciones** de la **US32**. Este contexto traduce la señal física (temperatura, humedad, etileno) en conocimiento de negocio: el estado de frescura del alimento.
+El **IoT Monitoring Bounded Context** es el núcleo de la integración IoT del producto. Recibe la telemetría del dispositivo FreshSense mediante el endpoint REST seguro definido en la **TS41**, evalúa las lecturas contra los umbrales de cada alimento a través del `FreshnessService` del modelo de dominio, y emite las alertas preventivas de la **US08**, respetando el **Modo Mantenimiento** de la **US32**. Este contexto traduce la señal física (temperatura, humedad, etileno) en conocimiento de negocio: el estado de frescura del alimento.
 
 #### 4.2.7.1. Domain Layer
 
@@ -2672,6 +2677,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
    - *Propósito:* Agregado raíz que representa una lectura de telemetría enviada por el dispositivo FreshSense.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la lectura. |
@@ -2682,11 +2688,13 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | ethylenePpm | float | Concentración de gas etileno en ppm. |
 | meta | String | Metadatos del envío (versión de firmware, calidad de señal). |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | isValid() | Valida que los rangos de las tres magnitudes sean físicamente posibles. |
 | exceeds(ShelfLifeRules) | Indica si la lectura supera los umbrales de la categoría del alimento. |
 | toQualityRecord() | Proyecta la lectura al histórico de calidad consultado en los reportes. |
+
 **Entities**
 
 1. **ExpirationAlert** — Alerta generada cuando un alimento entra en riesgo de deterioro (US08).
@@ -2694,17 +2702,18 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la alerta. |
-| pantryItemId | UUID | Alimento afectado. |
+| inventoryItemId | UUID | Alimento afectado. |
 | raisedAt | DateTime | Momento en que se emitió. |
 | type | AlertType (VO) | NEARING_EXPIRY, HIGH_ETHYLENE o TEMP_RISK. |
 | status | AlertStatus (VO) | OPEN, SENT, SNOOZED o RESOLVED. |
 | meta | String | Valores que motivaron la alerta. |
+
 | Método | Descripción |
 |---|---|
 | resolve() | Marca la alerta como resuelta cuando el alimento se consume o descarta. |
 | snooze(until) | Pospone la alerta según las preferencias del usuario (US09). |
 | markSent() | Registra que la notificación fue despachada. |
-2. **ThresholdProfile** — Perfil de umbrales aplicado a una zona, incluido el Modo Vacaciones (US32).
+2. **ThresholdProfile** — Perfil de umbrales aplicado a una zona, incluido el Modo Mantenimiento (US32).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
@@ -2712,10 +2721,11 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | zoneId | UUID | Zona de almacenamiento a la que aplica. |
 | maxTemperatureC | float | Temperatura máxima tolerada. |
 | maxEthylenePpm | float | Concentración máxima de etileno tolerada. |
-| vacationMode | boolean | Indica si el modo de baja sensibilidad está activo (US32). |
+| maintenanceMode | boolean | Indica si el modo de mantenimiento está activo (US32). |
+
 | Método | Descripción |
 |---|---|
-| applyVacationMode() | Recalibra los umbrales al no abrirse la puerta durante 24 horas. |
+| applyMaintenanceMode() | Pausa las alarmas de la zona mientras la cámara se limpia o se repara (US32). |
 | evaluate(SensorReading) | Determina si la lectura constituye una desviación. |
 **Value Objects**
 
@@ -2730,7 +2740,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 
 | Servicio | Descripción |
 |---|---|
-| FreshnessService | Servicio de dominio central del modelo: `evaluate(PantryItem, SensorReading*)` determina el `FreshnessStatus` y `estimateBestBefore(PantryItem, FoodModel, SensorReading*)` ajusta la fecha de consumo preferente con la telemetría real. |
+| FreshnessService | Servicio de dominio central del modelo: `evaluate(InventoryItem, SensorReading*)` determina el `FreshnessStatus` y `estimateBestBefore(InventoryItem, FoodModel, SensorReading*)` ajusta la fecha de consumo preferente con la telemetría real. |
 | ThresholdEvaluationService | Compara cada lectura con el `ThresholdProfile` vigente y decide si corresponde emitir una alerta. |
 
 **Domain Events**
@@ -2742,14 +2752,14 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | EthyleneAlertIssued | La concentración de etileno superó el umbral y se emitió la alerta (ES: *alerta emitida*). |
 | TemperatureAlertIssued | La temperatura salió del rango tolerado de la zona. |
 | AlertResolved | La alerta se cerró al consumirse o descartarse el alimento. |
-| VacationModeActivated | Se recalibraron los umbrales por ausencia prolongada (US32). |
+| MaintenanceModeActivated | Se pausaron las alarmas de la cámara por limpieza o reparación (US32). |
 
 **Policies**
 
 - **Emitir alerta al superar umbrales**: cuando los valores del sensor superan los umbrales configurados, se emite una alerta de expiración (US08).
 - **Evitar falsas alarmas**: cuando no existen desviaciones en los parámetros, el chequeo periódico no emite ninguna notificación (US08).
-- **Recalibrar en Modo Vacaciones**: cuando transcurren más de 24 horas sin apertura de puerta, se ajusta la sensibilidad del etileno (US32).
-- **Respetar el horario de silencio**: cuando una alerta de baja severidad cae en el rango de quietud, se retiene hasta que finalice (US09).
+- **Pausar alarmas en Modo Mantenimiento**: mientras una cámara está en mantenimiento, sus lecturas se registran pero no generan alertas hasta que se reactive (US32).
+- **Respetar el turno operativo**: cuando una alerta de baja severidad cae fuera del turno, se retiene hasta el siguiente; las críticas se envían siempre al responsable de turno (US09, US24).
 
 #### 4.2.7.2. Interface Layer
 
@@ -2774,12 +2784,12 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 | POST | /api/v1/alerts/{id}/resolve | Marca la alerta como resuelta. |
    - *Dependencias:* AlertCommandService, AlertQueryService
 
-3. **ThresholdsController** — Configura los umbrales y el Modo Vacaciones (US32).
+3. **ThresholdsController** — Configura los umbrales y el Modo Mantenimiento (US32).
 
 | Método | Endpoint | Descripción |
 |---|---|---|
 | GET | /api/v1/thresholds/{zoneId} | Obtiene el perfil de umbrales de la zona. |
-| PUT | /api/v1/thresholds/{zoneId} | Actualiza los umbrales o activa el Modo Vacaciones. |
+| PUT | /api/v1/thresholds/{zoneId} | Actualiza los umbrales o activa el Modo Mantenimiento. |
    - *Dependencias:* ThresholdCommandService
 
 **Resources**
@@ -2787,8 +2797,8 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 | Resource | Campos |
 |---|---|
 | SensorReadingResource | deviceId, timestamp, temperatureC, humidityPct, ethylenePpm, meta |
-| AlertResource | id, pantryItemId, type, status, raisedAt, meta |
-| ThresholdProfileResource | zoneId, maxTemperatureC, maxEthylenePpm, vacationMode |
+| AlertResource | id, inventoryItemId, type, status, raisedAt, meta |
+| ThresholdProfileResource | zoneId, maxTemperatureC, maxEthylenePpm, maintenanceMode |
 | QualityHistoryResource | deviceId, period, avgTemperature, avgHumidity, maxEthylene |
 
 **Transformers / Assemblers**
@@ -2809,7 +2819,7 @@ La Application Layer del IoT Monitoring coordina las operaciones entre la Interf
 |---|---|---|
 | MonitoringCommandServiceImpl | RegisterSensorReadingCommand | Valida el token del dispositivo, persiste la lectura y dispara la evaluación de frescura (TS41). |
 | AlertCommandServiceImpl | IssueAlertCommand, SnoozeAlertCommand, ResolveAlertCommand | Emite, pospone y cierra las alertas de expiración (US08, US09). |
-| ThresholdCommandServiceImpl | UpdateThresholdsCommand, ActivateVacationModeCommand | Ajusta los umbrales por zona y activa el Modo Vacaciones (US32). |
+| ThresholdCommandServiceImpl | UpdateThresholdsCommand, ActivateMaintenanceModeCommand | Ajusta los umbrales por zona y activa el Modo Mantenimiento (US32). |
 
 **Query Services / Facades**
 
@@ -2817,7 +2827,7 @@ La Application Layer del IoT Monitoring coordina las operaciones entre la Interf
 |---|---|---|
 | MonitoringQueryServiceImpl | GetReadingsByDeviceQuery, GetQualityHistoryQuery | Recupera el histórico de telemetría y las métricas agregadas de calidad. |
 | AlertQueryServiceImpl | GetOpenAlertsQuery, GetAlertsByItemQuery | Recupera las alertas vigentes del usuario. |
-| MonitoringContextFacade | getQualityHistory(householdId, period), getOpenAlerts(userId) | Open Host Service consultado por Report Management e Inventory Management. |
+| MonitoringContextFacade | getQualityHistory(businessId, period), getOpenAlerts(userId) | Open Host Service consultado por Report Management e Inventory Management. |
 
 **Event Handlers**
 
@@ -2825,7 +2835,7 @@ La Application Layer del IoT Monitoring coordina las operaciones entre la Interf
 |---|---|---|
 | SensorConfiguredEventHandler | SensorConfigured (Sensor Management) | Crea el `ThresholdProfile` inicial de la zona con los umbrales por defecto de sus alimentos. |
 | FoodItemRegisteredEventHandler | FoodItemRegistered (Inventory Management) | Asocia el nuevo alimento a la zona monitoreada y comienza a evaluarlo. |
-| PantryItemResolvedEventHandler | FoodItemConsumed / FoodItemDiscarded (Inventory Management) | Cierra automáticamente las alertas abiertas del alimento (`AlertResolved`). |
+| InventoryItemResolvedEventHandler | FoodItemConsumed / FoodItemDiscarded (Inventory Management) | Cierra automáticamente las alertas abiertas del alimento (`AlertResolved`). |
 
 #### 4.2.7.4. Infrastructure Layer
 
@@ -2834,7 +2844,7 @@ La Infrastructure Layer del IoT Monitoring implementa la persistencia y las inte
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
 | SensorReadingRepository | JPA Repository | Persistencia de la telemetría; `findByDeviceIdAndTsBetween`. |
-| ExpirationAlertRepository | JPA Repository | Persistencia de alertas; `findByStatus`, `findByPantryItemId`. |
+| ExpirationAlertRepository | JPA Repository | Persistencia de alertas; `findByStatus`, `findByInventoryItemId`. |
 | ThresholdProfileRepository | JPA Repository | Persistencia de los perfiles de umbrales por zona. |
 | DeviceTokenValidator | ACL entrante | Valida el token del dispositivo antes de aceptar la lectura (TS41). |
 | NotificationGatewayAdapter | ACL saliente | Despacha la alerta a la cola de eventos del Notification Service (TS42). |
@@ -2865,7 +2875,7 @@ La Infrastructure Layer del IoT Monitoring implementa la persistencia y las inte
 
 ### 4.2.8 Bounded Context: Report Management
 
-El **Report Management Bounded Context** consolida la información de los demás contextos para producir los **reportes de consumo y sostenibilidad**: el informe semanal de hábitos (**US12**), la analítica avanzada de rotación (**US17**), el panel de ahorro económico (**US18**) y las métricas de impacto ecológico en kg de CO₂ evitado (**US20**). Genera los archivos descargables en PDF y Excel con JasperReports y Apache POI, y expone la información al Analytics Service externo.
+El **Report Management Bounded Context** consolida la información de los demás contextos para producir los **reportes de consumo y sostenibilidad**: el reporte semanal de mermas (**US12**), la analítica avanzada de rotación (**US17**), el panel de ahorro económico (**US18**) y las métricas de impacto ecológico en kg de CO₂ evitado (**US20**). Genera los archivos descargables en PDF y Excel con JasperReports y Apache POI, y expone la información al Analytics Service externo.
 
 #### 4.2.8.1. Domain Layer
 
@@ -2877,6 +2887,7 @@ La Domain Layer del Report Management Bounded Context encapsula la lógica de ne
    - *Propósito:* Agregado raíz que representa un reporte consolidado de consumo, merma y ahorro para un periodo determinado.
 
    - *Atributos:*
+
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del reporte. |
@@ -2887,11 +2898,13 @@ La Domain Layer del Report Management Bounded Context encapsula la lógica de ne
 | sections | List&lt;ReportSection&gt; | Bloques del reporte: inventario, consumo, calidad. |
 | createdAt | DateTime | Fecha de generación. |
    - *Métodos:*
+
 | Método | Descripción |
 |---|---|
 | generate(inventory, consumption, quality) | Construye el reporte a partir de los tres contextos fuente. |
 | exportTo(format) | Exporta el reporte a PDF o Excel (US29). |
 | isPremiumOnly() | Indica si el nivel de detalle requiere plan PREMIUM (US17). |
+
 **Entities**
 
 1. **ReportSection** — Bloque temático del reporte con sus métricas calculadas.
@@ -2903,6 +2916,7 @@ La Domain Layer del Report Management Bounded Context encapsula la lógica de ne
 | type | SectionType (VO) | INVENTORY, CONSUMPTION, QUALITY o SUSTAINABILITY. |
 | metricsJson | String | Métricas calculadas serializadas. |
 | order | int | Posición dentro del reporte. |
+
 | Método | Descripción |
 |---|---|
 | render(format) | Produce la representación de la sección en el formato solicitado. |
@@ -2988,7 +3002,7 @@ La Application Layer del Report Management coordina las operaciones entre la Int
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
 | ReportCommandServiceImpl | GenerateReportCommand, ExportReportCommand | Construye el reporte consultando los contextos fuente y genera el archivo descargable. |
-| WeeklyReportSchedulerImpl | SendWeeklyReportCommand | Consolida y despacha el resumen semanal de hábitos al correo del usuario (US12). |
+| WeeklyReportSchedulerImpl | SendWeeklyReportCommand | Consolida y despacha el reporte semanal de mermas al correo del negocio (US12). |
 
 **Query Services / Facades**
 
@@ -3050,75 +3064,1311 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ## 5.1. Style Guidelines
 
+FreshSense establece un conjunto de lineamientos visuales y de interacción orientados a mantener una experiencia consistente entre el Landing Page, la aplicación web, la aplicación móvil y la experiencia asociada al dispositivo IoT.
+
+La solución está dirigida principalmente a **empresas de distribución y cadena de frío** y a **empresas productoras y comercializadoras de alimentos perecibles**. Por ello, la experiencia visual prioriza claridad, confiabilidad y rápida interpretación de información relacionada con monitoreo ambiental, lotes, dispositivos, alertas y trazabilidad.
+
+Los recursos visuales del producto, como logotipos, imágenes, tipografías y demás elementos gráficos, se centralizarán en la carpeta `Assets/` del repositorio para mantener una referencia común entre todos los integrantes del equipo.
+
 ### 5.1.1. General Style Guidelines
+
+Los lineamientos generales de FreshSense definen la identidad visual y comunicacional utilizada en los diferentes productos digitales que forman parte de la solución.
+
+#### Branding
+
+La identidad de FreshSense está orientada a transmitir **frescura, control, trazabilidad, tecnología y confiabilidad**.
+
+La marca busca representar una solución tecnológica que permita a las empresas monitorear las condiciones de conservación de productos perecibles durante su almacenamiento y distribución, facilitando la detección de desviaciones y reduciendo las pérdidas asociadas al deterioro de productos.
+
+El diseño visual mantiene una apariencia limpia y profesional, evitando interfaces excesivamente cargadas. Los elementos relacionados con monitoreo, conservación, alertas, dispositivos y trazabilidad deben utilizarse de manera consistente en todos los productos digitales.
+
+#### Typography
+
+FreshSense utiliza la familia tipográfica **Poppins** debido a su apariencia moderna, limpia y legible en interfaces digitales.
+
+Se establece la siguiente jerarquía tipográfica:
+
+- **H1:** títulos principales de páginas y mensajes de mayor importancia.
+- **H2:** títulos de secciones.
+- **H3:** subtítulos y encabezados de componentes.
+- **Body:** contenido descriptivo, datos y textos de apoyo.
+- **Labels:** nombres de campos, indicadores, filtros y estados.
+
+La jerarquía debe mantenerse de manera consistente en las experiencias Web y Mobile para facilitar la lectura y comprensión de la información.
+
+#### Colors
+
+La paleta cromática de FreshSense está compuesta principalmente por verde, azul, tonos neutros y blanco.
+
+| Color | Uso principal |
+|---|---|
+| **Green - Primary** | Acciones principales, indicadores de condiciones adecuadas y elementos asociados a conservación. |
+| **Blue - Secondary** | Monitoreo, información tecnológica, gráficos y componentes secundarios. |
+| **Gray - Neutral** | Textos secundarios, etiquetas, íconos y divisores. |
+| **White - Background** | Fondos principales, tarjetas y espacios de contenido. |
+| **Text - Base** | Información principal y contenido de alta prioridad. |
+
+Los estados que requieran atención podrán utilizar indicadores visuales diferenciados según su nivel de severidad. Sin embargo, el color no será el único mecanismo de comunicación; cada estado deberá estar acompañado por texto o iconografía que permita comprender claramente la situación.
+
+#### Spacing & Layout
+
+FreshSense utiliza una estructura modular para mantener consistencia entre páginas y componentes.
+
+**Base Unit**
+
+- Size: `8 px`
+- Uso: unidad base para márgenes, paddings y separación entre elementos.
+
+**Grid System**
+
+- Grid: `12 columnas`
+- Gutter: `22 px`
+- Margins: proporcionales a la unidad base.
+
+**Section Spacing**
+
+- Standard section: `56 px`
+- Hero section: `72 px`
+- Footer: `36–56 px`
+
+**Cards & Components**
+
+- Internal padding: `18–22 px`
+- Border radius: `16 px`
+- Elevation: `0 10px 25px rgba(0,0,0,.08)`
+
+**Alignment**
+
+- Contenido principal dentro de un contenedor máximo de `1120 px` o `92%` del ancho disponible.
+- El contenido textual se alinea principalmente a la izquierda para facilitar su lectura.
+- Los indicadores críticos y métricas principales deberán tener mayor jerarquía visual.
+- Se utilizarán espacios amplios entre grupos de información para diferenciar claramente cada sección.
+
+#### Tone of Voice
+
+El tono de comunicación de FreshSense busca transmitir profesionalismo, confianza y claridad, debido a que la solución presenta información utilizada para supervisar las condiciones de conservación de productos perecibles.
+
+| Dimensión | Orientación de FreshSense | Justificación |
+|---|---|---|
+| Divertido / Serio | **Serio** | Los datos de monitoreo y las alertas requieren una comunicación clara y confiable. |
+| Formal / Casual | **Formal** | La solución está orientada a organizaciones y procesos empresariales. |
+| Respetuoso / Irreverente | **Respetuoso** | Los mensajes deben orientar al usuario sin generar confusión. |
+| Entusiasta / Sereno | **Sereno** | Las incidencias deben comunicarse con claridad sin utilizar mensajes alarmistas. |
+
+Los mensajes del sistema deben ser breves, precisos y orientados a una acción concreta.
+
+Ejemplos:
+
+- `Temperature above allowed range`
+- `Device disconnected`
+- `Cold chain deviation detected`
+- `Reading updated successfully`
+- `Lot requires attention`
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
+FreshSense mantiene una identidad visual consistente entre sus diferentes interfaces. Los usuarios deben reconocer los mismos colores, tipografía, iconografía, indicadores y terminología independientemente de si utilizan la aplicación web o móvil.
+
+#### Web Style Guidelines
+
+El Landing Page y la aplicación web utilizarán principios de **Material Design**, manteniendo consistencia en componentes como botones, formularios, tarjetas, tablas, menús, indicadores y mensajes de estado.
+
+Para la versión Desktop del Landing Page se utilizará principalmente el **patrón de lectura Z**, dirigiendo inicialmente la atención hacia la marca, propuesta de valor y Call-to-Action principal.
+
+Posteriormente, el contenido presentará el funcionamiento de FreshSense, sus principales beneficios y la solución específica para cada segmento empresarial.
+
+En pantallas de menor tamaño, el contenido adoptará una estructura principalmente vertical.
+
+La aplicación web priorizará la visualización de información relacionada con:
+
+- Dashboard.
+- Monitoring.
+- Inventory.
+- Lots.
+- Devices.
+- Alerts.
+- Traceability.
+- Reports.
+
+Los datos provenientes del dispositivo IoT, como temperatura, humedad, última lectura y estado de conexión, se presentarán mediante tarjetas, tablas, indicadores y gráficos que permitan identificar rápidamente desviaciones o situaciones que requieran atención.
+
+#### Mobile Style Guidelines
+
+La aplicación móvil mantendrá los mismos principios visuales definidos para la aplicación web, adaptando la distribución a pantallas de menor tamaño.
+
+Se priorizarán las funcionalidades que requieren consulta rápida:
+
+- Estado general del monitoreo.
+- Alertas activas.
+- Lecturas recientes.
+- Estado de dispositivos.
+- Estado de lotes.
+
+La información se organizará principalmente en una sola columna y se priorizarán los eventos o condiciones que requieran atención inmediata.
+
+Los nombres, colores, iconos y estados serán equivalentes a los utilizados en Web para reducir la curva de aprendizaje entre plataformas.
+
+#### IoT Style Guidelines
+
+El dispositivo IoT actual de FreshSense funciona como un nodo de monitoreo encargado de registrar las condiciones ambientales relacionadas con la conservación de productos perecibles.
+
+El prototipo utiliza un microcontrolador **ESP32** junto con un sensor **DHT22** para obtener periódicamente información de temperatura y humedad.
+
+Las mediciones son transmitidas mediante Wi-Fi hacia el Edge API y posteriormente enviadas al backend de FreshSense para su almacenamiento, procesamiento y visualización.
+
+El prototipo físico actual no incorpora una pantalla ni controles de interacción directa documentados. Por ello, la interacción del usuario con el dispositivo se realiza principalmente mediante las aplicaciones digitales de FreshSense.
+
+Los principales elementos relacionados con el dispositivo utilizarán etiquetas simples y consistentes:
+
+| Elemento | Label |
+|---|---|
+| Estado del dispositivo | `Connected` / `Disconnected` |
+| Temperatura | `Temperature` |
+| Humedad | `Humidity` |
+| Última medición | `Last Reading` |
+| Estado del monitoreo | `Monitoring Status` |
+| Identificador | `Device ID` |
+
+La interfaz debe permitir que el usuario comprenda el estado del dispositivo y de las condiciones monitoreadas sin necesidad de conocer detalles técnicos como el funcionamiento del ESP32, DHT22, JSON o Edge API.
+
+#### Internationalization & Accessibility
+
+FreshSense considera dos locales principales:
+
+- `en_US` - English.
+- `es_419` - Latin American Spanish.
+
+El idioma predeterminado de las interfaces será **English**, manteniendo disponible la estructura necesaria para presentar los mismos contenidos en español latinoamericano.
+
+En las experiencias Web se utilizarán atributos ARIA para facilitar el uso de tecnologías de asistencia.
+
+Asimismo, los estados importantes no serán representados únicamente mediante colores, sino también mediante texto, iconos u otros indicadores reconocibles.
+
+La estructura visual, las etiquetas y los componentes mantendrán consistencia entre ambos idiomas.
+
+
 ## 5.2. Information Architecture
+
+La arquitectura de información de FreshSense está diseñada para que los visitantes y usuarios puedan comprender rápidamente la propuesta del producto y acceder a información relacionada con monitoreo, dispositivos, productos perecibles, alertas y trazabilidad sin recorrer estructuras complejas.
+
+La organización considera las necesidades de los dos segmentos principales:
+
+- **Empresas de distribución y cadena de frío:** organizaciones encargadas del transporte, distribución o almacenamiento de productos perecibles que requieren supervisar continuamente las condiciones de conservación.
+- **Empresas productoras y comercializadoras de alimentos perecibles:** organizaciones que producen, almacenan o comercializan alimentos y necesitan controlar las condiciones de sus productos y reducir pérdidas asociadas al deterioro.
+
+La arquitectura considera el Landing Page, la aplicación web, la aplicación móvil y las funcionalidades asociadas al monitoreo mediante dispositivos IoT.
 
 ### 5.2.1. Organization Systems
 
+FreshSense utiliza distintos sistemas de organización dependiendo del tipo de información y de la tarea que realiza el usuario.
+
+#### Hierarchical Organization
+
+El Landing Page utiliza una organización jerárquica que presenta primero la información de mayor relevancia:
+
+1. Propuesta de valor.
+2. Funcionamiento de FreshSense.
+3. Beneficios.
+4. Solución para distribución y cadena de frío.
+5. Solución para productores y comercializadores.
+6. Call-to-Action.
+7. Contacto.
+
+En las aplicaciones, la información se organiza priorizando inicialmente indicadores generales, alertas activas y posibles desviaciones antes de mostrar información secundaria.
+
+#### Sequential Organization
+
+Los procesos que requieren completar varias acciones utilizan una organización secuencial.
+
+Ejemplos:
+
+`Register → Add Device → Configure Device → Start Monitoring`
+
+`Register Lot → Add Product Information → Associate Device → Start Tracking`
+
+De esta manera, el usuario recibe únicamente la información necesaria para completar cada etapa del proceso.
+
+#### Matrix Organization
+
+Las vistas de monitoreo utilizan estructuras matriciales que permiten comparar diferentes dispositivos, lotes o variables.
+
+**Monitoring**
+
+| Device | Temperature | Humidity | Status | Last Reading |
+|---|---|---|---|---|
+| Device ID | Value | Value | Connection Status | Date & Time |
+
+**Lots**
+
+| Lot | Product | Location | Monitoring Status | Last Update |
+|---|---|---|---|---|
+| Lot ID | Product Name | Location | Status | Date & Time |
+
+Este sistema facilita la supervisión simultánea de múltiples productos y dispositivos.
+
+#### Alphabetical Organization
+
+Los productos, dispositivos y ubicaciones podrán organizarse alfabéticamente cuando sea necesario localizar un elemento específico.
+
+#### Chronological Organization
+
+Las lecturas, alertas, incidencias y registros de trazabilidad se organizan principalmente de forma cronológica, mostrando primero los eventos más recientes.
+
+#### Topic-Based Organization
+
+Las principales funcionalidades se agrupan según el tópico al que pertenecen:
+
+- Dashboard
+- Monitoring
+- Inventory
+- Lots
+- Devices
+- Alerts
+- Traceability
+- Reports
+
+#### Audience-Based Organization
+
+En el Landing Page se diferencia el contenido según los segmentos objetivo:
+
+- **For Cold Chain:** contenido orientado a empresas de distribución y operadores de cadena de frío.
+- **For Producers:** contenido orientado a empresas productoras y comercializadoras de alimentos perecibles.
+
+Esto permite presentar beneficios específicos para cada segmento sin modificar la identidad general de FreshSense.
+
 ### 5.2.2. Labeling Systems
+
+El sistema de etiquetado de FreshSense utiliza términos breves, consistentes y fáciles de reconocer.
+
+Se evita mostrar terminología técnica relacionada con la implementación cuando no aporta valor directo al usuario.
+
+#### Landing Page
+
+| Label | Propósito |
+|---|---|
+| `Home` | Regresar al inicio. |
+| `Solution` | Presentar la solución FreshSense. |
+| `How It Works` | Explicar el funcionamiento general del sistema. |
+| `Benefits` | Presentar los principales beneficios. |
+| `For Cold Chain` | Información dirigida a empresas de distribución y cadena de frío. |
+| `For Producers` | Información dirigida a productores y comercializadores. |
+| `Contact` | Presentar los medios de contacto. |
+| `Sign In` | Acceder a la plataforma. |
+| `Get Started` | Iniciar el proceso de acceso o registro. |
+
+#### Web and Mobile Applications
+
+| Label | Información asociada |
+|---|---|
+| `Dashboard` | Resumen general del sistema e indicadores principales. |
+| `Monitoring` | Visualización de las condiciones registradas por los dispositivos. |
+| `Inventory` | Información de los productos registrados. |
+| `Lots` | Gestión y seguimiento de lotes. |
+| `Devices` | Gestión de dispositivos IoT asociados. |
+| `Alerts` | Eventos o desviaciones que requieren atención. |
+| `Traceability` | Historial de eventos y condiciones asociadas a productos o lotes. |
+| `Reports` | Información consolidada y resultados de monitoreo. |
+
+#### IoT Monitoring
+
+| Label | Información asociada |
+|---|---|
+| `Device` | Dispositivo IoT registrado. |
+| `Device ID` | Identificador único del dispositivo. |
+| `Connected` | Dispositivo comunicándose correctamente. |
+| `Disconnected` | Dispositivo sin comunicación con el sistema. |
+| `Temperature` | Temperatura obtenida mediante el sensor. |
+| `Humidity` | Humedad obtenida mediante el sensor. |
+| `Last Reading` | Fecha y hora de la lectura más reciente. |
+| `Monitoring Status` | Estado actual del proceso de monitoreo. |
+
+Las etiquetas se mantendrán equivalentes entre las experiencias Web y Mobile para evitar que un mismo concepto tenga diferentes nombres dependiendo de la plataforma.
 
 ### 5.2.3. SEO Tags and Meta Tags
 
+FreshSense utilizará SEO Tags y Meta Tags para representar adecuadamente el contenido del Landing Page y de la aplicación web.
+
+#### Landing Page
+
+| Element | Value |
+|---|---|
+| **Title** | `FreshSense | Smart Cold Chain Monitoring for Perishable Foods` |
+| **Description** | `FreshSense helps companies monitor temperature and humidity conditions during the storage and distribution of perishable food products using IoT technology.` |
+| **Keywords** | `cold chain monitoring, perishable food, IoT monitoring, temperature monitoring, humidity monitoring, food traceability, cold storage` |
+| **Author** | `FreshSense Team` |
+
+#### Web Application
+
+| Element | Value |
+|---|---|
+| **Title** | `FreshSense Platform | Monitor Your Cold Chain` |
+| **Description** | `Monitor devices, environmental conditions, lots, alerts and traceability information for perishable food products with FreshSense.` |
+| **Keywords** | `FreshSense, cold chain, IoT monitoring, food traceability, temperature, humidity, logistics` |
+| **Author** | `FreshSense Team` |
+
+#### Mobile Application - ASO
+
+En caso de publicación de la aplicación móvil mediante un App Store, se utilizarán los siguientes elementos:
+
+| Element | Value |
+|---|---|
+| **App Title** | `FreshSense` |
+| **App Subtitle** | `Smart Cold Chain Monitoring` |
+| **App Keywords** | `cold chain, food, monitoring, temperature, humidity, traceability, IoT` |
+| **App Description** | `FreshSense helps companies monitor environmental conditions, connected devices and alerts related to the storage and distribution of perishable food products.` |
+
 ### 5.2.4. Searching Systems
 
+El sistema de búsqueda se concentra principalmente en las aplicaciones Web y Mobile, donde el volumen de información puede aumentar debido al registro de dispositivos, lotes, productos, lecturas y alertas.
+
+El Landing Page no requiere un buscador interno debido a que su contenido está organizado en un número reducido de secciones accesibles mediante navegación directa.
+
+#### Lots Search
+
+El usuario podrá buscar lotes mediante:
+
+- Lot ID.
+- Producto.
+- Ubicación.
+
+Los resultados podrán filtrarse según:
+
+- Monitoring Status.
+- Fecha.
+- Ubicación.
+- Producto.
+
+Cada resultado mostrará información relevante del lote y su estado actual.
+
+#### Device Search
+
+Los dispositivos podrán buscarse mediante:
+
+- Device ID.
+- Ubicación.
+
+Los resultados podrán filtrarse según:
+
+- Connected.
+- Disconnected.
+- Fecha de última lectura.
+
+Cada resultado mostrará como mínimo:
+
+- Device ID.
+- Connection Status.
+- Temperature.
+- Humidity.
+- Last Reading.
+
+#### Monitoring Search
+
+La información de monitoreo podrá consultarse utilizando:
+
+- Device.
+- Lot.
+- Rango de fechas.
+- Ubicación.
+
+Los resultados mostrarán las principales mediciones registradas durante el período seleccionado.
+
+#### Alerts Search
+
+Las alertas podrán filtrarse según:
+
+- Estado.
+- Severidad.
+- Fecha.
+- Tipo de evento.
+- Device.
+- Lot.
+
+Por defecto, se mostrarán primero las alertas más recientes y aquellas que requieran mayor atención.
+
+#### Traceability Search
+
+La información de trazabilidad podrá consultarse mediante:
+
+- Lot ID.
+- Producto.
+- Device.
+- Período.
+
+Los resultados se mostrarán cronológicamente para facilitar la revisión de los eventos registrados durante el almacenamiento o distribución del producto.
+
+Cuando una búsqueda no presente coincidencias, la interfaz mostrará un mensaje claro y permitirá modificar o eliminar los filtros aplicados.
+
 ### 5.2.5. Navigation Systems
+
+La navegación de FreshSense busca mantener recorridos simples y consistentes entre el Landing Page y las diferentes aplicaciones.
+
+#### Landing Page - Desktop
+
+La versión Desktop utilizará una barra de navegación superior con acceso a las principales secciones:
+
+`Home | Solution | How It Works | Benefits | For Cold Chain | For Producers | Contact`
+
+Además, se mostrarán las principales acciones:
+
+`Sign In | Get Started`
+
+Los Call-to-Action permitirán dirigir a los usuarios hacia el acceso a la plataforma o hacia información específica relacionada con su segmento.
+
+#### Landing Page - Mobile
+
+En pantallas móviles, las mismas opciones estarán agrupadas en un menú compacto para reducir el espacio utilizado y priorizar el contenido principal.
+
+El orden y significado de las secciones serán equivalentes a los utilizados en Desktop.
+
+#### Web Application
+
+Una vez autenticado, el usuario tendrá acceso a los principales módulos de FreshSense:
+
+`Dashboard | Monitoring | Inventory | Lots | Devices | Alerts | Traceability | Reports`
+
+El **Dashboard** funcionará como punto inicial de la experiencia y permitirá visualizar información relevante como:
+
+- Estado general del monitoreo.
+- Dispositivos conectados.
+- Alertas activas.
+- Lecturas recientes.
+- Lotes que requieren atención.
+
+#### Mobile Application
+
+La navegación móvil priorizará las funcionalidades que requieren consulta frecuente:
+
+- Dashboard.
+- Monitoring.
+- Alerts.
+- Devices.
+- Lots.
+
+Las funcionalidades complementarias, como Inventory, Traceability y Reports, permanecerán disponibles desde la navegación secundaria.
+
+#### IoT Device Navigation
+
+La interacción con los dispositivos IoT se realiza principalmente mediante las aplicaciones Web y Mobile.
+
+El recorrido principal será:
+
+`Devices → Select Device → Monitoring → Reading Details`
+
+Para el seguimiento de productos, se utilizará:
+
+`Lots → Select Lot → Traceability → Event Details`
+
+Desde estas vistas, el usuario podrá conocer el estado de conexión de los dispositivos, consultar las mediciones de temperatura y humedad y revisar los eventos asociados al monitoreo de cada lote.
+
+Esta organización evita que el usuario necesite interactuar directamente con componentes técnicos como el ESP32 o el sensor DHT22 para utilizar las funciones principales de FreshSense.
 
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
 
+A continuación se realizaron los wireframes de la landing page de FreshSense, siguiendo los user stories como referencia, para conocer las necesidades y preferencias de los usuarios visitantes:
+
+**Figura 1.** Wireframe de la página principal 
+![Hero](Assets/LP_HERO.PNG)
+
+**Figura 2.** Como funciona FreshSense
+![Hero](Assets/LP_HTW.PNG) 
+
+**Figura 3.** Vistazo inicial a los beneficios 
+![Hero](Assets/LP_BENEFITS.PNG) 
+
+**Figura 4.** Modelo inicial para los planes de subscripción.
+![Hero](Assets/LP_PLANS.PNG) 
+
+**Figura 5.** Wireframe para los testimonios
+![Hero](Assets/LP_TESTIMONIALS.PNG) 
+
+**Figura 6.** Wireframe para el formulario y se incluye el footer
+![Hero](Assets/LP_FORM.PNG) 
+
 ### 5.3.2. Landing Page Mock-up
+
+Una vez se realizaron los wireframes, usamos los Style Guidelines, para desarrollar el siguiente paso, los mock ups, utilizamos los colores y modelos referidos en los guidelines, los colores verdes y azules predominantes en el diseño, aluden a la escencia de la aplicación:
+
+**Figura 7.** Mock-Up de la página principal 
+![Hero](Assets/MK_LP_HERO.PNG) 
+
+**Figura 8.** Mock-Up se muestra las funciones de FreshSense
+![Hero](Assets/MK_LP_HIW.PNG) 
+
+**Figura 9.** Vistazo inicial a los beneficios 
+![Hero](Assets/MK_LP_BENEFITS.PNG) 
+
+**Figura 10.** Mock-Up para los planes de subscripción.
+![Hero](Assets/MK_LP_PLANS.PNG) 
+
+**Figura 11.** Mock-Up para los testimonios
+![Hero](Assets/MK_LP_TESTIMONIALS.PNG) 
+
+**Figura 12.** Mock-Up para el formulario y se incluye el footer
+![FORM](Assets/MK_LP_FORM.PNG)
 
 ## 5.4. Applications UX/UI Design
 
+En la sección de Applications UX/UI Design nos enfocamos en el diseño de la interfaz y la experiencia de usuario de la aplicación web de FreshSenser, donde incluimos una visualización funcional por cada parte del aplicativo con sus flujos de interacción completos. Se elaboraron wireframes en formato mobile que facilitan la disposición de las funciones de la plataforma a través de su dispositivo móvil frecuente, con elementos en pantallas que son la introducción al app, el login up, el sign up, el home o dashboard, el menú, el inventario de insumos, el detalle de cada insumo, el monitoreo de insumos, alertas, recetas, reportes, logros y soporte. En base a estos esquemas se diseñaron los mockups con alta fidelidad. En los siguientes sprints se muestra el desarrollo de cada vista de la app y cómo estas interactúan.
+
 ### 5.4.1. Applications Wireframes
+
+![wireframeapp1](Assets/wireframeapp1.png)
+![wireframeapp2](Assets/wireframeapp2.png)
+![wireframeapp3](Assets/wireframeapp3.png)
+![wireframeapp4](Assets/wireframeapp4.png)
+![wireframeapp5](Assets/wireframeapp5.png)
+![wireframeapp6](Assets/wireframeapp6.png)
+![wireframeapp7](Assets/wireframeapp7.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+Para este apartado, el wireflow se diseñó para representar de forma detallada el proceso de uso desde el inicio de sesión hasta las funcionalidades principales, como la gestión del inventario de alimentos, el monitoreo en tiempo real, la recepción de alertas, la consulta de recetas, el seguimiento de logros y la personalización de ajustes. De esta manera, se asegura que la navegación sea coherente, intuitiva y centrada en mejorar la experiencia del usuario final.
+
+![alt text](Assets/FreshSense_Web_Applications_Wireflow_Diagrams.png)
+
 ### 5.4.2. Applications Mock-ups
+
+![mockupapp1](Assets/mockupapp1.png)
+![mockupapp2](Assets/mockupapp2.png)
+![mockupapp3](Assets/mockupapp3.png)
+![mockupapp4](Assets/mockupapp4.png)
+![mockupapp5](Assets/mockupapp5.png)
+![mockupapp6](Assets/mockupapp6.png)
+![mockupapp7](Assets/mockupapp7.png)
 
 ### 5.4.3. Applications User Flow Diagrams
 
+![alt text](Assets/cuadritosFLOW.jpg)
+
+Cada figura del diagrama tiene un significado específico dentro del flujo de usuario:
+
+- Start: punto de inicio del recorrido.
+
+- Page: pantalla normal de la aplicación.
+
+- Option Page: menú o sección con varias opciones.
+
+- End: final del flujo o salida de la app.
+
+- Input: ingreso de datos por parte del usuario.
+
+- Decision: condición que define diferentes caminos.
+
+- Result: acción realizada con éxito.
+
+- Notification: mensaje o alerta mostrado al usuario.
+
+![alt text](Assets/FreshSense_Web_Applications_Userflow_Diagrams.jpg)
+
+Ahora representamos los User Flow Diagrams de la aplicación web FreshSense, los cuales permiten visualizar de manera clara el recorrido que realiza el usuario dentro del sistema, desde que abre la aplicación hasta que cierra sesión. Este diagrama utiliza convenciones gráficas específicas para identificar los distintos tipos de pantallas, acciones, decisiones, resultados y notificaciones que intervienen en la experiencia del usuario. Gracias a esta representación, se facilita el análisis de la interacción, la detección de posibles mejoras en la navegación y la validación de que todos los escenarios de uso estén contemplados.
+
 ## 5.5. Applications Prototyping
 
+Para validar la navegación y la interacción de los usuarios con FreshSense se desarrolló un prototipo interactivo de la aplicación. Este prototipo permite recorrer las principales vistas y funcionalidades definidas durante el proceso de diseño UX/UI, simulando el comportamiento esperado de la solución antes de su implementación completa.
+
+El prototipo facilita la validación de los flujos de navegación, la organización de las pantallas y las interacciones entre las diferentes funcionalidades de la aplicación.
+
+El prototipo interactivo de FreshSense puede consultarse en el siguiente enlace:
+
+[Prototipo interactivo de FreshSense en Figma](https://www.figma.com/proto/WMu6m6D3rPs3AI4HYKKbNJ/WireFrames-LandingPage?node-id=159-1605&p=f&t=tnVLge8rsFfHhU1S-1&scaling=min-zoom&content-scaling=fixed&page-id=159%3A1603)
+
 ## 5.6. IoT Device Design
+
+El dispositivo IoT de FreshSense funciona como un nodo de monitoreo ambiental diseñado para ser colocado dentro de un refrigerador. Su propósito es capturar periódicamente información acerca de las condiciones en las que se encuentran almacenados los alimentos y transmitir dichas lecturas al sistema FreshSense.
+
+La solución utiliza un microcontrolador **ESP32 DevKit C v4** junto con un sensor digital **DHT22 (AM2302)** para obtener información de temperatura y humedad. El ESP32 proporciona la capacidad de procesamiento y conectividad Wi-Fi necesaria para transmitir las mediciones hacia los servicios de la plataforma.
+
+### Hardware del dispositivo
+
+| Componente | Especificación | Función |
+|---|---|---|
+| Microcontrolador | ESP32 DevKit C v4 | Procesamiento de datos y conectividad Wi-Fi. |
+| Sensor | DHT22 (AM2302) | Medición digital de temperatura y humedad. |
+| Pin de datos | GPIO 12 | Recepción de la señal digital proveniente del DHT22. |
+| Alimentación | 3V3 y GND | Alimentación eléctrica del sensor. |
+| Conectividad | Wi-Fi 802.11 | Comunicación del dispositivo con el Edge API. |
+| Entorno de simulación | Wokwi | Simulación y validación del firmware antes de utilizar hardware físico. |
+
+La conexión principal entre el ESP32 y el DHT22 se realiza utilizando el pin **GPIO 12** para la señal de datos. El sensor se alimenta mediante los pines **3V3** y **GND** del microcontrolador.
+
+### Firmware
+
+El firmware del dispositivo se encarga de obtener las lecturas del sensor, estructurar la información y transmitirla hacia la plataforma.
+
+Las principales librerías utilizadas son:
+
+- **DHT sensor library**, para obtener las lecturas del sensor DHT22.
+- **WiFi**, para establecer la conexión inalámbrica del ESP32.
+- **ArduinoJson**, para serializar las lecturas utilizando formato JSON.
+- **HTTPClient**, para enviar las solicitudes HTTP al Edge API.
+
+Las principales variables generadas por el dispositivo son:
+
+| Variable | Unidad | Descripción |
+|---|---|---|
+| `temperature` | °C | Temperatura medida por el sensor DHT22. |
+| `humidity` | % | Humedad relativa medida por el sensor DHT22. |
+| `deviceId` | - | Identificador del dispositivo que genera la lectura. |
+| `id` | - | Identificador único de la medición. |
+| `time` | `dd/MM/yyyy HH:mm` | Fecha y hora asociadas a la lectura. |
+
+Un ejemplo de la información enviada por el dispositivo es:
+
+```json
+{
+  "deviceId": "esp32-cocina-01",
+  "id": "rd-000123",
+  "temperature": 6.4,
+  "humidity": 82.0,
+  "time": "07/07/2026 14:35"
+}
+```
+
+### Flujo de comunicación
+
+El dispositivo forma parte de un flujo de comunicación que conecta el hardware IoT con la aplicación web de FreshSense.
+
+```mermaid
+flowchart LR
+    A[DHT22] -->|Temperature / Humidity| B[ESP32]
+    B -->|HTTP POST /edge/process| C[Edge API]
+    C -->|POST /api/edge/readings| D[Backend]
+    D --> E[Database]
+    D --> F[FreshSense Web Application]
+```
+
+El flujo funciona de la siguiente manera:
+
+1. El sensor **DHT22** obtiene las mediciones de temperatura y humedad.
+2. El **ESP32** procesa las lecturas y las serializa en formato JSON.
+3. El ESP32 realiza una solicitud HTTP `POST` al endpoint `/edge/process` del **Edge API**.
+4. El Edge API valida la información recibida y procesa la lectura.
+5. La información es reenviada al backend mediante el endpoint `/api/edge/readings`.
+6. El backend persiste la información y permite que los resultados sean utilizados por la aplicación web.
+
+El Edge API funciona como una capa intermedia entre el dispositivo y el backend principal, permitiendo validar y procesar las lecturas antes de incorporarlas al resto de la solución.
+
+### Simulación y prototipo físico
+
+Durante el desarrollo de FreshSense se utilizó **Wokwi** para simular el circuito formado por el ESP32 y el sensor DHT22. Esta simulación permitió validar el firmware, la lectura de temperatura y humedad, la conexión Wi-Fi y la generación del mensaje JSON sin depender inicialmente del hardware físico.
+
+Posteriormente, el mismo diseño fue llevado a un prototipo físico utilizando un **ESP32 y un sensor DHT22**, permitiendo obtener mediciones reales de temperatura y humedad y completar la comunicación entre el dispositivo, el Edge API y el backend de FreshSense.
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
 
+FreshSense se configura como un solo producto para los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. No hay una rama ni un repositorio por rubro. Los dos usan el mismo frontend y el mismo API. En el restaurante la cámara es la de cocina. En la distribución es la cámara o la vitrina del lote.
+
+El código de esa aplicación y este informe se versionan aparte, en la organización `1ASI0572-2620-8725`. Así un cambio del informe no mezcla el historial de la app. El entorno de desarrollo está en 6.1.1, el manejo de ramas y módulos en 6.1.2, el estilo en 6.1.3 y el despliegue en 6.1.4.
+
 ### 6.1.1. Software Development Environment Configuration
+
+En esta sección se describen los productos de software que el equipo utiliza en cada etapa del ciclo de vida de FreshSense: gestión del proyecto, requisitos y diseño, desarrollo del software, desarrollo del dispositivo IoT, pruebas, documentación y despliegue. Es el mismo entorno para los dos segmentos objetivo (propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en frío), porque ambos usan la misma Landing Page, la misma aplicación web y el mismo API.
+
+**Project Management y colaboración**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| GitHub (organización `1ASI0572-2620-8725`) | SaaS | Alojamiento de los repositorios del informe, la Landing Page, el frontend y el backend; control de ramas y *pull requests*. | https://github.com/1ASI0572-2620-8725 |
+| Git | Software de escritorio | Control de versiones local de cada integrante, con el flujo de ramas descrito en 6.1.2. | https://git-scm.com/downloads |
+| Markdown | Lenguaje de marcado | Redacción del informe del proyecto (`README.md`) directamente en el repositorio. | https://www.markdownguide.org |
+
+**Requirements Management y diseño**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Visual Paradigm Online | SaaS | Diagramas C4 (contexto, contenedores y despliegue) del Capítulo IV. | https://online.visual-paradigm.com |
+| Figma | SaaS | Wireframes, mock-ups y prototipo interactivo de la Landing Page y de la aplicación web (Capítulo V). | https://www.figma.com |
+
+**Software Development**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Zed | Software de escritorio | Editor usado para revisar el código del frontend y del backend. | https://zed.dev/download |
+| Node.js 20 LTS y npm 10 | Entorno de ejecución | Instalación de dependencias y ejecución del servidor de desarrollo y del *build* del frontend. | https://nodejs.org |
+| Angular CLI 20 | Framework y CLI | Creación, ejecución (`npm start`, puerto 4200) y compilación (`npm run build`) de la aplicación web. | https://angular.dev/tools/cli |
+| JDK 17 | Entorno de ejecución | Compilación y ejecución del backend. En el servidor se ejecuta con Java 21, compatible con el código compilado para Java 17. | https://adoptium.net |
+| Maven Wrapper (`mvnw`) | Herramienta de *build* | Compila y empaqueta los tres servicios del backend en archivos `.jar` sin instalar Maven globalmente. | https://maven.apache.org/wrapper |
+| Spring Boot 3.5.7 | Framework | Monolito modular (puerto 8080) y los servicios de alertas (8083) y recetas (8082). | https://spring.io/projects/spring-boot |
+| MySQL Community Server 8 | Gestor de base de datos | Bases `freshsense_db`, `alerts_db` y `recipes_db`, una por servicio. | https://dev.mysql.com/downloads/mysql |
+| Docker y Docker Compose | Contenedores | Levantar en local el frontend, el backend y la base de datos juntos para pruebas de integración. | https://docs.docker.com/get-docker |
+
+**IoT Development**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Arduino IDE 2 (núcleo ESP32) | Software de escritorio | Escritura, compilación y carga del firmware C++ del ESP32 DevKit C v4 con las librerías DHT sensor library, WiFi, ArduinoJson y HTTPClient. | https://www.arduino.cc/en/software |
+| Wokwi | SaaS | Simulación del circuito ESP32 + DHT22 y validación del firmware antes de usar el hardware físico. | https://wokwi.com |
+
+**Software Testing y documentación**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Swagger UI (springdoc-openapi) | Librería | Documentación y prueba de los endpoints REST del backend. | https://springdoc.org |
+| Navegador web (Firefox / Chrome) con DevTools | Software de escritorio | Pruebas de la aplicación web, revisión de peticiones al API y de errores en consola. | https://www.mozilla.org/firefox |
+
+**Software Deployment**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| GitHub Pages | SaaS | Publicación de la Landing Page. | https://pages.github.com |
+| Google Cloud Compute Engine | IaaS | Máquina virtual donde se ejecutan la aplicación web, el API y la base de datos. | https://cloud.google.com/compute |
+| Nginx | Servidor web | Sirve la aplicación web y actúa como proxy inverso hacia el API. | https://nginx.org |
+| Certbot (Let's Encrypt) | Herramienta CLI | Emisión y renovación automática del certificado HTTPS. | https://certbot.eff.org |
+
+Para ejecutar el proyecto en local, cada integrante sigue este orden:
+
+```bash
+# 1. Backend: un terminal por servicio (requiere MySQL en localhost:3306)
+cd alerts-service  && ../mvnw spring-boot:run -Dspring-boot.run.profiles=local
+cd recipes-service && ../mvnw spring-boot:run -Dspring-boot.run.profiles=local
+./mvnw spring-boot:run -Dspring-boot.run.profiles=local      # monolito en :8080
+
+# 2. Frontend
+npm install
+npm start                                                    # http://localhost:4200
+```
+
+En local, el frontend consume el API en `http://localhost:8080/api`, configurado en `src/environments/environment.ts`. Las credenciales de la base de datos y las claves (`JWT_SECRET`, `AES_SECRET`, `OPENAI_API_KEY`) se pasan como variables de entorno o en `application-local.properties`, que no se sube al repositorio.
 
 ### 6.1.2. Source Code Management
 
+El código de la aplicación y el informe no están en el mismo repositorio, para poder versionar cada uno sin pisar al otro.
+
+| Repositorio | Visibilidad | Rama estable | Qué guarda |
+| :--- | :--- | :--- | :--- |
+| [Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | Privado | `main` | Aplicación web que usan los dos segmentos |
+| [report](https://github.com/1ASI0572-2620-8725/report) | Público | `main` | Este informe y las figuras de `Assets/` |
+
+En el informe usamos estas ramas:
+
+| Rama | Para qué la usamos | Ejemplo |
+| :--- | :--- | :--- |
+| `main` | Versión que ya se puede mostrar | `main` |
+| `develop` | Juntar avances antes de pasarlos a `main` | `develop` |
+| `chapterN-vN` | Cierre de un capítulo | `chapter2-v3` |
+| `feature/...` | Una entrega concreta, sin tocar la versión cerrada | `feature/chapter-6.1-6.1.2-6.2.1.3-6.2.1.6` |
+
+El flujo del informe es corto. Se saca la rama `feature` desde la versión del capítulo que estamos usando, se modifica `README.md`, el commit lleva el prefijo `docs:` y se sube esa rama. Recién después de la revisión se integra a `main`.
+
+El frontend está dividido según lo que hace la aplicación, y esos módulos son los mismos para los dos segmentos. En `src/app` están `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications` y `billing`. `shared` y `core` son soporte, no un rubro distinto. Las rutas de las pantallas están en `src/app/app.routes.ts`: al entrar redirige a `/login`, y con sesión se abre `/inventory`, `/monitoring`, `/devices`, `/alerts`, `/recipes`, `/reports`, `/notifications` y `/settings`.
+
+Dentro de cada módulo de negocio van `domain`, `application`, `infrastructure` y `presentation`. Los textos de pantalla están en `public/i18n/es.json` y `public/i18n/en.json`.
+
+No subimos contraseñas ni llaves. La URL del API va en `src/environments/environment.ts` cuando se corre en local (`http://localhost:8080/api`), en `environment.production.ts` para la app de Azure y en `environment.docker.ts` cuando Nginx publica `/api`.
+
 ### 6.1.3. Source Code Style Guide & Conventions
+
+En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo aplica en todos los productos de FreshSense: Landing Page, aplicación web, backend (monolito y microservicios de alertas y recetas), Edge API y firmware del dispositivo. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, **todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés**. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
+
+#### Convenciones generales
+
+| Aspecto | Convención | Ejemplo |
+|---|---|---|
+| Idioma del código | Inglés | `pantryItem`, `getFreshnessStatus()` |
+| Indentación | 2 espacios (HTML, CSS, JS, TS, C++); 4 espacios (Java) | — |
+| Codificación de archivos | UTF-8, salto de línea LF | — |
+| Longitud de línea | Máximo 100 caracteres (TS/JS/Java); 80 caracteres (C++) | — |
+| Comentarios | Solo donde aportan contexto; en inglés | `// Threshold based on food category` |
+| Formateo automático | Prettier (frontend), formateador del IDE (Java) y *Auto Format* de Arduino IDE, basado en clang-format (C++) | `.prettierrc`, `.clang-format` |
+
+#### HTML (Landing Page y templates de Angular)
+
+Referencias: *HTML Style Guide and Coding Conventions* (W3Schools) y *Google HTML/CSS Style Guide*.
+
+- Elementos y atributos en minúsculas; los valores de atributos siempre entre comillas dobles: `<section class="hero-section">`.
+- Uso de etiquetas semánticas (`header`, `nav`, `main`, `section`, `article`, `footer`) en lugar de `div` genéricos.
+- Toda imagen incluye el atributo `alt` con una descripción significativa.
+- Se declara `<!DOCTYPE html>`, `lang="es"` y las meta tags de `charset` y `viewport` en el Landing Page.
+- No se usan estilos en línea (`style="..."`); los estilos van en hojas CSS.
+- Identificadores y clases en *kebab-case*: `id="contact-form"`, `class="plan-card"`.
+
+#### CSS
+
+Referencia: *Google HTML/CSS Style Guide*.
+
+- Nombres de clases en *kebab-case* y descriptivos según su función, no su apariencia: `.alert-banner` en lugar de `.red-box`.
+- Se adopta la metodología **BEM** para componentes del Landing Page: `.pricing-card`, `.pricing-card__title`, `.pricing-card--featured`.
+- Colores, tipografías y espaciados se definen como variables CSS (`--color-primary`, `--spacing-md`) siguiendo la guía de estilos del Capítulo V.
+- Diseño responsive con enfoque *mobile-first* y media queries en orden ascendente.
+- Se evita el uso de `!important` y de selectores por ID para estilos.
+
+#### JavaScript (Landing Page)
+
+Referencia: *Google JavaScript Style Guide*.
+
+- Variables y funciones en *camelCase*: `submitContactForm()`, `isFormValid`.
+- Constantes globales en *UPPER_SNAKE_CASE*: `MAX_MESSAGE_LENGTH`.
+- Uso de `const` por defecto y `let` solo cuando el valor cambia; no se usa `var`.
+- Siempre se usa punto y coma y comparación estricta (`===`).
+- Archivos en *kebab-case*: `contact-form.js`, `language-switcher.js`.
+
+#### TypeScript y Angular (Frontend Web Application)
+
+Referencias: *Angular Coding Style Guide* y *Google TypeScript Style Guide*.
+
+- **Archivos** en *kebab-case* con sufijo según su tipo: `product-list.component.ts`, `monitoring.service.ts`, `auth.guard.ts`.
+- **Clases, interfaces y enums** en *PascalCase*: `ProductListComponent`, `MonitoringService`, `FreshnessStatus`.
+- **Propiedades y métodos** en *camelCase*: `loadProducts()`, `latestReading`.
+- **Selectores de componentes** con el prefijo `app-`: `<app-monitoring-panel>`.
+- **Una responsabilidad por archivo**: un componente, servicio o modelo por archivo.
+- **Organización por bounded context y por capa**, alineada con el diseño táctico del Capítulo IV. Los módulos de negocio son `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications` y `billing`; `core` y `shared` contienen lo transversal:
+
+```
+src/app/
+├── core/                    # interceptores, guards, configuración global
+├── shared/                  # componentes y utilidades reutilizables
+└── <bounded-context>/       # accounts, inventory, monitoring, alerts, recipes...
+    ├── domain/              # modelos y reglas del contexto
+    ├── application/         # servicios de aplicación y casos de uso
+    ├── infrastructure/      # clientes HTTP hacia el API
+    └── presentation/        # componentes y páginas
+```
+
+- Las rutas de la aplicación se declaran en `src/app/app.routes.ts`, en *kebab-case* y en inglés: `/login`, `/monitoring`, `/alerts`, `/inventory`, `/devices`.
+- Uso de **Angular Material** como única librería de componentes de UI, según las restricciones del proyecto.
+- Los textos visibles se externalizan en `public/i18n/es.json` y `public/i18n/en.json`; las claves se escriben en inglés y en *dot.case*: `"inventory.list.title"`.
+- La URL del API nunca se escribe en los componentes: se lee de `src/environments/` (`environment.ts`, `environment.production.ts`, `environment.docker.ts`).
+- Se usa tipado explícito y se evita `any`.
+
+#### Java y Spring Boot (monolito, alerts-service y recipes-service)
+
+Referencias: *Google Java Style Guide* y *Spring Boot Features*.
+
+- Paquetes en minúsculas, organizados por bounded context y capa: `<paquete-base>.inventory.domain.model`, `<paquete-base>.monitoring.interfaces.rest`.
+- Clases en *PascalCase* con sufijo según su rol: `Product`, `ProductCommandService`, `ProductsController`, `ProductResource`.
+- Métodos y atributos en *camelCase*; constantes en *UPPER_SNAKE_CASE*.
+- Endpoints REST en inglés, con recursos en plural y en *kebab-case* bajo el prefijo `/api`: `/api/products`, `/api/alerts`, `/api/edge/readings`.
+- Tablas de base de datos en *snake_case* y en plural: `products`, `sensor_readings`. Cada servicio tiene su propia base (`freshsense_db`, `alerts_db`, `recipes_db`).
+- Los clientes Feign entre servicios se nombran con el sufijo `Client`: `AlertsServiceClient`, `RecipesServiceClient`.
+- Las claves y credenciales (`JWT_SECRET`, `AES_SECRET`, `OPENAI_API_KEY`, datos de la base) se leen de variables de entorno; nunca se escriben en el código ni en `application.properties` versionado.
+
+#### C++ (firmware del dispositivo FreshSense – ESP32 + DHT22)
+
+Referencias: *Google C++ Style Guide* y *Barr Group Embedded C Coding Standard* (BARR-C:2018).
+
+- **Archivos** en *snake_case*, con un `.h` y un `.cpp` por módulo; el sketch principal es `freshsense_device.ino`: `dht_sensor.h` / `dht_sensor.cpp`, `edge_client.cpp`.
+- **Clases, structs y enums** en *PascalCase*: `DhtSensor`, `SensorReading`, `DeviceState`.
+- **Funciones y métodos** en *camelCase*, empezando con un verbo: `readTemperature()`, `sendReading()`.
+- **Variables locales y parámetros** en *camelCase*: `humidityPct`, `lastReadingMs`. Los **miembros privados** llevan el sufijo `_`: `pin_`, `intervalMs_`.
+- **Constantes y configuración** en *UPPER_SNAKE_CASE*, con `constexpr` en un archivo `config.h`: `READING_INTERVAL_MS`, `EDGE_API_URL`. Los pines se nombran por su función: `DHT_SENSOR_PIN`.
+- Las **unidades de medida van en el nombre** de la variable: `temperatureC`, `humidityPct`, `timeoutMs`.
+- **Guardas de inclusión** con `#pragma once` en todos los headers.
+- **Tipos de ancho fijo** (`uint8_t`, `int16_t`, `uint32_t`) en lugar de `int` o `long`, para que el tamaño de los datos no dependa de la placa.
+- No se usan `delay()` bloqueantes en el `loop()`; la temporización se maneja con `millis()`. Se evita la memoria dinámica (`new`, `malloc`) y los objetos `String` en el ciclo principal.
+- El JSON que se envía al Edge API se arma con **ArduinoJson**, con claves en *camelCase* iguales a las del backend: `temperatureC`, `humidityPct`.
+- Las credenciales (Wi-Fi y `X-Device-Key`) van en `secrets.h`, excluido con `.gitignore`; solo se versiona `secrets.example.h` como plantilla.
+
+```cpp
+// dht_sensor.h
+#pragma once
+#include <stdint.h>
+
+constexpr uint32_t READING_INTERVAL_MS = 5000;
+
+class DhtSensor {
+ public:
+  explicit DhtSensor(uint8_t pin);
+  float readTemperatureC();
+  float readHumidityPct();
+
+ private:
+  uint8_t pin_;
+};
+```
+
+#### Gherkin (Acceptance Tests)
+
+Referencia: *Gherkin Conventions for Readable Specifications*.
+
+- Archivos `.feature` en inglés y en *kebab-case*, uno por User Story: `us07-freshness-dashboard.feature`.
+- Cada `Feature` lleva el ID de la User Story en su título.
+- Los escenarios se escriben desde la perspectiva del usuario con la estructura `Given` / `When` / `Then`, y `And` para pasos adicionales.
+- Se usa `Scenario Outline` con `Examples` cuando un escenario se repite con distintos datos.
+
+```gherkin
+Feature: US07 - Freshness traffic-light dashboard
+  As a restaurant manager or cold-food distribution manager
+  I want to see the cold room status by color
+  So that I can act before the products spoil
+
+  Scenario: Cold room above the safe temperature is shown in red
+    Given the user is logged in
+    And the latest reading of the cold room is above the safe temperature
+    When the user opens the monitoring panel
+    Then the cold room is displayed with a red indicator
+```
+
+#### Convenciones de commits
+
+Los mensajes de commit siguen **Conventional Commits** (detallado en la sección 6.1.2): `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`. Ejemplo: `feat(monitoring): add traffic-light status to latest reading`.
 
 ### 6.1.4. Software Deployment Configuration
 
+En esta sección se describe la configuración con la que se publica cada producto de FreshSense. La Landing Page se publica en GitHub Pages. La aplicación web, el API y la base de datos se publican en una máquina virtual de Google Cloud, detrás de Nginx y con HTTPS. Así, el navegador y el dispositivo IoT se comunican con el sistema por un único dominio seguro.
+
+**Resumen de despliegue**
+
+| Producto | Plataforma | URL pública |
+|---|---|---|
+| Landing Page | GitHub Pages | https://1asi0572-2620-8725.github.io/landing-page/ |
+| Aplicación web (Angular) | Google Cloud Compute Engine + Nginx | https://35-224-123-160.sslip.io |
+| API REST (Spring Boot) | Google Cloud Compute Engine + Nginx (proxy inverso) | https://35-224-123-160.sslip.io/api |
+| Documentación del API | Swagger UI | https://35-224-123-160.sslip.io/swagger-ui/index.html |
+| Base de datos | MySQL 8 en la misma máquina virtual (sin acceso público) | — |
+
+**Landing Page**
+
+1. El repositorio `landing-page` contiene el sitio estático (HTML, CSS y JavaScript).
+2. En *Settings → Pages* se configuró la publicación desde la rama principal del repositorio.
+3. Cada *push* a `main` vuelve a publicar el sitio automáticamente en la URL indicada.
+
+**Infraestructura en Google Cloud**
+
+| Elemento | Configuración |
+|---|---|
+| Servicio | Compute Engine, máquina e2-micro (2 vCPU compartidas, 1 GB de RAM), zona `us-central1-f`. |
+| Sistema operativo | Rocky Linux 9, con 2 GB de swap para compensar la memoria limitada. |
+| Software instalado | Java 21 (OpenJDK), MySQL 8, Nginx y Certbot. |
+| Firewall | Reglas de la VPC y `firewalld` que abren los puertos 80 (redirige a HTTPS) y 443 (HTTPS). El puerto 8080 se mantiene abierto temporalmente para probar el API y Swagger de forma directa durante el desarrollo; MySQL solo escucha en la propia máquina. |
+| Dominio | `35-224-123-160.sslip.io`, un nombre gratuito que resuelve a la IP externa de la máquina y permite emitir un certificado sin comprar dominio. |
+| Certificado | Let's Encrypt emitido con Certbot (plugin de Nginx), con renovación automática programada. |
+
+**Backend (API REST)**
+
+1. Se compilan los tres servicios en local con `./mvnw clean package -DskipTests`, que genera `backend.jar`, `alerts-service.jar` y `recipes-service.jar`.
+2. Los archivos se suben a `/opt/freshsense` en la máquina virtual.
+3. Las variables de entorno se definen en `/opt/freshsense/env.sh`, con permisos solo para el usuario del servicio. No se suben al repositorio.
+
+| Variable | Uso |
+|---|---|
+| `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD` | Conexión a MySQL local. |
+| `JWT_SECRET`, `AES_SECRET` | Firma de tokens JWT y cifrado AES-256 de datos sensibles. |
+| `ALERTS_SERVICE_URL`, `RECIPES_SERVICE_URL` | URL directa de los servicios de alertas (`http://localhost:8083`) y recetas (`http://localhost:8082`) que consume el monolito mediante Feign. |
+| `CORS_EXTRA_ORIGINS` | Orígenes adicionales permitidos por CORS (`https://35-224-123-160.sslip.io`). |
+| `OPENAI_API_KEY` | Clave del servicio de recetas para la generación con IA. Solo vive en el servidor, nunca en el frontend. |
+
+4. Cada servicio se inicia con un *script* que carga `env.sh` y ejecuta `java -jar` con un límite de memoria (`-Xmx`) acorde a la máquina: el monolito en el puerto 8080, alertas en el 8083 y recetas en el 8082.
+5. Hibernate (`ddl-auto=update`) crea o actualiza las tablas al arrancar, y el servicio publica su documentación en Swagger UI.
+
+**Aplicación web (Angular)**
+
+1. En `src/environments/environment.production.ts` se configura `apiBaseUrl: 'https://35-224-123-160.sslip.io/api'`.
+2. Se compila con `npm run build -- --configuration=production`, que genera `dist/frontend/browser`.
+3. El contenido de esa carpeta se copia a `/var/www/freshsense` en la máquina virtual.
+
+**Nginx (servidor web y proxy inverso)**
+
+Nginx publica en un solo dominio la aplicación web y el API, lo que evita problemas de contenido mixto y de cookies entre dominios:
+
+| Ruta | Destino |
+|---|---|
+| `/` | Archivos estáticos de Angular, con `try_files ... /index.html` para que funcionen las rutas de la SPA. |
+| `/api/`, `/swagger-ui/`, `/v3/api-docs` | Proxy inverso a `http://127.0.0.1:8080`, reenviando las cabeceras `Host`, `X-Forwarded-For` y `X-Forwarded-Proto`. |
+| Puerto 80 | Redirección permanente (301) a HTTPS. |
+
+**Dispositivo IoT**
+
+1. El firmware del ESP32 se configura con la red Wi-Fi del local y la dirección del Edge API (sección 5.6).
+2. Se carga en la placa desde Arduino IDE por USB, después de validarlo en Wokwi.
+3. El Edge API reenvía cada lectura al backend mediante `POST https://35-224-123-160.sslip.io/api/edge/readings`, autenticándose con la cabecera `X-Device-Key` que se obtiene al registrar el dispositivo en la aplicación.
+
 ## 6.2. Landing Page, Services & Applications Implementation
+En esta sección se presenta la evidencia del proceso de implementación, pruebas, documentación y despliegue de los productos digitales de FreshSense, organizada por Sprint. Cada Sprint incluye su planificación, la distribución de liderazgo entre los integrantes, el backlog trabajado y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo.
 
-### 6.2.X. Sprint n
+En el Sprint 1 se construyó el primer recorrido completo de la solución, el mismo para los dos segmentos objetivo:
 
-#### 6.2.X.1. Sprint Planning n
+- **Landing Page** (HTML5, CSS3 y JavaScript), publicada en GitHub Pages, con la propuesta de valor, el formulario de demo y el acceso a la aplicación.
+- **Frontend Web Application** (Angular 20 con Angular Material), con registro, ingreso, monitoreo, alertas, inventario y dispositivos.
+- **Web Services** en Spring Boot: un monolito modular (puerto 8080) y dos microservicios, **alerts-service** (8083) y **recipes-service** (8082), cada uno con su propia base de datos MySQL. El recipes-service consume un servicio externo de inteligencia artificial (OpenAI) para generar recetas a partir de los insumos disponibles.
+- **Prototipo del dispositivo IoT simulado en Wokwi** (ESP32 + DHT22, firmware en C++), que junto con el **Edge API** envía las lecturas de temperatura y humedad al backend mediante `POST /api/edge/readings`. El prototipo físico se implementará en un Sprint posterior.
 
-#### 6.2.X.2. Aspect Leaders and Collaborators
+La aplicación web, el API y la documentación en Swagger UI están desplegados en Google Cloud Compute Engine detrás de Nginx con HTTPS (sección 6.1.4).
 
-#### 6.2.X.3. Sprint Backlog n
 
-#### 6.2.X.4. Development Evidence for Sprint Review
+### 6.2.1. Sprint 1
 
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review
+En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda entender FreshSense, pedir una demo y entrar a ver la cámara: la lectura, el color y la alerta. Los segmentos son propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
 
-#### 6.2.X.6. Execution Evidence for Sprint Review
+#### 6.2.1.1. Sprint Planning 1
 
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review
+El equipo FreshEat decidió que el primer Sprint debía validar de punta a punta la propuesta central de FreshSense: que la información de la cámara de frío llegue desde el dispositivo hasta el usuario y lo alerte a tiempo. Para lograrlo se incluyó en el alcance el Landing Page, que presenta la solución a los visitantes y los dirige a la aplicación; el registro e ingreso a la aplicación web; un panel de monitoreo con semáforo de frescura y alertas preventivas; un conjunto de endpoints para autenticación, ingesta de telemetría y alertas, que los desarrolladores del frontend y del Edge API pueden usar; y una primera versión del prototipo físico (ESP32 + DHT22) integrada con el Edge API. Con este criterio se tomaron, en orden de prioridad, las 11 primeras historias del Product Backlog.
 
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review
+| Sprint # | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 20/09/2026 |
+| Time | 10:00 pm |
+| Location | Reunión virtual vía Discord|
+| Prepared By | Romina Tuesta Marin |
+| Attendees (to planning meeting) | Chavez Viera Joseph Manuel / Juan Carlos Pastor Napa / Mostajo Orosco Maria Fernanda / Cossar Sanchez Eduardo Jose / Tuesta Marin Romina Alejandra |
+| Previous Sprint Review Summary | No aplica. El Sprint 1 es el primer Sprint de implementación del proyecto, por lo que no existe un incremento previo que revisar. |
+| Previous Sprint Retrospective Summary | No aplica. Al ser el primer Sprint, no existe una retrospectiva previa. Para este Sprint el equipo acordó trabajar con GitFlow, Conventional Commits y Pull Requests revisados por al menos un integrante|
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal |Nuestro enfoque es proporcionar a los propietarios y administradores de restaurantes, así como a los responsables de distribución de productos refrigerados que visiten el sitio web, información clara sobre FreshSense y un acceso directo a la plataforma; proporcionarles una aplicación web donde puedan registrarse, iniciar sesión y monitorear la temperatura y humedad de sus cámaras frigoríficas mediante un estado tipo semáforo y alertas preventivas; proporcionar a los desarrolladores de frontend y edge endpoints seguros para autenticación, recepción de telemetría y alertas; y proporcionar a los fabricantes de dispositivos un primer prototipo físico (ESP32 + DHT22) integrado con la API Edge.
 
-#### 6.2.X.9. Team Collaboration Insights during Sprint
+Creemos que esto proporciona mayor confianza a los visitantes para solicitar una demostración o crear una cuenta; una visibilidad temprana y confiable de las condiciones de la cadena de frío que reduzca las verificaciones manuales de temperatura para los responsables de restaurantes y distribución; una base documentada para que los desarrolladores puedan construir nuevas funcionalidades sobre la API; y un flujo de datos de extremo a extremo validado, desde el dispositivo hasta la plataforma.
+
+Esto se confirmará cuando un visitante llegue a la página de registro desde el llamado a la acción (CTA) de la Landing Page en no más de dos clics; una lectura enviada por el dispositivo físico se muestre en el panel de monitoreo con su color correspondiente al semáforo en menos de 10 segundos; una lectura fuera del rango seguro genere una alerta visible en la vista de alertas; los endpoints de autenticación, telemetría y alertas respondan correctamente desde la interfaz Swagger desplegada; y las 11 historias de usuario del Sprint cumplan con sus escenarios de aceptación en el entorno desplegado. |
+| Sprint 1 Velocity | 37 Story Points |
+| Sum of Story Points | 37 Story Points |
+
+**User Stories incluidos en el Sprint 1**
+
+| # | ID | Título | Story Points | Aporte al Sprint Goal |
+|:-:|---|---|:-:|---|
+| 1 | US01 | Visualización de propuesta B2B | 2 | Información clara de la solución para los visitantes. |
+| 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Información específica para cada segmento objetivo. |
+| 3 | US03 | Formulario de contacto y demos B2B | 2 | Conversión del visitante en un contacto comercial. |
+| 4 | US04 | Call to Action (CTA) Corporativo | 2 | Camino directo del Landing Page a la aplicación. |
+| 5 | US05 | Adaptabilidad en móviles y tablets | 3 | Acceso desde tablets de cocina y teléfonos. |
+| 6 | TS43 | API Gestor de Autenticación y RBAC B2B | 5 | Registro, ingreso y endpoints seguros. |
+| 7 | TS41 | API Ingesta de Sensores IoT B2B | 5 | Endpoint de telemetría para el Edge API. |
+| 8 | US06 | Telemetría y monitoreo IoT de cámaras frías | 5 | Flujo de datos del prototipo físico a la plataforma. |
+| 9 | US07 | Dashboard con semáforo comercial | 3 | Estado de la cámara visible con un color. |
+| 10 | US08 | Alertas preventivas de temperatura | 5 | Aviso oportuno cuando se pierde la cadena de frío. |
+| 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Envío de las alertas a los usuarios. |
+| | | **Total** | **37** | |
+
+La velocidad de 37 Story Points se fijó en función de la capacidad del equipo de cinco integrantes durante las dos semanas del Sprint. El detalle de las tareas de cada historia está en el Sprint Backlog 1 (sección 6.2.1.3).
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+Para el Sprint 1, el equipo organizó el trabajo en aspectos que siguen el recorrido del usuario y los productos del Sprint: el Landing Page (US01 a US05); la gestión de cuentas, con registro, ingreso y roles (TS43); la ingesta IoT, que abarca el firmware, el Edge API y el endpoint de lecturas (TS41, US06); el monitoreo y las alertas, con el semáforo, las alertas preventivas y el servicio de notificaciones (US07, US08, TS42); y el despliegue de todos los productos. Cada aspecto tiene un líder (L), responsable de coordinarlo y asegurar su calidad, y colaboradores (C), que participan en su implementación. Esta distribución sirvió de base para asignar las tareas del Sprint Backlog 1.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Accounts (IAM) | IoT (Device prototype) | Monitoring & Alerts | Deployment |
+|---|---|---|---|---|---|---|
+| Tuesta Marin, Romina | Romimi1 | L | C | L | C | C |
+| Chavez Viera, Joseph | u202314019-MrOsoPanda | C | L | C | C | C |
+| Pastor Napa, Juan Carlos | ElKiwi1271 | C | C | C | C | L |
+| Mostajo Orosco, Maria Fernanda | Mafer-m30 | C | C | C | L | C |
+| Cossar Sanchez, Eduardo | coleeeee-dev | C | C | C | C | C |
+
+#### 6.2.1.3. Sprint Backlog 1
+
+Del Product Backlog se tomaron las primeras 11 historias. Suman 37 puntos. El sprint 1 no arma dos productos. Arma el mismo recorrido para propietarios y administradores de restaurantes y para encargados de negocios de distribución de alimentos en fríos:
+
+1. Entrar a la misma aplicación, por registro o por login (US01 a US05 y TS43). En el código eso es `/register` y `/login`.
+2. Recibir la lectura del sensor de la cámara (TS41). En el API es `POST /api/edge/readings` y `POST /api/monitoring`.
+3. Ver esa lectura con color, y la alerta si el frío se pierde (US06, US07, US08 y TS42). En la app son `/monitoring` y `/alerts`.
+
+En el restaurante la cámara es la de cocina y el producto es un insumo. En la distribución la cámara es la de la mercadería y el producto es un lote. Las fichas de platillo y el costeo no entran aquí: son del restaurante y van después en el backlog.
+
+| Orden | ID | Título | Puntos | A quién le sirve |
+| :-: | :--- | :--- | :--- | :--- |
+| 1 | US01 | Visualización de propuesta B2B | 2 | Los dos segmentos |
+| 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Los dos segmentos |
+| 3 | US03 | Formulario de contacto y demos B2B | 2 | Los dos segmentos |
+| 4 | US04 | Call to Action (CTA) Corporativo | 2 | Los dos segmentos |
+| 5 | US05 | Adaptabilidad en móviles y tablets | 3 | Los dos segmentos |
+| 6 | TS43 | API Gestor de Autenticación y RBAC B2B | 5 | Los dos segmentos |
+| 7 | TS41 | API Ingesta de Sensores IoT B2B | 5 | Los dos segmentos |
+| 8 | US06 | Telemetría y monitoreo IoT de cámaras frías | 5 | Los dos segmentos |
+| 9 | US07 | Dashboard con semáforo comercial | 3 | Los dos segmentos |
+| 10 | US08 | Alertas preventivas de temperatura | 5 | Los dos segmentos |
+| 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Los dos segmentos |
+
+Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si en la revisión falta uno, se deja anotado cuál y por qué no se pudo probar.
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
+
+En esta parte van tres enlaces. El back, la landing y el front ya están publicados.
+
+| Dónde | Enlace |
+| :--- | :--- |
+| Back | [https://35-224-123-160.sslip.io/swagger-ui/index.html](https://35-224-123-160.sslip.io/swagger-ui/index.html) |
+| Landing | [https://1asi0572-2620-8725.github.io/landing-page/](https://1asi0572-2620-8725.github.io/landing-page/) |
+| Front | [https://35-224-123-160.sslip.io/login](https://35-224-123-160.sslip.io/login) |
+
+![Landing publicada](Assets/sprint1-landing.png)
+
+Landing ya desplegada. Desde ahí se entra a la aplicación. La misma página es la puerta para el propietario o administrador del restaurante y para el encargado de la distribución de alimentos en fríos.
+
+El recorrido de la aplicación es uno solo. Se hace igual si quien entra es propietario o administrador de un restaurante, o encargado de un negocio de distribución de alimentos en fríos.
+
+1. `/register` crea la cuenta. Si ya existe, `/login`. En Swagger: `POST /api/accounts/register` y `POST /api/accounts/login`.
+2. `/monitoring` muestra temperatura, humedad y el color verde, amarillo o rojo. En Swagger: `GET /api/monitoring/latest` y `POST /api/monitoring`. El sensor manda la lectura con `POST /api/edge/readings`.
+3. `/alerts` lista el aviso si la cámara está en rojo. En Swagger: `GET /api/alerts` y `POST /api/alerts`.
+4. `/inventory` muestra el producto, la cantidad y el vencimiento. En Swagger: `GET /api/products` y `POST /api/products`.
+5. `/devices` empareja el sensor de esa cámara. En Swagger: `POST /api/devices`.
+
+| Pantalla | Ruta | Operación | Cómo lo lee el restaurante | Cómo lo lee la distribución en fríos |
+| :--- | :--- | :--- | :--- | :--- |
+| Registro | `/register` | `POST /api/accounts/register` | Alta del administrador del local | Alta del encargado del negocio |
+| Ingreso | `/login` | `POST /api/accounts/login` | Entra al turno de cocina | Entra a revisar la mercadería |
+| Monitoreo | `/monitoring` | `GET /api/monitoring/latest` | Cámara de cocina | Cámara o vitrina del lote |
+| Alertas | `/alerts` | `GET /api/alerts` | El frío de los insumos se perdió | El lote no está para salir |
+| Inventario | `/inventory` | `GET /api/products` | Insumo, cantidad y vencimiento | Lote, cantidad y vencimiento |
+| Dispositivos | `/devices` | `POST /api/devices` | Sensor de la cocina | Sensor de la cámara de distribución |
+
+Las capturas de abajo son del recorrido de la aplicación. El front publicado está en [https://35-224-123-160.sslip.io/login](https://35-224-123-160.sslip.io/login). La cuenta demo no tenía productos ni una lectura reciente: monitoreo, alertas e inventario se ven vacíos, y sin lectura reciente esa fila no queda en verde.
+
+![Registro /register](Assets/sprint1-registro.png)
+
+Registro. La misma pantalla sirve para el administrador del restaurante y para el encargado de la distribución de alimentos en fríos.
+
+![Ingreso /login](Assets/sprint1-login.png)
+
+Ingreso. Después de entrar, el panel es el mismo para los dos segmentos.
+
+![Panel después del login](Assets/sprint1-panel.png)
+
+Panel de la cuenta demo. Temperatura y humedad salen sin datos porque no había una lectura reciente.
+
+![Monitoreo /monitoring](Assets/sprint1-monitoreo.png)
+
+Monitoreo. En el restaurante se lee como la cámara de cocina; en la distribución, como la cámara o vitrina del lote.
+
+![Alertas /alerts](Assets/sprint1-alertas.png)
+
+Alertas. Sin aviso activo en la cuenta demo.
+
+![Inventario /inventory](Assets/sprint1-inventario.png)
+
+Inventario. Sin productos cargados: insumo en el restaurante, lote en la distribución.
+
+![Dispositivos /devices](Assets/sprint1-dispositivos.png)
+
+Dispositivos. Aquí se registra el sensor de la cocina o el de la cámara de distribución.
+
+![Swagger FreshSense API](Assets/sprint1-swagger.png)
+
+Swagger del API en [https://35-224-123-160.sslip.io/swagger-ui/index.html](https://35-224-123-160.sslip.io/swagger-ui/index.html).
+
+![Swagger POST /api/accounts/register](Assets/sprint1-swagger-registro.png)
+
+Operación de registro en Swagger, la misma que usa `/register`.
+
+Si no llega una lectura reciente, esa fila no se marca en verde. Quien no tiene permiso de facturación igual entra por `/login` al panel. `/plan` queda para la suscripción, no para esta revisión de la cámara.
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+En el Sprint 1 se documentaron con OpenAPI 3 (springdoc-openapi) los endpoints que soportan el recorrido del Sprint: autenticación, registro y vinculación de dispositivos, ingesta de lecturas desde el Edge API, monitoreo con semáforo, alertas y notificaciones. También se documentaron los endpoints de inventario y de recetas, que la aplicación web ya consume. La especificación completa tiene 39 operaciones agrupadas en secciones (*tags*); en esta sección se detallan las que corresponden al alcance del Sprint 1. Las secciones **Reports**, **Billing** y **Catalog** se documentarán en el Sprint en que se trabajen sus historias.
+
+- **Swagger UI:** https://35-224-123-160.sslip.io/swagger-ui/index.html
+- **Especificación OpenAPI (JSON):** https://35-224-123-160.sslip.io/v3/api-docs
+
+Todas las operaciones intercambian JSON y están protegidas con un token JWT (`Authorization: Bearer <token>`), salvo el registro, el inicio de sesión y la vinculación del dispositivo (`/api/edge/claim`). Los errores siguen los códigos HTTP estándar: `400` (datos inválidos), `401` (sin token o token inválido), `403` (requiere plan premium), `404` (recurso no encontrado) y `409` (correo ya registrado).
+
+**Auth – registro, inicio de sesión y gestión de sesión (TS43)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/accounts/register` | Registrar nuevo usuario | POST | `POST /api/accounts/register` | Body `UserRegistrationRequest`: `email`, `password` (mín. 8 caracteres, una mayúscula y un dígito), `fullName` | `201` `UserResponse`. `400` datos inválidos; `409` correo ya registrado. |
+| `/api/accounts/login` | Iniciar sesión | POST | `POST /api/accounts/login` | Body `LoginRequest`: `email`, `password` | `200` `UserResponse` con `token` y `refreshToken`. `401` credenciales incorrectas. |
+| `/api/accounts/refresh` | Renovar el access token | POST | `POST /api/accounts/refresh` | — | `200` `UserResponse` con un nuevo `token`. |
+| `/api/accounts/logout` | Cerrar sesión | POST | `POST /api/accounts/logout` | Header `Authorization` | `204` sin contenido. |
+| `/api/accounts/me` | Obtener el usuario autenticado | GET | `GET /api/accounts/me` | Header `Authorization` | `200` `UserResponse` (`token` en `null`). |
+| `/api/accounts/me` | Actualizar el perfil | PUT | `PUT /api/accounts/me` | Body `UpdateProfileRequest`: `fullName` | `200` `UserResponse`. |
+| `/api/accounts/change-password` | Cambiar la contraseña | POST | `POST /api/accounts/change-password` | Body `ChangePasswordRequest`: `currentPassword`, `newPassword` | `204` sin contenido. `400` / `401`. |
+
+**Devices y Edge/IoT – registro del dispositivo e ingesta de lecturas (TS41, US06)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/devices` | Registrar un dispositivo en la cuenta | POST | `POST /api/devices` | Body `RegisterDeviceRequest`: `deviceId`, `name` | `200` `DeviceRegistrationResponse`: `deviceId`, `name`, `pairingCode`, `pairingExpiresAt`. |
+| `/api/devices` | Listar los dispositivos de la cuenta | GET | `GET /api/devices` | Header `Authorization` | `200` lista de `DeviceResponse`: `id`, `deviceId`, `name`, `registeredAt`. |
+| `/api/edge/claim` | Vincular el dispositivo con el código de emparejamiento | POST | `POST /api/edge/claim` | Body `ClaimRequest`: `code` | `200` `ClaimResponse`: `deviceId`, `secretKey`. La `secretKey` se usa como `X-Device-Key`. |
+| `/api/edge/readings` | Recibir una lectura enviada por el Edge API | POST | `POST /api/edge/readings` | Header `X-Device-Key`. Body `EdgeReadingRequest`: `deviceId`, `temperature`, `humidity`, `time` (`dd/MM/yyyy HH:mm`), `status`, `category` | `200` `MonitoringReadingDto` con el estado calculado. |
+
+**Monitoring – lecturas y semáforo (US06, US07)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/monitoring` | Listar las lecturas registradas | GET | `GET /api/monitoring` | Header `Authorization` | `200` lista de `MonitoringReadingDto`. |
+| `/api/monitoring` | Registrar una lectura de monitoreo | POST | `POST /api/monitoring` | Body `MonitoringReadingRequest`: `temperature`, `humidity`, `ethyleneLevel`, `oxygenLevel`, `ripeness`, `cleanliness` | `201` `MonitoringReadingDto`. `400` datos inválidos. |
+| `/api/monitoring/latest` | Obtener la última lectura con su color | GET | `GET /api/monitoring/latest` | Header `Authorization` | `200` `MonitoringReadingDto` con `status` (`GREEN`, `YELLOW`, `RED`, `UNKNOWN`). `204` si aún no hay lecturas. |
+
+**Alerts – alertas de la cadena de frío, vencimiento y stock (US08)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/alerts` | Listar todas las alertas | GET | `GET /api/alerts` | Header `Authorization` | `200` lista de `AlertResponse`. |
+| `/api/alerts` | Crear una alerta | POST | `POST /api/alerts` | Body `AlertRequest`: `title`, `message`, `severity` (`INFO`, `WARNING`, `CRITICAL`), `source`, `state`, `timeAgo` | `200` `AlertResponse`. |
+| `/api/alerts/{id}` | Actualizar una alerta (por ejemplo, marcarla como resuelta) | PUT | `PUT /api/alerts/{id}` | Path `id` (int64). Body `AlertRequest` | `200` `AlertResponse`. `404` si la alerta no existe. |
+
+**Notifications – envío y gestión de notificaciones (TS42)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/notifications/send` | Enviar una notificación a un usuario | POST | `POST /api/notifications/send` | Body `SendNotificationRequest`: `userId`, `title`, `message`, `alertType`, `channelType` (`IN_APP`, `EMAIL`, `PUSH`, `VOICE`) | `200` objeto con el resultado del envío. |
+| `/api/notifications` | Obtener la bandeja de notificaciones in-app | GET | `GET /api/notifications` | Header `Authorization` | `200` lista de `NotificationResponse`: `id`, `title`, `message`, `alertType`, `read`, `createdAt`. |
+| `/api/notifications/{id}/read` | Marcar una notificación como leída | PATCH | `PATCH /api/notifications/{id}/read` | Path `id` (int64) | `200`. |
+| `/api/notifications/preferences` | Obtener las preferencias de notificación | GET | `GET /api/notifications/preferences` | Header `Authorization` | `200` `NotificationPreference`. |
+| `/api/notifications/preferences` | Actualizar las preferencias de notificación | PUT | `PUT /api/notifications/preferences` | Body `NotificationPreferenceRequest`: `inAppEnabled`, `emailEnabled`, `pushEnabled`, `quietStart`, `quietEnd` | `200` `NotificationPreference`. |
+
+**Inventory – productos del inventario**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/products` | Listar los productos | GET | `GET /api/products` | Header `Authorization` | `200` lista de `ProductResponse`. |
+| `/api/products` | Registrar un producto | POST | `POST /api/products` | Body `ProductRequest`: `name`, `description`, `category`, `quantity`, `imageUrl`, `expirationDate` (`yyyy-MM-dd`) | `201` `ProductResponse`. `400` datos inválidos. |
+| `/api/products/{id}` | Actualizar parcialmente un producto | PATCH | `PATCH /api/products/{id}` | Path `id` (int64). Body `UpdateProductRequest` (todos los campos opcionales) | `200` `ProductResponse`. `404`. |
+| `/api/products/{id}` | Eliminar un producto | DELETE | `DELETE /api/products/{id}` | Path `id` (int64) | `204` sin contenido. `404`. |
+
+**Recipes – recetas y generación con IA (recipes-service)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/recipes/generate-batch` | Generar un lote de recetas con IA (OpenAI) a partir de los insumos | POST | `POST /api/recipes/generate-batch` | Header `Authorization` | `201` recetas generadas. |
+| `/api/recipes` | Listar las recetas | GET | `GET /api/recipes` | Header `Authorization` | `200` lista de `RecipeResponse`. |
+| `/api/recipes` | Crear una receta | POST | `POST /api/recipes` | Body `CreateRecipeRequest`: `title`, `description`, `image`, `rating` (1–5), `level` (`Easy`, `Medium`, `Hard`), `type` (`Vegetarian`, `Vegan`, `Omnivore`), `time`, `ingredients[]`, `steps[]` | `201` `RecipeResponse`. `403` si el plan no lo permite. |
+| `/api/recipes/{id}` | Obtener el detalle de una receta | GET | `GET /api/recipes/{id}` | Path `id` (int64) | `200` `RecipeResponse`. `404`. |
+| `/api/recipes/premium` | Listar recetas premium | GET | `GET /api/recipes/premium` | Header `Authorization` | `200` recetas premium. `403` si el usuario no es premium. |
+
+**Ejemplos de request y response con datos de muestra**
+
+*Registro – `POST /api/accounts/register`*
+
+```json
+// Request
+{ "email": "jose.jimenez@restaurante.pe", "password": "Fresh2026", "fullName": "José Jiménez" }
+
+// Response 201
+{ "id": 12, "email": "jose.jimenez@restaurante.pe", "fullName": "José Jiménez",
+  "role": "USER_STANDARD", "token": "eyJhbGciOi...", "refreshToken": "eyJhbGciOi..." }
+```
+
+El API crea la cuenta con el rol `USER_STANDARD` y devuelve el token, así que el usuario entra a la aplicación sin volver a iniciar sesión.
+
+*Lectura del dispositivo – `POST /api/edge/readings`*
+
+```json
+// Header: X-Device-Key: <secretKey obtenida en /api/edge/claim>
+// Request
+{ "deviceId": "FS-ESP32-001", "temperature": 7.8, "humidity": 82.5,
+  "time": "08/10/2026 14:30", "category": "Lácteos" }
+
+// Response 200
+{ "id": 245, "temperature": 7.8, "humidity": 82.5, "recordedAt": "2026-10-08T14:30:00",
+  "deviceId": "FS-ESP32-001", "status": "YELLOW", "category": "Lácteos" }
+```
+
+El Edge API reenvía la lectura del ESP32 simulado en Wokwi. El backend la guarda y le asigna el color del semáforo (`status`): en este ejemplo, `YELLOW` porque la temperatura se acerca al límite seguro.
+
+**Commits relacionados con la documentación**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | `docs: ...` / `feat: add openapi configuration` | [COMPLETAR] | [COMPLETAR] |
+
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-2620-8725`, con un repositorio por producto. Cada integrante desarrolló sus tareas en ramas `feature/*`, las integró a `develop` mediante Pull Requests y, al cerrar el Sprint, se pasaron a `main` para el despliegue. La coordinación se llevó por [COMPLETAR: WhatsApp / Discord] y el seguimiento de tareas en [COMPLETAR: Trello / Jira], siguiendo la matriz de líderes y colaboradores de la sección 6.2.1.2.
+
+**Repositorios del Sprint 1:**
 
 ## 6.3. Validation Interviews
 
@@ -3132,7 +4382,7 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ## Conclusiones
 
-El análisis realizado permitió identificar que los dueños de negocios de alimentos fríos enfrentan dificultades relacionadas con el control constante de sus productos perecibles y las condiciones necesarias para su adecuada conservación. El deterioro de los alimentos, las fallas en la cadena de frío y la falta de información oportuna pueden generar mermas y pérdidas económicas que afectan directamente la rentabilidad del negocio. Asimismo, se identificó la necesidad de contar con una solución tecnológica sencilla que facilite el monitoreo del inventario, permita recibir alertas ante posibles riesgos y proporcione información útil para tomar decisiones oportunas. En este contexto, FreshSense busca responder a estas necesidades mediante una herramienta que contribuya a reducir las pérdidas, mejorar el control de los productos y optimizar la gestión del negocio.
+El análisis realizado permitió identificar que los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos, enfrentan dificultades relacionadas con el control constante de sus productos perecibles y las condiciones necesarias para su adecuada conservación. El deterioro de los alimentos, las fallas en la cadena de frío y la falta de información oportuna pueden generar mermas y pérdidas económicas que afectan directamente la rentabilidad del negocio. Asimismo, se identificó la necesidad de contar con una solución tecnológica sencilla que facilite el monitoreo del inventario, permita recibir alertas ante posibles riesgos y proporcione información útil para tomar decisiones oportunas. En este contexto, FreshSense busca responder a estas necesidades mediante una herramienta que contribuya a reducir las pérdidas, mejorar el control de los productos y optimizar la gestión del negocio.
 
 
 ## Video About-the-Team
