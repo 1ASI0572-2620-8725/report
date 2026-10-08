@@ -176,8 +176,8 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 del ABET – EAC - Student Outcome 5.
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo :** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes.<br><br>  **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. | **AV1:** <br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario.<br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances <br><br> **Maria Fernanda Mostajo :** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. | **AV1:** La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos.|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo :** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes.<br><br>  **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. Además tomé la corrección de los bounded contexts del Capítulo IV para alinearlos a los dos segmentos, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en frío, actualizando los canvas, los diagramas de clases, de base de datos, de componentes, los flujos de mensajes y el C4. También tomé el entorno de desarrollo (6.1.1) y la configuración de despliegue (6.1.4), y desplegué el front y el back en Google Cloud con HTTPS para que el equipo pudiera probarlos. | **AV1:** <br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario.<br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances <br><br> **Maria Fernanda Mostajo :** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. Además revisé las ramas del equipo para ubicar qué partes ya estaban corregidas y cuáles no, y dejé mis cambios en una rama aparte para integrarlos sin pisar el trabajo de los demás. Mantuve el mismo lenguaje de los segmentos que el equipo ya había definido en los capítulos anteriores. | **AV1:** La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos.|
 
 <div style="page-break-after: always;"></div>
 
@@ -205,8 +205,8 @@ La startup plantea un modelo de negocio basado en la comercialización de los di
       <td><strong>-</strong><br>-</td>
   </tr>
 <tr>
-      <td style="text-align:center;"><img a src="" /></td>
-      <td><strong>-</strong><br>-</td>
+      <td style="text-align:center;"><img alt="Juan Carlos Pastor Napa" src="Assets/FotoJuanCarlos.png" /></td>
+      <td><strong>Juan Carlos Pastor Napa - u202217288</strong><br>Mi nombre es Juan Carlos Pastor Napa. Soy estudiante de la carrera de Ingeniería de Software en la UPC, con conocimientos en Java, Spring Boot, Angular y en el despliegue de aplicaciones en Linux y la nube. Me considero una persona responsable y analítica, con interés por la arquitectura de software. Como integrante del equipo, me comprometo a aportar en el diseño de la solución y a apoyar a mis compañeros para cumplir los objetivos del proyecto.</td>
   </tr>
   <tr>
       <td style="text-align:center;"><img alt="Eduardo Cossar" src="Assets/FotoEduardo.png" /></td>
@@ -1311,11 +1311,11 @@ Identificar contextos candidatos es un paso clave para gestionar la complejidad 
 | Bounded Context candidato | Responsabilidad principal |
 |---|---|
 | User Management | Registro, autenticación y recuperación de cuentas. |
-| Profile Management | Datos personales, segmento de usuario y preferencias de notificación. |
+| Profile Management | Negocio (restaurante o distribuidora en frío), su personal y las preferencias de notificación por turno. |
 | Subscription Management | Plan contratado (FREE/PREMIUM) y límites asociados. |
 | Sensor Management | Instalación, sincronización y configuración del dispositivo FreshSense. |
-| Inventory Management | Organización del inventario, colaboradores, zonas y recetas. |
-| Consumption Management | Lista de alimentos, vencimientos y registro de consumo. |
+| Inventory Management | Inventario de insumos y lotes por cámara o zona, con alta por código de barras/QR. |
+| Consumption Management | Consumo y merma, fichas técnicas del restaurante, rotación FIFO de la distribuidora y proveedores. |
 | IoT Monitoring | Lecturas del sensor, umbrales, alertas y calidad del alimento. |
 | Report Management | Reportes de inventario, calidad y consumo con métricas de sostenibilidad. |
 
@@ -1330,7 +1330,7 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 <figcaption style="font-size:0.9em;color:#555;margin-top:0.4em"><em>Notación utilizada en los Domain Message Flows.</em></figcaption>
 </figure>
 
-**Escenario 1 — Registro de usuario y asignación del plan gratuito.** El adulto joven se registra en la app; **User Management** valida y crea la cuenta, publica `UserRegistered`, y **Subscription Management** reacciona asignando automáticamente el plan FREE, que a su vez habilita el perfil.
+**Escenario 1 — Registro de usuario y asignación del plan gratuito.** El propietario o administrador del restaurante (o el encargado del negocio de distribución en frío) se registra en la app; **User Management** valida y crea la cuenta, publica `UserRegistered`, y **Subscription Management** reacciona asignando automáticamente el plan FREE, que a su vez habilita la creación del negocio en **Profile Management**.
 
 <figure id="fig-dmfm1" style="margin:1.5em 0;text-align:center">
 <img src="Assets/flujo-mensajes-alta-suscripcion.png" alt="Escenario: User Onboarding & Free Plan Assignment." style="max-width:100%;height:auto"/>
@@ -1344,7 +1344,7 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 <figcaption style="font-size:0.9em;color:#555;margin-top:0.4em"><em>Escenario: Sensor Reading & Ethylene Alert.</em></figcaption>
 </figure>
 
-**Escenario 3 — Generación de un reporte de inventario.** El emprendedor solicita un reporte general; **Report Management** verifica el acceso premium y consulta a los contextos de Inventory, Consumption y Monitoring antes de generar y entregar el reporte.
+**Escenario 3 — Generación de un reporte de inventario.** El encargado del negocio de distribución en frío solicita un reporte general; **Report Management** verifica el acceso premium y consulta a los contextos de Inventory, Consumption y Monitoring antes de generar y entregar el reporte.
 
 <figure id="fig-dmfm3" style="margin:1.5em 0;text-align:center">
 <img src="Assets/flujo-mensajes-generacion-reporte.png" alt="Escenario: Inventory Report Generation." style="max-width:100%;height:auto"/>
@@ -1760,7 +1760,7 @@ La Domain Layer del Subscription Management Bounded Context encapsula la lógica
 
 | Servicio | Descripción |
 |---|---|
-| PlanEntitlementService | Determina qué funcionalidades (analítica avanzada, recetas gourmet, exportación) habilita cada plan. |
+| PlanEntitlementService | Determina qué funcionalidades (analítica avanzada, costeo de fichas técnicas, exportación) habilita cada plan. |
 
 **Domain Events**
 
@@ -1888,7 +1888,7 @@ La Infrastructure Layer del Subscription Management implementa la persistencia y
 
 ### 4.2.3 Bounded Context: Profile Management
 
-El **Profile Management Bounded Context** modela el **hogar o negocio** (`Household`) que agrupa a los usuarios y sus dispositivos, la gestión de miembros exigida por la **US37**, y las preferencias de notificación de la **US09** y **US24**. Es el contexto que permite que varias personas —familiares o empleados— compartan un mismo inventario, y que cada una configure cómo y cuándo recibir alertas.
+El **Profile Management Bounded Context** modela el **negocio** (`Business`) que agrupa a los usuarios y sus dispositivos, la gestión de miembros exigida por la **US37**, y las preferencias de notificación de la **US09** y **US24**. Representa a los dos segmentos objetivo: el **restaurante** y el **negocio de distribución de alimentos en frío**. Es el contexto que permite que el propietario, el administrador y el personal de cocina o almacén compartan un mismo inventario, y que cada uno configure cómo y en qué turno recibir alertas.
 
 #### 4.2.3.1. Domain Layer
 
@@ -1896,33 +1896,34 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 
 **Aggregates**
 
-1. **Household**
-   - *Propósito:* Agregado raíz que representa el hogar o negocio de alimentos al que pertenecen los usuarios, los dispositivos y el inventario compartido.
+1. **Business**
+   - *Propósito:* Agregado raíz que representa el negocio (restaurante o distribuidora en frío) al que pertenecen los usuarios, los dispositivos y el inventario compartido.
 
    - *Atributos:*
 | Atributo | Tipo | Descripción |
 |---|---|---|
-| id | UUID | Identificador del hogar o negocio. |
-| name | String | Nombre asignado (por ejemplo, «Casa» o «Restaurante El Sabor»). |
-| members | List&lt;HouseholdMember&gt; | Miembros vinculados con su rol. |
+| id | UUID | Identificador del negocio. |
+| name | String | Nombre comercial (por ejemplo, «Restaurante El Sabor» o «Distribuidora Frío Norte»). |
+| segment | BusinessSegment (VO) | RESTAURANT o COLD_DISTRIBUTION: segmento objetivo al que pertenece. |
+| members | List&lt;BusinessMember&gt; | Miembros vinculados con su rol. |
 | createdAt / updatedAt | DateTime | Campos de auditoría. |
    - *Métodos:*
 | Método | Descripción |
 |---|---|
 | invite(email, role) | Emite una invitación para incorporar a un miembro (US37). |
-| addMember(userId, role) | Vincula un usuario al hogar cuando acepta la invitación. |
+| addMember(userId, role) | Vincula un usuario al negocio cuando acepta la invitación. |
 | removeMember(userId) | Desvincula a un miembro y revoca su acceso al inventario. |
-| changeMemberRole(userId, role) | Modifica el rol del miembro dentro del hogar. |
+| changeMemberRole(userId, role) | Modifica el rol del miembro dentro del negocio. |
 **Entities**
 
-1. **HouseholdMember** — Vínculo entre un usuario y un hogar o negocio, con el rol que desempeña (US37).
+1. **BusinessMember** — Vínculo entre un usuario y un negocio, con el rol que desempeña (US37).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del vínculo. |
-| householdId | UUID | Hogar o negocio al que pertenece. |
+| businessId | UUID | Negocio al que pertenece. |
 | userId | UUID | Usuario vinculado. |
-| role | MemberRole (VO) | OWNER, MEMBER o STAFF. |
+| role | MemberRole (VO) | OWNER, MANAGER o STAFF. |
 | joinedAt | DateTime | Fecha de incorporación. |
 | Método | Descripción |
 |---|---|
@@ -1938,9 +1939,9 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | status | InvitationStatus | PENDING, ACCEPTED o EXPIRED. |
 | Método | Descripción |
 |---|---|
-| accept(userId) | Convierte la invitación en un `HouseholdMember`. |
+| accept(userId) | Convierte la invitación en un `BusinessMember`. |
 | isExpired() | Evalúa el vencimiento. |
-3. **NotificationPreference** — Preferencias de canal y horario de silencio de cada usuario (US09, US24).
+3. **NotificationPreference** — Preferencias de canal y turno operativo de cada usuario (US09, US24).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
@@ -1948,40 +1949,41 @@ La Domain Layer del Profile Management Bounded Context encapsula la lógica de n
 | userId | UUID | Usuario propietario. |
 | emailEnabled | boolean | Habilita el envío por correo. |
 | pushEnabled | boolean | Habilita las notificaciones push. |
-| quietHours | TimeWindow (VO) | Rango de silencio (por ejemplo, 22:00–07:00). |
+| operatingShift | TimeWindow (VO) | Turno operativo del usuario (por ejemplo, 06:00–23:00). |
 | updatedAt | DateTime | Última modificación. |
 | Método | Descripción |
 |---|---|
-| isQuiet(at) | Indica si un instante cae dentro del horario de silencio. |
+| isOffShift(at) | Indica si un instante cae fuera del turno operativo. |
 | routeFor(severity) | Determina el canal de destino según la severidad (US24). |
 **Value Objects**
 
 | Value Object | Descripción |
 |---|---|
-| MemberRole | Enumeración: `OWNER`, `MEMBER`, `STAFF`. |
-| TimeWindow | Rango horario con inicio y fin, usado para el modo silencio. |
+| MemberRole | Enumeración: `OWNER` (propietario), `MANAGER` (administrador o encargado), `STAFF` (personal de cocina o almacén). |
+| BusinessSegment | Enumeración: `RESTAURANT`, `COLD_DISTRIBUTION`. |
+| TimeWindow | Rango horario con inicio y fin, usado para el turno operativo. |
 | InvitationStatus | Enumeración: `PENDING`, `ACCEPTED`, `EXPIRED`. |
 
 **Domain Services**
 
 | Servicio | Descripción |
 |---|---|
-| NotificationRoutingService | Decide el canal de entrega (push, correo, reloj inteligente) según severidad y preferencias (US24). |
+| NotificationRoutingService | Decide el canal y el destinatario (responsable de turno o pantalla del local) según severidad y preferencias (US24). |
 
 **Domain Events**
 
 | Evento | Descripción |
 |---|---|
-| HouseholdCreated | Se creó el hogar o negocio tras registrarse el usuario. |
+| BusinessCreated | Se creó el negocio tras registrarse el usuario. |
 | MemberInvited | Se envió una invitación a un nuevo miembro (US37). |
-| MemberJoined | Un invitado aceptó y quedó vinculado al hogar. |
+| MemberJoined | Un invitado aceptó y quedó vinculado al negocio. |
 | NotificationPreferencesUpdated | El usuario cambió sus preferencias de alerta (US09). |
-| QuietHoursConfigured | Se definió el rango de silencio para las notificaciones. |
+| OperatingShiftConfigured | Se definió el turno operativo para las notificaciones (US09). |
 
 **Policies**
 
-- **Crear hogar al registrarse**: cuando ocurre `UserRegistered`, se crea un `Household` con el usuario como `OWNER`.
-- **Retener alertas en silencio**: cuando se dispara una alerta de baja severidad dentro del rango de quietud, se retiene hasta que finalice el periodo (US09).
+- **Crear negocio al registrarse**: cuando ocurre `UserRegistered`, se crea un `Business` con el usuario como `OWNER`.
+- **Retener alertas leves fuera de turno**: cuando se dispara una alerta de baja severidad fuera del turno operativo, se retiene hasta el inicio del siguiente turno (US09).
 - **Invitación de un solo uso**: una invitación aceptada o vencida no puede volver a utilizarse.
 
 #### 4.2.3.2. Interface Layer
@@ -1990,38 +1992,38 @@ La Interface Layer del Profile Management expone los puntos de entrada del conte
 
 **Controllers**
 
-1. **HouseholdsController** — Gestiona el hogar o negocio y sus miembros.
+1. **BusinessesController** — Gestiona el negocio y sus miembros.
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/households/me | Obtiene el hogar del usuario autenticado y sus miembros. |
-| POST | /api/v1/households/{id}/invitations | Envía una invitación a un nuevo miembro (US37). |
+| GET | /api/v1/businesses/me | Obtiene el negocio del usuario autenticado y sus miembros. |
+| POST | /api/v1/businesses/{id}/invitations | Envía una invitación a un nuevo miembro (US37). |
 | POST | /api/v1/invitations/{token}/accept | Acepta la invitación y vincula al usuario. |
-| DELETE | /api/v1/households/{id}/members/{userId} | Desvincula a un miembro. |
-   - *Dependencias:* HouseholdCommandService, HouseholdQueryService
+| DELETE | /api/v1/businesses/{id}/members/{userId} | Desvincula a un miembro. |
+   - *Dependencias:* BusinessCommandService, BusinessQueryService
 
 2. **NotificationPreferencesController** — Gestiona las preferencias de notificación (US09, US24).
 
 | Método | Endpoint | Descripción |
 |---|---|---|
 | GET | /api/v1/notification-preferences | Obtiene las preferencias del usuario. |
-| PUT | /api/v1/notification-preferences | Actualiza canales y horario de silencio. |
+| PUT | /api/v1/notification-preferences | Actualiza canales y turno operativo. |
    - *Dependencias:* NotificationPreferenceCommandService
 
 **Resources**
 
 | Resource | Campos |
 |---|---|
-| HouseholdResource | id, name, members[] |
-| HouseholdMemberResource | userId, fullName, role, joinedAt |
+| BusinessResource | id, name, segment, members[] |
+| BusinessMemberResource | userId, fullName, role, joinedAt |
 | InvitationResource | email, role |
-| NotificationPreferenceResource | emailEnabled, pushEnabled, quietStart, quietEnd |
+| NotificationPreferenceResource | emailEnabled, pushEnabled, shiftStart, shiftEnd |
 
 **Transformers / Assemblers**
 
 | Assembler | Transformación |
 |---|---|
-| HouseholdResourceFromEntityAssembler | Convierte `Household` y sus miembros en `HouseholdResource`. |
+| BusinessResourceFromEntityAssembler | Convierte `Business` y sus miembros en `BusinessResource`. |
 | NotificationPreferenceResourceFromEntityAssembler | Convierte `NotificationPreference` en su recurso. |
 | InviteMemberCommandFromResourceAssembler | Convierte `InvitationResource` en `InviteMemberCommand`. |
 
@@ -2033,21 +2035,21 @@ La Application Layer del Profile Management coordina las operaciones entre la In
 
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
-| HouseholdCommandServiceImpl | CreateHouseholdCommand, InviteMemberCommand, AcceptInvitationCommand, RemoveMemberCommand | Crea el hogar, gestiona invitaciones y administra la membresía compartida (US37). |
-| NotificationPreferenceCommandServiceImpl | UpdatePreferencesCommand, SetQuietHoursCommand | Actualiza canales y horarios de silencio de las alertas (US09). |
+| BusinessCommandServiceImpl | CreateBusinessCommand, InviteMemberCommand, AcceptInvitationCommand, RemoveMemberCommand | Crea el negocio, gestiona invitaciones y administra la membresía compartida (US37). |
+| NotificationPreferenceCommandServiceImpl | UpdatePreferencesCommand, SetOperatingShiftCommand | Actualiza canales y turno operativo de las alertas (US09). |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| HouseholdQueryServiceImpl | GetHouseholdByUserQuery, GetMembersQuery | Recupera el hogar y sus miembros. |
-| ProfileContextFacade | getHouseholdOf(userId), getPreferencesOf(userId) | Open Host Service consultado por Inventory (inventario compartido) y por IoT Monitoring (envío de alertas). |
+| BusinessQueryServiceImpl | GetBusinessByUserQuery, GetMembersQuery | Recupera el negocio y sus miembros. |
+| ProfileContextFacade | getBusinessOf(userId), getPreferencesOf(userId) | Open Host Service consultado por Inventory (inventario compartido) y por IoT Monitoring (envío de alertas). |
 
 **Event Handlers**
 
 | Handler | Evento que escucha | Reacción |
 |---|---|---|
-| UserRegisteredEventHandler | UserRegistered (User Management) | Crea el `Household` inicial con el usuario como OWNER y sus preferencias de notificación por defecto. |
+| UserRegisteredEventHandler | UserRegistered (User Management) | Crea el `Business` inicial, con el segmento elegido en el registro y el usuario como OWNER, y sus preferencias de notificación por defecto. |
 | PlanTypeAcquiredEventHandler | PlanTypeAcquired (Subscription Management) | Ajusta el número máximo de miembros permitidos según el plan contratado. |
 
 #### 4.2.3.4. Infrastructure Layer
@@ -2056,8 +2058,8 @@ La Infrastructure Layer del Profile Management implementa la persistencia y las 
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| HouseholdRepository | JPA Repository | Persistencia de hogares; `findByMemberUserId`. |
-| HouseholdMemberRepository | JPA Repository | Persistencia de los vínculos usuario–hogar. |
+| BusinessRepository | JPA Repository | Persistencia de negocios; `findByMemberUserId`. |
+| BusinessMemberRepository | JPA Repository | Persistencia de los vínculos usuario–negocio. |
 | InvitationRepository | JPA Repository | Persistencia de invitaciones pendientes (US37). |
 | NotificationPreferenceRepository | JPA Repository | Persistencia de las preferencias de alerta. |
 | ExternalUserService | ACL entrante | Consulta el `IamContextFacade` para resolver los datos del usuario. |
@@ -2097,13 +2099,13 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 **Aggregates**
 
 1. **SensorDevice**
-   - *Propósito:* Agregado raíz que representa un dispositivo FreshSense instalado en un refrigerador, cámara fría o congelador.
+   - *Propósito:* Agregado raíz que representa un dispositivo FreshSense instalado en una cámara fría, congelador o vitrina del negocio.
 
    - *Atributos:*
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del dispositivo. |
-| householdId | UUID | Hogar o negocio propietario. |
+| businessId | UUID | Negocio propietario. |
 | model | String | Modelo del hardware. |
 | firmwareVersion | String | Versión de firmware instalada. |
 | status | DeviceStatus (VO) | ACTIVE, OFFLINE o UNPAIRED. |
@@ -2114,30 +2116,30 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | Método | Descripción |
 |---|---|
 | register() | Da de alta el dispositivo en el sistema. |
-| pairToHousehold(Household) | Vincula el dispositivo al hogar tras escanear su código QR (US31). |
-| calibrate(baseTemperature) | Registra la temperatura base del refrigerador para ajustar los umbrales. |
+| pairToBusiness(Business) | Vincula el dispositivo al negocio tras escanear su código QR (US31). |
+| calibrate(baseTemperature) | Registra la temperatura base de la cámara para ajustar los umbrales. |
 | assignToZone(zoneId) | Asigna el dispositivo a una cámara o congelador concreto (US33). |
 | markOffline() | Marca el dispositivo como desconectado al no recibirse el *heartbeat* (US06). |
 **Entities**
 
-1. **StorageZone** — Área de almacenamiento del hogar o negocio, con sus propias reglas de temperatura (US33).
+1. **StorageZone** — Área de almacenamiento del negocio, con sus propias reglas de temperatura (US33).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la zona. |
-| householdId | UUID | Hogar o negocio propietario. |
+| businessId | UUID | Negocio propietario. |
 | name | String | Nombre asignado (por ejemplo, «Cámara Fría 1» o «Congelador Carnes»). |
-| type | ZoneType (VO) | FRIDGE, FREEZER o COLD_ROOM. |
+| type | ZoneType (VO) | FRIDGE, FREEZER, COLD_ROOM o DISPLAY_CASE (vitrina). |
 | targetTempC | float | Temperatura objetivo de la zona. |
 | Método | Descripción |
 |---|---|
-| appliesRulesTo(PantryItem) | Indica si un alimento hereda las reglas de temperatura de la zona. |
+| appliesRulesTo(InventoryItem) | Indica si un alimento hereda las reglas de temperatura de la zona. |
 **Value Objects**
 
 | Value Object | Descripción |
 |---|---|
 | DeviceStatus | Enumeración: `ACTIVE`, `OFFLINE`, `UNPAIRED`. |
-| ZoneType | Enumeración: `FRIDGE`, `FREEZER`, `COLD_ROOM`. |
+| ZoneType | Enumeración: `FRIDGE`, `FREEZER`, `COLD_ROOM`, `DISPLAY_CASE`. |
 | Calibration | Temperatura base y desviación aceptada, definidas al instalar el equipo (US31). |
 | PairingCode | Código QR impreso en el hardware que identifica al dispositivo durante la vinculación. |
 
@@ -2152,14 +2154,14 @@ La Domain Layer del Sensor Management Bounded Context encapsula la lógica de ne
 | Evento | Descripción |
 |---|---|
 | SensorRegistered | Se dio de alta un dispositivo en el sistema. |
-| SensorPaired | El dispositivo quedó vinculado al hogar tras escanear el QR (ES: *sensor instalado*). |
-| SensorCalibrated | Se registró la temperatura base del refrigerador (US31). |
+| SensorPaired | El dispositivo quedó vinculado al negocio tras escanear el QR (ES: *sensor instalado*). |
+| SensorCalibrated | Se registró la temperatura base de la cámara (US31). |
 | SensorConfigured | Se asignó el dispositivo a una zona de almacenamiento (ES: *sensor configurado*). |
 | SensorDisconnected | El dispositivo perdió el enlace Wi-Fi y se notificó al usuario (US06). |
 
 **Policies**
 
-- **Vinculación única**: un código QR solo puede vincularse a un hogar a la vez.
+- **Vinculación única**: un código QR solo puede vincularse a un negocio a la vez.
 - **Notificar desconexión**: cuando el servidor no recibe *heartbeat* dentro de la ventana esperada, se marca el dispositivo OFFLINE y se avisa al usuario (US06).
 - **Heredar reglas de zona**: cuando un dispositivo se asigna a una zona, los alimentos asociados adoptan sus umbrales de temperatura (US33).
 
@@ -2173,7 +2175,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/devices | Lista los dispositivos del hogar. |
+| GET | /api/v1/devices | Lista los dispositivos del negocio. |
 | POST | /api/v1/devices/pair | Vincula un dispositivo escaneando su código QR (US31). |
 | PATCH | /api/v1/devices/{id}/calibration | Registra la temperatura base de calibración. |
 | PATCH | /api/v1/devices/{id}/zone | Asigna el dispositivo a una zona de almacenamiento. |
@@ -2200,7 +2202,7 @@ La Interface Layer del Sensor Management expone los puntos de entrada del contex
 | Resource | Campos |
 |---|---|
 | DeviceResource | id, model, firmwareVersion, status, zoneId, calibration |
-| PairDeviceResource | pairingCode (QR), householdId |
+| PairDeviceResource | pairingCode (QR), businessId |
 | CalibrationResource | baseTemperatureC |
 | StorageZoneResource | id, name, type, targetTempC |
 
@@ -2221,21 +2223,21 @@ La Application Layer del Sensor Management coordina las operaciones entre la Int
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
 | DeviceCommandServiceImpl | RegisterDeviceCommand, PairDeviceCommand, CalibrateDeviceCommand, AssignZoneCommand, RegisterHeartbeatCommand | Da de alta, vincula, calibra y monitorea el estado de conexión de los dispositivos. |
-| StorageZoneCommandServiceImpl | CreateZoneCommand, DeleteZoneCommand | Administra las áreas de almacenamiento del hogar o negocio (US33). |
+| StorageZoneCommandServiceImpl | CreateZoneCommand, DeleteZoneCommand | Administra las áreas de almacenamiento del negocio (US33). |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| DeviceQueryServiceImpl | GetDevicesByHouseholdQuery, GetDeviceByIdQuery | Recupera los dispositivos y su estado. |
-| StorageZoneQueryServiceImpl | GetZonesByHouseholdQuery | Recupera las zonas configuradas. |
+| DeviceQueryServiceImpl | GetDevicesByBusinessQuery, GetDeviceByIdQuery | Recupera los dispositivos y su estado. |
+| StorageZoneQueryServiceImpl | GetZonesByBusinessQuery | Recupera las zonas configuradas. |
 | SensorContextFacade | existsDevice(id), getZoneOf(deviceId), getCalibration(deviceId) | Open Host Service consultado por IoT Monitoring para validar el origen de las lecturas. |
 
 **Event Handlers**
 
 | Handler | Evento que escucha | Reacción |
 |---|---|---|
-| HouseholdCreatedEventHandler | HouseholdCreated (Profile Management) | Crea la zona de almacenamiento por defecto («Refrigerador principal») para el nuevo hogar. |
+| BusinessCreatedEventHandler | BusinessCreated (Profile Management) | Crea la zona de almacenamiento por defecto («Cámara principal») para el nuevo negocio. |
 | PlanTypeAcquiredEventHandler | PlanTypeAcquired (Subscription Management) | Ajusta el número máximo de dispositivos y zonas permitidos según el plan. |
 
 #### 4.2.4.4. Infrastructure Layer
@@ -2244,10 +2246,10 @@ La Infrastructure Layer del Sensor Management implementa la persistencia y las i
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| SensorDeviceRepository | JPA Repository | Persistencia de dispositivos; `findByHouseholdId`, `findByPairingCode`. |
+| SensorDeviceRepository | JPA Repository | Persistencia de dispositivos; `findByBusinessId`, `findByPairingCode`. |
 | StorageZoneRepository | JPA Repository | Persistencia de las zonas de almacenamiento. |
 | HeartbeatScheduler | Spring Scheduler | Revisa periódicamente los *heartbeats* y marca los dispositivos OFFLINE (US06). |
-| ExternalHouseholdService | ACL entrante | Consulta el `ProfileContextFacade` para validar el hogar propietario. |
+| ExternalBusinessService | ACL entrante | Consulta el `ProfileContextFacade` para validar el negocio propietario. |
 | NotificationGatewayAdapter | ACL saliente | Notifica al usuario la desconexión del dispositivo (TS42). |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
@@ -2275,7 +2277,7 @@ La Infrastructure Layer del Sensor Management implementa la persistencia y las i
 
 ### 4.2.5 Bounded Context: Inventory Management
 
-El **Inventory Management Bounded Context** administra la despensa digital del hogar o negocio: el alta de alimentos por voz o escaneo de código de barras (**US10**), la edición manual del stock (**US11**), la categorización personalizada (**US28**) y el registro del motivo de descarte (**US34**). Contiene el agregado `PantryItem` y el catálogo `FoodModel`, que define la vida útil estimada por categoría de alimento y las reglas usadas para estimar la fecha de consumo preferente.
+El **Inventory Management Bounded Context** administra el inventario de insumos y lotes del negocio, ya sea la cocina de un restaurante o el almacén de una distribuidora en frío: el alta por código de barras o QR (**US10**), el filtrado por cámara, lote y vencimiento (**US14**), la edición manual del stock (**US11**), la categorización personalizada (**US28**) y el registro del motivo de descarte (**US34**). Contiene el agregado `InventoryItem` y el catálogo `FoodModel`, que define la vida útil estimada por categoría de alimento y las reglas usadas para estimar la fecha de consumo preferente.
 
 #### 4.2.5.1. Domain Layer
 
@@ -2283,19 +2285,23 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 
 **Aggregates**
 
-1. **PantryItem**
-   - *Propósito:* Agregado raíz que representa un alimento registrado en la despensa, con su cantidad, vencimiento estimado y estado de frescura.
+1. **InventoryItem**
+   - *Propósito:* Agregado raíz que representa un insumo o lote registrado en el inventario del negocio, con su cantidad, vencimiento estimado y estado de frescura.
 
    - *Atributos:*
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del alimento. |
-| userId | UUID | Usuario o miembro que lo registró. |
+| businessId | UUID | Negocio propietario del inventario. |
+| userId | UUID | Miembro del personal que lo registró. |
+| zoneId | UUID | Cámara, congelador o vitrina donde se almacena (US14, US33). |
+| lotCode | String | Código de lote leído del código de barras o QR (US10, US14). |
+| supplier | String | Proveedor que entregó el lote (US40). |
 | foodModelId | UUID | Categoría del catálogo que define su vida útil. |
 | name | String | Nombre del alimento. |
 | quantity | Quantity (VO) | Cantidad disponible. |
 | unit | Unit (VO) | Unidad de medida (kg, unidades, litros). |
-| addedAt | DateTime | Fecha de registro en la despensa. |
+| addedAt | DateTime | Fecha de registro en el inventario. |
 | bestBefore | DateTime? | Fecha estimada de consumo preferente. |
 | status | FreshnessStatus (VO) | FRESH, AT_RISK o SPOILED. |
 | notes | String | Observaciones y etiquetas personalizadas (US28). |
@@ -2303,7 +2309,7 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | Método | Descripción |
 |---|---|
 | markConsumed() | Registra el consumo del alimento y descuenta la cantidad. |
-| markDiscarded(reason) | Registra el descarte indicando la causa: caducado, contaminado o mal estado (US34). |
+| markDiscarded(reason) | Registra la baja indicando la causa: falla de frío, vencimiento, contaminación o proveedor (US34). |
 | updateQuantity(qty) | Corrige manualmente el stock disponible (US11). |
 | updateStatus(FreshnessStatus) | Actualiza el estado de frescura según la evaluación del dominio. |
 | estimateBestBefore(FoodModel) | Calcula la fecha de consumo preferente a partir de la vida útil del catálogo. |
@@ -2329,20 +2335,20 @@ La Domain Layer del Inventory Management Bounded Context encapsula la lógica de
 | Quantity | Cantidad con validación de no negatividad. |
 | Unit | Unidad de medida del alimento (kg, g, L, unidades). |
 | ShelfLifeRules | Reglas de vida útil y umbrales por categoría, serializadas en JSON. |
-| DiscardReason | Enumeración: `EXPIRED`, `CONTAMINATED`, `BAD_ON_PURCHASE` (US34). |
+| DiscardReason | Enumeración: `COLD_FAILURE`, `EXPIRED`, `CONTAMINATED`, `SUPPLIER_DEFECT` (US34). |
 
 **Domain Services**
 
 | Servicio | Descripción |
 |---|---|
 | ShelfLifeEstimationService | Estima la fecha de consumo preferente combinando el `FoodModel` y la zona de almacenamiento. |
-| BarcodeLookupService | Resuelve el nombre y la categoría del producto a partir del código de barras escaneado (US10). |
+| BarcodeLookupService | Resuelve el producto, la categoría y el lote a partir del código de barras o QR escaneado (US10). |
 
 **Domain Events**
 
 | Evento | Descripción |
 |---|---|
-| FoodItemRegistered | Se agregó un alimento a la despensa (ES: *alimento agregado*). |
+| FoodItemRegistered | Se agregó un alimento al inventario (ES: *alimento agregado*). |
 | FoodItemUpdated | Se modificó manualmente la cantidad o los datos del alimento (US11). |
 | FoodItemConsumed | El alimento fue consumido (ES: *alimento consumido*). |
 | FoodItemDiscarded | El alimento fue descartado indicando la causa (US34). |
@@ -2360,16 +2366,16 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 
 **Controllers**
 
-1. **PantryItemsController** — Gestiona el inventario de alimentos del hogar o negocio.
+1. **InventoryItemsController** — Gestiona el inventario de alimentos del negocio.
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/pantry-items | Lista los alimentos con su estado de frescura (semáforo, US07). |
-| POST | /api/v1/pantry-items | Registra un alimento por voz, código de barras o manualmente (US10). |
-| PUT | /api/v1/pantry-items/{id} | Actualiza cantidad, unidad o etiquetas (US11, US28). |
-| POST | /api/v1/pantry-items/{id}/consume | Marca el alimento como consumido. |
-| POST | /api/v1/pantry-items/{id}/discard | Marca el alimento como descartado con su causa (US34). |
-   - *Dependencias:* PantryItemCommandService, PantryItemQueryService
+| GET | /api/v1/inventory-items | Lista los insumos con su estado de frescura (semáforo, US07) y filtros por cámara, lote y vencimiento (US14). |
+| POST | /api/v1/inventory-items | Registra un insumo o lote por código de barras, QR o manualmente (US10). |
+| PUT | /api/v1/inventory-items/{id} | Actualiza cantidad, unidad o etiquetas (US11, US28). |
+| POST | /api/v1/inventory-items/{id}/consume | Marca el alimento como consumido. |
+| POST | /api/v1/inventory-items/{id}/discard | Marca el alimento como descartado con su causa (US34). |
+   - *Dependencias:* InventoryItemCommandService, InventoryItemQueryService
 
 2. **FoodModelsController** — Expone el catálogo de categorías y vida útil.
 
@@ -2383,25 +2389,25 @@ La Interface Layer del Inventory Management expone los puntos de entrada del con
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/inventory/search | Devuelve coincidencias en vivo de alimentos y recetas. |
-   - *Dependencias:* PantryItemQueryService
+| GET | /api/v1/inventory/search | Devuelve coincidencias en vivo de insumos, lotes y fichas técnicas. |
+   - *Dependencias:* InventoryItemQueryService
 
 **Resources**
 
 | Resource | Campos |
 |---|---|
-| PantryItemResource | id, name, quantity, unit, addedAt, bestBefore, status, notes |
-| CreatePantryItemResource | name, quantity, unit, foodModelId, barcode? |
-| DiscardResource | reason (EXPIRED | CONTAMINATED | BAD_ON_PURCHASE) |
+| InventoryItemResource | id, name, lotCode, zoneId, supplier, quantity, unit, addedAt, bestBefore, status, notes |
+| CreateInventoryItemResource | name, quantity, unit, foodModelId, zoneId, lotCode?, supplier?, barcode? |
+| DiscardResource | reason (COLD_FAILURE | EXPIRED | CONTAMINATED | SUPPLIER_DEFECT) |
 | FoodModelResource | id, name, category, shelfLifeDays |
 
 **Transformers / Assemblers**
 
 | Assembler | Transformación |
 |---|---|
-| PantryItemResourceFromEntityAssembler | Convierte `PantryItem` en `PantryItemResource`. |
+| InventoryItemResourceFromEntityAssembler | Convierte `InventoryItem` en `InventoryItemResource`. |
 | FoodModelResourceFromEntityAssembler | Convierte `FoodModel` en su recurso. |
-| CreatePantryItemCommandFromResourceAssembler | Convierte el recurso de alta en `RegisterFoodItemCommand`. |
+| CreateInventoryItemCommandFromResourceAssembler | Convierte el recurso de alta en `RegisterFoodItemCommand`. |
 
 #### 4.2.5.3 Application Layer
 
@@ -2411,22 +2417,22 @@ La Application Layer del Inventory Management coordina las operaciones entre la 
 
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
-| PantryItemCommandServiceImpl | RegisterFoodItemCommand, UpdateFoodItemCommand, ConsumeFoodItemCommand, DiscardFoodItemCommand | Registra, actualiza, consume y descarta alimentos, publicando los eventos correspondientes. |
+| InventoryItemCommandServiceImpl | RegisterFoodItemCommand, UpdateFoodItemCommand, ConsumeFoodItemCommand, DiscardFoodItemCommand | Registra, actualiza, consume y descarta alimentos, publicando los eventos correspondientes. |
 | FoodModelCommandServiceImpl | SeedFoodModelsCommand | Carga el catálogo inicial de categorías y vidas útiles al iniciar el sistema. |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| PantryItemQueryServiceImpl | GetPantryItemsQuery, GetItemsAtRiskQuery, SearchInventoryQuery | Recupera el inventario, los alimentos en riesgo y las coincidencias de búsqueda (US39). |
+| InventoryItemQueryServiceImpl | GetInventoryItemsQuery, GetItemsAtRiskQuery, SearchInventoryQuery | Recupera el inventario, los alimentos en riesgo y las coincidencias de búsqueda (US39). |
 | FoodModelQueryServiceImpl | GetAllFoodModelsQuery, GetFoodModelByIdQuery | Recupera el catálogo de categorías. |
-| InventoryContextFacade | getInventorySnapshot(householdId), getItemsAtRisk(userId) | Open Host Service consultado por Consumption y Report Management. |
+| InventoryContextFacade | getInventorySnapshot(businessId), getItemsAtRisk(userId) | Open Host Service consultado por Consumption y Report Management. |
 
 **Event Handlers**
 
 | Handler | Evento que escucha | Reacción |
 |---|---|---|
-| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Actualiza el `status` del `PantryItem` a AT_RISK o SPOILED según la evaluación del FreshnessService. |
+| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Actualiza el `status` del `InventoryItem` a AT_RISK o SPOILED según la evaluación del FreshnessService. |
 | SensorConfiguredEventHandler | SensorConfigured (Sensor Management) | Asocia los alimentos de la zona con el dispositivo que la monitorea. |
 
 #### 4.2.5.4. Infrastructure Layer
@@ -2435,9 +2441,9 @@ La Infrastructure Layer del Inventory Management implementa la persistencia y la
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| PantryItemRepository | JPA Repository | Persistencia del inventario; `findByUserId`, `findByStatus`. |
+| InventoryItemRepository | JPA Repository | Persistencia del inventario; `findByBusinessId`, `findByZoneId`, `findByStatus`. |
 | FoodModelRepository | JPA Repository | Persistencia del catálogo de categorías. |
-| BarcodeApiAdapter | ACL saliente | Consulta el catálogo externo de códigos de barras (US10). |
+| BarcodeApiAdapter | ACL saliente | Consulta el catálogo externo de códigos de barras y QR (US10). |
 | RedisCacheAdapter | Caché | Almacena el catálogo y las consultas frecuentes del inventario (TS45). |
 | ExternalSensorService | ACL entrante | Consulta el `SensorContextFacade` para conocer la zona del alimento. |
 
@@ -2466,7 +2472,7 @@ La Infrastructure Layer del Inventory Management implementa la persistencia y la
 
 ### 4.2.6 Bounded Context: Consumption Management
 
-El **Consumption Management Bounded Context** registra el consumo y descarte efectivo de los alimentos y gestiona el **motor de sugerencia de recetas** (**EP05**). Propone platillos priorizando los ingredientes en riesgo (**US13**), permite filtrarlos por tiempo, dificultad y tipo de dieta (**US14**), y recoge las calificaciones de la comunidad (**US40**). Su registro de consumo es la fuente de los reportes de ahorro e impacto ambiental.
+El **Consumption Management Bounded Context** registra el consumo y la merma efectiva de los insumos y gestiona las **fichas técnicas y la rotación** (**EP05**). En el restaurante, la ficha técnica descuenta los insumos de cada platillo y prioriza los que están por vencer (**US13**), con costeo y merma por corte en el plan premium (**US19**). En la distribución en frío, sugiere la salida FIFO de los lotes (**US13**). También registra las incidencias de calidad de cada proveedor (**US40**). Su registro de consumo es la fuente de los reportes de ahorro e impacto ambiental.
 
 #### 4.2.6.1. Domain Layer
 
@@ -2475,48 +2481,50 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 **Aggregates**
 
 1. **Recipe**
-   - *Propósito:* Agregado raíz que representa una receta sugerida por la plataforma para aprovechar alimentos próximos a vencer.
+   - *Propósito:* Agregado raíz que representa la ficha técnica estandarizada de un platillo del restaurante, con sus insumos y porciones; se usa para descontar insumos y priorizar los que están por vencer (US13).
 
    - *Atributos:*
 | Atributo | Tipo | Descripción |
 |---|---|---|
-| id | UUID | Identificador de la receta. |
+| id | UUID | Identificador de la ficha técnica. |
+| businessId | UUID | Restaurante al que pertenece la ficha. |
 | title | String | Nombre del platillo. |
 | prepMinutes | int | Tiempo de preparación en minutos. |
-| difficulty | Difficulty (VO) | EASY, MEDIUM o HARD. |
+| portions | int | Porciones que rinde la ficha. |
 | instructions | String | Pasos de preparación. |
 | ingredients | List&lt;RecipeIngredient&gt; | Ingredientes requeridos. |
-| isPremium | boolean | Indica si pertenece al catálogo gourmet exclusivo (US19). |
+| isPremium | boolean | Indica si usa el costeo avanzado y la merma por corte (US19). |
    - *Métodos:*
 | Método | Descripción |
 |---|---|
-| matches(atRiskItems) | Evalúa cuántos ingredientes en riesgo cubre la receta (US13). |
-| addIngredient(name, qty, unit, optional) | Incorpora un ingrediente a la receta. |
-| rate(userId, stars, comment) | Registra la calificación y reseña de un usuario (US40). |
+| matches(atRiskItems) | Evalúa cuántos insumos en riesgo usa la ficha técnica (US13). |
+| addIngredient(name, qty, unit, optional) | Incorpora un insumo a la ficha técnica. |
+| costPerPortion() | Calcula el costo por porción a partir de los insumos (US19). |
 **Entities**
 
-1. **RecipeIngredient** — Ingrediente que forma parte de una receta.
+1. **RecipeIngredient** — Insumo que forma parte de una ficha técnica.
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador. |
-| recipeId | UUID | Receta a la que pertenece. |
+| recipeId | UUID | Ficha técnica a la que pertenece. |
 | name | String | Nombre del ingrediente. |
 | qty | Quantity (VO) | Cantidad requerida. |
 | unit | Unit (VO) | Unidad de medida. |
 | optional | boolean | Indica si el ingrediente es opcional. |
 | Método | Descripción |
 |---|---|
-| isSatisfiedBy(pantryItems) | Indica si el inventario cubre este ingrediente. |
+| isSatisfiedBy(inventoryItems) | Indica si el inventario cubre este ingrediente. |
 2. **ConsumptionRecord** — Registro histórico de cada alimento consumido o descartado, base de los reportes (US29, US34).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador del registro. |
 | userId | UUID | Usuario que realizó la acción. |
-| pantryItemId | UUID | Alimento afectado. |
+| inventoryItemId | UUID | Alimento afectado. |
 | action | ConsumptionAction (VO) | CONSUMED o DISCARDED. |
-| reason | DiscardReason? | Causa del descarte, si aplica (US34). |
+| reason | DiscardReason? | Causa de la merma, si aplica (US34). |
+| supplier | String? | Proveedor del lote, usado en las incidencias de calidad (US40). |
 | estimatedValue | Money (VO) | Valor económico del alimento. |
 | recordedAt | DateTime | Fecha del registro. |
 | Método | Descripción |
@@ -2527,16 +2535,15 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 
 | Value Object | Descripción |
 |---|---|
-| Difficulty | Enumeración: `EASY`, `MEDIUM`, `HARD`. |
 | ConsumptionAction | Enumeración: `CONSUMED`, `DISCARDED`. |
-| DietTag | Etiqueta dietética de la receta: vegana, keto, sin gluten (US14). |
-| Rating | Calificación de 1 a 5 estrellas con reseña opcional (US40). |
+| SupplierIncident | Incidencia registrada contra un proveedor cuando su lote se malogra antes de tiempo (US40). |
 
 **Domain Services**
 
 | Servicio | Descripción |
 |---|---|
-| RecipeSuggestionService | Selecciona y ordena las recetas según los alimentos en estado AT_RISK del inventario (US13). |
+| RecipeSuggestionService | Prioriza las fichas técnicas que usan insumos en estado AT_RISK del inventario del restaurante (US13). |
+| RotationSuggestionService | Ordena la salida FIFO de los lotes de la distribuidora según su vencimiento (US13). |
 | WasteValuationService | Calcula el valor económico y la huella de carbono del consumo y la merma (US18, US20). |
 
 **Domain Events**
@@ -2545,14 +2552,14 @@ La Domain Layer del Consumption Management Bounded Context encapsula la lógica 
 |---|---|
 | ConsumptionRegistered | Se registró el consumo de un alimento (ES: *alimento consumido*). |
 | WasteRegistered | Se registró el descarte de un alimento con su causa (ES: *alimento desechado*). |
-| RecipeSuggested | Se propusieron recetas a partir de los alimentos en riesgo (ES: *receta sugerida*). |
-| RecipeRated | Un usuario calificó una receta (US40). |
+| RecipeSuggested | Se priorizaron fichas técnicas a partir de los insumos en riesgo (ES: *receta sugerida*). |
+| SupplierIncidentRecorded | Se registró una incidencia de calidad contra un proveedor (US40). |
 
 **Policies**
 
-- **Sugerir recetas al detectar riesgo**: cuando existen alimentos en estado AT_RISK, el motor propone recetas que los utilicen como base (US13).
+- **Priorizar insumos en riesgo**: cuando existen insumos en estado AT_RISK, el restaurante ve primero las fichas técnicas que los usan y la distribuidora ve esos lotes al inicio de la salida FIFO (US13).
 - **Registrar valor al consumir**: cuando ocurre `FoodItemConsumed`, se crea un `ConsumptionRecord` con el valor económico estimado.
-- **Restringir catálogo gourmet**: cuando un usuario sin plan PREMIUM consulta las recetas exclusivas, el acceso se bloquea (US19).
+- **Restringir costeo avanzado**: cuando un usuario sin plan PREMIUM consulta el costeo o la merma por corte, el acceso se bloquea (US19).
 
 #### 4.2.6.2. Interface Layer
 
@@ -2560,14 +2567,14 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 
 **Controllers**
 
-1. **RecipesController** — Expone el catálogo y las sugerencias de recetas.
+1. **RecipesController** — Expone las fichas técnicas del restaurante y su priorización.
 
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | /api/v1/recipes | Lista las recetas con filtros de tiempo, dificultad y dieta (US14). |
-| GET | /api/v1/recipes/suggested | Devuelve las recetas sugeridas según los alimentos en riesgo (US13). |
-| GET | /api/v1/recipes/{id} | Obtiene el detalle e ingredientes de una receta. |
-| POST | /api/v1/recipes/{id}/ratings | Registra una calificación y reseña (US40). |
+| GET | /api/v1/recipes | Lista las fichas técnicas del restaurante (US13). |
+| GET | /api/v1/recipes/suggested | Devuelve las fichas priorizadas según los insumos en riesgo (US13). |
+| GET | /api/v1/recipes/{id} | Obtiene el detalle, los insumos y el costo por porción de una ficha (US19). |
+| POST | /api/v1/recipes | Crea una ficha técnica con sus insumos (US13). |
    - *Dependencias:* RecipeQueryService, RecipeCommandService
 
 2. **ConsumptionController** — Expone el historial de consumo y descarte.
@@ -2576,16 +2583,18 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 |---|---|---|
 | GET | /api/v1/consumption | Lista los registros de consumo y merma por periodo. |
 | GET | /api/v1/consumption/export | Descarga el historial en CSV o Excel (US29). |
+| GET | /api/v1/consumption/rotation | Devuelve el orden FIFO de salida de los lotes (US13). |
+| POST | /api/v1/consumption/supplier-incidents | Registra una incidencia de calidad de un proveedor (US40). |
    - *Dependencias:* ConsumptionQueryService
 
 **Resources**
 
 | Resource | Campos |
 |---|---|
-| RecipeResource | id, title, prepMinutes, difficulty, instructions, ingredients[] |
+| RecipeResource | id, title, portions, prepMinutes, instructions, ingredients[], costPerPortion |
 | RecipeIngredientResource | name, qty, unit, optional |
-| RatingResource | stars, comment |
-| ConsumptionRecordResource | id, pantryItemId, action, reason, estimatedValue, recordedAt |
+| SupplierIncidentResource | supplier, inventoryItemId, description |
+| ConsumptionRecordResource | id, inventoryItemId, action, reason, estimatedValue, recordedAt |
 
 **Transformers / Assemblers**
 
@@ -2593,7 +2602,7 @@ La Interface Layer del Consumption Management expone los puntos de entrada del c
 |---|---|
 | RecipeResourceFromEntityAssembler | Convierte `Recipe` y sus ingredientes en `RecipeResource`. |
 | ConsumptionRecordResourceFromEntityAssembler | Convierte `ConsumptionRecord` en su recurso. |
-| RatingCommandFromResourceAssembler | Convierte `RatingResource` en `RateRecipeCommand`. |
+| SupplierIncidentCommandFromResourceAssembler | Convierte `SupplierIncidentResource` en `RecordSupplierIncidentCommand`. |
 
 #### 4.2.6.3 Application Layer
 
@@ -2603,15 +2612,15 @@ La Application Layer del Consumption Management coordina las operaciones entre l
 
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
-| RecipeCommandServiceImpl | SeedRecipesCommand, RateRecipeCommand | Carga el catálogo de recetas y registra las calificaciones de la comunidad (US40). |
-| ConsumptionCommandServiceImpl | RegisterConsumptionCommand, RegisterWasteCommand | Crea los registros de consumo y merma con su valoración económica y ambiental. |
+| RecipeCommandServiceImpl | CreateRecipeCommand, UpdateRecipeCommand | Crea y mantiene las fichas técnicas del restaurante (US13, US19). |
+| ConsumptionCommandServiceImpl | RegisterConsumptionCommand, RegisterWasteCommand, RecordSupplierIncidentCommand | Crea los registros de consumo y merma con su valoración económica y ambiental, y las incidencias de proveedores (US40). |
 
 **Query Services / Facades**
 
 | Servicio | Consultas | Descripción |
 |---|---|---|
-| RecipeQueryServiceImpl | GetRecipesQuery, GetSuggestedRecipesQuery, GetRecipeByIdQuery | Recupera el catálogo y las sugerencias priorizadas por riesgo (US13, US14). |
-| ConsumptionQueryServiceImpl | GetConsumptionByPeriodQuery, ExportConsumptionQuery | Recupera el historial y genera la exportación en CSV/Excel (US29). |
+| RecipeQueryServiceImpl | GetRecipesQuery, GetSuggestedRecipesQuery, GetRecipeByIdQuery | Recupera las fichas técnicas y su priorización por riesgo (US13). |
+| ConsumptionQueryServiceImpl | GetConsumptionByPeriodQuery, ExportConsumptionQuery, GetRotationQuery | Recupera el historial, genera la exportación en CSV/Excel (US29) y el orden FIFO de salida (US13). |
 | ConsumptionContextFacade | getConsumptionSummary(userId, period) | Open Host Service consultado por Report Management para construir los reportes. |
 
 **Event Handlers**
@@ -2620,7 +2629,7 @@ La Application Layer del Consumption Management coordina las operaciones entre l
 |---|---|---|
 | FoodItemConsumedEventHandler | FoodItemConsumed (Inventory Management) | Crea un `ConsumptionRecord` de tipo CONSUMED y calcula el valor económico rescatado. |
 | FoodItemDiscardedEventHandler | FoodItemDiscarded (Inventory Management) | Crea un `ConsumptionRecord` de tipo DISCARDED con su causa y estima la huella de carbono. |
-| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Recalcula las sugerencias de recetas cuando un alimento entra en estado AT_RISK (US13). |
+| FoodConditionUpdatedEventHandler | FoodConditionUpdated (IoT Monitoring) | Recalcula la priorización de fichas y la rotación FIFO cuando un insumo entra en estado AT_RISK (US13). |
 
 #### 4.2.6.4. Infrastructure Layer
 
@@ -2628,10 +2637,10 @@ La Infrastructure Layer del Consumption Management implementa la persistencia y 
 
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
-| RecipeRepository | JPA Repository | Persistencia de recetas; `findByDifficulty`, `findByIngredientName`. |
-| RecipeIngredientRepository | JPA Repository | Persistencia de los ingredientes de cada receta. |
+| RecipeRepository | JPA Repository | Persistencia de fichas técnicas; `findByBusinessId`, `findByIngredientName`. |
+| RecipeIngredientRepository | JPA Repository | Persistencia de los insumos de cada ficha técnica. |
 | ConsumptionRecordRepository | JPA Repository | Persistencia del historial de consumo y merma. |
-| RedisCacheAdapter | Caché | Sirve el catálogo de recetas filtradas en menos de 50 ms (TS45). |
+| RedisCacheAdapter | Caché | Sirve las fichas técnicas y el inventario más consultados en menos de 50 ms (TS45). |
 | CsvExcelExporter | Servicio técnico | Genera el archivo CSV/Excel del historial con Apache POI (US29). |
 | ExternalInventoryService | ACL entrante | Consulta el `InventoryContextFacade` para obtener los alimentos en riesgo. |
 
@@ -2660,7 +2669,7 @@ La Infrastructure Layer del Consumption Management implementa la persistencia y 
 
 ### 4.2.7 Bounded Context: IoT Monitoring
 
-El **IoT Monitoring Bounded Context** es el núcleo de la integración IoT del producto. Recibe la telemetría del dispositivo FreshSense mediante el endpoint REST seguro definido en la **TS41**, evalúa las lecturas contra los umbrales de cada alimento a través del `FreshnessService` del modelo de dominio, y emite las alertas preventivas de la **US08**, respetando el **Modo Vacaciones** de la **US32**. Este contexto traduce la señal física (temperatura, humedad, etileno) en conocimiento de negocio: el estado de frescura del alimento.
+El **IoT Monitoring Bounded Context** es el núcleo de la integración IoT del producto. Recibe la telemetría del dispositivo FreshSense mediante el endpoint REST seguro definido en la **TS41**, evalúa las lecturas contra los umbrales de cada alimento a través del `FreshnessService` del modelo de dominio, y emite las alertas preventivas de la **US08**, respetando el **Modo Mantenimiento** de la **US32**. Este contexto traduce la señal física (temperatura, humedad, etileno) en conocimiento de negocio: el estado de frescura del alimento.
 
 #### 4.2.7.1. Domain Layer
 
@@ -2694,7 +2703,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | Atributo | Tipo | Descripción |
 |---|---|---|
 | id | UUID | Identificador de la alerta. |
-| pantryItemId | UUID | Alimento afectado. |
+| inventoryItemId | UUID | Alimento afectado. |
 | raisedAt | DateTime | Momento en que se emitió. |
 | type | AlertType (VO) | NEARING_EXPIRY, HIGH_ETHYLENE o TEMP_RISK. |
 | status | AlertStatus (VO) | OPEN, SENT, SNOOZED o RESOLVED. |
@@ -2704,7 +2713,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | resolve() | Marca la alerta como resuelta cuando el alimento se consume o descarta. |
 | snooze(until) | Pospone la alerta según las preferencias del usuario (US09). |
 | markSent() | Registra que la notificación fue despachada. |
-2. **ThresholdProfile** — Perfil de umbrales aplicado a una zona, incluido el Modo Vacaciones (US32).
+2. **ThresholdProfile** — Perfil de umbrales aplicado a una zona, incluido el Modo Mantenimiento (US32).
 
 | Atributo | Tipo | Descripción |
 |---|---|---|
@@ -2712,10 +2721,10 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | zoneId | UUID | Zona de almacenamiento a la que aplica. |
 | maxTemperatureC | float | Temperatura máxima tolerada. |
 | maxEthylenePpm | float | Concentración máxima de etileno tolerada. |
-| vacationMode | boolean | Indica si el modo de baja sensibilidad está activo (US32). |
+| maintenanceMode | boolean | Indica si el modo de mantenimiento está activo (US32). |
 | Método | Descripción |
 |---|---|
-| applyVacationMode() | Recalibra los umbrales al no abrirse la puerta durante 24 horas. |
+| applyMaintenanceMode() | Pausa las alarmas de la zona mientras la cámara se limpia o se repara (US32). |
 | evaluate(SensorReading) | Determina si la lectura constituye una desviación. |
 **Value Objects**
 
@@ -2730,7 +2739,7 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 
 | Servicio | Descripción |
 |---|---|
-| FreshnessService | Servicio de dominio central del modelo: `evaluate(PantryItem, SensorReading*)` determina el `FreshnessStatus` y `estimateBestBefore(PantryItem, FoodModel, SensorReading*)` ajusta la fecha de consumo preferente con la telemetría real. |
+| FreshnessService | Servicio de dominio central del modelo: `evaluate(InventoryItem, SensorReading*)` determina el `FreshnessStatus` y `estimateBestBefore(InventoryItem, FoodModel, SensorReading*)` ajusta la fecha de consumo preferente con la telemetría real. |
 | ThresholdEvaluationService | Compara cada lectura con el `ThresholdProfile` vigente y decide si corresponde emitir una alerta. |
 
 **Domain Events**
@@ -2742,14 +2751,14 @@ La Domain Layer del IoT Monitoring Bounded Context encapsula la lógica de negoc
 | EthyleneAlertIssued | La concentración de etileno superó el umbral y se emitió la alerta (ES: *alerta emitida*). |
 | TemperatureAlertIssued | La temperatura salió del rango tolerado de la zona. |
 | AlertResolved | La alerta se cerró al consumirse o descartarse el alimento. |
-| VacationModeActivated | Se recalibraron los umbrales por ausencia prolongada (US32). |
+| MaintenanceModeActivated | Se pausaron las alarmas de la cámara por limpieza o reparación (US32). |
 
 **Policies**
 
 - **Emitir alerta al superar umbrales**: cuando los valores del sensor superan los umbrales configurados, se emite una alerta de expiración (US08).
 - **Evitar falsas alarmas**: cuando no existen desviaciones en los parámetros, el chequeo periódico no emite ninguna notificación (US08).
-- **Recalibrar en Modo Vacaciones**: cuando transcurren más de 24 horas sin apertura de puerta, se ajusta la sensibilidad del etileno (US32).
-- **Respetar el horario de silencio**: cuando una alerta de baja severidad cae en el rango de quietud, se retiene hasta que finalice (US09).
+- **Pausar alarmas en Modo Mantenimiento**: mientras una cámara está en mantenimiento, sus lecturas se registran pero no generan alertas hasta que se reactive (US32).
+- **Respetar el turno operativo**: cuando una alerta de baja severidad cae fuera del turno, se retiene hasta el siguiente; las críticas se envían siempre al responsable de turno (US09, US24).
 
 #### 4.2.7.2. Interface Layer
 
@@ -2774,12 +2783,12 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 | POST | /api/v1/alerts/{id}/resolve | Marca la alerta como resuelta. |
    - *Dependencias:* AlertCommandService, AlertQueryService
 
-3. **ThresholdsController** — Configura los umbrales y el Modo Vacaciones (US32).
+3. **ThresholdsController** — Configura los umbrales y el Modo Mantenimiento (US32).
 
 | Método | Endpoint | Descripción |
 |---|---|---|
 | GET | /api/v1/thresholds/{zoneId} | Obtiene el perfil de umbrales de la zona. |
-| PUT | /api/v1/thresholds/{zoneId} | Actualiza los umbrales o activa el Modo Vacaciones. |
+| PUT | /api/v1/thresholds/{zoneId} | Actualiza los umbrales o activa el Modo Mantenimiento. |
    - *Dependencias:* ThresholdCommandService
 
 **Resources**
@@ -2787,8 +2796,8 @@ La Interface Layer del IoT Monitoring expone los puntos de entrada del contexto 
 | Resource | Campos |
 |---|---|
 | SensorReadingResource | deviceId, timestamp, temperatureC, humidityPct, ethylenePpm, meta |
-| AlertResource | id, pantryItemId, type, status, raisedAt, meta |
-| ThresholdProfileResource | zoneId, maxTemperatureC, maxEthylenePpm, vacationMode |
+| AlertResource | id, inventoryItemId, type, status, raisedAt, meta |
+| ThresholdProfileResource | zoneId, maxTemperatureC, maxEthylenePpm, maintenanceMode |
 | QualityHistoryResource | deviceId, period, avgTemperature, avgHumidity, maxEthylene |
 
 **Transformers / Assemblers**
@@ -2809,7 +2818,7 @@ La Application Layer del IoT Monitoring coordina las operaciones entre la Interf
 |---|---|---|
 | MonitoringCommandServiceImpl | RegisterSensorReadingCommand | Valida el token del dispositivo, persiste la lectura y dispara la evaluación de frescura (TS41). |
 | AlertCommandServiceImpl | IssueAlertCommand, SnoozeAlertCommand, ResolveAlertCommand | Emite, pospone y cierra las alertas de expiración (US08, US09). |
-| ThresholdCommandServiceImpl | UpdateThresholdsCommand, ActivateVacationModeCommand | Ajusta los umbrales por zona y activa el Modo Vacaciones (US32). |
+| ThresholdCommandServiceImpl | UpdateThresholdsCommand, ActivateMaintenanceModeCommand | Ajusta los umbrales por zona y activa el Modo Mantenimiento (US32). |
 
 **Query Services / Facades**
 
@@ -2817,7 +2826,7 @@ La Application Layer del IoT Monitoring coordina las operaciones entre la Interf
 |---|---|---|
 | MonitoringQueryServiceImpl | GetReadingsByDeviceQuery, GetQualityHistoryQuery | Recupera el histórico de telemetría y las métricas agregadas de calidad. |
 | AlertQueryServiceImpl | GetOpenAlertsQuery, GetAlertsByItemQuery | Recupera las alertas vigentes del usuario. |
-| MonitoringContextFacade | getQualityHistory(householdId, period), getOpenAlerts(userId) | Open Host Service consultado por Report Management e Inventory Management. |
+| MonitoringContextFacade | getQualityHistory(businessId, period), getOpenAlerts(userId) | Open Host Service consultado por Report Management e Inventory Management. |
 
 **Event Handlers**
 
@@ -2825,7 +2834,7 @@ La Application Layer del IoT Monitoring coordina las operaciones entre la Interf
 |---|---|---|
 | SensorConfiguredEventHandler | SensorConfigured (Sensor Management) | Crea el `ThresholdProfile` inicial de la zona con los umbrales por defecto de sus alimentos. |
 | FoodItemRegisteredEventHandler | FoodItemRegistered (Inventory Management) | Asocia el nuevo alimento a la zona monitoreada y comienza a evaluarlo. |
-| PantryItemResolvedEventHandler | FoodItemConsumed / FoodItemDiscarded (Inventory Management) | Cierra automáticamente las alertas abiertas del alimento (`AlertResolved`). |
+| InventoryItemResolvedEventHandler | FoodItemConsumed / FoodItemDiscarded (Inventory Management) | Cierra automáticamente las alertas abiertas del alimento (`AlertResolved`). |
 
 #### 4.2.7.4. Infrastructure Layer
 
@@ -2834,7 +2843,7 @@ La Infrastructure Layer del IoT Monitoring implementa la persistencia y las inte
 | Componente | Tipo | Responsabilidad |
 |---|---|---|
 | SensorReadingRepository | JPA Repository | Persistencia de la telemetría; `findByDeviceIdAndTsBetween`. |
-| ExpirationAlertRepository | JPA Repository | Persistencia de alertas; `findByStatus`, `findByPantryItemId`. |
+| ExpirationAlertRepository | JPA Repository | Persistencia de alertas; `findByStatus`, `findByInventoryItemId`. |
 | ThresholdProfileRepository | JPA Repository | Persistencia de los perfiles de umbrales por zona. |
 | DeviceTokenValidator | ACL entrante | Valida el token del dispositivo antes de aceptar la lectura (TS41). |
 | NotificationGatewayAdapter | ACL saliente | Despacha la alerta a la cola de eventos del Notification Service (TS42). |
@@ -2865,7 +2874,7 @@ La Infrastructure Layer del IoT Monitoring implementa la persistencia y las inte
 
 ### 4.2.8 Bounded Context: Report Management
 
-El **Report Management Bounded Context** consolida la información de los demás contextos para producir los **reportes de consumo y sostenibilidad**: el informe semanal de hábitos (**US12**), la analítica avanzada de rotación (**US17**), el panel de ahorro económico (**US18**) y las métricas de impacto ecológico en kg de CO₂ evitado (**US20**). Genera los archivos descargables en PDF y Excel con JasperReports y Apache POI, y expone la información al Analytics Service externo.
+El **Report Management Bounded Context** consolida la información de los demás contextos para producir los **reportes de consumo y sostenibilidad**: el reporte semanal de mermas (**US12**), la analítica avanzada de rotación (**US17**), el panel de ahorro económico (**US18**) y las métricas de impacto ecológico en kg de CO₂ evitado (**US20**). Genera los archivos descargables en PDF y Excel con JasperReports y Apache POI, y expone la información al Analytics Service externo.
 
 #### 4.2.8.1. Domain Layer
 
@@ -2988,7 +2997,7 @@ La Application Layer del Report Management coordina las operaciones entre la Int
 | Servicio | Comandos que maneja | Descripción |
 |---|---|---|
 | ReportCommandServiceImpl | GenerateReportCommand, ExportReportCommand | Construye el reporte consultando los contextos fuente y genera el archivo descargable. |
-| WeeklyReportSchedulerImpl | SendWeeklyReportCommand | Consolida y despacha el resumen semanal de hábitos al correo del usuario (US12). |
+| WeeklyReportSchedulerImpl | SendWeeklyReportCommand | Consolida y despacha el reporte semanal de mermas al correo del negocio (US12). |
 
 **Query Services / Facades**
 
@@ -3092,11 +3101,147 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ### 6.1.1. Software Development Environment Configuration
 
+En esta sección se describen los productos de software que el equipo utiliza en cada etapa del ciclo de vida de FreshSense: gestión del proyecto, requisitos y diseño, desarrollo del software, desarrollo del dispositivo IoT, pruebas, documentación y despliegue. Es el mismo entorno para los dos segmentos objetivo (propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en frío), porque ambos usan la misma Landing Page, la misma aplicación web y el mismo API.
+
+**Project Management y colaboración**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| GitHub (organización `1ASI0572-2620-8725`) | SaaS | Alojamiento de los repositorios del informe, la Landing Page, el frontend y el backend; control de ramas y *pull requests*. | https://github.com/1ASI0572-2620-8725 |
+| Git | Software de escritorio | Control de versiones local de cada integrante, con el flujo de ramas descrito en 6.1.2. | https://git-scm.com/downloads |
+| Markdown | Lenguaje de marcado | Redacción del informe del proyecto (`README.md`) directamente en el repositorio. | https://www.markdownguide.org |
+
+**Requirements Management y diseño**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Visual Paradigm Online | SaaS | Diagramas C4 (contexto, contenedores y despliegue) del Capítulo IV. | https://online.visual-paradigm.com |
+| Figma | SaaS | Wireframes, mock-ups y prototipo interactivo de la Landing Page y de la aplicación web (Capítulo V). | https://www.figma.com |
+
+**Software Development**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Zed | Software de escritorio | Editor usado para revisar el código del frontend y del backend. | https://zed.dev/download |
+| Node.js 20 LTS y npm 10 | Entorno de ejecución | Instalación de dependencias y ejecución del servidor de desarrollo y del *build* del frontend. | https://nodejs.org |
+| Angular CLI 20 | Framework y CLI | Creación, ejecución (`npm start`, puerto 4200) y compilación (`npm run build`) de la aplicación web. | https://angular.dev/tools/cli |
+| JDK 17 | Entorno de ejecución | Compilación y ejecución del backend. En el servidor se ejecuta con Java 21, compatible con el código compilado para Java 17. | https://adoptium.net |
+| Maven Wrapper (`mvnw`) | Herramienta de *build* | Compila y empaqueta los tres servicios del backend en archivos `.jar` sin instalar Maven globalmente. | https://maven.apache.org/wrapper |
+| Spring Boot 3.5.7 | Framework | Monolito modular (puerto 8080) y los servicios de alertas (8083) y recetas (8082). | https://spring.io/projects/spring-boot |
+| MySQL Community Server 8 | Gestor de base de datos | Bases `freshsense_db`, `alerts_db` y `recipes_db`, una por servicio. | https://dev.mysql.com/downloads/mysql |
+| Docker y Docker Compose | Contenedores | Levantar en local el frontend, el backend y la base de datos juntos para pruebas de integración. | https://docs.docker.com/get-docker |
+
+**IoT Development**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Arduino IDE 2 (núcleo ESP32) | Software de escritorio | Escritura, compilación y carga del firmware C++ del ESP32 DevKit C v4 con las librerías DHT sensor library, WiFi, ArduinoJson y HTTPClient. | https://www.arduino.cc/en/software |
+| Wokwi | SaaS | Simulación del circuito ESP32 + DHT22 y validación del firmware antes de usar el hardware físico. | https://wokwi.com |
+
+**Software Testing y documentación**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| Swagger UI (springdoc-openapi) | Librería | Documentación y prueba de los endpoints REST del backend. | https://springdoc.org |
+| Navegador web (Firefox / Chrome) con DevTools | Software de escritorio | Pruebas de la aplicación web, revisión de peticiones al API y de errores en consola. | https://www.mozilla.org/firefox |
+
+**Software Deployment**
+
+| Producto | Tipo | Propósito en el proyecto | Ruta de referencia |
+|---|---|---|---|
+| GitHub Pages | SaaS | Publicación de la Landing Page. | https://pages.github.com |
+| Google Cloud Compute Engine | IaaS | Máquina virtual donde se ejecutan la aplicación web, el API y la base de datos. | https://cloud.google.com/compute |
+| Nginx | Servidor web | Sirve la aplicación web y actúa como proxy inverso hacia el API. | https://nginx.org |
+| Certbot (Let's Encrypt) | Herramienta CLI | Emisión y renovación automática del certificado HTTPS. | https://certbot.eff.org |
+
+Para ejecutar el proyecto en local, cada integrante sigue este orden:
+
+```bash
+# 1. Backend: un terminal por servicio (requiere MySQL en localhost:3306)
+cd alerts-service  && ../mvnw spring-boot:run -Dspring-boot.run.profiles=local
+cd recipes-service && ../mvnw spring-boot:run -Dspring-boot.run.profiles=local
+./mvnw spring-boot:run -Dspring-boot.run.profiles=local      # monolito en :8080
+
+# 2. Frontend
+npm install
+npm start                                                    # http://localhost:4200
+```
+
+En local, el frontend consume el API en `http://localhost:8080/api`, configurado en `src/environments/environment.ts`. Las credenciales de la base de datos y las claves (`JWT_SECRET`, `AES_SECRET`, `OPENAI_API_KEY`) se pasan como variables de entorno o en `application-local.properties`, que no se sube al repositorio.
+
 ### 6.1.2. Source Code Management
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
 ### 6.1.4. Software Deployment Configuration
+
+En esta sección se describe la configuración con la que se publica cada producto de FreshSense. La Landing Page se publica en GitHub Pages. La aplicación web, el API y la base de datos se publican en una máquina virtual de Google Cloud, detrás de Nginx y con HTTPS. Así, el navegador y el dispositivo IoT se comunican con el sistema por un único dominio seguro.
+
+**Resumen de despliegue**
+
+| Producto | Plataforma | URL pública |
+|---|---|---|
+| Landing Page | GitHub Pages | https://1asi0572-2620-8725.github.io/landing-page/ |
+| Aplicación web (Angular) | Google Cloud Compute Engine + Nginx | https://35-224-123-160.sslip.io |
+| API REST (Spring Boot) | Google Cloud Compute Engine + Nginx (proxy inverso) | https://35-224-123-160.sslip.io/api |
+| Documentación del API | Swagger UI | https://35-224-123-160.sslip.io/swagger-ui/index.html |
+| Base de datos | MySQL 8 en la misma máquina virtual (sin acceso público) | — |
+
+**Landing Page**
+
+1. El repositorio `landing-page` contiene el sitio estático (HTML, CSS y JavaScript).
+2. En *Settings → Pages* se configuró la publicación desde la rama principal del repositorio.
+3. Cada *push* a `main` vuelve a publicar el sitio automáticamente en la URL indicada.
+
+**Infraestructura en Google Cloud**
+
+| Elemento | Configuración |
+|---|---|
+| Servicio | Compute Engine, máquina e2-micro (2 vCPU compartidas, 1 GB de RAM), zona `us-central1-f`. |
+| Sistema operativo | Rocky Linux 9, con 2 GB de swap para compensar la memoria limitada. |
+| Software instalado | Java 21 (OpenJDK), MySQL 8, Nginx y Certbot. |
+| Firewall | Reglas de la VPC y `firewalld` que abren los puertos 80 (redirige a HTTPS) y 443 (HTTPS). El puerto 8080 se mantiene abierto temporalmente para probar el API y Swagger de forma directa durante el desarrollo; MySQL solo escucha en la propia máquina. |
+| Dominio | `35-224-123-160.sslip.io`, un nombre gratuito que resuelve a la IP externa de la máquina y permite emitir un certificado sin comprar dominio. |
+| Certificado | Let's Encrypt emitido con Certbot (plugin de Nginx), con renovación automática programada. |
+
+**Backend (API REST)**
+
+1. Se compilan los tres servicios en local con `./mvnw clean package -DskipTests`, que genera `backend.jar`, `alerts-service.jar` y `recipes-service.jar`.
+2. Los archivos se suben a `/opt/freshsense` en la máquina virtual.
+3. Las variables de entorno se definen en `/opt/freshsense/env.sh`, con permisos solo para el usuario del servicio. No se suben al repositorio.
+
+| Variable | Uso |
+|---|---|
+| `DB_HOST`, `DB_PORT`, `DB_USER`, `DB_PASSWORD` | Conexión a MySQL local. |
+| `JWT_SECRET`, `AES_SECRET` | Firma de tokens JWT y cifrado AES-256 de datos sensibles. |
+| `ALERTS_SERVICE_URL`, `RECIPES_SERVICE_URL` | URL directa de los servicios de alertas (`http://localhost:8083`) y recetas (`http://localhost:8082`) que consume el monolito mediante Feign. |
+| `CORS_EXTRA_ORIGINS` | Orígenes adicionales permitidos por CORS (`https://35-224-123-160.sslip.io`). |
+| `OPENAI_API_KEY` | Clave del servicio de recetas para la generación con IA. Solo vive en el servidor, nunca en el frontend. |
+
+4. Cada servicio se inicia con un *script* que carga `env.sh` y ejecuta `java -jar` con un límite de memoria (`-Xmx`) acorde a la máquina: el monolito en el puerto 8080, alertas en el 8083 y recetas en el 8082.
+5. Hibernate (`ddl-auto=update`) crea o actualiza las tablas al arrancar, y el servicio publica su documentación en Swagger UI.
+
+**Aplicación web (Angular)**
+
+1. En `src/environments/environment.production.ts` se configura `apiBaseUrl: 'https://35-224-123-160.sslip.io/api'`.
+2. Se compila con `npm run build -- --configuration=production`, que genera `dist/frontend/browser`.
+3. El contenido de esa carpeta se copia a `/var/www/freshsense` en la máquina virtual.
+
+**Nginx (servidor web y proxy inverso)**
+
+Nginx publica en un solo dominio la aplicación web y el API, lo que evita problemas de contenido mixto y de cookies entre dominios:
+
+| Ruta | Destino |
+|---|---|
+| `/` | Archivos estáticos de Angular, con `try_files ... /index.html` para que funcionen las rutas de la SPA. |
+| `/api/`, `/swagger-ui/`, `/v3/api-docs` | Proxy inverso a `http://127.0.0.1:8080`, reenviando las cabeceras `Host`, `X-Forwarded-For` y `X-Forwarded-Proto`. |
+| Puerto 80 | Redirección permanente (301) a HTTPS. |
+
+**Dispositivo IoT**
+
+1. El firmware del ESP32 se configura con la red Wi-Fi del local y la dirección del Edge API (sección 5.6).
+2. Se carga en la placa desde Arduino IDE por USB, después de validarlo en Wokwi.
+3. El Edge API reenvía cada lectura al backend mediante `POST https://35-224-123-160.sslip.io/api/edge/readings`, autenticándose con la cabecera `X-Device-Key` que se obtiene al registrar el dispositivo en la aplicación.
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
