@@ -4194,7 +4194,128 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
+Durante el Sprint 1 de FreshSense, el equipo trabajó en la implementación de los productos digitales necesarios para establecer las funcionalidades iniciales de la solución. Los avances comprenden el Landing Page, desarrollado con HTML, CSS y JavaScript, y la aplicación web, desarrollada con Angular. Asimismo, se contempló la integración con los servicios Backend y los componentes IoT encargados de la recepción y procesamiento de lecturas de temperatura y humedad.
+
+En el Landing Page se incorporaron las secciones informativas de FreshSense, recursos visuales, elementos de navegación, botones de acceso a la plataforma y archivos de traducción. Estas funcionalidades se relacionan con las historias US01, US02, US03, US04 y US05 del Sprint Backlog.
+
+En la aplicación web se desarrollaron componentes para el registro e inicio de sesión, gestión de inventario, monitoreo de sensores IoT y visualización de alertas. También se incorporaron servicios para la comunicación con el API REST, configuraciones de entorno y mecanismos de navegación. Estos avances se relacionan principalmente con las historias TS43, US06, US07 y US08.
+
+Para mantener la trazabilidad del desarrollo, se presenta la siguiente tabla con los commits registrados en los repositorios de código fuente. Algunos corresponden a componentes preparados antes de la reunión de planificación del Sprint 1, que fueron incorporados como base del incremento desarrollado durante esta iteración.
+
+**Tabla. Commits relacionados con la implementación del Sprint 1**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | main | [5615ceb](https://github.com/1ASI0572-2620-8725/Frontend/commit/5615cebc04e5e644168c027f1c27252d745fc9dc) | feat: initial files | This are the initial files for the frontend - first commit | 02/09/2026 |
+| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | main | [a0684d8](https://github.com/1ASI0572-2620-8725/Frontend/commit/a0684d8430f400924df91929e62256de6e2851e9) | feat: app file | Sin cuerpo de mensaje | 02/09/2026 |
+| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | main | [9814e44](https://github.com/1ASI0572-2620-8725/Frontend/commit/9814e446bea585b933d07c27f540156c323aa720) | feat: rest of the app | Sin cuerpo de mensaje | 02/09/2026 |
+| [1ASI0572-2620-8725/landing-page](https://github.com/1ASI0572-2620-8725/landing-page) | main | [477bd20](https://github.com/1ASI0572-2620-8725/landing-page/commit/477bd20863fda6fe2c32e5d0c084f675634dde0a) | first commit | Sin cuerpo de mensaje | 07/10/2026 |
+| [1ASI0572-2620-8725/BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | main | [cd732db](https://github.com/1ASI0572-2620-8725/BackEnd/commit/cd732db43bd4c581a7579a8ca91785abaf29e9fb) | first commit | Sin cuerpo de mensaje | 08/10/2026 |
+
+Los commits del Frontend evidencian la incorporación de la estructura inicial del proyecto Angular, los componentes de interfaz, los servicios de comunicación con el Backend y los archivos de configuración necesarios para su ejecución. Por su parte, el commit del Landing Page registra la incorporación de los archivos principales del sitio web, incluyendo su estructura HTML, hojas de estilo, scripts y recursos gráficos.
+
+**Evidencia de desarrollo del Backend y componentes IoT**
+
+En el repositorio Backend de FreshSense se registró la incorporación del código fuente de los servicios desarrollados con Spring Boot, incluyendo módulos de autenticación, gestión de dispositivos IoT, recepción y almacenamiento de lecturas, monitoreo ambiental y administración de alertas y notificaciones. Asimismo, se incorporaron los servicios complementarios de alertas, recetas y descubrimiento de servicios mediante Eureka. Este commit permite evidenciar la estructura y las funcionalidades implementadas en el Backend, relacionadas principalmente con las historias técnicas TS41, TS42 y TS43, así como con las historias US06, US07 y US08 del Sprint 1.
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1 de FreshSense, el equipo inició la especificación de pruebas para evaluar las funcionalidades principales de la solución, considerando las historias de usuario y las historias técnicas establecidas en el Sprint Backlog. Las pruebas están orientadas a verificar el comportamiento del Landing Page, la autenticación de usuarios, la recepción de datos provenientes de sensores IoT, el monitoreo de condiciones ambientales y la gestión de alertas.
+
+Para definir los escenarios de aceptación se utilizó el enfoque Behavior-Driven Development (BDD), empleando el lenguaje Gherkin y la estructura Given-When-Then. Esta aproximación permite describir el comportamiento esperado de las funcionalidades y mantener la trazabilidad entre los requisitos y sus correspondientes pruebas.
+
+Las especificaciones se encuentran almacenadas en un repositorio independiente de GitHub, organizado mediante archivos `.feature`. Actualmente se dispone de 14 archivos de especificación. Algunos de ellos corresponden a funcionalidades de otros incrementos o utilizan identificadores anteriores del Product Backlog, por lo que requieren ajustes para mantener coherencia con el alcance vigente del Sprint 1.
+
+**Repositorio de pruebas:** [FreshSense Acceptance Tests](https://github.com/1ASI0572-2620-8725/Acceptance-Tests)
+
+**Archivos del Sprint:** [Sprint 01](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/tree/main/Sprint%2001)
+
+##### Relación de pruebas de aceptación
+
+La siguiente tabla presenta las especificaciones existentes relacionadas con el Sprint 1 y su correspondencia con las historias definidas en el Sprint Backlog.
+
+| Story ID | Funcionalidad evaluada | Archivo de prueba existente |
+|---|---|---|
+| US01 | Visualización de propuesta B2B | `us01-visualizacion-propuesta.feature` |
+| US02 | Sección para Restaurantes y Negocios en Frío | `us02-seccion-pequenos-negocios.feature` | 
+| US03 | Formulario de contacto y demos B2B | `us03-formulario-contacto.feature` | 
+| US04 | Call to Action Corporativo | `us04-cta-suscripcion.feature` |
+| US05 | Adaptabilidad en móviles y tablets | `us05-compatibilidad-movil.feature` |
+| TS43 | API Gestor de Autenticación y RBAC B2B | `ts33-api-usuarios.feature` |
+| TS41 | API Ingesta de Sensores IoT B2B | `ts31-api-sensores.feature` | 
+| US07 | Dashboard con semáforo comercial | `us07-visualizacion-inventario.feature` |
+| US08 | Alertas preventivas de temperatura | `us08-alertas-anticipadas.feature` | 
+
+Los escenarios publicados permiten establecer una base para la validación funcional del producto. Sin embargo, las especificaciones que no coinciden con las historias actuales deberán actualizarse antes de considerarse evidencia definitiva de aceptación del Sprint.
+
+##### Especificaciones de pruebas mediante Gherkin
+
+A continuación, se presentan ejemplos del código Gherkin publicado en el repositorio de pruebas, que describen comportamientos esperados de las funcionalidades del Sprint 1.
+
+**US01 – Visualización de la propuesta de FreshSense**
+
+Archivo: [us01-visualizacion-propuesta.feature](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/blob/main/Sprint%2001/us01-visualizacion-propuesta.feature)
+
+```gherkin
+Feature: US01 - Visualizacion de la propuesta de FreshSense
+
+    Scenario: Visitante entiende la propuesta de valor
+      Given un visitante accede a la landing page de FreshSense
+      When visualiza la seccion principal
+      Then ve el mensaje principal con la propuesta de valor de la solucion
+      And puede identificar claramente el beneficio del producto
+```
+
+Esta especificación describe el comportamiento esperado del Landing Page cuando un visitante accede a la sección principal e identifica la propuesta de valor de FreshSense.
+
+**US03 – Formulario de contacto**
+
+Archivo: [us03-formulario-contacto.feature](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/blob/main/Sprint%2001/us03-formulario-contacto.feature)
+
+```gherkin
+Feature: US03 - Formulario de contacto
+
+    Scenario: Visitante envia formulario de contacto
+      Given un visitante esta en la landing page de FreshSense
+      When completa el formulario con nombre, email y mensaje
+      And hace clic en el boton de enviar
+      Then el sistema registra la solicitud de contacto
+      And muestra un mensaje de confirmacion al usuario
+```
+
+El escenario define la validación del formulario de contacto, verificando que el visitante pueda completar sus datos y que el sistema registre la solicitud y presente una confirmación. Su ejecución satisfactoria deberá comprobarse sobre el sitio implementado.
+
+**US05 – Compatibilidad móvil**
+
+Archivo: [us05-compatibilidad-movil.feature](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/blob/main/Sprint%2001/us05-compatibilidad-movil.feature)
+
+```gherkin
+Feature: US05 - Compatibilidad movil
+
+    Scenario: Usuario accede desde un dispositivo movil
+      Given un usuario accede a la landing page desde un smartphone
+      When carga la pagina en pantalla pequena
+      Then todos los elementos se adaptan correctamente al tamaño de pantalla
+      And el contenido es legible sin necesidad de zoom horizontal
+
+    Scenario: Usuario accede desde una tablet
+      Given un usuario accede a la landing page desde una tablet
+      When carga la pagina
+      Then el layout se adapta correctamente al tamaño de pantalla
+```
+
+Estos escenarios describen la adaptación de la interfaz del Landing Page a dispositivos móviles y tablets, buscando garantizar la legibilidad y correcta distribución de sus componentes visuales.
+
+
+##### Evidencia de commits relacionados con Testing
+
+La siguiente tabla presenta los commits registrados en el repositorio de pruebas de aceptación, permitiendo identificar los avances asociados a la preparación de especificaciones del Sprint 1.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| [1ASI0572-2620-8725/Acceptance-Tests](https://github.com/1ASI0572-2620-8725/Acceptance-Tests) | main | [fbf1a89](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/commit/fbf1a8996aae4913f01e210316b948ad5f7e619d) | upload: gherkin tests | Sin cuerpo de mensaje | 08/10/2026 |
+
+El commit presentado evidencia la incorporación de 14 archivos `.feature` organizados dentro del directorio `Sprint 01`. Estos archivos documentan escenarios de aceptación de diferentes funcionalidades del producto.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
@@ -4382,6 +4503,87 @@ El Edge API reenvía la lectura del ESP32 simulado en Wokwi. El backend la guard
 
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1 de FreshSense, el equipo realizó actividades de configuración y despliegue de los productos digitales que conforman la primera versión de la solución. Estas actividades comprendieron la publicación del Landing Page mediante GitHub Pages, la preparación de infraestructura en Google Cloud Compute Engine y el despliegue de la aplicación web Angular y los servicios Backend desarrollados con Spring Boot.
+
+Asimismo, se configuró Nginx como servidor web y proxy inverso para facilitar la comunicación entre los componentes de la solución. El proceso contempló la compilación de los servicios, la transferencia de archivos ejecutables al servidor y la verificación de accesibilidad de los componentes desplegados.
+
+**Resumen de los componentes de despliegue**
+
+| Producto | Plataforma | Configuración |
+|---|---|---|
+| Landing Page | GitHub Pages | Publicación del sitio web estático desde el repositorio de GitHub |
+| Frontend Web Application | Google Cloud Compute Engine | Aplicación Angular servida mediante Nginx |
+| Backend REST API | Google Cloud Compute Engine | Servicios Spring Boot ejecutados en la máquina virtual |
+| Base de datos | MySQL 8 | Almacenamiento de información en el entorno del servidor |
+| Documentación de servicios | Swagger UI | Acceso a la documentación de los endpoints REST |
+
+**1. Despliegue del Landing Page**
+
+El Landing Page de FreshSense se publicó utilizando GitHub Pages, a partir del repositorio que contiene los archivos HTML, CSS y JavaScript del sitio web. Esta plataforma permite poner a disposición de los visitantes la información sobre la propuesta de valor, las funcionalidades y los servicios ofrecidos por FreshSense.
+
+La publicación se realizó desde la rama `main`, utilizando la configuración de GitHub Pages descrita en la sección 6.1.4. El sitio web se encuentra documentado en la siguiente dirección:
+
+**URL:** https://1asi0572-2620-8725.github.io/landing-page/
+
+![Landing Page de FreshSense publicada](Assets/sprint1-landing.png)
+
+*Figura 1. Landing Page de FreshSense publicada mediante GitHub Pages.*
+
+**2. Preparación y compilación del Backend**
+
+Para el despliegue de los servicios Backend, el equipo utilizó una máquina virtual de Google Cloud Compute Engine con Rocky Linux 9. De acuerdo con la configuración definida en la sección 6.1.4, el entorno incorpora Java 21, MySQL 8 y Nginx.
+
+Como parte del proceso, se realizó la compilación de los proyectos Spring Boot mediante Maven, generando los archivos ejecutables JAR correspondientes al Backend principal y a los servicios complementarios de alertas y recetas.
+
+La evidencia presentada muestra el resultado `BUILD SUCCESS`, que confirma que el proceso de compilación mostrado finalizó satisfactoriamente.
+
+![Compilación de servicios Backend mediante Maven](Assets/sprint1-deployment-build.png)
+
+*Figura 2. Compilación satisfactoria de los servicios Backend mediante Maven y generación de archivos JAR.*
+
+**3. Transferencia de archivos y preparación del servidor**
+
+Después de la compilación, se preparó el directorio `/opt/freshsense` de la máquina virtual para almacenar los archivos ejecutables de los servicios.
+
+Los archivos JAR fueron transferidos al entorno de despliegue, donde se realiza su ejecución y configuración según los puertos establecidos para cada servicio. Esta organización permite mantener los componentes Backend en una ubicación definida dentro del servidor.
+
+![Transferencia de archivos JAR al servidor](Assets/sprint1-deployment-transfer.png)
+
+*Figura 3. Preparación del directorio de despliegue y transferencia de archivos ejecutables a Google Cloud Compute Engine.*
+
+**4. Configuración del servidor web y verificación del despliegue**
+
+Para publicar la aplicación web y permitir su comunicación con los servicios Backend, se utilizó Nginx como servidor web y proxy inverso. Esta configuración permite atender las solicitudes de la aplicación Angular y redirigir las peticiones del API REST hacia los servicios correspondientes.
+
+Adicionalmente, la configuración de despliegue contempla el acceso mediante HTTPS, utilizando el dominio `35-224-123-160.sslip.io`, según lo establecido en la sección 6.1.4.
+
+Durante la verificación del entorno se ejecutaron comprobaciones de configuración de Nginx y solicitudes HTTP a los componentes del sistema. La evidencia muestra una validación satisfactoria de la configuración del servidor y respuestas HTTP 200 en las comprobaciones realizadas para Backend, Frontend y API.
+
+![Verificación de Nginx y respuestas HTTP](Assets/sprint1-deployment-validation.png)
+
+*Figura 4. Validación de la configuración de Nginx y comprobación de accesibilidad de los componentes desplegados.*
+
+**5. Acceso a los productos desplegados**
+
+Las siguientes direcciones corresponden a los servicios publicados e identificados en la configuración del proyecto.
+
+| Producto | URL |
+|---|---|
+| Landing Page | https://1asi0572-2620-8725.github.io/landing-page/ |
+| Aplicación web | https://35-224-123-160.sslip.io/login |
+| Documentación Swagger | https://35-224-123-160.sslip.io/swagger-ui/index.html |
+| Especificación OpenAPI | https://35-224-123-160.sslip.io/v3/api-docs |
+
+Estas direcciones permiten acceder a los productos principales de la solución y verificar la disponibilidad de sus interfaces. Las comprobaciones HTTP presentadas constituyen evidencia inicial de accesibilidad, mientras que la validación funcional de los recorridos de usuario y endpoints se documenta en las secciones de Testing y Execution Evidence del Sprint.
+
+**6. Estado de los componentes IoT**
+
+La arquitectura de FreshSense contempla el uso de un ESP32 con sensor DHT22 y un Edge API encargado de transmitir las lecturas ambientales hacia el Backend. La configuración prevista para estos componentes se describe en la sección 6.1.4.
+
+La evidencia de instalación, ejecución e integración de estos componentes se incorporará cuando se disponga de las capturas correspondientes al entorno IoT utilizado durante el Sprint.
+
+En conjunto, las evidencias presentadas documentan los procesos de compilación, preparación del servidor, transferencia de ejecutables y comprobación básica de accesibilidad de los componentes web y Backend. Estos avances constituyen la base técnica para continuar con la integración y validación de las funcionalidades de FreshSense en los siguientes incrementos.
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
