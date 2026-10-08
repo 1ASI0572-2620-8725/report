@@ -690,7 +690,7 @@ Los resultados obtenidos permitirán validar los principales supuestos de FreshS
 Los segmentos considerados son:
 
 - **Segmento 1: Propietarios y administradores de restaurantes**
-- **Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
+- **Segmento 2: Encargados de Negocio de Distribución de alimentos en frio**
 
 
 ### 2.2.1. Diseño de entrevistas
@@ -723,7 +723,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 
 ---
 
-#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
 
 1. ¿Cuál es su cargo dentro de la empresa y qué responsabilidades tiene relacionadas con producción, almacenamiento, calidad o comercialización?
 
@@ -799,6 +799,7 @@ Actualmente utiliza una aplicación para registrar el stock, mientras que sus tr
 
 Respecto a una solución como FreshSense, valora especialmente el monitoreo automático y las notificaciones. Además, estaría interesada en un modelo de pago anual que incluya actualizaciones y mejoras continuas del sistema.
 
+
 ##### Entrevista 3
 
 | Dato | Información |
@@ -823,7 +824,7 @@ Actualmente, el control de frescura se realiza mediante revisiones manuales de f
 Considera útil una solución como FreshSense que permita monitorear temperatura y humedad, enviar alertas sobre cambios de temperatura o productos próximos a vencer y consultar historiales de mediciones. También valora la precisión de los sensores, la facilidad de uso y la rapidez de las notificaciones. Finalmente, estaría dispuesto a adquirir el dispositivo y pagar una suscripción económica, siempre que contribuya a reducir pérdidas y mejorar la gestión del restaurante.
 
 
-#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
 
 ##### Entrevista 1
 
@@ -850,6 +851,25 @@ Considera útil una solución como FreshSense que permita monitorear temperatura
 
 ##### Entrevista 2
 
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Jesús Pérez |
+| Edad | 45 años |
+| Empresa / sector | Distribución de alimentos refrigerados |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 4:57|
+| Enlace | https://drive.google.com/file/d/1NCnw1minxYLf-k89c6vxbyryJ1yoyXz-/view?usp=sharing |
+
+![Evidencia entrevista Jesús Pérez](Assets/EntrevistaJesusPerez.png)
+
+**Resumen:**
+
+Jesús Pérez tiene 45 años y trabaja en una empresa dedicada a la distribución de alimentos refrigerados, donde supervisa el almacenamiento, controla el inventario y verifica el estado de los productos antes de su distribución. Trabajan principalmente con carnes, pollo, lácteos y productos congelados, siendo las carnes y los lácteos los que requieren mayor control.
+
+Actualmente realizan revisiones periódicas de las cámaras de refrigeración, verificaciones de temperatura y controles visuales, además de utilizar registros internos para el seguimiento de los lotes. Sin embargo, Jesús señala que cuando una variación de temperatura no se detecta rápidamente puede ocasionar deterioro de productos y pérdidas económicas, además de dificultar la identificación exacta de los lotes afectados.
+
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad en tiempo real, enviar alertas rápidas y relacionar las mediciones con los lotes almacenados. También valora contar con historiales y reportes, y considera importantes la precisión de los sensores, la facilidad de uso, el costo y la posibilidad de consultar la información desde una computadora o celular.
 
 ##### Entrevista 3
 
@@ -872,7 +892,6 @@ Carmen tiene 54 años y trabaja en una empresa dedicada a la comercialización y
 Actualmente realizan revisiones periódicas de las cámaras de refrigeración, controles visuales y registros de inventario mediante herramientas internas y Excel. Sin embargo, Carmen señala que las verificaciones todavía dependen considerablemente del personal, lo que dificulta detectar fallas de refrigeración a tiempo. Estas situaciones pueden generar pérdidas económicas, afectar los pedidos y complicar la identificación de los lotes que estuvieron expuestos a condiciones inadecuadas.
 
 Considera útil una solución como FreshSense que permita monitorear temperatura y humedad automáticamente, recibir alertas inmediatas y consultar historiales de mediciones asociados a los lotes almacenados. También valora la facilidad de uso, la precisión de los sensores y el acceso desde computadoras o celulares. Finalmente, considera que el costo y la capacidad del sistema para reducir pérdidas serían factores importantes para decidir su implementación.
-
 
 
 ### 2.2.3. Análisis de entrevistas
