@@ -842,6 +842,25 @@ Considera útil una solución como FreshSense que permita monitorear temperatura
 
 ##### Entrevista 3
 
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Carmen |
+| Edad | 54 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 6:07|
+| Enlace | https://drive.google.com/file/d/17b7sV7W1QHlYEh9eXrvsy_Lgdfv51viF/view?usp=sharing |
+
+![Evidencia entrevista Carmen](Assets/EntrevistaCarmen.png)
+
+**Resumen:**
+
+Carmen tiene 54 años y trabaja en una empresa dedicada a la comercialización y distribución de alimentos perecibles, donde supervisa el almacenamiento, el inventario y la conservación de productos. La empresa maneja principalmente carnes, pollo, lácteos y alimentos congelados, siendo las carnes y los lácteos los que requieren mayor cuidado debido a su sensibilidad ante cambios de temperatura.
+
+Actualmente realizan revisiones periódicas de las cámaras de refrigeración, controles visuales y registros de inventario mediante herramientas internas y Excel. Sin embargo, Carmen señala que las verificaciones todavía dependen considerablemente del personal, lo que dificulta detectar fallas de refrigeración a tiempo. Estas situaciones pueden generar pérdidas económicas, afectar los pedidos y complicar la identificación de los lotes que estuvieron expuestos a condiciones inadecuadas.
+
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad automáticamente, recibir alertas inmediatas y consultar historiales de mediciones asociados a los lotes almacenados. También valora la facilidad de uso, la precisión de los sensores y el acceso desde computadoras o celulares. Finalmente, considera que el costo y la capacidad del sistema para reducir pérdidas serían factores importantes para decidir su implementación.
 
 
 
