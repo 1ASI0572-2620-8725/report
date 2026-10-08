@@ -3096,18 +3096,18 @@ La Infrastructure Layer del Report Management implementa la persistencia y las i
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo de FreshEat aplica en todos los productos de FreshSense. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
+En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo de FreshEat aplica en todos los productos de FreshSense. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, **todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés**. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
 
 #### Convenciones generales
 
 | Aspecto | Convención | Ejemplo |
 |---|---|---|
 | Idioma del código | Inglés | `pantryItem`, `getFreshnessStatus()` |
-| Indentación | 2 espacios (HTML, CSS, JS, TS); 4 espacios (Java) | — |
+| Indentación | 2 espacios (HTML, CSS, JS, TS, C/C++); 4 espacios (Java) | — |
 | Codificación de archivos | UTF-8, salto de línea LF | — |
-| Longitud de línea | Máximo 100 caracteres (TS/JS/Java) | — |
+| Longitud de línea | Máximo 100 caracteres (TS/JS/Java); 80 caracteres (C/C++) | — |
 | Comentarios | Solo donde aportan contexto; en inglés | `// Threshold based on food category` |
-| Formateo automático | Prettier (front) y formateador del IDE (Java) | `.prettierrc` en cada repositorio |
+| Formateo automático | Prettier (front), formateador del IDE (Java) y clang-format (C/C++) | `.prettierrc`, `.clang-format` |
 
 #### HTML (Landing Page y templates de Angular)
 
@@ -3178,6 +3178,39 @@ Referencias: *Google Java Style Guide* y *Spring Boot Features*.
 - Métodos y atributos en *camelCase*; constantes en *UPPER_SNAKE_CASE*.
 - Endpoints REST en plural y en *kebab-case*, con versión: `/api/v1/pantry-items`, `/api/v1/storage-zones`.
 - Tablas de base de datos en *snake_case* y en plural: `pantry_items`, `sensor_readings`.
+
+#### C/C++ (Embedded Application del dispositivo FreshSense – desde el Sprint 2)
+
+Referencias: *Google C++ Style Guide* y *Barr Group Embedded C Coding Standard* (BARR-C:2018).
+
+- **Archivos** en *snake_case*, con un `.h` y un `.cpp` (o `.c`) por módulo: `temperature_sensor.h` / `temperature_sensor.cpp`, `telemetry_client.cpp`.
+- **Clases, structs y enums** en *PascalCase*: `TemperatureSensor`, `SensorReading`, `DeviceState`.
+- **Funciones y métodos** en *camelCase*, empezando con un verbo: `readTemperature()`, `sendTelemetry()`.
+- **Variables locales y parámetros** en *camelCase*: `humidityPct`, `lastReadingMs`. Los **miembros privados** llevan el sufijo `_`: `pin_`, `intervalMs_`.
+- **Constantes y valores de configuración** en *UPPER_SNAKE_CASE*, con `constexpr` (C++) o `#define` (C) en un archivo `config.h`: `READING_INTERVAL_MS`, `MAX_TEMPERATURE_C`. Los pines de hardware se nombran por su función: `DHT_SENSOR_PIN`, `ETHYLENE_SENSOR_PIN`.
+- Las **unidades de medida van en el nombre** de la variable para evitar ambigüedades: `temperatureC`, `ethylenePpm`, `timeoutMs`.
+- **Guardas de inclusión** con `#pragma once` en todos los headers.
+- Se usan **tipos de ancho fijo** (`uint8_t`, `int16_t`, `uint32_t`) en lugar de `int` o `long`, para que el tamaño de los datos no dependa del microcontrolador.
+- Se evitan `delay()` bloqueantes y la memoria dinámica (`new`, `malloc`) dentro del loop principal; la temporización se maneja con `millis()`.
+- Las credenciales (Wi-Fi, token del dispositivo) van en `secrets.h`, que se excluye del repositorio con `.gitignore`. Se versiona solo un `secrets.example.h` como plantilla.
+- Formateo automático con **clang-format** (estilo base Google, 2 espacios) mediante un archivo `.clang-format` en el repositorio.
+
+```cpp
+// temperature_sensor.h
+#pragma once
+#include <stdint.h>
+
+constexpr uint32_t READING_INTERVAL_MS = 5000;
+
+class TemperatureSensor {
+ public:
+  explicit TemperatureSensor(uint8_t pin);
+  float readTemperatureC();
+
+ private:
+  uint8_t pin_;
+};
+```
 
 #### Gherkin (Acceptance Tests)
 
