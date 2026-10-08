@@ -3862,18 +3862,18 @@ No subimos contraseñas ni llaves. La URL del API va en `src/environments/enviro
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo de FreshSense aplica en todos los productos de FreshSense. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
+En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo aplica en todos los productos de FreshSense: Landing Page, aplicación web, backend (monolito y microservicios de alertas y recetas), Edge API y firmware del dispositivo. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, **todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés**. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
 
 #### Convenciones generales
 
 | Aspecto | Convención | Ejemplo |
 |---|---|---|
 | Idioma del código | Inglés | `pantryItem`, `getFreshnessStatus()` |
-| Indentación | 2 espacios (HTML, CSS, JS, TS); 4 espacios (Java) | — |
+| Indentación | 2 espacios (HTML, CSS, JS, TS, C++); 4 espacios (Java) | — |
 | Codificación de archivos | UTF-8, salto de línea LF | — |
-| Longitud de línea | Máximo 100 caracteres (TS/JS/Java) | — |
+| Longitud de línea | Máximo 100 caracteres (TS/JS/Java); 80 caracteres (C++) | — |
 | Comentarios | Solo donde aportan contexto; en inglés | `// Threshold based on food category` |
-| Formateo automático | Prettier (front) y formateador del IDE (Java) | `.prettierrc` en cada repositorio |
+| Formateo automático | Prettier (frontend), formateador del IDE (Java) y *Auto Format* de Arduino IDE, basado en clang-format (C++) | `.prettierrc`, `.clang-format` |
 
 #### HTML (Landing Page y templates de Angular)
 
@@ -3910,40 +3910,75 @@ Referencia: *Google JavaScript Style Guide*.
 
 Referencias: *Angular Coding Style Guide* y *Google TypeScript Style Guide*.
 
-- **Archivos** en *kebab-case* con sufijo según su tipo: `pantry-item-list.component.ts`, `pantry-item.service.ts`, `pantry-item.entity.ts`, `auth.guard.ts`.
-- **Clases, interfaces y enums** en *PascalCase*: `PantryItemListComponent`, `PantryItemService`, `FreshnessStatus`.
-- **Propiedades y métodos** en *camelCase*: `loadPantryItems()`, `selectedZoneId`.
-- **Selectores de componentes** con el prefijo `app-`: `<app-freshness-dashboard>`.
+- **Archivos** en *kebab-case* con sufijo según su tipo: `product-list.component.ts`, `monitoring.service.ts`, `auth.guard.ts`.
+- **Clases, interfaces y enums** en *PascalCase*: `ProductListComponent`, `MonitoringService`, `FreshnessStatus`.
+- **Propiedades y métodos** en *camelCase*: `loadProducts()`, `latestReading`.
+- **Selectores de componentes** con el prefijo `app-`: `<app-monitoring-panel>`.
 - **Una responsabilidad por archivo**: un componente, servicio o modelo por archivo.
-- **Organización por bounded context**, alineada con el diseño táctico del Capítulo IV:
+- **Organización por bounded context y por capa**, alineada con el diseño táctico del Capítulo IV. Los módulos de negocio son `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications` y `billing`; `core` y `shared` contienen lo transversal:
 
 ```
 src/app/
-├── iam/                     # User Management
-├── inventory/               # Inventory Management
-├── monitoring/              # IoT Monitoring
-├── shared/                  # componentes y servicios reutilizables
-└── public/                  # páginas comunes (home, not-found)
-    └── <bounded-context>/
-        ├── components/
-        ├── pages/
-        ├── services/
-        └── model/
+├── core/                    # interceptores, guards, configuración global
+├── shared/                  # componentes y utilidades reutilizables
+└── <bounded-context>/       # accounts, inventory, monitoring, alerts, recipes...
+    ├── domain/              # modelos y reglas del contexto
+    ├── application/         # servicios de aplicación y casos de uso
+    ├── infrastructure/      # clientes HTTP hacia el API
+    └── presentation/        # componentes y páginas
 ```
 
+- Las rutas de la aplicación se declaran en `src/app/app.routes.ts`, en *kebab-case* y en inglés: `/login`, `/monitoring`, `/alerts`, `/inventory`, `/devices`.
 - Uso de **Angular Material** como única librería de componentes de UI, según las restricciones del proyecto.
-- Los textos visibles se externalizan con **ngx-translate** en `assets/i18n/en.json` y `assets/i18n/es.json`; las claves se escriben en inglés y en *dot.case*: `"inventory.list.title"`.
+- Los textos visibles se externalizan en `public/i18n/es.json` y `public/i18n/en.json`; las claves se escriben en inglés y en *dot.case*: `"inventory.list.title"`.
+- La URL del API nunca se escribe en los componentes: se lee de `src/environments/` (`environment.ts`, `environment.production.ts`, `environment.docker.ts`).
 - Se usa tipado explícito y se evita `any`.
 
-#### Java y Spring Boot (Web Services – desde el Sprint 2)
+#### Java y Spring Boot (monolito, alerts-service y recipes-service)
 
 Referencias: *Google Java Style Guide* y *Spring Boot Features*.
 
-- Paquetes en minúsculas, organizados por bounded context y capa: `com.fresheat.freshsense.inventory.domain.model.aggregates`.
-- Clases en *PascalCase* con sufijo según su rol: `PantryItem`, `PantryItemCommandService`, `PantryItemsController`, `PantryItemResource`.
+- Paquetes en minúsculas, organizados por bounded context y capa: `<paquete-base>.inventory.domain.model`, `<paquete-base>.monitoring.interfaces.rest`.
+- Clases en *PascalCase* con sufijo según su rol: `Product`, `ProductCommandService`, `ProductsController`, `ProductResource`.
 - Métodos y atributos en *camelCase*; constantes en *UPPER_SNAKE_CASE*.
-- Endpoints REST en plural y en *kebab-case*, con versión: `/api/v1/pantry-items`, `/api/v1/storage-zones`.
-- Tablas de base de datos en *snake_case* y en plural: `pantry_items`, `sensor_readings`.
+- Endpoints REST en inglés, con recursos en plural y en *kebab-case* bajo el prefijo `/api`: `/api/products`, `/api/alerts`, `/api/edge/readings`.
+- Tablas de base de datos en *snake_case* y en plural: `products`, `sensor_readings`. Cada servicio tiene su propia base (`freshsense_db`, `alerts_db`, `recipes_db`).
+- Los clientes Feign entre servicios se nombran con el sufijo `Client`: `AlertsServiceClient`, `RecipesServiceClient`.
+- Las claves y credenciales (`JWT_SECRET`, `AES_SECRET`, `OPENAI_API_KEY`, datos de la base) se leen de variables de entorno; nunca se escriben en el código ni en `application.properties` versionado.
+
+#### C++ (firmware del dispositivo FreshSense – ESP32 + DHT22)
+
+Referencias: *Google C++ Style Guide* y *Barr Group Embedded C Coding Standard* (BARR-C:2018).
+
+- **Archivos** en *snake_case*, con un `.h` y un `.cpp` por módulo; el sketch principal es `freshsense_device.ino`: `dht_sensor.h` / `dht_sensor.cpp`, `edge_client.cpp`.
+- **Clases, structs y enums** en *PascalCase*: `DhtSensor`, `SensorReading`, `DeviceState`.
+- **Funciones y métodos** en *camelCase*, empezando con un verbo: `readTemperature()`, `sendReading()`.
+- **Variables locales y parámetros** en *camelCase*: `humidityPct`, `lastReadingMs`. Los **miembros privados** llevan el sufijo `_`: `pin_`, `intervalMs_`.
+- **Constantes y configuración** en *UPPER_SNAKE_CASE*, con `constexpr` en un archivo `config.h`: `READING_INTERVAL_MS`, `EDGE_API_URL`. Los pines se nombran por su función: `DHT_SENSOR_PIN`.
+- Las **unidades de medida van en el nombre** de la variable: `temperatureC`, `humidityPct`, `timeoutMs`.
+- **Guardas de inclusión** con `#pragma once` en todos los headers.
+- **Tipos de ancho fijo** (`uint8_t`, `int16_t`, `uint32_t`) en lugar de `int` o `long`, para que el tamaño de los datos no dependa de la placa.
+- No se usan `delay()` bloqueantes en el `loop()`; la temporización se maneja con `millis()`. Se evita la memoria dinámica (`new`, `malloc`) y los objetos `String` en el ciclo principal.
+- El JSON que se envía al Edge API se arma con **ArduinoJson**, con claves en *camelCase* iguales a las del backend: `temperatureC`, `humidityPct`.
+- Las credenciales (Wi-Fi y `X-Device-Key`) van en `secrets.h`, excluido con `.gitignore`; solo se versiona `secrets.example.h` como plantilla.
+
+```cpp
+// dht_sensor.h
+#pragma once
+#include <stdint.h>
+
+constexpr uint32_t READING_INTERVAL_MS = 5000;
+
+class DhtSensor {
+ public:
+  explicit DhtSensor(uint8_t pin);
+  float readTemperatureC();
+  float readHumidityPct();
+
+ private:
+  uint8_t pin_;
+};
+```
 
 #### Gherkin (Acceptance Tests)
 
@@ -3956,22 +3991,20 @@ Referencia: *Gherkin Conventions for Readable Specifications*.
 
 ```gherkin
 Feature: US07 - Freshness traffic-light dashboard
-  As a restaurant manager
-  I want to see the freshness status of my products by color
-  So that I can prioritize the items at risk
+  As a restaurant manager or cold-food distribution manager
+  I want to see the cold room status by color
+  So that I can act before the products spoil
 
-  Scenario: Product close to expiration is shown in yellow
-    Given the manager is logged in
-    And a product expires in 2 days
-    When the manager opens the dashboard
-    Then the product is displayed with a yellow indicator
+  Scenario: Cold room above the safe temperature is shown in red
+    Given the user is logged in
+    And the latest reading of the cold room is above the safe temperature
+    When the user opens the monitoring panel
+    Then the cold room is displayed with a red indicator
 ```
 
 #### Convenciones de commits
 
-Los mensajes de commit siguen **Conventional Commits** (detallado en la sección 6.1.2): `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`. Ejemplo: `feat(inventory): add freshness filter to pantry list`.
-
----
+Los mensajes de commit siguen **Conventional Commits** (detallado en la sección 6.1.2): `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`. Ejemplo: `feat(monitoring): add traffic-light status to latest reading`.
 
 ### 6.1.4. Software Deployment Configuration
 
@@ -4044,14 +4077,17 @@ Nginx publica en un solo dominio la aplicación web y el API, lo que evita probl
 3. El Edge API reenvía cada lectura al backend mediante `POST https://35-224-123-160.sslip.io/api/edge/readings`, autenticándose con la cabecera `X-Device-Key` que se obtiene al registrar el dispositivo en la aplicación.
 
 ## 6.2. Landing Page, Services & Applications Implementation
-
 En esta sección se presenta la evidencia del proceso de implementación, pruebas, documentación y despliegue de los productos digitales de FreshSense, organizada por Sprint. Cada Sprint incluye su planificación, la distribución de liderazgo entre los integrantes, el backlog trabajado y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo.
 
-El Sprint 1 se enfoca en dos productos: el Landing Page (HTML5, CSS3 y JavaScript), que comunica la propuesta de valor de FreshSense a nuestros segmentos objetivo, y la primera versión de la Frontend Web Application (Angular 19 con Angular Material). La implementación de los Web Services en Spring Boot, el Edge API y la aplicación embebida del dispositivo FreshSense se abordará en los siguientes Sprints.
+En el Sprint 1 se construyó el primer recorrido completo de la solución, el mismo para los dos segmentos objetivo:
 
-Link a Landing Page desplegada:
+- **Landing Page** (HTML5, CSS3 y JavaScript), publicada en GitHub Pages, con la propuesta de valor, el formulario de demo y el acceso a la aplicación.
+- **Frontend Web Application** (Angular 20 con Angular Material), con registro, ingreso, monitoreo, alertas, inventario y dispositivos.
+- **Web Services** en Spring Boot: un monolito modular (puerto 8080) y dos microservicios, **alerts-service** (8083) y **recipes-service** (8082), cada uno con su propia base de datos MySQL. El recipes-service consume un servicio externo de inteligencia artificial (OpenAI) para generar recetas a partir de los insumos disponibles.
+- **Prototipo del dispositivo IoT simulado en Wokwi** (ESP32 + DHT22, firmware en C++), que junto con el **Edge API** envía las lecturas de temperatura y humedad al backend mediante `POST /api/edge/readings`. El prototipo físico se implementará en un Sprint posterior.
 
-https://1asi0572-2620-8725.github.io/landing-page/
+La aplicación web, el API y la documentación en Swagger UI están desplegados en Google Cloud Compute Engine detrás de Nginx con HTTPS (sección 6.1.4).
+
 
 ### 6.2.1. Sprint 1
 
@@ -4059,14 +4095,57 @@ En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda
 
 #### 6.2.1.1. Sprint Planning 1
 
-| Dato | Detalle |
-| :--- | :--- |
-| Objetivo | Que el dueño o administrador del restaurante, y el encargado del negocio de distribución en fríos, vean la propuesta, dejen sus datos y entren al panel de la cámara. |
-| Duración | 2 semanas |
-| De dónde sale | Product Backlog, del puesto 1 al 11 |
-| Segmentos | Propietarios y administradores de restaurantes. Encargados de negocios de distribución de alimentos en fríos. |
+El equipo FreshEat decidió que el primer Sprint debía validar de punta a punta la propuesta central de FreshSense: que la información de la cámara de frío llegue desde el dispositivo hasta el usuario y lo alerte a tiempo. Para lograrlo se incluyó en el alcance el Landing Page, que presenta la solución a los visitantes y los dirige a la aplicación; el registro e ingreso a la aplicación web; un panel de monitoreo con semáforo de frescura y alertas preventivas; un conjunto de endpoints para autenticación, ingesta de telemetría y alertas, que los desarrolladores del frontend y del Edge API pueden usar; y una primera versión del prototipo físico (ESP32 + DHT22) integrada con el Edge API. Con este criterio se tomaron, en orden de prioridad, las 11 primeras historias del Product Backlog.
+
+| Sprint # | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 20/09/2026 |
+| Time | 10:00 pm |
+| Location | Reunión virtual vía Discord|
+| Prepared By | Romina Tuesta Marin |
+| Attendees (to planning meeting) | Chavez Viera Joseph Manuel / Juan Carlos Pastor Napa / Mostajo Orosco Maria Fernanda / Cossar Sanchez Eduardo Jose / Tuesta Marin Romina Alejandra |
+| Previous Sprint Review Summary | No aplica. El Sprint 1 es el primer Sprint de implementación del proyecto, por lo que no existe un incremento previo que revisar. |
+| Previous Sprint Retrospective Summary | No aplica. Al ser el primer Sprint, no existe una retrospectiva previa. Para este Sprint el equipo acordó trabajar con GitFlow, Conventional Commits y Pull Requests revisados por al menos un integrante|
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal |Nuestro enfoque es proporcionar a los propietarios y administradores de restaurantes, así como a los responsables de distribución de productos refrigerados que visiten el sitio web, información clara sobre FreshSense y un acceso directo a la plataforma; proporcionarles una aplicación web donde puedan registrarse, iniciar sesión y monitorear la temperatura y humedad de sus cámaras frigoríficas mediante un estado tipo semáforo y alertas preventivas; proporcionar a los desarrolladores de frontend y edge endpoints seguros para autenticación, recepción de telemetría y alertas; y proporcionar a los fabricantes de dispositivos un primer prototipo físico (ESP32 + DHT22) integrado con la API Edge.
+
+Creemos que esto proporciona mayor confianza a los visitantes para solicitar una demostración o crear una cuenta; una visibilidad temprana y confiable de las condiciones de la cadena de frío que reduzca las verificaciones manuales de temperatura para los responsables de restaurantes y distribución; una base documentada para que los desarrolladores puedan construir nuevas funcionalidades sobre la API; y un flujo de datos de extremo a extremo validado, desde el dispositivo hasta la plataforma.
+
+Esto se confirmará cuando un visitante llegue a la página de registro desde el llamado a la acción (CTA) de la Landing Page en no más de dos clics; una lectura enviada por el dispositivo físico se muestre en el panel de monitoreo con su color correspondiente al semáforo en menos de 10 segundos; una lectura fuera del rango seguro genere una alerta visible en la vista de alertas; los endpoints de autenticación, telemetría y alertas respondan correctamente desde la interfaz Swagger desplegada; y las 11 historias de usuario del Sprint cumplan con sus escenarios de aceptación en el entorno desplegado. |
+| Sprint 1 Velocity | 37 Story Points |
+| Sum of Story Points | 37 Story Points |
+
+**User Stories incluidos en el Sprint 1**
+
+| # | ID | Título | Story Points | Aporte al Sprint Goal |
+|:-:|---|---|:-:|---|
+| 1 | US01 | Visualización de propuesta B2B | 2 | Información clara de la solución para los visitantes. |
+| 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Información específica para cada segmento objetivo. |
+| 3 | US03 | Formulario de contacto y demos B2B | 2 | Conversión del visitante en un contacto comercial. |
+| 4 | US04 | Call to Action (CTA) Corporativo | 2 | Camino directo del Landing Page a la aplicación. |
+| 5 | US05 | Adaptabilidad en móviles y tablets | 3 | Acceso desde tablets de cocina y teléfonos. |
+| 6 | TS43 | API Gestor de Autenticación y RBAC B2B | 5 | Registro, ingreso y endpoints seguros. |
+| 7 | TS41 | API Ingesta de Sensores IoT B2B | 5 | Endpoint de telemetría para el Edge API. |
+| 8 | US06 | Telemetría y monitoreo IoT de cámaras frías | 5 | Flujo de datos del prototipo físico a la plataforma. |
+| 9 | US07 | Dashboard con semáforo comercial | 3 | Estado de la cámara visible con un color. |
+| 10 | US08 | Alertas preventivas de temperatura | 5 | Aviso oportuno cuando se pierde la cadena de frío. |
+| 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Envío de las alertas a los usuarios. |
+| | | **Total** | **37** | |
+
+La velocidad de 37 Story Points se fijó en función de la capacidad del equipo de cinco integrantes durante las dos semanas del Sprint. El detalle de las tareas de cada historia está en el Sprint Backlog 1 (sección 6.2.1.3).
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
+Para el Sprint 1, el equipo organizó el trabajo en aspectos que siguen el recorrido del usuario y los productos del Sprint: el Landing Page (US01 a US05); la gestión de cuentas, con registro, ingreso y roles (TS43); la ingesta IoT, que abarca el firmware, el Edge API y el endpoint de lecturas (TS41, US06); el monitoreo y las alertas, con el semáforo, las alertas preventivas y el servicio de notificaciones (US07, US08, TS42); y el despliegue de todos los productos. Cada aspecto tiene un líder (L), responsable de coordinarlo y asegurar su calidad, y colaboradores (C), que participan en su implementación. Esta distribución sirvió de base para asignar las tareas del Sprint Backlog 1.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Accounts (IAM) | IoT (Device prototype) | Monitoring & Alerts | Deployment |
+|---|---|---|---|---|---|---|
+| Tuesta Marin, Romina | Romimi1 | L | C | L | C | C |
+| Chavez Viera, Joseph | u202314019-MrOsoPanda | C | L | C | C | C |
+| Pastor Napa, Juan Carlos | ElKiwi1271 | C | C | C | C | L |
+| Mostajo Orosco, Maria Fernanda | Mafer-m30 | C | C | C | L | C |
+| Cossar Sanchez, Eduardo | coleeeee-dev | C | C | C | C | C |
 
 #### 6.2.1.3. Sprint Backlog 1
 
@@ -4173,9 +4252,123 @@ Si no llega una lectura reciente, esa fila no se marca en verde. Quien no tiene 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
+En el Sprint 1 se documentaron con OpenAPI 3 (springdoc-openapi) los endpoints que soportan el recorrido del Sprint: autenticación, registro y vinculación de dispositivos, ingesta de lecturas desde el Edge API, monitoreo con semáforo, alertas y notificaciones. También se documentaron los endpoints de inventario y de recetas, que la aplicación web ya consume. La especificación completa tiene 39 operaciones agrupadas en secciones (*tags*); en esta sección se detallan las que corresponden al alcance del Sprint 1. Las secciones **Reports**, **Billing** y **Catalog** se documentarán en el Sprint en que se trabajen sus historias.
+
+- **Swagger UI:** https://35-224-123-160.sslip.io/swagger-ui/index.html
+- **Especificación OpenAPI (JSON):** https://35-224-123-160.sslip.io/v3/api-docs
+
+Todas las operaciones intercambian JSON y están protegidas con un token JWT (`Authorization: Bearer <token>`), salvo el registro, el inicio de sesión y la vinculación del dispositivo (`/api/edge/claim`). Los errores siguen los códigos HTTP estándar: `400` (datos inválidos), `401` (sin token o token inválido), `403` (requiere plan premium), `404` (recurso no encontrado) y `409` (correo ya registrado).
+
+**Auth – registro, inicio de sesión y gestión de sesión (TS43)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/accounts/register` | Registrar nuevo usuario | POST | `POST /api/accounts/register` | Body `UserRegistrationRequest`: `email`, `password` (mín. 8 caracteres, una mayúscula y un dígito), `fullName` | `201` `UserResponse`. `400` datos inválidos; `409` correo ya registrado. |
+| `/api/accounts/login` | Iniciar sesión | POST | `POST /api/accounts/login` | Body `LoginRequest`: `email`, `password` | `200` `UserResponse` con `token` y `refreshToken`. `401` credenciales incorrectas. |
+| `/api/accounts/refresh` | Renovar el access token | POST | `POST /api/accounts/refresh` | — | `200` `UserResponse` con un nuevo `token`. |
+| `/api/accounts/logout` | Cerrar sesión | POST | `POST /api/accounts/logout` | Header `Authorization` | `204` sin contenido. |
+| `/api/accounts/me` | Obtener el usuario autenticado | GET | `GET /api/accounts/me` | Header `Authorization` | `200` `UserResponse` (`token` en `null`). |
+| `/api/accounts/me` | Actualizar el perfil | PUT | `PUT /api/accounts/me` | Body `UpdateProfileRequest`: `fullName` | `200` `UserResponse`. |
+| `/api/accounts/change-password` | Cambiar la contraseña | POST | `POST /api/accounts/change-password` | Body `ChangePasswordRequest`: `currentPassword`, `newPassword` | `204` sin contenido. `400` / `401`. |
+
+**Devices y Edge/IoT – registro del dispositivo e ingesta de lecturas (TS41, US06)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/devices` | Registrar un dispositivo en la cuenta | POST | `POST /api/devices` | Body `RegisterDeviceRequest`: `deviceId`, `name` | `200` `DeviceRegistrationResponse`: `deviceId`, `name`, `pairingCode`, `pairingExpiresAt`. |
+| `/api/devices` | Listar los dispositivos de la cuenta | GET | `GET /api/devices` | Header `Authorization` | `200` lista de `DeviceResponse`: `id`, `deviceId`, `name`, `registeredAt`. |
+| `/api/edge/claim` | Vincular el dispositivo con el código de emparejamiento | POST | `POST /api/edge/claim` | Body `ClaimRequest`: `code` | `200` `ClaimResponse`: `deviceId`, `secretKey`. La `secretKey` se usa como `X-Device-Key`. |
+| `/api/edge/readings` | Recibir una lectura enviada por el Edge API | POST | `POST /api/edge/readings` | Header `X-Device-Key`. Body `EdgeReadingRequest`: `deviceId`, `temperature`, `humidity`, `time` (`dd/MM/yyyy HH:mm`), `status`, `category` | `200` `MonitoringReadingDto` con el estado calculado. |
+
+**Monitoring – lecturas y semáforo (US06, US07)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/monitoring` | Listar las lecturas registradas | GET | `GET /api/monitoring` | Header `Authorization` | `200` lista de `MonitoringReadingDto`. |
+| `/api/monitoring` | Registrar una lectura de monitoreo | POST | `POST /api/monitoring` | Body `MonitoringReadingRequest`: `temperature`, `humidity`, `ethyleneLevel`, `oxygenLevel`, `ripeness`, `cleanliness` | `201` `MonitoringReadingDto`. `400` datos inválidos. |
+| `/api/monitoring/latest` | Obtener la última lectura con su color | GET | `GET /api/monitoring/latest` | Header `Authorization` | `200` `MonitoringReadingDto` con `status` (`GREEN`, `YELLOW`, `RED`, `UNKNOWN`). `204` si aún no hay lecturas. |
+
+**Alerts – alertas de la cadena de frío, vencimiento y stock (US08)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/alerts` | Listar todas las alertas | GET | `GET /api/alerts` | Header `Authorization` | `200` lista de `AlertResponse`. |
+| `/api/alerts` | Crear una alerta | POST | `POST /api/alerts` | Body `AlertRequest`: `title`, `message`, `severity` (`INFO`, `WARNING`, `CRITICAL`), `source`, `state`, `timeAgo` | `200` `AlertResponse`. |
+| `/api/alerts/{id}` | Actualizar una alerta (por ejemplo, marcarla como resuelta) | PUT | `PUT /api/alerts/{id}` | Path `id` (int64). Body `AlertRequest` | `200` `AlertResponse`. `404` si la alerta no existe. |
+
+**Notifications – envío y gestión de notificaciones (TS42)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/notifications/send` | Enviar una notificación a un usuario | POST | `POST /api/notifications/send` | Body `SendNotificationRequest`: `userId`, `title`, `message`, `alertType`, `channelType` (`IN_APP`, `EMAIL`, `PUSH`, `VOICE`) | `200` objeto con el resultado del envío. |
+| `/api/notifications` | Obtener la bandeja de notificaciones in-app | GET | `GET /api/notifications` | Header `Authorization` | `200` lista de `NotificationResponse`: `id`, `title`, `message`, `alertType`, `read`, `createdAt`. |
+| `/api/notifications/{id}/read` | Marcar una notificación como leída | PATCH | `PATCH /api/notifications/{id}/read` | Path `id` (int64) | `200`. |
+| `/api/notifications/preferences` | Obtener las preferencias de notificación | GET | `GET /api/notifications/preferences` | Header `Authorization` | `200` `NotificationPreference`. |
+| `/api/notifications/preferences` | Actualizar las preferencias de notificación | PUT | `PUT /api/notifications/preferences` | Body `NotificationPreferenceRequest`: `inAppEnabled`, `emailEnabled`, `pushEnabled`, `quietStart`, `quietEnd` | `200` `NotificationPreference`. |
+
+**Inventory – productos del inventario**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/products` | Listar los productos | GET | `GET /api/products` | Header `Authorization` | `200` lista de `ProductResponse`. |
+| `/api/products` | Registrar un producto | POST | `POST /api/products` | Body `ProductRequest`: `name`, `description`, `category`, `quantity`, `imageUrl`, `expirationDate` (`yyyy-MM-dd`) | `201` `ProductResponse`. `400` datos inválidos. |
+| `/api/products/{id}` | Actualizar parcialmente un producto | PATCH | `PATCH /api/products/{id}` | Path `id` (int64). Body `UpdateProductRequest` (todos los campos opcionales) | `200` `ProductResponse`. `404`. |
+| `/api/products/{id}` | Eliminar un producto | DELETE | `DELETE /api/products/{id}` | Path `id` (int64) | `204` sin contenido. `404`. |
+
+**Recipes – recetas y generación con IA (recipes-service)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/recipes/generate-batch` | Generar un lote de recetas con IA (OpenAI) a partir de los insumos | POST | `POST /api/recipes/generate-batch` | Header `Authorization` | `201` recetas generadas. |
+| `/api/recipes` | Listar las recetas | GET | `GET /api/recipes` | Header `Authorization` | `200` lista de `RecipeResponse`. |
+| `/api/recipes` | Crear una receta | POST | `POST /api/recipes` | Body `CreateRecipeRequest`: `title`, `description`, `image`, `rating` (1–5), `level` (`Easy`, `Medium`, `Hard`), `type` (`Vegetarian`, `Vegan`, `Omnivore`), `time`, `ingredients[]`, `steps[]` | `201` `RecipeResponse`. `403` si el plan no lo permite. |
+| `/api/recipes/{id}` | Obtener el detalle de una receta | GET | `GET /api/recipes/{id}` | Path `id` (int64) | `200` `RecipeResponse`. `404`. |
+| `/api/recipes/premium` | Listar recetas premium | GET | `GET /api/recipes/premium` | Header `Authorization` | `200` recetas premium. `403` si el usuario no es premium. |
+
+**Ejemplos de request y response con datos de muestra**
+
+*Registro – `POST /api/accounts/register`*
+
+```json
+// Request
+{ "email": "jose.jimenez@restaurante.pe", "password": "Fresh2026", "fullName": "José Jiménez" }
+
+// Response 201
+{ "id": 12, "email": "jose.jimenez@restaurante.pe", "fullName": "José Jiménez",
+  "role": "USER_STANDARD", "token": "eyJhbGciOi...", "refreshToken": "eyJhbGciOi..." }
+```
+
+El API crea la cuenta con el rol `USER_STANDARD` y devuelve el token, así que el usuario entra a la aplicación sin volver a iniciar sesión.
+
+*Lectura del dispositivo – `POST /api/edge/readings`*
+
+```json
+// Header: X-Device-Key: <secretKey obtenida en /api/edge/claim>
+// Request
+{ "deviceId": "FS-ESP32-001", "temperature": 7.8, "humidity": 82.5,
+  "time": "08/10/2026 14:30", "category": "Lácteos" }
+
+// Response 200
+{ "id": 245, "temperature": 7.8, "humidity": 82.5, "recordedAt": "2026-10-08T14:30:00",
+  "deviceId": "FS-ESP32-001", "status": "YELLOW", "category": "Lácteos" }
+```
+
+El Edge API reenvía la lectura del ESP32 simulado en Wokwi. El backend la guarda y le asigna el color del semáforo (`status`): en este ejemplo, `YELLOW` porque la temperatura se acerca al límite seguro.
+
+**Commits relacionados con la documentación**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| [COMPLETAR] | [COMPLETAR] | [COMPLETAR] | `docs: ...` / `feat: add openapi configuration` | [COMPLETAR] | [COMPLETAR] |
+
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-2620-8725`, con un repositorio por producto. Cada integrante desarrolló sus tareas en ramas `feature/*`, las integró a `develop` mediante Pull Requests y, al cerrar el Sprint, se pasaron a `main` para el despliegue. La coordinación se llevó por [COMPLETAR: WhatsApp / Discord] y el seguimiento de tareas en [COMPLETAR: Trello / Jira], siguiendo la matriz de líderes y colaboradores de la sección 6.2.1.2.
+
+**Repositorios del Sprint 1:**
 
 ## 6.3. Validation Interviews
 
