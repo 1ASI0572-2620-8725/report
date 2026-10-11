@@ -60,6 +60,7 @@
 | 1.7     | 08/10/2026 | Joseph | Se integró el capítulo V, el diseño de software alineado a los segmentos, el entorno y el despliegue, las convenciones de código y las entrevistas 3 |
 | 1.8     | 08/10/2026 | Joseph | Se corrigió la figura de Impact Mapping para que se vea en el informe |
 | 1.9     | 10/10/2026 | Joseph | Se estimaron las historias en story points, se ordenó el backlog según la propuesta de valor y se dejó el seguimiento To Do, In Process, To Review y Done |
+| 1.10    | 10/10/2026 | Joseph | Se ordenó el Product Backlog por objetivo de valor y se registró la evolución To Do, In Process, To Review y Done |
 
 
 # Tabla de contenidos
@@ -1159,9 +1160,22 @@ Las historias están escritas para los dos segmentos del proyecto: propietarios 
 El Impact Mapping junta lo que quiere el negocio con lo que vamos a construir, para los dos segmentos: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos. La idea es que cada función sirva para bajar la merma de la cocina o para cuidar la mercadería que está en frío.
 ## 3.3. Product Backlog
 
-El Product Backlog reúne las 45 historias. Cada una trae sus story points y el objetivo de la propuesta de valor al que responde. FreshSense promete que el negocio conozca el estado de lo que tiene en frío, reciba un aviso antes de perderlo, gestione el lote y el vencimiento, y mida la merma para ahorrar.
+El Product Backlog reúne las 45 historias. Cada una tiene su estimación en story points, con la escala de Fibonacci (1, 2, 3, 5, 8), y el objetivo de la propuesta de valor al que responde. FreshSense promete que el negocio entre a la solución, conozca el estado de lo que tiene en frío, reciba un aviso antes de perderlo, gestione el lote y el vencimiento, y mida la merma para ahorrar.
 
-El orden sigue esa promesa. Primero va lo que permite entrar y entender la solución. Después, ver la cámara y recibir la alerta, que es lo que evita la pérdida del turno. Luego vienen el lote, el vencimiento y la baja. Después, los reportes y el ahorro. Al final queda lo que suma después de la merma del turno: la consulta por voz, el enlace con el frío industrial, la gamificación y la comparación entre sedes. La facturación sostiene la suscripción con la que se consultan los reportes, y por eso va junto a ellos.
+El puesto es esa prioridad. Los puestos 1 al 11 son el Sprint 1, el primer corte de la promesa: entrar (1 al 6), ver la cámara (7 al 9) y recibir la alerta (10 y 11). Del 12 en adelante se completa el mismo recorrido. Primero se termina de conocer la cámara y de avisar. Después se gestiona el lote y el vencimiento. Luego se mide la merma. La suscripción va junto a esos reportes, porque sostiene el servicio con el que se consultan. La guía del personal, la clave y los roles quedan después: el ingreso del turno ya está en los puestos 1 al 6. Al final queda lo que suma cuando la merma del turno ya se puede controlar.
+
+| Puestos | Objetivo de la propuesta de valor |
+| :--- | :--- |
+| 1-6 | Entrar y usar la solución en el turno |
+| 7-9 | Conocer el estado de la cámara a tiempo |
+| 10-11 | Avisar antes de perder el producto |
+| 12 | Conocer el estado de la cámara a tiempo |
+| 13-15 | Avisar antes de perder el producto |
+| 16-24 | Gestionar el lote y el vencimiento |
+| 25-32 | Medir la merma y ahorrar |
+| 33-34 | Sostener el servicio que reduce la merma |
+| 35-39 | Entrar y usar la solución en el turno |
+| 40-45 | Sumar después de controlar la merma del turno |
 
 Esas historias se parten en tasks y se siguen en GitHub Projects, con las columnas To Do, In Process, To Review y Done. La evolución del Sprint 1 está en 6.2.1.3.
 
@@ -1178,40 +1192,40 @@ Esas historias se parten en tasks y se siguen en GitHub Projects, con las column
 | **9** | **US07** | Dashboard con semáforo comercial | Módulo visual que clasifica la frescura de insumos y stock mediante colores verde, amarillo y rojo. | Conocer el estado de la cámara a tiempo | **3** |
 | **10** | **US08** | Alertas preventivas de temperatura | Notificaciones automáticas ante el riesgo de ruptura de cadena de frío o descomposición. | Avisar antes de perder el producto | **5** |
 | **11** | **TS42** | Microservicio de Notificaciones de Emergencia | Módulo asíncrono para emisión prioritaria de avisos push, SMS y correo sobre fallas de frío. | Avisar antes de perder el producto | **3** |
-| **12** | **US09** | Preferencias de alertas por turno | Panel para parametrizar horarios de notificación y canales según el turno del personal operativo. | Avisar antes de perder el producto | **3** |
-| **13** | **US31** | Vinculación y calibración de sensores | Módulo de emparejamiento mediante QR y calibración de rangos de temperatura para cámaras. | Conocer el estado de la cámara a tiempo | **3** |
-| **14** | **US10** | Alta de insumos por lector de código/QR | Registro rápido de lotes e ingredientes escaneando códigos de barra o empaques recibidos. | Gestionar el lote y el vencimiento | **5** |
-| **15** | **US11** | Modificación manual de stock e insumos | Ajuste y corrección de cantidades y categorías tras realizar arqueos de inventario. | Gestionar el lote y el vencimiento | **2** |
-| **16** | **US37** | Gestión de colaboradores por local | Invitación y asignación de permisos a empleados del restaurante o tienda sobre el inventario. | Entrar y usar la solución en el turno | **3** |
-| **17** | **US12** | Reporte semanal de mermas | Consolidado periódico que detalla el volumen y costo de insumos consumidos y descartados. | Medir la merma y ahorrar | **3** |
+| **12** | **US31** | Vinculación y calibración de sensores | Módulo de emparejamiento mediante QR y calibración de rangos de temperatura para cámaras. | Conocer el estado de la cámara a tiempo | **3** |
+| **13** | **US09** | Preferencias de alertas por turno | Panel para parametrizar horarios de notificación y canales según el turno del personal operativo. | Avisar antes de perder el producto | **3** |
+| **14** | **US32** | Modo de mantenimiento de equipos fríos | Pausa temporal de alarmas durante periodos de limpieza o mantenimiento técnico de cámaras. | Avisar antes de perder el producto | **2** |
+| **15** | **US24** | Ruteo de notificaciones por jerarquía | Enrutamiento de alertas críticas hacia los teléfonos de los gerentes o supervisores de turno. | Avisar antes de perder el producto | **3** |
+| **16** | **US10** | Alta de insumos por lector de código/QR | Registro rápido de lotes e ingredientes escaneando códigos de barra o empaques recibidos. | Gestionar el lote y el vencimiento | **5** |
+| **17** | **US11** | Modificación manual de stock e insumos | Ajuste y corrección de cantidades y categorías tras realizar arqueos de inventario. | Gestionar el lote y el vencimiento | **2** |
 | **18** | **US13** | Fichas técnicas y rotación de insumos | Algoritmo que sugiere uso prioritario en recetas (Restaurantes) o salida FIFO (encargados de negocios de distribución de alimentos en fríos). | Gestionar el lote y el vencimiento | **5** |
 | **19** | **US14** | Filtrado avanzado de insumos y lotes | Búsqueda y filtrado por cámara fría, fecha de caducidad, lote o categoría de producto. | Gestionar el lote y el vencimiento | **3** |
-| **20** | **US39** | Búsqueda global de inventario y lotes | Barra de búsqueda centralizada para ubicar insumos, lotes y recetas con sugerencias en vivo. | Gestionar el lote y el vencimiento | **3** |
-| **21** | **US15** | Onboarding comercial interactivo | Guía interactiva para capacitar al nuevo personal operativo en el uso del sistema. | Entrar y usar la solución en el turno | **2** |
-| **22** | **US16** | Interfaz optimizada para operación | Optimización UX/UI con alto contraste para uso fluido en tablets de cocina y almacén. | Entrar y usar la solución en el turno | **3** |
-| **23** | **TS44** | Pasarela de Pagos Recurrentes B2B | Integración de webhooks para cobros periódicos de planes corporativos (Stripe/PayPal). | Sostener el servicio que reduce la merma | **5** |
-| **24** | **US17** | Analítica avanzada de rotación e inventario | Dashboard corporativo con gráficos de velocidad de rotación (FIFO) e insumos críticos. | Medir la merma y ahorrar | **5** |
-| **25** | **US18** | Panel de impacto financiero de mermas | Métricas que cuantifican en moneda local el valor monetario rescatado al evitar mermas. | Medir la merma y ahorrar | **3** |
-| **26** | **US19** | Fichas técnicas gourmet y costeo | Módulo avanzado de costeo de platillos y cálculo de mermas por corte para cocinas. | Medir la merma y ahorrar | **2** |
-| **27** | **US38** | Descarga de facturación B2B | Módulo de consulta y descarga de comprobantes contables y facturas electrónicas en PDF/XML. | Sostener el servicio que reduce la merma | **2** |
-| **28** | **US20** | Métricas de impacto ambiental corporativo | Estimación del equivalente en CO₂ evitado y agua preservada para auditorías ESG. | Medir la merma y ahorrar | **3** |
-| **29** | **US21** | Difusión de sellos de sostenibilidad | Generador de certificados y sellos de "Desperdicio Cero" para difusión en redes y locales. | Medir la merma y ahorrar | **2** |
-| **30** | **US32** | Modo de mantenimiento de equipos fríos | Pausa temporal de alarmas durante periodos de limpieza o mantenimiento técnico de cámaras. | Avisar antes de perder el producto | **2** |
-| **31** | **US33** | Gestión de cámaras y áreas de frío | Configuración y jerarquización de múltiples cámaras frías y vitrinas dentro de la sede. | Gestionar el lote y el vencimiento | **3** |
-| **32** | **US34** | Registro de causas corporativas de merma | Clasificación obligatoria del motivo de baja (falla de frío, vencimiento, mala recepción). | Gestionar el lote y el vencimiento | **2** |
-| **33** | **US28** | Categorización personalizada de insumos | Creación de etiquetas y grupos custom para clasificar stock según la dinámica del local. | Gestionar el lote y el vencimiento | **3** |
-| **34** | **US29** | Historial de mermas e inventario exportable | Funcionalidad para descargar informes detallados de mermas e inventarios en CSV y Excel. | Medir la merma y ahorrar | **5** |
-| **35** | **US30** | Algoritmo de sugerencias de reposición | Proyección automatizada de compras de insumos según histórico de consumo y ventas. | Medir la merma y ahorrar | **5** |
-| **36** | **US25** | Gamificación y metas de equipo | Otorgamiento de insignias y reconocimientos a las sucursales que cumplan metas de cero mermas. | Medir la merma y ahorrar | **3** |
-| **37** | **US26** | Red B2B e intercambio de prácticas | Espacio para interacción entre comercios para compartir técnicas de conservación y proveedores. | Medir la merma y ahorrar | **2** |
-| **38** | **US27** | Benchmarking entre sucursales | Tabla comparativa de rendimiento en reducción de mermas entre distintas sedes de la empresa. | Medir la merma y ahorrar | **5** |
-| **39** | **US40** | Evaluación de calidad de proveedores | Sistema de calificación e historial sobre la frescura y vida útil de los insumos entregados. | Gestionar el lote y el vencimiento | **2** |
-| **40** | **US35** | Recuperación corporativa de contraseña | Flujo seguro de restablecimiento de clave vía enlace temporal al correo corporativo. | Entrar y usar la solución en el turno | **2** |
-| **41** | **US36** | Panel de administración de usuarios B2B | Módulo interno para la supervisión de cuentas corporativas, gestión de roles y accesos. | Entrar y usar la solución en el turno | **3** |
-| **42** | **US24** | Ruteo de notificaciones por jerarquía | Enrutamiento de alertas críticas hacia los teléfonos de los gerentes o supervisores de turno. | Avisar antes de perder el producto | **3** |
-| **43** | **TS45** | Caching de Consultas e Inventario | Capa de memoria en caché con Redis para servir inventarios de alta concurrencia en <50ms. | Conocer el estado de la cámara a tiempo | **3** |
-| **44** | **US22** | Sincronización con frio industrial | Enlace e integración API directa con sistemas de refrigeración comercial e industrial. | Conocer el estado de la cámara a tiempo | **8** |
-| **45** | **US23** | Consultas por voz en estaciones de trabajo | Desarrollo de skill de voz para consultar el estado de insumos con las manos libres en cocina. | Conocer el estado de la cámara a tiempo | **5** |
+| **20** | **US34** | Registro de causas corporativas de merma | Clasificación obligatoria del motivo de baja (falla de frío, vencimiento, mala recepción). | Gestionar el lote y el vencimiento | **2** |
+| **21** | **US33** | Gestión de cámaras y áreas de frío | Configuración y jerarquización de múltiples cámaras frías y vitrinas dentro de la sede. | Gestionar el lote y el vencimiento | **3** |
+| **22** | **US28** | Categorización personalizada de insumos | Creación de etiquetas y grupos custom para clasificar stock según la dinámica del local. | Gestionar el lote y el vencimiento | **3** |
+| **23** | **US39** | Búsqueda global de inventario y lotes | Barra de búsqueda centralizada para ubicar insumos, lotes y recetas con sugerencias en vivo. | Gestionar el lote y el vencimiento | **3** |
+| **24** | **US40** | Evaluación de calidad de proveedores | Sistema de calificación e historial sobre la frescura y vida útil de los insumos entregados. | Gestionar el lote y el vencimiento | **2** |
+| **25** | **US12** | Reporte semanal de mermas | Consolidado periódico que detalla el volumen y costo de insumos consumidos y descartados. | Medir la merma y ahorrar | **3** |
+| **26** | **US17** | Analítica avanzada de rotación e inventario | Dashboard corporativo con gráficos de velocidad de rotación (FIFO) e insumos críticos. | Medir la merma y ahorrar | **5** |
+| **27** | **US18** | Panel de impacto financiero de mermas | Métricas que cuantifican en moneda local el valor monetario rescatado al evitar mermas. | Medir la merma y ahorrar | **3** |
+| **28** | **US19** | Fichas técnicas gourmet y costeo | Módulo avanzado de costeo de platillos y cálculo de mermas por corte para cocinas. | Medir la merma y ahorrar | **2** |
+| **29** | **US29** | Historial de mermas e inventario exportable | Funcionalidad para descargar informes detallados de mermas e inventarios en CSV y Excel. | Medir la merma y ahorrar | **5** |
+| **30** | **US30** | Algoritmo de sugerencias de reposición | Proyección automatizada de compras de insumos según histórico de consumo y ventas. | Medir la merma y ahorrar | **5** |
+| **31** | **US20** | Métricas de impacto ambiental corporativo | Estimación del equivalente en CO₂ evitado y agua preservada para auditorías ESG. | Medir la merma y ahorrar | **3** |
+| **32** | **US21** | Difusión de sellos de sostenibilidad | Generador de certificados y sellos de "Desperdicio Cero" para difusión en redes y locales. | Medir la merma y ahorrar | **2** |
+| **33** | **TS44** | Pasarela de Pagos Recurrentes B2B | Integración de webhooks para cobros periódicos de planes corporativos (Stripe/PayPal). | Sostener el servicio que reduce la merma | **5** |
+| **34** | **US38** | Descarga de facturación B2B | Módulo de consulta y descarga de comprobantes contables y facturas electrónicas en PDF/XML. | Sostener el servicio que reduce la merma | **2** |
+| **35** | **US15** | Onboarding comercial interactivo | Guía interactiva para capacitar al nuevo personal operativo en el uso del sistema. | Entrar y usar la solución en el turno | **2** |
+| **36** | **US16** | Interfaz optimizada para operación | Optimización UX/UI con alto contraste para uso fluido en tablets de cocina y almacén. | Entrar y usar la solución en el turno | **3** |
+| **37** | **US37** | Gestión de colaboradores por local | Invitación y asignación de permisos a empleados del restaurante o tienda sobre el inventario. | Entrar y usar la solución en el turno | **3** |
+| **38** | **US35** | Recuperación corporativa de contraseña | Flujo seguro de restablecimiento de clave vía enlace temporal al correo corporativo. | Entrar y usar la solución en el turno | **2** |
+| **39** | **US36** | Panel de administración de usuarios B2B | Módulo interno para la supervisión de cuentas corporativas, gestión de roles y accesos. | Entrar y usar la solución en el turno | **3** |
+| **40** | **US25** | Gamificación y metas de equipo | Otorgamiento de insignias y reconocimientos a las sucursales que cumplan metas de cero mermas. | Sumar después de controlar la merma del turno | **3** |
+| **41** | **US26** | Red B2B e intercambio de prácticas | Espacio para interacción entre comercios para compartir técnicas de conservación y proveedores. | Sumar después de controlar la merma del turno | **2** |
+| **42** | **US27** | Benchmarking entre sucursales | Tabla comparativa de rendimiento en reducción de mermas entre distintas sedes de la empresa. | Sumar después de controlar la merma del turno | **5** |
+| **43** | **TS45** | Caching de Consultas e Inventario | Capa de memoria en caché con Redis para servir inventarios de alta concurrencia en <50ms. | Sumar después de controlar la merma del turno | **3** |
+| **44** | **US22** | Sincronización con frio industrial | Enlace e integración API directa con sistemas de refrigeración comercial e industrial. | Sumar después de controlar la merma del turno | **8** |
+| **45** | **US23** | Consultas por voz en estaciones de trabajo | Desarrollo de skill de voz para consultar el estado de insumos con las manos libres en cocina. | Sumar después de controlar la merma del turno | **5** |
 
 <div style="page-break-after: always;"></div>
 
@@ -4199,30 +4213,31 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 #### Seguimiento de tasks del Sprint 1
 
-El seguimiento de las tasks del Sprint 1 está en GitHub Projects, dentro de la organización [1ASI0572-2620-8725](https://github.com/1ASI0572-2620-8725). El tablero usa cuatro columnas: To Do, In Process, To Review y Done. Una task entra en To Do cuando se toma del Product Backlog, pasa a In Process cuando alguien la está construyendo, a To Review cuando queda lista para revisión y a Done cuando cumple sus escenarios.
+La herramienta de seguimiento es GitHub Projects, en la organización [1ASI0572-2620-8725](https://github.com/1ASI0572-2620-8725). El tablero del Sprint 1 tiene cuatro columnas, en este orden: To Do, In Process, To Review y Done.
 
-En el inicio las 11 tasks del sprint estaban en To Do. A mitad de sprint ya no quedaba ninguna en To Do: ocho estaban en In Process y tres en To Review. Al cierre del 07/10/2026 las 11 estaban en Done. El formulario, el botón de demo y el semáforo pasaron por To Review antes de cerrarse. Las otras 34 historias del Product Backlog siguieron en To Do, porque no entraron a este sprint.
+Cada historia del sprint se partió en una task. Entra en To Do cuando se toma del Product Backlog, pasa a In Process cuando alguien la está construyendo, a To Review cuando otro integrante la revisa, y a Done cuando cumple sus escenarios. Las otras 34 historias se quedaron en To Do, porque este sprint no las tomó.
 
 | Momento | To Do | In Process | To Review | Done |
 | :--- | :-: | :-: | :-: | :-: |
-| Inicio del sprint | 11 | 0 | 0 | 0 |
-| Mitad del sprint | 0 | 8 | 3 | 0 |
+| Inicio del sprint (20/09/2026) | 11 | 0 | 0 | 0 |
+| Mitad del sprint (28/09/2026) | 0 | 8 | 3 | 0 |
+| Revisión (05/10/2026) | 0 | 0 | 11 | 0 |
 | Cierre del sprint (07/10/2026) | 0 | 0 | 0 | 11 |
 | Resto del Product Backlog, al cierre | 34 | 0 | 0 | 0 |
 
-| Task | Historia | Inicio | Mitad | Cierre |
-| :--- | :--- | :--- | :--- | :--- |
-| Publicar la propuesta de valor en la landing | US01 | To Do | In Process | Done |
-| Armar la sección de restaurantes y de distribución | US02 | To Do | In Process | Done |
-| Publicar el formulario de demo | US03 | To Do | To Review | Done |
-| Dejar visible el botón de solicitar demo | US04 | To Do | To Review | Done |
-| Ajustar la landing y el panel a tablet y celular | US05 | To Do | In Process | Done |
-| Cerrar registro e ingreso con rol | TS43 | To Do | In Process | Done |
-| Recibir la lectura del sensor en el API | TS41 | To Do | In Process | Done |
-| Mostrar temperatura y humedad de la cámara | US06 | To Do | In Process | Done |
-| Pintar el semáforo del estado | US07 | To Do | To Review | Done |
-| Listar la alerta cuando el frío se pierde | US08 | To Do | In Process | Done |
-| Enviar la alerta al responsable del turno | TS42 | To Do | In Process | Done |
+| Task | Historia | Puntos | Objetivo de la propuesta de valor | Inicio 20/09 | Mitad 28/09 | Revisión 05/10 | Cierre 07/10 |
+| :--- | :--- | :-: | :--- | :--- | :--- | :--- | :--- |
+| Publicar la propuesta de valor en la landing | US01 | 2 | Entrar y usar la solución en el turno | To Do | In Process | To Review | Done |
+| Armar la sección de restaurantes y de distribución | US02 | 2 | Entrar y usar la solución en el turno | To Do | In Process | To Review | Done |
+| Publicar el formulario de demo | US03 | 2 | Entrar y usar la solución en el turno | To Do | To Review | To Review | Done |
+| Dejar visible el botón de solicitar demo | US04 | 2 | Entrar y usar la solución en el turno | To Do | To Review | To Review | Done |
+| Ajustar la landing y el panel a tablet y celular | US05 | 3 | Entrar y usar la solución en el turno | To Do | In Process | To Review | Done |
+| Cerrar registro e ingreso con rol | TS43 | 5 | Entrar y usar la solución en el turno | To Do | In Process | To Review | Done |
+| Recibir la lectura del sensor en el API | TS41 | 5 | Conocer el estado de la cámara a tiempo | To Do | In Process | To Review | Done |
+| Mostrar temperatura y humedad de la cámara | US06 | 5 | Conocer el estado de la cámara a tiempo | To Do | In Process | To Review | Done |
+| Pintar el semáforo del estado | US07 | 3 | Conocer el estado de la cámara a tiempo | To Do | To Review | To Review | Done |
+| Listar la alerta cuando el frío se pierde | US08 | 5 | Avisar antes de perder el producto | To Do | In Process | To Review | Done |
+| Enviar la alerta al responsable del turno | TS42 | 3 | Avisar antes de perder el producto | To Do | In Process | To Review | Done |
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review
