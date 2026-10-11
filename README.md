@@ -187,8 +187,9 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo :** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes.<br><br>  **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. Además tomé la gestión de la configuración y del código (6.1 y 6.1.2), el sprint backlog 1 (6.2.1.3) y la evidencia de ejecución (6.2.1.6). Lo coordiné con el equipo para los dos segmentos, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos, dejando el mismo recorrido para los dos. Cuando Romina indicó que la landing ya estaba publicada y que el front lo seguía desplegando Juan Carlos, ajusté esa evidencia: quedó el enlace del back y el de la landing, y el del front pendiente para cambiarlo cuando nos lo pasen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. | **AV1:** <br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario.<br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances <br><br> **Maria Fernanda Mostajo :** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. Además organicé las 11 historias del sprint 1 y armé la evidencia con las capturas del recorrido, el Swagger del back y la landing. Fui cerrando esa parte con lo que el equipo ya tenía definido y dejé anotado el enlace del front para reemplazarlo apenas nos lo entreguen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. | **AV1:** La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos.|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br><br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo:** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes. <br><br> **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. Además tomé la gestión de la configuración y del código (6.1 y 6.1.2), el sprint backlog 1 (6.2.1.3) y la evidencia de ejecución (6.2.1.6). Lo coordiné con el equipo para los dos segmentos, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos, dejando el mismo recorrido para los dos. Cuando Romina indicó que la landing ya estaba publicada y que el front lo seguía desplegando Juan Carlos, ajusté esa evidencia: quedó el enlace del back y el de la landing, y el del front pendiente para cambiarlo cuando nos lo pasen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. <br><br> **TB1:** <br><br> **Romina Tuesta Marin:** Lideró y coordinó las actividades relacionadas con el Landing Page y los componentes IoT de FreshSense, colaborando con los demás integrantes para integrar sus avances al proyecto. Asimismo, apoyó la toma de decisiones técnicas y la organización de los entregables del Sprint 1. <br><br> **Eduardo Cossar:** Participó en la coordinación de las actividades del Sprint 1, contribuyendo al desarrollo de las entrevistas de los segmentos objetivo y a la documentación de las evidencias de desarrollo, pruebas y despliegue. Asimismo, colaboró con el equipo para mantener la coherencia entre los avances realizados y los requerimientos del proyecto. <br><br> **Maria Fernanda Mostajo:** Colaboró en las actividades relacionadas con el monitoreo y las alertas de FreshSense, coordinando con los integrantes encargados de los distintos componentes de la solución. Asimismo, contribuyó a la revisión de avances y a la identificación de aspectos que requerían ajustes. <br><br> **Joseph Manuel Chavez Viera:** Asumió responsabilidades en la organización del Sprint Backlog y la documentación de las evidencias de ejecución. Coordinó con sus compañeros para integrar la información del Landing Page, Frontend y Backend, manteniendo la coherencia de las funcionalidades con los dos segmentos empresariales definidos. <br><br> **Juan Carlos Pastor Napa:** Contribuyó al liderazgo técnico del equipo mediante la preparación y configuración del entorno de despliegue de FreshSense en Google Cloud. Coordinó las actividades relacionadas con el Backend, Frontend y servidor Nginx, aportando soluciones técnicas para facilitar la publicación de los componentes. | **AV1:** <br><br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. <br><br> **TB1:** <br><br> El liderazgo compartido permitió integrar los avances de desarrollo, pruebas, documentación y despliegue de FreshSense. La coordinación entre los responsables de cada componente facilitó la toma de decisiones conjuntas y contribuyó al cumplimiento de los objetivos establecidos para el Sprint 1. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br><br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. <br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances. <br><br> **Maria Fernanda Mostajo:** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos. <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. Además organicé las 11 historias del sprint 1 y armé la evidencia con las capturas del recorrido, el Swagger del back y la landing. Fui cerrando esa parte con lo que el equipo ya tenía definido y dejé anotado el enlace del front para reemplazarlo apenas nos lo entreguen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. <br><br> **TB1:** <br><br> **Romina Tuesta Marin:** Participó en la planificación de las actividades correspondientes al Landing Page y a los componentes IoT, estableciendo prioridades y coordinando los avances con el equipo. Asimismo, mantuvo una comunicación activa para identificar tareas pendientes y contribuir al cumplimiento de las metas del Sprint 1. <br><br> **Eduardo Cossar:** Organizó sus actividades de acuerdo con las responsabilidades asignadas, priorizando la realización de entrevistas y la elaboración de evidencias para el informe. Además, mantuvo comunicación con sus compañeros para verificar la información disponible y coordinar los aspectos pendientes antes de la entrega TB1. <br><br> **Maria Fernanda Mostajo:** Contribuyó a la organización y seguimiento de las tareas de monitoreo y alertas, participando en la coordinación de los avances y en la revisión de las funcionalidades consideradas dentro del Sprint. Asimismo, promovió el intercambio de información para mantener el trabajo alineado con los objetivos del equipo. <br><br> **Joseph Manuel Chavez Viera:** Organizó las 11 historias seleccionadas para el Sprint 1 y contribuyó al seguimiento de sus avances mediante el Sprint Backlog. Asimismo, recopiló y actualizó la documentación de ejecución, incorporando las evidencias disponibles y coordinando con los responsables de cada componente para completar la información pendiente. <br><br> **Juan Carlos Pastor Napa:** Planificó las actividades técnicas necesarias para el despliegue de la solución, incluyendo la preparación del servidor, la transferencia de archivos ejecutables y la configuración de Nginx. Además, coordinó con el equipo la verificación de accesibilidad de los componentes desplegados, contribuyendo al cumplimiento de las metas técnicas del Sprint. | **AV1:** <br><br> La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos. <br><br> **TB1:** <br><br> La planificación de tareas, la comunicación constante y el seguimiento de responsabilidades permitieron organizar el trabajo del Sprint 1 de manera colaborativa. Esto facilitó la integración de los avances de cada integrante, la identificación de pendientes y la preparación de los entregables correspondientes a TB1. |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -208,12 +209,8 @@ La startup plantea un modelo de negocio basado en la comercialización de los di
 
 <table border="1">
   <tr>
-      <td style="text-align:center;"><img a src="" /></td>
-      <td><strong>-</strong><br>-</td>
-  </tr>
-<tr>
-      <td style="text-align:center;"><img a src="" /></td>
-      <td><strong>-</strong><br>-</td>
+      <td style="text-align:center;"><img a src="Assets/Romina.jpeg" /></td>
+      <td><strong> Romina Alejandra Tuesta Marin - u202211706 </strong><br> estudio Ingeniería de Software en la UPC. Me considero una persona organizada, responsable y comprometida con el trabajo en equipo. Me interesan el desarrollo web y el diseño de soluciones tecnológicas que resuelvan problemas reales. Como integrante del equipo, me comprometo a apoyar en la planificación y coordinación del proyecto para cumplir los objetivos en los tiempos establecidos. </td>
   </tr>
 <tr>
       <td style="text-align:center;"><img alt="Juan Carlos Pastor Napa" src="Assets/FotoJuanCarlos.png" /></td>
@@ -692,7 +689,7 @@ Los resultados obtenidos permitirán validar los principales supuestos de FreshS
 Los segmentos considerados son:
 
 - **Segmento 1: Propietarios y administradores de restaurantes**
-- **Segmento 2: Encargados de negocios de distribución de alimentos en fríos**
+- **Segmento 2: Encargados de Negocio de Distribución de alimentos en frio**
 
 
 ### 2.2.1. Diseño de entrevistas
@@ -725,7 +722,7 @@ Las preguntas han sido diseñadas de acuerdo con las características de cada se
 
 ---
 
-#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
 
 1. ¿Cuál es su cargo dentro de la empresa y qué responsabilidades tiene relacionadas con producción, almacenamiento, calidad o comercialización?
 
@@ -801,6 +798,7 @@ Actualmente utiliza una aplicación para registrar el stock, mientras que sus tr
 
 Respecto a una solución como FreshSense, valora especialmente el monitoreo automático y las notificaciones. Además, estaría interesada en un modelo de pago anual que incluya actualizaciones y mejoras continuas del sistema.
 
+
 ##### Entrevista 3
 
 | Dato | Información |
@@ -825,7 +823,7 @@ Actualmente, el control de frescura se realiza mediante revisiones manuales de f
 Considera útil una solución como FreshSense que permita monitorear temperatura y humedad, enviar alertas sobre cambios de temperatura o productos próximos a vencer y consultar historiales de mediciones. También valora la precisión de los sensores, la facilidad de uso y la rapidez de las notificaciones. Finalmente, estaría dispuesto a adquirir el dispositivo y pagar una suscripción económica, siempre que contribuya a reducir pérdidas y mejorar la gestión del restaurante.
 
 
-#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+#### Segmento 2: Empresas productoras y comercializadoras de alimentos perecibles
 
 ##### Entrevista 1
 
@@ -839,7 +837,7 @@ Considera útil una solución como FreshSense que permita monitorear temperatura
 | Duración | 3:52 |
 | Enlace | https://drive.google.com/file/d/1im0wnd2XqLIU5hLwFVeBPy_K5FL50XW8/view?usp=sharing |
 
-![Evidencia entrevista Silvia](Assets/EntrevistaSilvia.png)
+![Evidencia entrevista Silvia](Assets/entrevistasilvia.png)
 
 **Resumen:**
 
@@ -852,6 +850,25 @@ Considera útil una solución como FreshSense que permita monitorear temperatura
 
 ##### Entrevista 2
 
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Jesús Pérez |
+| Edad | 45 años |
+| Empresa / sector | Distribución de alimentos refrigerados |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 4:57|
+| Enlace | https://drive.google.com/file/d/1NCnw1minxYLf-k89c6vxbyryJ1yoyXz-/view?usp=sharing |
+
+![Evidencia entrevista Jesús Pérez](Assets/EntrevistaJesusPerez.png)
+
+**Resumen:**
+
+Jesús Pérez tiene 45 años y trabaja en una empresa dedicada a la distribución de alimentos refrigerados, donde supervisa el almacenamiento, controla el inventario y verifica el estado de los productos antes de su distribución. Trabajan principalmente con carnes, pollo, lácteos y productos congelados, siendo las carnes y los lácteos los que requieren mayor control.
+
+Actualmente realizan revisiones periódicas de las cámaras de refrigeración, verificaciones de temperatura y controles visuales, además de utilizar registros internos para el seguimiento de los lotes. Sin embargo, Jesús señala que cuando una variación de temperatura no se detecta rápidamente puede ocasionar deterioro de productos y pérdidas económicas, además de dificultar la identificación exacta de los lotes afectados.
+
+Considera útil una solución como FreshSense que permita monitorear temperatura y humedad en tiempo real, enviar alertas rápidas y relacionar las mediciones con los lotes almacenados. También valora contar con historiales y reportes, y considera importantes la precisión de los sensores, la facilidad de uso, el costo y la posibilidad de consultar la información desde una computadora o celular.
 
 ##### Entrevista 3
 
@@ -874,7 +891,6 @@ Carmen tiene 54 años y trabaja en una empresa dedicada a la comercialización y
 Actualmente realizan revisiones periódicas de las cámaras de refrigeración, controles visuales y registros de inventario mediante herramientas internas y Excel. Sin embargo, Carmen señala que las verificaciones todavía dependen considerablemente del personal, lo que dificulta detectar fallas de refrigeración a tiempo. Estas situaciones pueden generar pérdidas económicas, afectar los pedidos y complicar la identificación de los lotes que estuvieron expuestos a condiciones inadecuadas.
 
 Considera útil una solución como FreshSense que permita monitorear temperatura y humedad automáticamente, recibir alertas inmediatas y consultar historiales de mediciones asociados a los lotes almacenados. También valora la facilidad de uso, la precisión de los sensores y el acceso desde computadoras o celulares. Finalmente, considera que el costo y la capacidad del sistema para reducir pérdidas serían factores importantes para decidir su implementación.
-
 
 
 ### 2.2.3. Análisis de entrevistas
@@ -1445,7 +1461,7 @@ Se utiliza el **C4 Model** para representar la arquitectura de software de Fresh
 Este diagrama muestra al sistema FreshSense (representado como una única entidad) interactuando con sus tres tipos de usuario y con el **Dispositivo FreshSense**, el hardware con sensores de temperatura, humedad y gas etileno que se instala en el refrigerador o cámara fría y envía su telemetría al endpoint REST seguro definido en la **TS41**. El sistema se comunica además con el Notification Service para las alertas.
 
 <figure id="fig-c4c" style="margin:1.5em 0;text-align:center">
-<img src="Assets/diagrama-c4-contexto.png" alt="Software Architecture Context Level Diagram." style="max-width:100%;height:auto"/>
+<img src="Assets/FreshSenseContext.png" alt="Software Architecture Context Level Diagram." style="max-width:100%;height:auto"/>
 <figcaption style="font-size:0.9em;color:#555;margin-top:0.4em"><em>Software Architecture Context Level Diagram.</em></figcaption>
 </figure>
 
@@ -1454,7 +1470,7 @@ Este diagrama muestra al sistema FreshSense (representado como una única entida
 Este diagrama muestra que el sistema FreshSense está compuesto por una **Landing Page** (HTML, CSS, JS), una **Single Page Application** desarrollada en **Angular 19** con NGX-Translate y Angular Material, y una **API REST en Spring Boot + Java 24** que organiza los ocho bounded contexts. La API persiste en **MySQL** y documenta sus endpoints con **Swagger/OpenAPI**; estos cinco elementos son los únicos containers dentro del límite del sistema, ya que representan unidades de software desplegables. Conforme al modelo C4 y a la norma ISO/IEC/IEEE 42010 sobre vistas y puntos de vista arquitectónicos, el **hardware no se modela como container**: el **Dispositivo FreshSense** se representa como sistema externo que envía su telemetría a la API mediante JSON sobre HTTPS con token de dispositivo (**TS41**). Del mismo modo, la API **consume** tres sistemas de terceros externos al límite: el **Sistema de Pago**, para crear el cobro de las suscripciones Premium y recibir su confirmación de forma asíncrona (**TS44**); el **Analytics Service**, al que publica métricas para generar reportes; y el **Notification Service** (Firebase/SendGrid), al que invoca para despachar las alertas por correo y push (**TS42**).
 
 <figure id="fig-c4co" style="margin:1.5em 0;text-align:center">
-<img src="Assets/FreshSense-Architecture-dark (1).png" alt="Software Architecture Container Level Diagram." style="max-width:100%;height:auto"/>
+<img src="Assets/FreshSenseContainers.png" alt="Software Architecture Container Level Diagram." style="max-width:100%;height:auto"/>
 <figcaption style="font-size:0.9em;color:#555;margin-top:0.4em"><em>Software Architecture Container Level Diagram.</em></figcaption>
 </figure>
 
@@ -3869,18 +3885,18 @@ No subimos contraseñas ni llaves. La URL del API va en `src/environments/enviro
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo de FreshSense aplica en todos los productos de FreshSense. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
+En esta sección se definen las convenciones de nomenclatura y estilo de código que el equipo aplica en todos los productos de FreshSense: Landing Page, aplicación web, backend (monolito y microservicios de alertas y recetas), Edge API y firmware del dispositivo. Su objetivo es que el código sea legible, consistente y fácil de mantener sin importar qué integrante lo haya escrito. Como regla general, **todos los elementos de código (variables, funciones, clases, archivos, ramas, commits y escenarios de prueba) se nombran en inglés**. El español se reserva para los textos visibles por el usuario, que se gestionan mediante archivos de traducción.
 
 #### Convenciones generales
 
 | Aspecto | Convención | Ejemplo |
 |---|---|---|
 | Idioma del código | Inglés | `pantryItem`, `getFreshnessStatus()` |
-| Indentación | 2 espacios (HTML, CSS, JS, TS); 4 espacios (Java) | — |
+| Indentación | 2 espacios (HTML, CSS, JS, TS, C++); 4 espacios (Java) | — |
 | Codificación de archivos | UTF-8, salto de línea LF | — |
-| Longitud de línea | Máximo 100 caracteres (TS/JS/Java) | — |
+| Longitud de línea | Máximo 100 caracteres (TS/JS/Java); 80 caracteres (C++) | — |
 | Comentarios | Solo donde aportan contexto; en inglés | `// Threshold based on food category` |
-| Formateo automático | Prettier (front) y formateador del IDE (Java) | `.prettierrc` en cada repositorio |
+| Formateo automático | Prettier (frontend), formateador del IDE (Java) y *Auto Format* de Arduino IDE, basado en clang-format (C++) | `.prettierrc`, `.clang-format` |
 
 #### HTML (Landing Page y templates de Angular)
 
@@ -3917,40 +3933,75 @@ Referencia: *Google JavaScript Style Guide*.
 
 Referencias: *Angular Coding Style Guide* y *Google TypeScript Style Guide*.
 
-- **Archivos** en *kebab-case* con sufijo según su tipo: `pantry-item-list.component.ts`, `pantry-item.service.ts`, `pantry-item.entity.ts`, `auth.guard.ts`.
-- **Clases, interfaces y enums** en *PascalCase*: `PantryItemListComponent`, `PantryItemService`, `FreshnessStatus`.
-- **Propiedades y métodos** en *camelCase*: `loadPantryItems()`, `selectedZoneId`.
-- **Selectores de componentes** con el prefijo `app-`: `<app-freshness-dashboard>`.
+- **Archivos** en *kebab-case* con sufijo según su tipo: `product-list.component.ts`, `monitoring.service.ts`, `auth.guard.ts`.
+- **Clases, interfaces y enums** en *PascalCase*: `ProductListComponent`, `MonitoringService`, `FreshnessStatus`.
+- **Propiedades y métodos** en *camelCase*: `loadProducts()`, `latestReading`.
+- **Selectores de componentes** con el prefijo `app-`: `<app-monitoring-panel>`.
 - **Una responsabilidad por archivo**: un componente, servicio o modelo por archivo.
-- **Organización por bounded context**, alineada con el diseño táctico del Capítulo IV:
+- **Organización por bounded context y por capa**, alineada con el diseño táctico del Capítulo IV. Los módulos de negocio son `accounts`, `inventory`, `monitoring`, `alerts`, `recipes`, `reports`, `notifications` y `billing`; `core` y `shared` contienen lo transversal:
 
 ```
 src/app/
-├── iam/                     # User Management
-├── inventory/               # Inventory Management
-├── monitoring/              # IoT Monitoring
-├── shared/                  # componentes y servicios reutilizables
-└── public/                  # páginas comunes (home, not-found)
-    └── <bounded-context>/
-        ├── components/
-        ├── pages/
-        ├── services/
-        └── model/
+├── core/                    # interceptores, guards, configuración global
+├── shared/                  # componentes y utilidades reutilizables
+└── <bounded-context>/       # accounts, inventory, monitoring, alerts, recipes...
+    ├── domain/              # modelos y reglas del contexto
+    ├── application/         # servicios de aplicación y casos de uso
+    ├── infrastructure/      # clientes HTTP hacia el API
+    └── presentation/        # componentes y páginas
 ```
 
+- Las rutas de la aplicación se declaran en `src/app/app.routes.ts`, en *kebab-case* y en inglés: `/login`, `/monitoring`, `/alerts`, `/inventory`, `/devices`.
 - Uso de **Angular Material** como única librería de componentes de UI, según las restricciones del proyecto.
-- Los textos visibles se externalizan con **ngx-translate** en `assets/i18n/en.json` y `assets/i18n/es.json`; las claves se escriben en inglés y en *dot.case*: `"inventory.list.title"`.
+- Los textos visibles se externalizan en `public/i18n/es.json` y `public/i18n/en.json`; las claves se escriben en inglés y en *dot.case*: `"inventory.list.title"`.
+- La URL del API nunca se escribe en los componentes: se lee de `src/environments/` (`environment.ts`, `environment.production.ts`, `environment.docker.ts`).
 - Se usa tipado explícito y se evita `any`.
 
-#### Java y Spring Boot (Web Services – desde el Sprint 2)
+#### Java y Spring Boot (monolito, alerts-service y recipes-service)
 
 Referencias: *Google Java Style Guide* y *Spring Boot Features*.
 
-- Paquetes en minúsculas, organizados por bounded context y capa: `com.fresheat.freshsense.inventory.domain.model.aggregates`.
-- Clases en *PascalCase* con sufijo según su rol: `PantryItem`, `PantryItemCommandService`, `PantryItemsController`, `PantryItemResource`.
+- Paquetes en minúsculas, organizados por bounded context y capa: `<paquete-base>.inventory.domain.model`, `<paquete-base>.monitoring.interfaces.rest`.
+- Clases en *PascalCase* con sufijo según su rol: `Product`, `ProductCommandService`, `ProductsController`, `ProductResource`.
 - Métodos y atributos en *camelCase*; constantes en *UPPER_SNAKE_CASE*.
-- Endpoints REST en plural y en *kebab-case*, con versión: `/api/v1/pantry-items`, `/api/v1/storage-zones`.
-- Tablas de base de datos en *snake_case* y en plural: `pantry_items`, `sensor_readings`.
+- Endpoints REST en inglés, con recursos en plural y en *kebab-case* bajo el prefijo `/api`: `/api/products`, `/api/alerts`, `/api/edge/readings`.
+- Tablas de base de datos en *snake_case* y en plural: `products`, `sensor_readings`. Cada servicio tiene su propia base (`freshsense_db`, `alerts_db`, `recipes_db`).
+- Los clientes Feign entre servicios se nombran con el sufijo `Client`: `AlertsServiceClient`, `RecipesServiceClient`.
+- Las claves y credenciales (`JWT_SECRET`, `AES_SECRET`, `OPENAI_API_KEY`, datos de la base) se leen de variables de entorno; nunca se escriben en el código ni en `application.properties` versionado.
+
+#### C++ (firmware del dispositivo FreshSense – ESP32 + DHT22)
+
+Referencias: *Google C++ Style Guide* y *Barr Group Embedded C Coding Standard* (BARR-C:2018).
+
+- **Archivos** en *snake_case*, con un `.h` y un `.cpp` por módulo; el sketch principal es `freshsense_device.ino`: `dht_sensor.h` / `dht_sensor.cpp`, `edge_client.cpp`.
+- **Clases, structs y enums** en *PascalCase*: `DhtSensor`, `SensorReading`, `DeviceState`.
+- **Funciones y métodos** en *camelCase*, empezando con un verbo: `readTemperature()`, `sendReading()`.
+- **Variables locales y parámetros** en *camelCase*: `humidityPct`, `lastReadingMs`. Los **miembros privados** llevan el sufijo `_`: `pin_`, `intervalMs_`.
+- **Constantes y configuración** en *UPPER_SNAKE_CASE*, con `constexpr` en un archivo `config.h`: `READING_INTERVAL_MS`, `EDGE_API_URL`. Los pines se nombran por su función: `DHT_SENSOR_PIN`.
+- Las **unidades de medida van en el nombre** de la variable: `temperatureC`, `humidityPct`, `timeoutMs`.
+- **Guardas de inclusión** con `#pragma once` en todos los headers.
+- **Tipos de ancho fijo** (`uint8_t`, `int16_t`, `uint32_t`) en lugar de `int` o `long`, para que el tamaño de los datos no dependa de la placa.
+- No se usan `delay()` bloqueantes en el `loop()`; la temporización se maneja con `millis()`. Se evita la memoria dinámica (`new`, `malloc`) y los objetos `String` en el ciclo principal.
+- El JSON que se envía al Edge API se arma con **ArduinoJson**, con claves en *camelCase* iguales a las del backend: `temperatureC`, `humidityPct`.
+- Las credenciales (Wi-Fi y `X-Device-Key`) van en `secrets.h`, excluido con `.gitignore`; solo se versiona `secrets.example.h` como plantilla.
+
+```cpp
+// dht_sensor.h
+#pragma once
+#include <stdint.h>
+
+constexpr uint32_t READING_INTERVAL_MS = 5000;
+
+class DhtSensor {
+ public:
+  explicit DhtSensor(uint8_t pin);
+  float readTemperatureC();
+  float readHumidityPct();
+
+ private:
+  uint8_t pin_;
+};
+```
 
 #### Gherkin (Acceptance Tests)
 
@@ -3963,22 +4014,20 @@ Referencia: *Gherkin Conventions for Readable Specifications*.
 
 ```gherkin
 Feature: US07 - Freshness traffic-light dashboard
-  As a restaurant manager
-  I want to see the freshness status of my products by color
-  So that I can prioritize the items at risk
+  As a restaurant manager or cold-food distribution manager
+  I want to see the cold room status by color
+  So that I can act before the products spoil
 
-  Scenario: Product close to expiration is shown in yellow
-    Given the manager is logged in
-    And a product expires in 2 days
-    When the manager opens the dashboard
-    Then the product is displayed with a yellow indicator
+  Scenario: Cold room above the safe temperature is shown in red
+    Given the user is logged in
+    And the latest reading of the cold room is above the safe temperature
+    When the user opens the monitoring panel
+    Then the cold room is displayed with a red indicator
 ```
 
 #### Convenciones de commits
 
-Los mensajes de commit siguen **Conventional Commits** (detallado en la sección 6.1.2): `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`. Ejemplo: `feat(inventory): add freshness filter to pantry list`.
-
----
+Los mensajes de commit siguen **Conventional Commits** (detallado en la sección 6.1.2): `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`. Ejemplo: `feat(monitoring): add traffic-light status to latest reading`.
 
 ### 6.1.4. Software Deployment Configuration
 
@@ -4051,14 +4100,17 @@ Nginx publica en un solo dominio la aplicación web y el API, lo que evita probl
 3. El Edge API reenvía cada lectura al backend mediante `POST https://35-224-123-160.sslip.io/api/edge/readings`, autenticándose con la cabecera `X-Device-Key` que se obtiene al registrar el dispositivo en la aplicación.
 
 ## 6.2. Landing Page, Services & Applications Implementation
-
 En esta sección se presenta la evidencia del proceso de implementación, pruebas, documentación y despliegue de los productos digitales de FreshSense, organizada por Sprint. Cada Sprint incluye su planificación, la distribución de liderazgo entre los integrantes, el backlog trabajado y la evidencia de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo.
 
-El Sprint 1 se enfoca en dos productos: el Landing Page (HTML5, CSS3 y JavaScript), que comunica la propuesta de valor de FreshSense a nuestros segmentos objetivo, y la primera versión de la Frontend Web Application (Angular 19 con Angular Material). La implementación de los Web Services en Spring Boot, el Edge API y la aplicación embebida del dispositivo FreshSense se abordará en los siguientes Sprints.
+En el Sprint 1 se construyó el primer recorrido completo de la solución, el mismo para los dos segmentos objetivo:
 
-Link a Landing Page desplegada:
+- **Landing Page** (HTML5, CSS3 y JavaScript), publicada en GitHub Pages, con la propuesta de valor, el formulario de demo y el acceso a la aplicación.
+- **Frontend Web Application** (Angular 20 con Angular Material), con registro, ingreso, monitoreo, alertas, inventario y dispositivos.
+- **Web Services** en Spring Boot: un monolito modular (puerto 8080) y dos microservicios, **alerts-service** (8083) y **recipes-service** (8082), cada uno con su propia base de datos MySQL. El recipes-service consume un servicio externo de inteligencia artificial (OpenAI) para generar recetas a partir de los insumos disponibles.
+- **Prototipo del dispositivo IoT simulado en Wokwi** (ESP32 + DHT22, firmware en C++), que junto con el **Edge API** envía las lecturas de temperatura y humedad al backend mediante `POST /api/edge/readings`. El prototipo físico se implementará en un Sprint posterior.
 
-https://1asi0572-2620-8725.github.io/landing-page/
+La aplicación web, el API y la documentación en Swagger UI están desplegados en Google Cloud Compute Engine detrás de Nginx con HTTPS (sección 6.1.4).
+
 
 ### 6.2.1. Sprint 1
 
@@ -4066,14 +4118,57 @@ En el sprint 1 queremos que una persona de cualquiera de los dos segmentos pueda
 
 #### 6.2.1.1. Sprint Planning 1
 
-| Dato | Detalle |
-| :--- | :--- |
-| Objetivo | Que el dueño o administrador del restaurante, y el encargado del negocio de distribución en fríos, vean la propuesta, dejen sus datos y entren al panel de la cámara. |
-| Duración | 2 semanas |
-| De dónde sale | Product Backlog, del puesto 1 al 11 |
-| Segmentos | Propietarios y administradores de restaurantes. Encargados de negocios de distribución de alimentos en fríos. |
+El equipo FreshEat decidió que el primer Sprint debía validar de punta a punta la propuesta central de FreshSense: que la información de la cámara de frío llegue desde el dispositivo hasta el usuario y lo alerte a tiempo. Para lograrlo se incluyó en el alcance el Landing Page, que presenta la solución a los visitantes y los dirige a la aplicación; el registro e ingreso a la aplicación web; un panel de monitoreo con semáforo de frescura y alertas preventivas; un conjunto de endpoints para autenticación, ingesta de telemetría y alertas, que los desarrolladores del frontend y del Edge API pueden usar; y una primera versión del prototipo físico (ESP32 + DHT22) integrada con el Edge API. Con este criterio se tomaron, en orden de prioridad, las 11 primeras historias del Product Backlog.
+
+| Sprint # | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 20/09/2026 |
+| Time | 10:00 pm |
+| Location | Reunión virtual vía Discord|
+| Prepared By | Romina Tuesta Marin |
+| Attendees (to planning meeting) | Chavez Viera Joseph Manuel / Juan Carlos Pastor Napa / Mostajo Orosco Maria Fernanda / Cossar Sanchez Eduardo Jose / Tuesta Marin Romina Alejandra |
+| Previous Sprint Review Summary | No aplica. El Sprint 1 es el primer Sprint de implementación del proyecto, por lo que no existe un incremento previo que revisar. |
+| Previous Sprint Retrospective Summary | No aplica. Al ser el primer Sprint, no existe una retrospectiva previa. Para este Sprint el equipo acordó trabajar con GitFlow, Conventional Commits y Pull Requests revisados por al menos un integrante|
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal |Nuestro enfoque es proporcionar a los propietarios y administradores de restaurantes, así como a los responsables de distribución de productos refrigerados que visiten el sitio web, información clara sobre FreshSense y un acceso directo a la plataforma; proporcionarles una aplicación web donde puedan registrarse, iniciar sesión y monitorear la temperatura y humedad de sus cámaras frigoríficas mediante un estado tipo semáforo y alertas preventivas; proporcionar a los desarrolladores de frontend y edge endpoints seguros para autenticación, recepción de telemetría y alertas; y proporcionar a los fabricantes de dispositivos un primer prototipo físico (ESP32 + DHT22) integrado con la API Edge.
+
+Creemos que esto proporciona mayor confianza a los visitantes para solicitar una demostración o crear una cuenta; una visibilidad temprana y confiable de las condiciones de la cadena de frío que reduzca las verificaciones manuales de temperatura para los responsables de restaurantes y distribución; una base documentada para que los desarrolladores puedan construir nuevas funcionalidades sobre la API; y un flujo de datos de extremo a extremo validado, desde el dispositivo hasta la plataforma.
+
+Esto se confirmará cuando un visitante llegue a la página de registro desde el llamado a la acción (CTA) de la Landing Page en no más de dos clics; una lectura enviada por el dispositivo físico se muestre en el panel de monitoreo con su color correspondiente al semáforo en menos de 10 segundos; una lectura fuera del rango seguro genere una alerta visible en la vista de alertas; los endpoints de autenticación, telemetría y alertas respondan correctamente desde la interfaz Swagger desplegada; y las 11 historias de usuario del Sprint cumplan con sus escenarios de aceptación en el entorno desplegado. |
+| Sprint 1 Velocity | 37 Story Points |
+| Sum of Story Points | 37 Story Points |
+
+**User Stories incluidos en el Sprint 1**
+
+| # | ID | Título | Story Points | Aporte al Sprint Goal |
+|:-:|---|---|:-:|---|
+| 1 | US01 | Visualización de propuesta B2B | 2 | Información clara de la solución para los visitantes. |
+| 2 | US02 | Sección para Restaurantes y Negocios en Frío | 2 | Información específica para cada segmento objetivo. |
+| 3 | US03 | Formulario de contacto y demos B2B | 2 | Conversión del visitante en un contacto comercial. |
+| 4 | US04 | Call to Action (CTA) Corporativo | 2 | Camino directo del Landing Page a la aplicación. |
+| 5 | US05 | Adaptabilidad en móviles y tablets | 3 | Acceso desde tablets de cocina y teléfonos. |
+| 6 | TS43 | API Gestor de Autenticación y RBAC B2B | 5 | Registro, ingreso y endpoints seguros. |
+| 7 | TS41 | API Ingesta de Sensores IoT B2B | 5 | Endpoint de telemetría para el Edge API. |
+| 8 | US06 | Telemetría y monitoreo IoT de cámaras frías | 5 | Flujo de datos del prototipo físico a la plataforma. |
+| 9 | US07 | Dashboard con semáforo comercial | 3 | Estado de la cámara visible con un color. |
+| 10 | US08 | Alertas preventivas de temperatura | 5 | Aviso oportuno cuando se pierde la cadena de frío. |
+| 11 | TS42 | Microservicio de Notificaciones de Emergencia | 3 | Envío de las alertas a los usuarios. |
+| | | **Total** | **37** | |
+
+La velocidad de 37 Story Points se fijó en función de la capacidad del equipo de cinco integrantes durante las dos semanas del Sprint. El detalle de las tareas de cada historia está en el Sprint Backlog 1 (sección 6.2.1.3).
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
+Para el Sprint 1, el equipo organizó el trabajo en aspectos que siguen el recorrido del usuario y los productos del Sprint: el Landing Page (US01 a US05); la gestión de cuentas, con registro, ingreso y roles (TS43); la ingesta IoT, que abarca el firmware, el Edge API y el endpoint de lecturas (TS41, US06); el monitoreo y las alertas, con el semáforo, las alertas preventivas y el servicio de notificaciones (US07, US08, TS42); y el despliegue de todos los productos. Cada aspecto tiene un líder (L), responsable de coordinarlo y asegurar su calidad, y colaboradores (C), que participan en su implementación. Esta distribución sirvió de base para asignar las tareas del Sprint Backlog 1.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Accounts (IAM) | IoT (Device prototype) | Monitoring & Alerts | Deployment |
+|---|---|---|---|---|---|---|
+| Tuesta Marin, Romina | Romimi1 | L | C | L | C | C |
+| Chavez Viera, Joseph | u202314019-MrOsoPanda | C | L | C | C | C |
+| Pastor Napa, Juan Carlos | ElKiwi1271 | C | C | C | C | L |
+| Mostajo Orosco, Maria Fernanda | Mafer-m30 | C | C | C | L | C |
+| Cossar Sanchez, Eduardo | coleeeee-dev | C | C | C | C | C |
 
 #### 6.2.1.3. Sprint Backlog 1
 
@@ -4132,7 +4227,128 @@ En el inicio las 11 tasks del sprint estaban en To Do. A mitad de sprint ya no q
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
+Durante el Sprint 1 de FreshSense, el equipo trabajó en la implementación de los productos digitales necesarios para establecer las funcionalidades iniciales de la solución. Los avances comprenden el Landing Page, desarrollado con HTML, CSS y JavaScript, y la aplicación web, desarrollada con Angular. Asimismo, se contempló la integración con los servicios Backend y los componentes IoT encargados de la recepción y procesamiento de lecturas de temperatura y humedad.
+
+En el Landing Page se incorporaron las secciones informativas de FreshSense, recursos visuales, elementos de navegación, botones de acceso a la plataforma y archivos de traducción. Estas funcionalidades se relacionan con las historias US01, US02, US03, US04 y US05 del Sprint Backlog.
+
+En la aplicación web se desarrollaron componentes para el registro e inicio de sesión, gestión de inventario, monitoreo de sensores IoT y visualización de alertas. También se incorporaron servicios para la comunicación con el API REST, configuraciones de entorno y mecanismos de navegación. Estos avances se relacionan principalmente con las historias TS43, US06, US07 y US08.
+
+Para mantener la trazabilidad del desarrollo, se presenta la siguiente tabla con los commits registrados en los repositorios de código fuente. Algunos corresponden a componentes preparados antes de la reunión de planificación del Sprint 1, que fueron incorporados como base del incremento desarrollado durante esta iteración.
+
+**Tabla. Commits relacionados con la implementación del Sprint 1**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | main | [5615ceb](https://github.com/1ASI0572-2620-8725/Frontend/commit/5615cebc04e5e644168c027f1c27252d745fc9dc) | feat: initial files | This are the initial files for the frontend - first commit | 02/09/2026 |
+| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | main | [a0684d8](https://github.com/1ASI0572-2620-8725/Frontend/commit/a0684d8430f400924df91929e62256de6e2851e9) | feat: app file | Sin cuerpo de mensaje | 02/09/2026 |
+| [1ASI0572-2620-8725/Frontend](https://github.com/1ASI0572-2620-8725/Frontend) | main | [9814e44](https://github.com/1ASI0572-2620-8725/Frontend/commit/9814e446bea585b933d07c27f540156c323aa720) | feat: rest of the app | Sin cuerpo de mensaje | 02/09/2026 |
+| [1ASI0572-2620-8725/landing-page](https://github.com/1ASI0572-2620-8725/landing-page) | main | [477bd20](https://github.com/1ASI0572-2620-8725/landing-page/commit/477bd20863fda6fe2c32e5d0c084f675634dde0a) | first commit | Sin cuerpo de mensaje | 07/10/2026 |
+| [1ASI0572-2620-8725/BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | main | [cd732db](https://github.com/1ASI0572-2620-8725/BackEnd/commit/cd732db43bd4c581a7579a8ca91785abaf29e9fb) | first commit | Sin cuerpo de mensaje | 08/10/2026 |
+
+Los commits del Frontend evidencian la incorporación de la estructura inicial del proyecto Angular, los componentes de interfaz, los servicios de comunicación con el Backend y los archivos de configuración necesarios para su ejecución. Por su parte, el commit del Landing Page registra la incorporación de los archivos principales del sitio web, incluyendo su estructura HTML, hojas de estilo, scripts y recursos gráficos.
+
+**Evidencia de desarrollo del Backend y componentes IoT**
+
+En el repositorio Backend de FreshSense se registró la incorporación del código fuente de los servicios desarrollados con Spring Boot, incluyendo módulos de autenticación, gestión de dispositivos IoT, recepción y almacenamiento de lecturas, monitoreo ambiental y administración de alertas y notificaciones. Asimismo, se incorporaron los servicios complementarios de alertas, recetas y descubrimiento de servicios mediante Eureka. Este commit permite evidenciar la estructura y las funcionalidades implementadas en el Backend, relacionadas principalmente con las historias técnicas TS41, TS42 y TS43, así como con las historias US06, US07 y US08 del Sprint 1.
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 1 de FreshSense, el equipo inició la especificación de pruebas para evaluar las funcionalidades principales de la solución, considerando las historias de usuario y las historias técnicas establecidas en el Sprint Backlog. Las pruebas están orientadas a verificar el comportamiento del Landing Page, la autenticación de usuarios, la recepción de datos provenientes de sensores IoT, el monitoreo de condiciones ambientales y la gestión de alertas.
+
+Para definir los escenarios de aceptación se utilizó el enfoque Behavior-Driven Development (BDD), empleando el lenguaje Gherkin y la estructura Given-When-Then. Esta aproximación permite describir el comportamiento esperado de las funcionalidades y mantener la trazabilidad entre los requisitos y sus correspondientes pruebas.
+
+Las especificaciones se encuentran almacenadas en un repositorio independiente de GitHub, organizado mediante archivos `.feature`. Actualmente se dispone de 14 archivos de especificación. Algunos de ellos corresponden a funcionalidades de otros incrementos o utilizan identificadores anteriores del Product Backlog, por lo que requieren ajustes para mantener coherencia con el alcance vigente del Sprint 1.
+
+**Repositorio de pruebas:** [FreshSense Acceptance Tests](https://github.com/1ASI0572-2620-8725/Acceptance-Tests)
+
+**Archivos del Sprint:** [Sprint 01](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/tree/main/Sprint%2001)
+
+##### Relación de pruebas de aceptación
+
+La siguiente tabla presenta las especificaciones existentes relacionadas con el Sprint 1 y su correspondencia con las historias definidas en el Sprint Backlog.
+
+| Story ID | Funcionalidad evaluada | Archivo de prueba existente |
+|---|---|---|
+| US01 | Visualización de propuesta B2B | `us01-visualizacion-propuesta.feature` |
+| US02 | Sección para Restaurantes y Negocios en Frío | `us02-seccion-pequenos-negocios.feature` | 
+| US03 | Formulario de contacto y demos B2B | `us03-formulario-contacto.feature` | 
+| US04 | Call to Action Corporativo | `us04-cta-suscripcion.feature` |
+| US05 | Adaptabilidad en móviles y tablets | `us05-compatibilidad-movil.feature` |
+| TS43 | API Gestor de Autenticación y RBAC B2B | `ts33-api-usuarios.feature` |
+| TS41 | API Ingesta de Sensores IoT B2B | `ts31-api-sensores.feature` | 
+| US07 | Dashboard con semáforo comercial | `us07-visualizacion-inventario.feature` |
+| US08 | Alertas preventivas de temperatura | `us08-alertas-anticipadas.feature` | 
+
+Los escenarios publicados permiten establecer una base para la validación funcional del producto. Sin embargo, las especificaciones que no coinciden con las historias actuales deberán actualizarse antes de considerarse evidencia definitiva de aceptación del Sprint.
+
+##### Especificaciones de pruebas mediante Gherkin
+
+A continuación, se presentan ejemplos del código Gherkin publicado en el repositorio de pruebas, que describen comportamientos esperados de las funcionalidades del Sprint 1.
+
+**US01 – Visualización de la propuesta de FreshSense**
+
+Archivo: [us01-visualizacion-propuesta.feature](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/blob/main/Sprint%2001/us01-visualizacion-propuesta.feature)
+
+```gherkin
+Feature: US01 - Visualizacion de la propuesta de FreshSense
+
+    Scenario: Visitante entiende la propuesta de valor
+      Given un visitante accede a la landing page de FreshSense
+      When visualiza la seccion principal
+      Then ve el mensaje principal con la propuesta de valor de la solucion
+      And puede identificar claramente el beneficio del producto
+```
+
+Esta especificación describe el comportamiento esperado del Landing Page cuando un visitante accede a la sección principal e identifica la propuesta de valor de FreshSense.
+
+**US03 – Formulario de contacto**
+
+Archivo: [us03-formulario-contacto.feature](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/blob/main/Sprint%2001/us03-formulario-contacto.feature)
+
+```gherkin
+Feature: US03 - Formulario de contacto
+
+    Scenario: Visitante envia formulario de contacto
+      Given un visitante esta en la landing page de FreshSense
+      When completa el formulario con nombre, email y mensaje
+      And hace clic en el boton de enviar
+      Then el sistema registra la solicitud de contacto
+      And muestra un mensaje de confirmacion al usuario
+```
+
+El escenario define la validación del formulario de contacto, verificando que el visitante pueda completar sus datos y que el sistema registre la solicitud y presente una confirmación. Su ejecución satisfactoria deberá comprobarse sobre el sitio implementado.
+
+**US05 – Compatibilidad móvil**
+
+Archivo: [us05-compatibilidad-movil.feature](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/blob/main/Sprint%2001/us05-compatibilidad-movil.feature)
+
+```gherkin
+Feature: US05 - Compatibilidad movil
+
+    Scenario: Usuario accede desde un dispositivo movil
+      Given un usuario accede a la landing page desde un smartphone
+      When carga la pagina en pantalla pequena
+      Then todos los elementos se adaptan correctamente al tamaño de pantalla
+      And el contenido es legible sin necesidad de zoom horizontal
+
+    Scenario: Usuario accede desde una tablet
+      Given un usuario accede a la landing page desde una tablet
+      When carga la pagina
+      Then el layout se adapta correctamente al tamaño de pantalla
+```
+
+Estos escenarios describen la adaptación de la interfaz del Landing Page a dispositivos móviles y tablets, buscando garantizar la legibilidad y correcta distribución de sus componentes visuales.
+
+
+##### Evidencia de commits relacionados con Testing
+
+La siguiente tabla presenta los commits registrados en el repositorio de pruebas de aceptación, permitiendo identificar los avances asociados a la preparación de especificaciones del Sprint 1.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| [1ASI0572-2620-8725/Acceptance-Tests](https://github.com/1ASI0572-2620-8725/Acceptance-Tests) | main | [fbf1a89](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/commit/fbf1a8996aae4913f01e210316b948ad5f7e619d) | upload: gherkin tests | Sin cuerpo de mensaje | 08/10/2026 |
+
+El commit presentado evidencia la incorporación de 14 archivos `.feature` organizados dentro del directorio `Sprint 01`. Estos archivos documentan escenarios de aceptación de diferentes funcionalidades del producto.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
@@ -4209,9 +4425,204 @@ Si no llega una lectura reciente, esa fila no se marca en verde. Quien no tiene 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
+En el Sprint 1 se subió al repositorio de la organización el backend existente de FreshSense como versión base, en un único commit inicial. Este código ya contiene los endpoints documentados con OpenAPI 3 (Swagger) que se describen en esta sección, así que en este sprint no hubo cambios sobre los servicios. Las modificaciones y nuevos endpoints (Reports, Billing y Catalog, entre otros) se registrarán como commits propios en los sprints en que se trabajen sus historias de usuario.
+
+- **Swagger UI:** https://35-224-123-160.sslip.io/swagger-ui/index.html
+- **Especificación OpenAPI (JSON):** https://35-224-123-160.sslip.io/v3/api-docs
+
+Todas las operaciones intercambian JSON y están protegidas con un token JWT (`Authorization: Bearer <token>`), salvo el registro, el inicio de sesión y la vinculación del dispositivo (`/api/edge/claim`). Los errores siguen los códigos HTTP estándar: `400` (datos inválidos), `401` (sin token o token inválido), `403` (requiere plan premium), `404` (recurso no encontrado) y `409` (correo ya registrado).
+
+**Auth – registro, inicio de sesión y gestión de sesión (TS43)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/accounts/register` | Registrar nuevo usuario | POST | `POST /api/accounts/register` | Body `UserRegistrationRequest`: `email`, `password` (mín. 8 caracteres, una mayúscula y un dígito), `fullName` | `201` `UserResponse`. `400` datos inválidos; `409` correo ya registrado. |
+| `/api/accounts/login` | Iniciar sesión | POST | `POST /api/accounts/login` | Body `LoginRequest`: `email`, `password` | `200` `UserResponse` con `token` y `refreshToken`. `401` credenciales incorrectas. |
+| `/api/accounts/refresh` | Renovar el access token | POST | `POST /api/accounts/refresh` | — | `200` `UserResponse` con un nuevo `token`. |
+| `/api/accounts/logout` | Cerrar sesión | POST | `POST /api/accounts/logout` | Header `Authorization` | `204` sin contenido. |
+| `/api/accounts/me` | Obtener el usuario autenticado | GET | `GET /api/accounts/me` | Header `Authorization` | `200` `UserResponse` (`token` en `null`). |
+| `/api/accounts/me` | Actualizar el perfil | PUT | `PUT /api/accounts/me` | Body `UpdateProfileRequest`: `fullName` | `200` `UserResponse`. |
+| `/api/accounts/change-password` | Cambiar la contraseña | POST | `POST /api/accounts/change-password` | Body `ChangePasswordRequest`: `currentPassword`, `newPassword` | `204` sin contenido. `400` / `401`. |
+
+**Devices y Edge/IoT – registro del dispositivo e ingesta de lecturas (TS41, US06)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/devices` | Registrar un dispositivo en la cuenta | POST | `POST /api/devices` | Body `RegisterDeviceRequest`: `deviceId`, `name` | `200` `DeviceRegistrationResponse`: `deviceId`, `name`, `pairingCode`, `pairingExpiresAt`. |
+| `/api/devices` | Listar los dispositivos de la cuenta | GET | `GET /api/devices` | Header `Authorization` | `200` lista de `DeviceResponse`: `id`, `deviceId`, `name`, `registeredAt`. |
+| `/api/edge/claim` | Vincular el dispositivo con el código de emparejamiento | POST | `POST /api/edge/claim` | Body `ClaimRequest`: `code` | `200` `ClaimResponse`: `deviceId`, `secretKey`. La `secretKey` se usa como `X-Device-Key`. |
+| `/api/edge/readings` | Recibir una lectura enviada por el Edge API | POST | `POST /api/edge/readings` | Header `X-Device-Key`. Body `EdgeReadingRequest`: `deviceId`, `temperature`, `humidity`, `time` (`dd/MM/yyyy HH:mm`), `status`, `category` | `200` `MonitoringReadingDto` con el estado calculado. |
+
+**Monitoring – lecturas y semáforo (US06, US07)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/monitoring` | Listar las lecturas registradas | GET | `GET /api/monitoring` | Header `Authorization` | `200` lista de `MonitoringReadingDto`. |
+| `/api/monitoring` | Registrar una lectura de monitoreo | POST | `POST /api/monitoring` | Body `MonitoringReadingRequest`: `temperature`, `humidity`, `ethyleneLevel`, `oxygenLevel`, `ripeness`, `cleanliness` | `201` `MonitoringReadingDto`. `400` datos inválidos. |
+| `/api/monitoring/latest` | Obtener la última lectura con su color | GET | `GET /api/monitoring/latest` | Header `Authorization` | `200` `MonitoringReadingDto` con `status` (`GREEN`, `YELLOW`, `RED`, `UNKNOWN`). `204` si aún no hay lecturas. |
+
+**Alerts – alertas de la cadena de frío, vencimiento y stock (US08)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/alerts` | Listar todas las alertas | GET | `GET /api/alerts` | Header `Authorization` | `200` lista de `AlertResponse`. |
+| `/api/alerts` | Crear una alerta | POST | `POST /api/alerts` | Body `AlertRequest`: `title`, `message`, `severity` (`INFO`, `WARNING`, `CRITICAL`), `source`, `state`, `timeAgo` | `200` `AlertResponse`. |
+| `/api/alerts/{id}` | Actualizar una alerta (por ejemplo, marcarla como resuelta) | PUT | `PUT /api/alerts/{id}` | Path `id` (int64). Body `AlertRequest` | `200` `AlertResponse`. `404` si la alerta no existe. |
+
+**Notifications – envío y gestión de notificaciones (TS42)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/notifications/send` | Enviar una notificación a un usuario | POST | `POST /api/notifications/send` | Body `SendNotificationRequest`: `userId`, `title`, `message`, `alertType`, `channelType` (`IN_APP`, `EMAIL`, `PUSH`, `VOICE`) | `200` objeto con el resultado del envío. |
+| `/api/notifications` | Obtener la bandeja de notificaciones in-app | GET | `GET /api/notifications` | Header `Authorization` | `200` lista de `NotificationResponse`: `id`, `title`, `message`, `alertType`, `read`, `createdAt`. |
+| `/api/notifications/{id}/read` | Marcar una notificación como leída | PATCH | `PATCH /api/notifications/{id}/read` | Path `id` (int64) | `200`. |
+| `/api/notifications/preferences` | Obtener las preferencias de notificación | GET | `GET /api/notifications/preferences` | Header `Authorization` | `200` `NotificationPreference`. |
+| `/api/notifications/preferences` | Actualizar las preferencias de notificación | PUT | `PUT /api/notifications/preferences` | Body `NotificationPreferenceRequest`: `inAppEnabled`, `emailEnabled`, `pushEnabled`, `quietStart`, `quietEnd` | `200` `NotificationPreference`. |
+
+**Inventory – productos del inventario**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/products` | Listar los productos | GET | `GET /api/products` | Header `Authorization` | `200` lista de `ProductResponse`. |
+| `/api/products` | Registrar un producto | POST | `POST /api/products` | Body `ProductRequest`: `name`, `description`, `category`, `quantity`, `imageUrl`, `expirationDate` (`yyyy-MM-dd`) | `201` `ProductResponse`. `400` datos inválidos. |
+| `/api/products/{id}` | Actualizar parcialmente un producto | PATCH | `PATCH /api/products/{id}` | Path `id` (int64). Body `UpdateProductRequest` (todos los campos opcionales) | `200` `ProductResponse`. `404`. |
+| `/api/products/{id}` | Eliminar un producto | DELETE | `DELETE /api/products/{id}` | Path `id` (int64) | `204` sin contenido. `404`. |
+
+**Recipes – recetas y generación con IA (recipes-service)**
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta |
+|---|---|---|---|---|---|
+| `/api/recipes/generate-batch` | Generar un lote de recetas con IA (OpenAI) a partir de los insumos | POST | `POST /api/recipes/generate-batch` | Header `Authorization` | `201` recetas generadas. |
+| `/api/recipes` | Listar las recetas | GET | `GET /api/recipes` | Header `Authorization` | `200` lista de `RecipeResponse`. |
+| `/api/recipes` | Crear una receta | POST | `POST /api/recipes` | Body `CreateRecipeRequest`: `title`, `description`, `image`, `rating` (1–5), `level` (`Easy`, `Medium`, `Hard`), `type` (`Vegetarian`, `Vegan`, `Omnivore`), `time`, `ingredients[]`, `steps[]` | `201` `RecipeResponse`. `403` si el plan no lo permite. |
+| `/api/recipes/{id}` | Obtener el detalle de una receta | GET | `GET /api/recipes/{id}` | Path `id` (int64) | `200` `RecipeResponse`. `404`. |
+| `/api/recipes/premium` | Listar recetas premium | GET | `GET /api/recipes/premium` | Header `Authorization` | `200` recetas premium. `403` si el usuario no es premium. |
+
+**Ejemplos de request y response con datos de muestra**
+
+*Registro – `POST /api/accounts/register`*
+
+```json
+// Request
+{ "email": "jose.jimenez@restaurante.pe", "password": "Fresh2026", "fullName": "José Jiménez" }
+
+// Response 201
+{ "id": 12, "email": "jose.jimenez@restaurante.pe", "fullName": "José Jiménez",
+  "role": "USER_STANDARD", "token": "eyJhbGciOi...", "refreshToken": "eyJhbGciOi..." }
+```
+
+El API crea la cuenta con el rol `USER_STANDARD` y devuelve el token, así que el usuario entra a la aplicación sin volver a iniciar sesión.
+
+*Lectura del dispositivo – `POST /api/edge/readings`*
+
+```json
+// Header: X-Device-Key: <secretKey obtenida en /api/edge/claim>
+// Request
+{ "deviceId": "FS-ESP32-001", "temperature": 7.8, "humidity": 82.5,
+  "time": "08/10/2026 14:30", "category": "Lácteos" }
+
+// Response 200
+{ "id": 245, "temperature": 7.8, "humidity": 82.5, "recordedAt": "2026-10-08T14:30:00",
+  "deviceId": "FS-ESP32-001", "status": "YELLOW", "category": "Lácteos" }
+```
+
+El Edge API reenvía la lectura del ESP32 simulado en Wokwi. El backend la guarda y le asigna el color del semáforo (`status`): en este ejemplo, `YELLOW` porque la temperatura se acerca al límite seguro.
+
+**Commits relacionados con la documentación**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| 1ASI0572-2620-8725/BackEnd | main | cd732db | first commit | Carga inicial del backend existente de FreshSense (API REST Spring Boot con documentación OpenAPI) como base del proyecto. | 08/10/2026 |
+
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 1 de FreshSense, el equipo realizó actividades de configuración y despliegue de los productos digitales que conforman la primera versión de la solución. Estas actividades comprendieron la publicación del Landing Page mediante GitHub Pages, la preparación de infraestructura en Google Cloud Compute Engine y el despliegue de la aplicación web Angular y los servicios Backend desarrollados con Spring Boot.
+
+Asimismo, se configuró Nginx como servidor web y proxy inverso para facilitar la comunicación entre los componentes de la solución. El proceso contempló la compilación de los servicios, la transferencia de archivos ejecutables al servidor y la verificación de accesibilidad de los componentes desplegados.
+
+**Resumen de los componentes de despliegue**
+
+| Producto | Plataforma | Configuración |
+|---|---|---|
+| Landing Page | GitHub Pages | Publicación del sitio web estático desde el repositorio de GitHub |
+| Frontend Web Application | Google Cloud Compute Engine | Aplicación Angular servida mediante Nginx |
+| Backend REST API | Google Cloud Compute Engine | Servicios Spring Boot ejecutados en la máquina virtual |
+| Base de datos | MySQL 8 | Almacenamiento de información en el entorno del servidor |
+| Documentación de servicios | Swagger UI | Acceso a la documentación de los endpoints REST |
+
+**1. Despliegue del Landing Page**
+
+El Landing Page de FreshSense se publicó utilizando GitHub Pages, a partir del repositorio que contiene los archivos HTML, CSS y JavaScript del sitio web. Esta plataforma permite poner a disposición de los visitantes la información sobre la propuesta de valor, las funcionalidades y los servicios ofrecidos por FreshSense.
+
+La publicación se realizó desde la rama `main`, utilizando la configuración de GitHub Pages descrita en la sección 6.1.4. El sitio web se encuentra documentado en la siguiente dirección:
+
+**URL:** https://1asi0572-2620-8725.github.io/landing-page/
+
+![Landing Page de FreshSense publicada](Assets/sprint1-landing.png)
+
+*Figura 1. Landing Page de FreshSense publicada mediante GitHub Pages.*
+
+**2. Preparación y compilación del Backend**
+
+Para el despliegue de los servicios Backend, el equipo utilizó una máquina virtual de Google Cloud Compute Engine con Rocky Linux 9. De acuerdo con la configuración definida en la sección 6.1.4, el entorno incorpora Java 21, MySQL 8 y Nginx.
+
+Como parte del proceso, se realizó la compilación de los proyectos Spring Boot mediante Maven, generando los archivos ejecutables JAR correspondientes al Backend principal y a los servicios complementarios de alertas y recetas.
+
+La evidencia presentada muestra el resultado `BUILD SUCCESS`, que confirma que el proceso de compilación mostrado finalizó satisfactoriamente.
+
+![Compilación de servicios Backend mediante Maven](Assets/sprint1-deployment-build.png)
+
+*Figura 2. Compilación satisfactoria de los servicios Backend mediante Maven y generación de archivos JAR.*
+
+**3. Transferencia de archivos y preparación del servidor**
+
+Después de la compilación, se preparó el directorio `/opt/freshsense` de la máquina virtual para almacenar los archivos ejecutables de los servicios.
+
+Los archivos JAR fueron transferidos al entorno de despliegue, donde se realiza su ejecución y configuración según los puertos establecidos para cada servicio. Esta organización permite mantener los componentes Backend en una ubicación definida dentro del servidor.
+
+![Transferencia de archivos JAR al servidor](Assets/sprint1-deployment-transfer.png)
+
+*Figura 3. Preparación del directorio de despliegue y transferencia de archivos ejecutables a Google Cloud Compute Engine.*
+
+**4. Configuración del servidor web y verificación del despliegue**
+
+Para publicar la aplicación web y permitir su comunicación con los servicios Backend, se utilizó Nginx como servidor web y proxy inverso. Esta configuración permite atender las solicitudes de la aplicación Angular y redirigir las peticiones del API REST hacia los servicios correspondientes.
+
+Adicionalmente, la configuración de despliegue contempla el acceso mediante HTTPS, utilizando el dominio `35-224-123-160.sslip.io`, según lo establecido en la sección 6.1.4.
+
+Durante la verificación del entorno se ejecutaron comprobaciones de configuración de Nginx y solicitudes HTTP a los componentes del sistema. La evidencia muestra una validación satisfactoria de la configuración del servidor y respuestas HTTP 200 en las comprobaciones realizadas para Backend, Frontend y API.
+
+![Verificación de Nginx y respuestas HTTP](Assets/sprint1-deployment-validation.png)
+
+*Figura 4. Validación de la configuración de Nginx y comprobación de accesibilidad de los componentes desplegados.*
+
+**5. Acceso a los productos desplegados**
+
+Las siguientes direcciones corresponden a los servicios publicados e identificados en la configuración del proyecto.
+
+| Producto | URL |
+|---|---|
+| Landing Page | https://1asi0572-2620-8725.github.io/landing-page/ |
+| Aplicación web | https://35-224-123-160.sslip.io/login |
+| Documentación Swagger | https://35-224-123-160.sslip.io/swagger-ui/index.html |
+| Especificación OpenAPI | https://35-224-123-160.sslip.io/v3/api-docs |
+
+Estas direcciones permiten acceder a los productos principales de la solución y verificar la disponibilidad de sus interfaces. Las comprobaciones HTTP presentadas constituyen evidencia inicial de accesibilidad, mientras que la validación funcional de los recorridos de usuario y endpoints se documenta en las secciones de Testing y Execution Evidence del Sprint.
+
+**6. Estado de los componentes IoT**
+
+La arquitectura de FreshSense contempla el uso de un ESP32 con sensor DHT22 y un Edge API encargado de transmitir las lecturas ambientales hacia el Backend. La configuración prevista para estos componentes se describe en la sección 6.1.4.
+
+La evidencia de instalación, ejecución e integración de estos componentes se incorporará cuando se disponga de las capturas correspondientes al entorno IoT utilizado durante el Sprint.
+
+En conjunto, las evidencias presentadas documentan los procesos de compilación, preparación del servidor, transferencia de ejecutables y comprobación básica de accesibilidad de los componentes web y Backend. Estos avances constituyen la base técnica para continuar con la integración y validación de las funcionalidades de FreshSense en los siguientes incrementos.
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-2620-8725`, con un repositorio por producto. Cada integrante desarrolló sus tareas en ramas `feature/*`, las integró a `develop` mediante Pull Requests y, al cerrar el Sprint, se pasaron a `main` para el despliegue. 
+
+**Repositorios del Sprint 1:**
 
 ## 6.3. Validation Interviews
 
