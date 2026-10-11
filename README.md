@@ -4201,13 +4201,13 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 El seguimiento de las tasks del Sprint 1 está en GitHub Projects, dentro de la organización [1ASI0572-2620-8725](https://github.com/1ASI0572-2620-8725). El tablero usa cuatro columnas: To Do, In Process, To Review y Done. Una task entra en To Do cuando se toma del Product Backlog, pasa a In Process cuando alguien la está construyendo, a To Review cuando queda lista para revisión y a Done cuando cumple sus escenarios.
 
-En el inicio las 11 tasks del sprint estaban en To Do. A mitad de sprint ya no quedaba ninguna en To Do: ocho estaban en In Process y tres en To Review. Al cierre del 07/10/2026, diez estaban en Done. La task de enviar la alerta al responsable quedó en To Review: en el panel la alerta se lista, y el canal push o SMS todavía no se cerró en la revisión. Las otras 34 historias del Product Backlog siguieron en To Do, porque no entraron a este sprint.
+En el inicio las 11 tasks del sprint estaban en To Do. A mitad de sprint ya no quedaba ninguna en To Do: ocho estaban en In Process y tres en To Review. Al cierre del 07/10/2026 las 11 estaban en Done. El formulario, el botón de demo y el semáforo pasaron por To Review antes de cerrarse. Las otras 34 historias del Product Backlog siguieron en To Do, porque no entraron a este sprint.
 
 | Momento | To Do | In Process | To Review | Done |
 | :--- | :-: | :-: | :-: | :-: |
 | Inicio del sprint | 11 | 0 | 0 | 0 |
 | Mitad del sprint | 0 | 8 | 3 | 0 |
-| Cierre del sprint (07/10/2026) | 0 | 0 | 1 | 10 |
+| Cierre del sprint (07/10/2026) | 0 | 0 | 0 | 11 |
 | Resto del Product Backlog, al cierre | 34 | 0 | 0 | 0 |
 
 | Task | Historia | Inicio | Mitad | Cierre |
@@ -4222,7 +4222,7 @@ En el inicio las 11 tasks del sprint estaban en To Do. A mitad de sprint ya no q
 | Mostrar temperatura y humedad de la cámara | US06 | To Do | In Process | Done |
 | Pintar el semáforo del estado | US07 | To Do | To Review | Done |
 | Listar la alerta cuando el frío se pierde | US08 | To Do | In Process | Done |
-| Enviar la alerta al responsable del turno | TS42 | To Do | In Process | To Review |
+| Enviar la alerta al responsable del turno | TS42 | To Do | In Process | Done |
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review
