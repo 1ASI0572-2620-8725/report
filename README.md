@@ -1,39 +1,57 @@
 <div align="center">
 
-<p align="center" style="margin: 0 0 1.75rem;">
-  <img src="Assets/upc-logo.png" alt="Logo UPC" style="max-width: 200px; width: 55%; height: auto; display: inline-block;" />
+<img src="Assets/upc-logo.png" alt="Logo UPC" width="110">
+
+<p>
+<div align="center">
+
+<img src="Assets/upc-logo.png" alt="Logo UPC" width="110">
+
+<p>
+Universidad Peruana de Ciencias Aplicadas<br>
+Carrera de Ingeniería de Software
 </p>
 
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
+<br>
 
-<strong>Facultad de Ingeniería</strong><br>
-<strong>Carrera: Ingeniería de Software</strong><br>
+<p><strong>1ASI0572</strong></p>
 
-<strong>Periodo:</strong> 202620<br>
-<strong>Codigo del curso:</strong>  1ASI057 <br>
-<strong>Nombre del curso:</strong>  Desarrollo de Soluciones IoT<br>
-<strong>NRC:</strong> 8725 <br>
+<h4>Desarrollo de Soluciones IoT</h4>
 
-<strong>Nombre del profesor:</strong> Marco Antonio León Baca <br>
+<p>NRC<br><strong>8725</strong></p>
 
-<br><strong>*Informe de Trabajo Final*</strong><br><br>
+<h3>Informe del Trabajo Final</h3>
 
-<strong>Nombre del startup: </strong>FreshEat<br>
-<strong>Nombre del producto: </strong>FreshSense<br>
+<p>Docente<br><strong>León Baca, Marco Antonio</strong></p>
 
+<br>
 
+<p>Equipo<br><strong>FreshEat</strong></p>
 
-### Relación de Integrantes
+<br>
 
-| Apellidos y Nombres                  |   Código    |
-|:------------------------------------:|:-----------:|
-| Tuesta Marin, Romina Alejandra       | U202211706  |
-| Cossar Sanchez, Eduardo Jose     | U202312109  |
-| Mostajo Orosco, Maria Fernanda    | U202312874  |
-| Chavez Viera, Joseph Manuel| u202314019  |
-| Pastor Napa, Juan Carlos    | u202217288  |
+<p>Proyecto<br><strong>FreshSense</strong></p>
 
-<strong> Septiembre 2026</strong><br>
+<br>
+
+<p><strong>Integrantes</strong></p>
+
+<table>
+  <tr>
+    <th align="left">Código</th>
+    <th align="left">Apellidos y Nombres</th>
+  </tr>
+  <tr><td>u202211706</td><td>Tuesta Marin, Romina Alejandra</td></tr>
+  <tr><td>u202312109</td><td>Cossar Sanchez, Eduardo Jose</td></tr>
+  <tr><td>u202312874</td><td>Mostajo Orosco, Maria Fernanda</td></tr>
+  <tr><td>u202314019</td><td>Chavez Viera, Joseph Manuel</td></tr>
+  <tr><td>u202217288</td><td>Pastor Napa, Juan Carlos</td></tr>
+</table>
+
+<br><br><br><br>
+
+<p><strong>Período 202620</strong></p>
+
 </div>
 
 <div style="page-break-after: always;"></div>
