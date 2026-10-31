@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="Assets/upc-logo.png" alt="Logo UPC" width="110">
-
+<br>
 <p>
 Universidad Peruana de Ciencias Aplicadas<br>
 Carrera de Ingeniería de Software
