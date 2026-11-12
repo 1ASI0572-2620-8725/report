@@ -4590,9 +4590,113 @@ Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-
 
 ## 6.3. Validation Interviews
 
-### 6.3.1. Diseño de Entrevistas
+En esta sección se presenta el proceso de validación de la experiencia de usuario de FreshSense mediante entrevistas dirigidas a representantes de los segmentos objetivo definidos en el proyecto: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
 
-### 6.3.2. Registro de Entrevistas
+El propósito de estas entrevistas es evaluar la facilidad de uso, claridad de la información, organización de contenidos y utilidad de las principales funcionalidades de la landing page y la plataforma web. Asimismo, se busca identificar oportunidades de mejora relacionadas con la usabilidad, arquitectura de información y diseño inclusivo.
+
+Las sesiones se plantean mediante un enfoque de validación moderada, en el que los participantes realizan tareas específicas mientras el entrevistador observa su interacción con las interfaces y recoge sus apreciaciones. Para ello, se consideran los flujos de navegación vinculados con el monitoreo de temperatura y humedad, gestión del inventario, consulta de alertas y visualización de reportes.
+
+La validación contempla tanto la comprensión de la propuesta de valor presentada en la landing page como la interacción con las funcionalidades disponibles en la aplicación web. Cuando se utilice una versión local con datos simulados, esta condición será comunicada a los participantes para evitar confundir las funcionalidades demostrativas con servicios operativos.
+
+Los resultados obtenidos permitirán identificar problemas de interacción, evaluar la percepción de utilidad de FreshSense y plantear recomendaciones que contribuyan a mejorar la experiencia de los usuarios en futuras versiones de la solución.
+
+## 6.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación han sido diseñadas considerando las características, responsabilidades y necesidades de cada segmento objetivo. Se utiliza una estructura semiestructurada que combina tareas prácticas de navegación con preguntas abiertas sobre la experiencia de uso.
+
+Cada sesión contempla la presentación inicial de FreshSense, la revisión de la landing page, la ejecución de tareas sobre la aplicación web y la recopilación de observaciones finales.
+
+Durante la validación se busca observar la capacidad del participante para identificar información relevante, comprender los indicadores presentados, navegar entre las secciones y reconocer las acciones disponibles para cumplir sus objetivos.
+
+### Segmento 1: Propietarios y administradores de restaurantes
+
+**Objetivo de validación:** Evaluar si FreshSense permite a los responsables de restaurantes comprender y utilizar las funcionalidades de control de inventario, monitoreo de condiciones ambientales y alertas para apoyar la conservación de sus insumos perecibles.
+
+**Tareas y User Flows a validar:**
+
+| ID | Tarea de validación | User Flow |
+| --- | --- | --- |
+| T01 | Revisar la landing page e identificar la propuesta de valor de FreshSense. | Inicio → Cómo funciona → Beneficios |
+| T02 | Identificar en el dashboard los productos registrados y las alertas pendientes. | Dashboard → Indicadores generales |
+| T03 | Buscar un alimento y consultar su información, cantidad y vencimiento. | Inventario → Buscar producto → Detalle |
+| T04 | Identificar un alimento que requiere atención. | Dashboard → Alertas → Detalle de alerta |
+| T05 | Consultar las condiciones de temperatura y humedad. | Monitoreo → Última lectura |
+| T06 | Revisar el historial de consumo y descarte de productos. | Reportes → Historial |
+
+**Preguntas de validación:**
+
+1. Después de revisar la landing page, ¿considera que se explica claramente qué es FreshSense y cómo podría utilizarse en su restaurante?
+2. ¿Qué información identifica inicialmente en el dashboard? ¿Le resulta fácil comprender los indicadores?
+3. ¿Ha podido encontrar un producto en el inventario y consultar su información sin dificultades?
+4. ¿Qué opina sobre la organización de los productos y la información de sus fechas de vencimiento?
+5. ¿Las alertas presentan información suficientemente clara para identificar productos que necesitan atención?
+6. ¿Le resulta sencillo consultar las condiciones de temperatura y humedad?
+7. ¿Considera que los reportes y el historial presentado podrían ayudarle a mejorar el control de los insumos?
+8. ¿Qué funcionalidad considera más útil para las operaciones de su restaurante?
+9. ¿Encontró alguna dificultad durante la navegación o algún elemento que debería explicarse mejor?
+10. ¿Qué cambios recomendaría para facilitar el uso de FreshSense en su negocio?
+
+### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+**Objetivo de validación:** Evaluar si FreshSense ofrece una experiencia de uso comprensible y útil para responsables de almacenamiento y distribución de alimentos perecibles, priorizando la visualización de condiciones de conservación, la consulta del inventario, la identificación de alertas y el análisis de información histórica.
+
+**Tareas y User Flows a validar:**
+
+| ID | Tarea de validación | User Flow |
+| --- | --- | --- |
+| T01 | Revisar la landing page e identificar la utilidad de FreshSense para un negocio de distribución de alimentos refrigerados. | Inicio → Cómo funciona → Beneficios |
+| T02 | Localizar los indicadores generales relacionados con el almacenamiento y las condiciones ambientales. | Dashboard → Indicadores generales |
+| T03 | Consultar las condiciones de temperatura y humedad y revisar el detalle de la última lectura. | Dashboard → Monitoreo → Última lectura |
+| T04 | Buscar un producto perecible y consultar su información de inventario. | Inventario → Buscar producto → Detalle |
+| T05 | Identificar una alerta y comprender su estado y nivel de prioridad. | Alertas → Filtros → Detalle |
+| T06 | Consultar los reportes e identificar la información histórica disponible. | Reportes → Indicadores → Historial |
+| T07 | Identificar las opciones disponibles para consultar dispositivos asociados a la cuenta. | Dispositivos → Lista de dispositivos |
+
+**Preguntas de validación:**
+
+1. Después de revisar la landing page, ¿considera que FreshSense comunica claramente su propuesta para empresas que almacenan o distribuyen alimentos refrigerados?
+2. ¿Le resulta sencillo identificar la información principal presentada en el dashboard?
+3. ¿Ha podido localizar las lecturas de temperatura y humedad? ¿Considera que la información se presenta de manera comprensible?
+4. ¿Qué opina sobre la facilidad para buscar productos y revisar su información dentro del inventario?
+5. ¿Las alertas permiten reconocer fácilmente qué situación requiere atención?
+6. ¿Considera que la información disponible en los reportes sería útil para supervisar las condiciones de almacenamiento?
+7. ¿La organización de las secciones facilita encontrar las funcionalidades que necesita?
+8. ¿Qué información adicional necesitaría consultar para gestionar los productos y sus condiciones de conservación?
+9. ¿Qué aspectos de la interfaz le parecieron claros y cuáles considera que deberían mejorarse?
+10. Después de conocer la plataforma, ¿qué funcionalidades considera más importantes para su trabajo?
+
+### Criterios de evaluación
+
+Para ambos segmentos se consideran los siguientes aspectos:
+
+- **Usabilidad:** Facilidad para completar tareas, comprender acciones y navegar entre secciones.
+- **Arquitectura de información:** Claridad de las etiquetas, organización de contenidos y facilidad para localizar información.
+- **Diseño inclusivo:** Legibilidad, comprensión de mensajes, contraste visual y facilidad de interacción.
+- **Utilidad percibida:** Relación entre las funcionalidades mostradas y las necesidades operativas del segmento.
+- **Oportunidades de mejora:** Dificultades identificadas y recomendaciones expresadas durante las sesiones.
+
+Los problemas identificados durante la validación serán analizados posteriormente mediante el formato de evaluación heurística establecido en el Anexo D del Final Project Statement.
+
+## 6.3.2. Registro de Entrevistas
+
+En esta sección se documentarán las sesiones de validación realizadas con representantes de ambos segmentos objetivo. Cada registro incluirá los datos generales del participante, una captura de la sesión, el enlace al video correspondiente, el tiempo de inicio, su duración y un resumen descriptivo de las apreciaciones obtenidas durante la interacción con FreshSense.
+
+Los registros permitirán relacionar las tareas ejecutadas con los aspectos positivos, dificultades y recomendaciones identificados por cada participante. Para las entrevistas efectivamente realizadas se incorporarán las evidencias audiovisuales y los resultados observados.
+
+Se consideran entre tres y cinco entrevistas por segmento, de acuerdo con las indicaciones del Final Project Statement. Las siguientes plantillas se utilizarán como formato de referencia para registrar las sesiones correspondientes.
+
+### Segmento 1: Propietarios y administradores de restaurantes
+
+#### Entrevista de validación 1
+
+
+
+
+### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+#### Entrevista de validación 1
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 
