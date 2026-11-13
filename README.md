@@ -4734,6 +4734,255 @@ Como oportunidades de mejora, sugirió incorporar imágenes relacionadas con emp
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+En esta sección se presenta la evaluación de la experiencia de usuario de FreshSense, tomando como referencia las observaciones obtenidas durante las entrevistas de validación realizadas con representantes de los dos segmentos objetivo.
+
+La evaluación considera principios de usabilidad, arquitectura de información y diseño inclusivo, con el propósito de identificar oportunidades de mejora en la landing page y la aplicación web. Para ello, se utiliza el formato establecido en el Anexo D del Final Project Statement, que contempla la identificación de problemas, clasificación de severidad y elaboración de recomendaciones.
+
+Los hallazgos se relacionan con los comentarios de los representantes del segmento de propietarios y administradores de restaurantes, y los representantes del segmento de encargados de negocios de distribución de alimentos en fríos. Cada problema se presenta con una captura de la interfaz actual y una propuesta visual de mejora, permitiendo identificar los cambios recomendados.
+
+#### UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Información |
+| --- | --- |
+| Carrera | Ingeniería de Software |
+| Curso | Desarrollo de Soluciones IoT |
+| Sección / NRC | 8725 |
+| Auditor | Equipo FreshSense |
+| Clientes evaluadores | Entrevistados del Segmento 1 y 2 |
+| Sitios y aplicaciones | FreshSense Landing Page y FreshSense Web Application |
+| Segmentos | Propietarios y administradores de restaurantes; encargados de negocios de distribución de alimentos en fríos |
+
+#### Tareas a evaluar
+
+La evaluación comprende las siguientes tareas de interacción:
+
+1. Comprender la propuesta de FreshSense mediante la landing page.
+2. Identificar información general en el dashboard.
+3. Buscar y consultar productos dentro del inventario.
+4. Identificar alimentos próximos a vencer y revisar sus alertas.
+5. Consultar mediciones de temperatura y humedad.
+6. Interpretar advertencias relacionadas con productos almacenados.
+7. Revisar reportes y registros históricos.
+8. Navegar entre las principales funcionalidades de la plataforma.
+
+No se incluyen en esta evaluación las pruebas de conexión con dispositivos físicos, el procesamiento real de mediciones IoT, las transacciones de pago ni las funcionalidades de integración externa que no forman parte de la demostración presentada.
+
+#### Escala de severidad
+
+Los problemas identificados se clasifican de acuerdo con la escala indicada en el Anexo D.
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: presenta un impacto reducido y puede corregirse cuando exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede dificultar ocasionalmente la experiencia de uso y debe considerarse para una próxima mejora. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta significativamente completar una tarea. Requiere prioridad alta. |
+| 4 | Problema muy grave: impide completar una tarea fundamental y requiere corrección antes del lanzamiento. |
+
+#### Tabla resumen
+
+La siguiente tabla presenta los principales problemas y oportunidades de mejora identificados a partir de las entrevistas de validación y la revisión de las interfaces de FreshSense.
+
+| # | Segmento | Problema identificado | Severidad | Heurística / Principio |
+| --- | --- | --- | --- | --- |
+| 1 | Segmento 1 | Poca representación visual de restaurantes en la landing page. | 1 | Usabilidad: Correspondencia entre el sistema y el mundo real |
+| 2 | Segmento 1 | Los productos próximos a vencer no se destacan suficientemente en el inventario. | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 3 | Segmento 1 | No existe un acceso contextual directo a las alertas desde las tarjetas del inventario. | 2 | Usabilidad: Flexibilidad y eficiencia de uso |
+| 4 | Segmento 1 | Los reportes no destacan los productos descartados con mayor frecuencia. | 2 | Arquitectura de información: Facilidad para encontrar información |
+| 5 | Segmento 2 | Poca representación visual de empresas distribuidoras en la landing page. | 1 | Usabilidad: Correspondencia entre el sistema y el mundo real |
+| 6 | Segmento 2 | No se identifica una cámara de refrigeración específica en las lecturas de monitoreo. | 2 | Arquitectura de información: Claridad de etiquetas |
+| 7 | Segmento 2 | No se dispone de opciones específicas para buscar y organizar productos por lotes. | 2 | Arquitectura de información: Facilidad para encontrar información |
+| 8 | Segmento 2 | La descripción de la sección de alertas no corresponde completamente con las advertencias mostradas. | 2 | Usabilidad: Consistencia y estándares |
+
+#### Descripción de problemas
+
+##### Segmento 1: Propietarios y administradores de restaurantes
+
+###### Problema #1: Poca representación visual de restaurantes en la landing page
+
+**Severidad:** 1 – Problema superficial.
+
+**Heurística afectada:** Usabilidad – Correspondencia entre el sistema y el mundo real.
+
+**Problema:**
+
+Durante la validación, Guillermo señaló que la landing page presenta información clara y un diseño atractivo. Sin embargo, recomendó incorporar imágenes y ejemplos relacionados con restaurantes y cocinas comerciales, debido a que algunos elementos visuales están orientados principalmente al uso doméstico. Esto puede dificultar que los propietarios de restaurantes identifiquen rápidamente cómo se aplicaría FreshSense a sus operaciones.
+
+**Recomendación:**
+
+Incorporar imágenes de cocinas comerciales, equipos de refrigeración e inventarios de restaurantes, acompañadas de mensajes relacionados con el control de insumos perecibles y la reducción de pérdidas en negocios gastronómicos.
+
+**Estado actual:**
+
+![Problema 1 - Landing page actual](Assets/Heuristicas/G01-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 1 - Landing page orientada a restaurantes](Assets/Heuristicas/G01-Propuesta.png)
+
+###### Problema #2: Visibilidad de productos próximos a vencer
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Usabilidad – Visibilidad del estado del sistema.
+
+**Problema:**
+
+Guillermo consideró que el inventario presenta los productos de manera ordenada y comprensible, pero recomendó destacar visualmente aquellos que se encuentran próximos a vencer. Aunque la plataforma permite consultar información de los productos, las tarjetas no muestran directamente sus fechas de vencimiento ni una diferenciación suficientemente visible de aquellos que requieren atención prioritaria.
+
+**Recomendación:**
+
+Incorporar etiquetas visibles como "Próximo a vencer" y "Vencido", acompañadas de colores e iconos diferenciados. Asimismo, facilitar el ordenamiento por fecha de vencimiento para que los usuarios identifiquen rápidamente los productos que necesitan revisar.
+
+**Estado actual:**
+
+![Problema 2 - Inventario actual](Assets/Heuristicas/G02-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 2 - Inventario con indicadores de vencimiento](Assets/Heuristicas/G02-Propuesta.png)
+
+###### Problema #3: Acceso directo a las alertas desde el inventario
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Usabilidad – Flexibilidad y eficiencia de uso.
+
+**Problema:**
+
+Durante la entrevista, Guillermo indicó que la navegación general es sencilla, pero sugirió facilitar el acceso a las alertas relacionadas con los productos desde el propio inventario. Actualmente, el usuario debe dirigirse a la sección de alertas para consultar las advertencias, lo que puede añadir pasos innecesarios cuando necesita revisar rápidamente la situación de un alimento específico.
+
+**Recomendación:**
+
+Incorporar en las tarjetas o detalles de los productos un indicador de advertencias y un acceso contextual a las alertas relacionadas. Esto permitiría consultar la situación de un alimento sin necesidad de realizar una búsqueda adicional desde el menú principal.
+
+**Estado actual:**
+
+![Problema 3 - Inventario sin acceso contextual a alertas](Assets/Heuristicas/G03-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 3 - Inventario con acceso directo a alertas](Assets/Heuristicas/G03-Propuesta.png)
+
+###### Problema #4: Identificación de productos descartados en los reportes
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Arquitectura de información – Facilidad para encontrar información.
+
+**Problema:**
+
+Guillermo valoró positivamente los gráficos e historiales de FreshSense, pero consideró importante identificar con rapidez cuáles son los productos que se descartan con mayor frecuencia. Actualmente, la sección de reportes presenta información general sobre desperdicio y un historial de consumo y descarte, pero no destaca directamente los productos que acumulan mayores pérdidas.
+
+**Recomendación:**
+
+Incorporar un resumen visual de los productos más descartados, mediante un gráfico de barras o una tabla ordenada por cantidad de descartes. Esto facilitaría la identificación de patrones de desperdicio y apoyaría la planificación de compras del restaurante.
+
+**Estado actual:**
+
+![Problema 4 - Reportes actuales](Assets/Heuristicas/G04-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 4 - Reportes con productos más descartados](Assets/Heuristicas/G04-Propuesta.png)
+
+##### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+###### Problema #5: Poca representación visual de empresas distribuidoras en la landing page
+
+**Severidad:** 1 – Problema superficial.
+
+**Heurística afectada:** Usabilidad – Correspondencia entre el sistema y el mundo real.
+
+**Problema:**
+
+Carmen consideró que la landing page presenta un diseño agradable y una propuesta comprensible. Sin embargo, observó que algunas imágenes y mensajes parecen dirigidos al uso doméstico, por lo que recomendó incluir representaciones de almacenes y empresas de distribución de alimentos refrigerados. Esto podría dificultar que los usuarios del segmento identifiquen los escenarios empresariales a los que está dirigida la solución.
+
+**Recomendación:**
+
+Incorporar imágenes de almacenes refrigerados, cámaras frigoríficas y operaciones de distribución de alimentos perecibles. Complementar las imágenes con textos breves que destaquen el monitoreo de condiciones ambientales y el control de productos almacenados.
+
+**Estado actual:**
+
+![Problema 5 - Landing page actual](Assets/Heuristicas/C01-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 5 - Landing page orientada a empresas distribuidoras](Assets/Heuristicas/C01-Propuesta.png)
+
+###### Problema #6: Identificación de cámaras de refrigeración en el monitoreo
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Arquitectura de información – Claridad de etiquetas.
+
+**Problema:**
+
+Carmen destacó que los valores de temperatura y humedad son fáciles de localizar e interpretar. No obstante, sugirió identificar claramente la cámara de refrigeración a la que corresponde cada lectura. Actualmente, la pantalla presenta indicadores generales de temperatura y humedad, pero no muestra una identificación específica de la cámara o zona de almacenamiento asociada a estas mediciones.
+
+**Recomendación:**
+
+Agregar una etiqueta visible con el nombre o identificador de la cámara de refrigeración correspondiente a cada lectura. Por ejemplo, "Cámara 01 – Refrigeración", acompañado de los valores de temperatura y humedad asociados.
+
+**Estado actual:**
+
+![Problema 6 - Monitoreo actual](Assets/Heuristicas/C02-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 6 - Monitoreo con identificación de cámaras](Assets/Heuristicas/C02-Propuesta.png)
+
+###### Problema #7: Organización y búsqueda de productos por lotes
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Arquitectura de información – Facilidad para encontrar información.
+
+**Problema:**
+
+Durante la validación, Carmen consideró que la sección de inventario es clara y permite consultar fácilmente la información de los alimentos. Sin embargo, recomendó agregar opciones de búsqueda y filtrado por lotes, debido a que las empresas distribuidoras manejan distintas cantidades de productos que necesitan identificarse y supervisarse de manera independiente. Actualmente, el inventario cuenta con filtros por condición y categoría, pero no dispone de una opción específica por lote.
+
+**Recomendación:**
+
+Incorporar un filtro por número o identificador de lote y mostrar dicha información en los detalles de los productos. Esto facilitaría la localización de mercancías específicas y permitiría una organización más adecuada para empresas de distribución de alimentos perecibles.
+
+**Estado actual:**
+
+![Problema 7 - Inventario actual sin filtro por lotes](Assets/Heuristicas/C03-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 7 - Inventario con filtro por lotes](Assets/Heuristicas/C03-Propuesta.png)
+
+###### Problema #8: Inconsistencia entre la descripción y el contenido de las alertas
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Usabilidad – Consistencia y estándares.
+
+**Problema:**
+
+Durante la validación, Carmen destacó la utilidad de las alertas para identificar productos que requieren atención. Sin embargo, al revisar la interfaz se observa que la descripción de la sección hace referencia a alertas de temperatura y humedad, mientras que las advertencias visibles corresponden a productos vencidos o próximos a vencer. Aunque algunas alertas incluyen una etiqueta que identifica su origen, la diferencia entre la descripción general y el contenido puede generar confusión sobre los eventos que realmente supervisa la plataforma.
+
+**Recomendación:**
+
+Modificar la descripción de la sección para indicar que FreshSense contempla alertas de inventario y condiciones ambientales. Asimismo, mejorar la identificación visual del origen de cada advertencia mediante etiquetas diferenciadas, como "Inventario" o "Sensor", incorporando el nombre del equipo o zona cuando se disponga de esa información.
+
+**Estado actual:**
+
+![Problema 8 - Alertas actuales](Assets/Heuristicas/C04-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 8 - Alertas con identificación de origen](Assets/Heuristicas/C04-Propuesta.png)
+
+#### Conclusiones de la evaluación
+
+Las entrevistas de validación permitieron identificar una valoración favorable de la organización visual y navegación de FreshSense. Tanto Guillermo como Carmen destacaron la claridad de los indicadores, el inventario, el monitoreo ambiental y las alertas, considerando que estas funcionalidades responden a necesidades importantes de sus respectivos negocios.
+
+Las principales oportunidades de mejora se concentran en adaptar la presentación visual al contexto empresarial de cada segmento, facilitar la identificación de productos y situaciones prioritarias, mejorar la consistencia de los mensajes y proporcionar información más específica para las actividades de almacenamiento y distribución. Estas recomendaciones constituyen propuestas de mejora para futuras versiones de FreshSense y no representan funcionalidades ya implementadas.
+
 ## 6.4. Video About-the-Product
 
 ## Conclusiones
