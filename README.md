@@ -4677,24 +4677,58 @@ Para ambos segmentos se consideran los siguientes aspectos:
 
 Los problemas identificados durante la validación serán analizados posteriormente mediante el formato de evaluación heurística establecido en el Anexo D del Final Project Statement.
 
-## 6.3.2. Registro de Entrevistas
+### 6.3.2. Registro de Entrevistas
 
-En esta sección se documentarán las sesiones de validación realizadas con representantes de ambos segmentos objetivo. Cada registro incluirá los datos generales del participante, una captura de la sesión, el enlace al video correspondiente, el tiempo de inicio, su duración y un resumen descriptivo de las apreciaciones obtenidas durante la interacción con FreshSense.
+En esta sección se presentan los registros de las entrevistas de validación realizadas con representantes de los dos segmentos objetivo de FreshSense. Durante las sesiones, los participantes revisaron la landing page y las principales funcionalidades de la plataforma web, proporcionando comentarios sobre su diseño, facilidad de navegación, utilidad y oportunidades de mejora.
 
-Los registros permitirán relacionar las tareas ejecutadas con los aspectos positivos, dificultades y recomendaciones identificados por cada participante. Para las entrevistas efectivamente realizadas se incorporarán las evidencias audiovisuales y los resultados observados.
+#### Segmento 1: Propietarios y administradores de restaurantes
 
-Se consideran entre tres y cinco entrevistas por segmento, de acuerdo con las indicaciones del Final Project Statement. Las siguientes plantillas se utilizarán como formato de referencia para registrar las sesiones correspondientes.
+##### Entrevista 1
 
-### Segmento 1: Propietarios y administradores de restaurantes
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Guillermo |
+| Edad | 26 años |
+| Ubicación | Lima |
+| Empresa / sector | Restaurante |
+| Cargo | Propietario |
+| Inicio de entrevista | 00:00 |
+| Duración | [6:55] |
+| Enlace | https://drive.google.com/file/d/13nuVuTI4ZL1ZWRnegA6Oip82JT7qHDdW/view?usp=sharing |
 
-#### Entrevista de validación 1
+**Evidencia visual de la entrevista:**
 
+![Captura de la entrevista de validación de Guillermo](Assets/ValidacionGuillermo.png)
 
+**Resumen:**
 
+Guillermo, de 26 años, propietario de un restaurante, participó en una entrevista de validación de FreshSense, donde revisó la landing page y las principales funcionalidades de la plataforma web. Consideró que el diseño es moderno, organizado y fácil de comprender, destacando la claridad del dashboard, el inventario, las alertas y el monitoreo de temperatura y humedad. También valoró la utilidad de los reportes para identificar productos descartados y mejorar la planificación de compras.
 
-### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+Como oportunidades de mejora, recomendó incluir más ejemplos visuales relacionados con restaurantes en la landing page, destacar los alimentos próximos a vencer mediante etiquetas más visibles o filtros por fecha y facilitar el acceso a las alertas desde el inventario. En general, consideró que FreshSense es una propuesta útil para mejorar el control de insumos perecibles y reducir posibles pérdidas en su negocio.
 
-#### Entrevista de validación 1
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+##### Entrevista 1
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Carmen |
+| Edad | 54 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | [00:00] |
+| Duración | [07:55] |
+| Enlace | https://drive.google.com/file/d/1yKrq3YnjwJ_HUjNw0gdgOVtL0_tbf6sp/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Carmen](Assets/ValidacionCarmen.png)
+
+**Resumen:**
+
+Carmen, de 54 años, encargada de supervisar el almacenamiento y conservación de alimentos perecibles, participó en una entrevista de validación de FreshSense. Consideró que la landing page presenta información clara y un diseño agradable, mientras que la plataforma ofrece una navegación sencilla e indicadores fáciles de interpretar. Destacó especialmente el monitoreo de temperatura y humedad, las alertas y los reportes, por su utilidad para supervisar las condiciones de almacenamiento y organizar la información del negocio.
+
+Como oportunidades de mejora, sugirió incorporar imágenes relacionadas con empresas distribuidoras en la landing page, identificar las cámaras de refrigeración asociadas a las lecturas y alertas, y agregar filtros por lotes y zonas de almacenamiento. En general, valoró positivamente FreshSense y consideró que estas mejoras permitirían adaptar mejor la plataforma a las necesidades de las empresas de distribución de alimentos refrigerados.
 
 
 
