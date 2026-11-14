@@ -4706,6 +4706,31 @@ Guillermo, de 26 años, propietario de un restaurante, participó en una entrevi
 
 Como oportunidades de mejora, recomendó incluir más ejemplos visuales relacionados con restaurantes en la landing page, destacar los alimentos próximos a vencer mediante etiquetas más visibles o filtros por fecha y facilitar el acceso a las alertas desde el inventario. En general, consideró que FreshSense es una propuesta útil para mejorar el control de insumos perecibles y reducir posibles pérdidas en su negocio.
 
+
+
+##### Entrevista 2
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Alexandro Sánchez |
+| Edad | 27 años |
+| Empresa / sector | Restaurante |
+| Cargo | Administrador |
+| Función | Supervisión de operaciones, compras y gestión de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | [3:58] |
+| Enlace | https://drive.google.com/file/d/1NrG3ZA6vQgkbtlRClSGPxKEiXvUERpWT/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Alexander](Assets/entrevistaAlexander.png)
+
+**Resumen:**
+
+Alexandro, de 27 años, administrador de un restaurante, participó en una entrevista de validación de FreshSense, donde revisó la landing page y las principales funcionalidades de la plataforma web. Consideró que la página presenta información clara sobre los beneficios de la solución y que el dashboard permite identificar fácilmente los indicadores del inventario y las alertas pendientes. Destacó especialmente la facilidad para consultar productos, revisar sus fechas de vencimiento y monitorear las condiciones de temperatura y humedad. También valoró la utilidad de los reportes para identificar productos desperdiciados y mejorar las decisiones de compra.
+
+Como oportunidades de mejora, recomendó incorporar más ejemplos relacionados con restaurantes en la landing page, destacar visualmente los productos próximos a vencer y facilitar el acceso directo a las alertas desde el inventario. Asimismo, sugirió agregar filtros por fecha de vencimiento y reportes que permitan identificar los alimentos descartados con mayor frecuencia. En general, consideró que FreshSense es una herramienta útil para mejorar el control de los insumos y prevenir pérdidas de alimentos en su restaurante.
+
 #### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
 
 ##### Entrevista 1
@@ -4730,6 +4755,49 @@ Carmen, de 54 años, encargada de supervisar el almacenamiento y conservación d
 
 Como oportunidades de mejora, sugirió incorporar imágenes relacionadas con empresas distribuidoras en la landing page, identificar las cámaras de refrigeración asociadas a las lecturas y alertas, y agregar filtros por lotes y zonas de almacenamiento. En general, valoró positivamente FreshSense y consideró que estas mejoras permitirían adaptar mejor la plataforma a las necesidades de las empresas de distribución de alimentos refrigerados.
 
+##### Entrevista 2
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Silvia |
+| Edad | 40 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión del almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | [3:55] |
+| Enlace | https://drive.google.com/file/d/1NiMoeYNo5lC3amupjENwm-XcLUQwK97x/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Silvia](Assets/entrevista2silvia.png)
+
+**Resumen:**
+
+Silvia, de 40 años, encargada de supervisar el almacenamiento y control de inventario en una empresa de comercialización y distribución de alimentos perecibles, participó en una entrevista de validación de FreshSense. Consideró que la landing page comunica claramente la utilidad de la solución y que la plataforma presenta una navegación sencilla e indicadores bien organizados. Destacó especialmente el monitoreo de temperatura y humedad, la facilidad para consultar productos en el inventario y la claridad de las alertas. También valoró los reportes y registros históricos por su utilidad para supervisar las condiciones de almacenamiento y detectar posibles problemas de conservación.
+
+Como oportunidades de mejora, recomendó incorporar más imágenes relacionadas con almacenes y empresas distribuidoras en la landing page, identificar las cámaras de refrigeración asociadas a las lecturas y alertas, y agregar filtros de búsqueda por lotes. Asimismo, sugirió facilitar la identificación de los dispositivos según su zona de almacenamiento y permitir la consulta de historiales de temperatura por lote. En general, consideró que FreshSense es una herramienta útil para mejorar el control de los productos refrigerados, reducir las revisiones manuales y prevenir pérdidas por condiciones inadecuadas de conservación.
+
+##### Entrevista 3
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Jesús Pérez |
+| Edad | 45 años |
+| Empresa / sector | Distribución de alimentos refrigerados |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 4:00 |
+| Enlace | https://drive.google.com/file/d/14X-UfZnNv7AskrpvNJla5gQqd6HgTHRP/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Jesús Pérez](Assets/entrevista2jesus.png)
+
+**Resumen:**
+
+Jesús Pérez, de 45 años, encargado de supervisar el almacenamiento y conservación de productos en una empresa de distribución de alimentos refrigerados, participó en una entrevista de validación de FreshSense. Consideró que la landing page explica claramente la propuesta de la solución y que la plataforma presenta una interfaz organizada y fácil de navegar. Destacó la claridad de los indicadores del dashboard, la facilidad para consultar las lecturas de temperatura y humedad y la utilidad de las alertas para identificar situaciones que requieren atención. También valoró los reportes históricos y la gestión del inventario como herramientas importantes para supervisar las condiciones de conservación antes de distribuir los productos.
+
+Como oportunidades de mejora, recomendó incorporar ejemplos visuales relacionados con almacenes refrigerados y operaciones de distribución, identificar las cámaras de refrigeración asociadas a cada medición y mejorar los filtros de inventario por lotes. Asimismo, sugirió que las alertas permitan reconocer los lotes posiblemente afectados, que los reportes presenten historiales por cámara o lote y que los sensores puedan identificarse según su ubicación. En general, consideró que FreshSense es una propuesta útil para mejorar la supervisión de los alimentos refrigerados, detectar problemas oportunamente y reducir posibles pérdidas económicas.
 
 
 ### 6.3.3. Evaluaciones según heurísticas
