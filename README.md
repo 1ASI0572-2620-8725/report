@@ -4177,48 +4177,48 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-En esta parte van las pruebas unitarias e integrales del Edge y del BackEnd para el Sprint Review. Se probaron la clasificación de frescura (temperatura, humedad y etileno), el claim del dispositivo y la ingesta `POST /api/edge/readings` (TS41 / US06).
+En esta parte van las pruebas unitarias e integrales del Edge y del BackEnd para el Sprint Review (lo que pidió Joseph: unitarios e integrales de back y de edge). Se cubre frescura (temperatura, humedad y etileno), validación del payload, claim del dispositivo e ingesta `POST /api/edge/readings` y `POST /api/edge/claim` (TS41 / US06).
 
 | Dónde | Unitarios | Integrales | Total | Resultado |
 | :--- | ---: | ---: | ---: | :--- |
-| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 9 | 16 | 25 | Passed |
-| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 4 | 3 | 7 | Passed |
+| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 24 | 24 | 48 | Passed |
+| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 11 | 9 | 20 | Passed |
 
 ![Resumen de la suite de pruebas](Assets/testing-6.2.2.5/testing-resumen.png)
 
-Resumen: 32 pruebas ejecutadas, 0 fallos y 0 errores.
+Resumen: 68 pruebas ejecutadas, 0 fallos y 0 errores.
 
 **Freshsense-EDGE — unitarios**
 
-Se prueban el semáforo de frescura (verde / amarillo / rojo) y el claim del sensor. 9 passed.
+Semáforo de frescura por categoría (Frutas, Verduras, Carnes, Panadería, Lácteos), claim del sensor y validación del JSON (legacy + embebido). 24 passed.
 
 ![Freshsense-EDGE unitarios](Assets/testing-6.2.2.5/edge-unitarios.png)
 
-Unitarios del Edge: frescura con etileno y claim del dispositivo.
+Unitarios del Edge: frescura, claim y validación del contrato de lectura.
 
 **Freshsense-EDGE — integrales**
 
-Se prueban la API del Edge (`/api/v1/sensor-readings` y aliases del firmware), los umbrales con etileno y el rechazo de lecturas incompletas. 16 passed.
+API del Edge (`/edge/process`, `/api/v1/sensor-readings`), registro de dispositivos, umbrales con etileno, setup y rechazo de lecturas incompletas. 24 passed.
 
 ![Freshsense-EDGE integrales](Assets/testing-6.2.2.5/edge-integrales.png)
 
-Integrales del Edge: proceso de lectura, categoría del dispositivo y validaciones.
+Integrales del Edge: proceso físico, categorías, aliases del firmware y errores.
 
 **BackEnd — unitarios**
 
-Se valida el contrato de ingesta `EdgeReadingRequest`: `deviceId`, temperatura, humedad y `ethylenePpm` son obligatorios. 4 passed.
+Contratos `EdgeReadingRequest` y `ClaimRequest`: campos obligatorios, opcionales y códigos de emparejamiento. 11 passed.
 
 ![BackEnd unitarios](Assets/testing-6.2.2.5/backend-unitarios.png)
 
-Unitarios del BackEnd: validación del DTO de lectura Edge (TS41 / US06).
+Unitarios del BackEnd: validación DTO de lectura y de claim (TS41 / US06).
 
 **BackEnd — integrales**
 
-Se prueba `POST /api/edge/readings` con MockMvc: 201 con `X-Device-Key` válida, 401 sin clave y 400 sin etileno. 3 passed.
+`POST /api/edge/readings` y `POST /api/edge/claim` con MockMvc: 201/200 felices, 401 sin clave y 400 por datos incompletos. 9 passed.
 
 ![BackEnd integrales](Assets/testing-6.2.2.5/backend-integrales.png)
 
-Integrales del BackEnd: autenticación del dispositivo e ingesta de la lectura.
+Integrales del BackEnd: autenticación del dispositivo, ingesta y claim.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 

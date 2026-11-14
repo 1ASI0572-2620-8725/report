@@ -30,9 +30,9 @@ F_REPO = font("segoeuil.ttf", 13)
 F_TITLE = font("segoeuib.ttf", 30)
 F_BADGE = font("segoeuib.ttf", 14)
 F_CHIP = font("segoeui.ttf", 13)
-F_TH = font("segoeuisemibold.ttf", 11) if Path(r"C:\Windows\Fonts\segoeuisemibold.ttf").exists() else font("segoeuib.ttf", 11)
+F_TH = font("segoeuib.ttf", 11)
 F_OK = font("segoeuib.ttf", 14)
-F_NAME = font("consola.ttf", 13)
+F_NAME = font("consola.ttf", 12)
 F_DUR = font("segoeui.ttf", 13)
 F_FOOT = font("segoeui.ttf", 12)
 F_SUB = font("segoeui.ttf", 14)
@@ -55,15 +55,14 @@ def rounded_rect(draw: ImageDraw.ImageDraw, xy, fill, outline=None, radius=8, wi
 
 
 def render_table(path: Path, repo: str, title: str, badge: str, chips: list[str], rows: list[tuple[str, str, str]]):
-    # Measure height
     tmp = Image.new("RGB", (W, 10), WHITE)
     d = ImageDraw.Draw(tmp)
     y = PAD
     y += text_h(d, repo, F_REPO) + 6
     y += text_h(d, title, F_TITLE) + 14
-    y += 28 + 16  # chips row
-    y += 36  # header
-    y += len(rows) * 34
+    y += 28 + 16
+    y += 36
+    y += len(rows) * 32
     y += 18 + text_h(d, "foot", F_FOOT) + PAD
 
     img = Image.new("RGB", (W, y), WHITE)
@@ -91,14 +90,10 @@ def render_table(path: Path, repo: str, title: str, badge: str, chips: list[str]
         cx += cw + 8
     cy += 26 + 16
 
-    # table
-    col_ok, col_dur = 100, 80
-    col_name = W - 2 * PAD - col_ok - col_dur
+    col_ok, col_dur = 100, 72
     table_top = cy
-    table_bottom = cy + 36 + len(rows) * 34
+    table_bottom = cy + 36 + len(rows) * 32
     rounded_rect(draw, (PAD, table_top, W - PAD, table_bottom), WHITE, BORDER, radius=8)
-
-    # header fill
     draw.rectangle((PAD + 1, table_top + 1, W - PAD - 1, table_top + 36), fill=HEAD_BG)
     draw.text((PAD + 12, table_top + 10), "RESULTADO", font=F_TH, fill=GRAY)
     draw.text((PAD + col_ok, table_top + 10), "PRUEBA", font=F_TH, fill=GRAY)
@@ -110,10 +105,10 @@ def render_table(path: Path, repo: str, title: str, badge: str, chips: list[str]
     for i, (status, name, dur) in enumerate(rows):
         if i:
             draw.line((PAD + 1, ry, W - PAD - 1, ry), fill=LINE)
-        draw.text((PAD + 12, ry + 9), status, font=F_OK, fill=GREEN)
-        draw.text((PAD + col_ok, ry + 10), name, font=F_NAME, fill=ROW)
-        draw.text((W - PAD - 12 - text_w(draw, dur, F_DUR), ry + 10), dur, font=F_DUR, fill=GRAY)
-        ry += 34
+        draw.text((PAD + 12, ry + 8), status, font=F_OK, fill=GREEN)
+        draw.text((PAD + col_ok, ry + 9), name, font=F_NAME, fill=ROW)
+        draw.text((W - PAD - 12 - text_w(draw, dur, F_DUR), ry + 9), dur, font=F_DUR, fill=GRAY)
+        ry += 32
 
     cy = table_bottom + 16
     draw.text((PAD, cy), "FreshSense · Evidencia Testing Suite · Sprint Review", font=F_FOOT, fill=(152, 162, 179))
@@ -123,8 +118,8 @@ def render_table(path: Path, repo: str, title: str, badge: str, chips: list[str]
 
 def render_summary(path: Path):
     rows = [
-        ("Freshsense-EDGE", "9", "16", "25", "Passed"),
-        ("BackEnd", "4", "3", "7", "Passed · BUILD SUCCESS"),
+        ("Freshsense-EDGE", "24", "24", "48", "Passed"),
+        ("BackEnd", "11", "9", "20", "Passed · BUILD SUCCESS"),
     ]
     h = PAD + 40 + 24 + 40 + len(rows) * 48 + 70 + PAD
     img = Image.new("RGB", (W, h), WHITE)
@@ -156,7 +151,7 @@ def render_summary(path: Path):
         ry += 48
 
     y = table_bottom + 16
-    banner = "32 pruebas ejecutadas · 0 fallos · 0 errores"
+    banner = "68 pruebas ejecutadas · 0 fallos · 0 errores"
     bw = W - 2 * PAD
     rounded_rect(draw, (PAD, y, PAD + bw, y + 44), GREEN_BG, GREEN_BD, radius=8)
     draw.text((PAD + 16, y + 12), banner, font=F_BADGE, fill=GREEN)
@@ -172,68 +167,104 @@ def main():
         OUT / "edge-unitarios.png",
         "Freshsense-EDGE",
         "Pruebas unitarias",
-        "9 passed",
-        ["pytest", "frescura + claim"],
+        "24 passed",
+        ["pytest", "frescura · claim · validación"],
         [
-            ("Passed", "verde cuando los 3 ejes están en rango", "2 ms"),
-            ("Passed", "verde en frutas con etileno bajo", "1 ms"),
-            ("Passed", "amarillo cerca del límite", "1 ms"),
-            ("Passed", "rojo lejos del rango", "1 ms"),
-            ("Passed", "gana el peor eje (humedad)", "1 ms"),
-            ("Passed", "rojo por etileno alto en frutas", "1 ms"),
-            ("Passed", "amarillo por etileno cerca del límite", "1 ms"),
-            ("Passed", "guarda el secreto del dispositivo", "2 ms"),
-            ("Passed", "rechaza código inválido", "1 ms"),
+            ("Passed", "verde cuando los 3 ejes están en rango", "OK"),
+            ("Passed", "verde en frutas con etileno bajo", "OK"),
+            ("Passed", "amarillo cerca del límite", "OK"),
+            ("Passed", "rojo lejos del rango", "OK"),
+            ("Passed", "gana el peor eje (humedad)", "OK"),
+            ("Passed", "rojo por etileno alto en frutas", "OK"),
+            ("Passed", "amarillo por etileno cerca del límite", "OK"),
+            ("Passed", "verde en verduras dentro de rango", "OK"),
+            ("Passed", "verde en carnes cerca de 0 °C", "OK"),
+            ("Passed", "verde en panadería a temperatura ambiente", "OK"),
+            ("Passed", "amarillo por humedad cerca del límite", "OK"),
+            ("Passed", "rojo por temperatura baja en panadería", "OK"),
+            ("Passed", "verde en los bordes exactos de frutas", "OK"),
+            ("Passed", "mapea GREEN/YELLOW/RED → FRESH/AT_RISK/SPOILED", "OK"),
+            ("Passed", "claim guarda el secreto del dispositivo", "OK"),
+            ("Passed", "claim rechaza código inválido", "OK"),
+            ("Passed", "claim actualiza el secreto del mismo device", "OK"),
+            ("Passed", "claim guarda secreto de un device nuevo", "OK"),
+            ("Passed", "valida payload legacy completo", "OK"),
+            ("Passed", "acepta aliases del embebido + ISO timestamp", "OK"),
+            ("Passed", "rechaza deviceId vacío", "OK"),
+            ("Passed", "rechaza temperatura fuera de rango", "OK"),
+            ("Passed", "rechaza etileno negativo", "OK"),
+            ("Passed", "rechaza cuerpo que no es JSON objeto", "OK"),
         ],
     )
     render_table(
         OUT / "edge-integrales.png",
         "Freshsense-EDGE",
         "Pruebas de integración",
-        "16 passed",
+        "24 passed",
         ["pytest", "API Edge / sensor-readings"],
         [
-            ("Passed", "acepta lectura válida", "20 ms"),
-            ("Passed", "clasifica por categoría del dispositivo", "6 ms"),
-            ("Passed", "verde dentro del rango de frutas", "6 ms"),
-            ("Passed", "rojo cuando el etileno es alto", "7 ms"),
-            ("Passed", "acepta aliases del firmware embebido", "7 ms"),
-            ("Passed", "acepta ruta física y device UUID", "7 ms"),
-            ("Passed", "unknown si el dispositivo no tiene categoría", "7 ms"),
-            ("Passed", "umbrales incluyen etileno", "5 ms"),
-            ("Passed", "registra categoría del dispositivo", "7 ms"),
-            ("Passed", "rechaza categoría desconocida", "6 ms"),
-            ("Passed", "rechaza lectura sin etileno", "5 ms"),
-            ("Passed", "rechaza campo faltante", "6 ms"),
-            ("Passed", "rechaza humedad fuera de rango", "6 ms"),
-            ("Passed", "rechaza formato de hora inválido", "16 ms"),
-            ("Passed", "sirve la página de setup", "5 ms"),
-            ("Passed", "claim falla con gracia sin BackEnd", "7 ms"),
+            ("Passed", "acepta lectura válida", "OK"),
+            ("Passed", "clasifica por categoría del dispositivo", "OK"),
+            ("Passed", "verde dentro del rango de frutas", "OK"),
+            ("Passed", "rojo cuando el etileno es alto", "OK"),
+            ("Passed", "acepta aliases del firmware embebido", "OK"),
+            ("Passed", "acepta ruta física y device UUID", "OK"),
+            ("Passed", "unknown si el dispositivo no tiene categoría", "OK"),
+            ("Passed", "umbrales incluyen etileno", "OK"),
+            ("Passed", "registra categoría del dispositivo", "OK"),
+            ("Passed", "rechaza categoría desconocida", "OK"),
+            ("Passed", "rechaza lectura sin etileno", "OK"),
+            ("Passed", "rechaza campo faltante", "OK"),
+            ("Passed", "rechaza humedad fuera de rango", "OK"),
+            ("Passed", "rechaza formato de hora inválido", "OK"),
+            ("Passed", "sirve la página de setup", "OK"),
+            ("Passed", "claim falla con gracia sin BackEnd", "OK"),
+            ("Passed", "amarillo cuando el etileno está cerca del límite", "OK"),
+            ("Passed", "registra Lácteos y clasifica verde", "OK"),
+            ("Passed", "rechaza lectura sin humedad", "OK"),
+            ("Passed", "rechaza temperatura fuera del sensor", "OK"),
+            ("Passed", "rechaza deviceId en blanco", "OK"),
+            ("Passed", "acepta alias ethylene_ppm", "OK"),
+            ("Passed", "rechaza claim con código vacío", "OK"),
+            ("Passed", "lista dispositivos tras registrar", "OK"),
         ],
     )
     render_table(
         OUT / "backend-unitarios.png",
         "BackEnd",
         "Pruebas unitarias",
-        "4 passed · BUILD SUCCESS",
+        "11 passed · BUILD SUCCESS",
         ["Maven / JUnit 5", "TS41 · US06"],
         [
             ("Passed", "acepta lectura Edge completa", "OK"),
             ("Passed", "rechaza deviceId vacío", "OK"),
             ("Passed", "rechaza temperatura nula", "OK"),
             ("Passed", "rechaza etileno nulo (TS41 / US06)", "OK"),
+            ("Passed", "rechaza humedad nula", "OK"),
+            ("Passed", "rechaza deviceId nulo", "OK"),
+            ("Passed", "acepta lectura sin status/category", "OK"),
+            ("Passed", "acepta lectura sin time/id", "OK"),
+            ("Passed", "acepta código de claim válido", "OK"),
+            ("Passed", "rechaza código de claim vacío", "OK"),
+            ("Passed", "rechaza código de claim nulo", "OK"),
         ],
     )
     render_table(
         OUT / "backend-integrales.png",
         "BackEnd",
         "Pruebas de integración",
-        "3 passed · BUILD SUCCESS",
-        ["Maven / MockMvc", "POST /api/edge/readings"],
+        "9 passed · BUILD SUCCESS",
+        ["Maven / MockMvc", "POST /api/edge/*"],
         [
-            ("Passed", "POST /api/edge/readings con clave válida → 201", "OK"),
-            ("Passed", "POST /api/edge/readings con clave inválida → 401", "OK"),
-            ("Passed", "POST /api/edge/readings sin etileno → 400", "OK"),
+            ("Passed", "POST /readings con clave válida → 201", "OK"),
+            ("Passed", "POST /readings con clave inválida → 401", "OK"),
+            ("Passed", "POST /readings sin etileno → 400", "OK"),
+            ("Passed", "POST /readings sin deviceId → 400", "OK"),
+            ("Passed", "POST /readings sin humedad → 400", "OK"),
+            ("Passed", "POST /readings sin X-Device-Key → 401", "OK"),
+            ("Passed", "POST /readings guarda lectura ROJA → 201", "OK"),
+            ("Passed", "POST /claim entrega secretKey → 200", "OK"),
+            ("Passed", "POST /claim sin código → 400", "OK"),
         ],
     )
 
