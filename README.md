@@ -160,6 +160,8 @@
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4412,6 +4414,75 @@ El Edge API reenvía la lectura del ESP32 simulado en Wokwi. El backend la guard
 Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-2620-8725`, con un repositorio por producto. Cada integrante desarrolló sus tareas en ramas `feature/*`, las integró a `develop` mediante Pull Requests y, al cerrar el Sprint, se pasaron a `main` para el despliegue. La coordinación se llevó por [COMPLETAR: WhatsApp / Discord] y el seguimiento de tareas en [COMPLETAR: Trello / Jira], siguiendo la matriz de líderes y colaboradores de la sección 6.2.1.2.
 
 **Repositorios del Sprint 1:**
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En el Sprint 2 la evidencia de testing son los **Acceptance Tests** en Gherkin (Given / When / Then). Ya están escritos para las historias y la historia técnica del sprint: inventario, alertas, edición, recetas, análisis premium, historial y API de usuarios.
+
+| ID | Historia / TS | Escenarios | Archivo |
+| :--- | :--- | ---: | :--- |
+| US07 | Visualización de inventario | 2 | `US07_visualizacion_inventario.feature` |
+| US08 | Alertas anticipadas | 2 | `US08_alertas_anticipadas.feature` |
+| US11 | Edición de inventario | 2 | `US11_edicion_inventario.feature` |
+| US13 | Recetas personalizadas | 2 | `US13_recetas_personalizadas.feature` |
+| US17 | Análisis detallado de inventario | 2 | `US17_analisis_detallado_inventario.feature` |
+| US19 | Recetas exclusivas premium | 2 | `US19_recetas_exclusivas_premium.feature` |
+| US29 | Historial de consumo | 3 | `US29_historial_consumo.feature` |
+| TS33 | API para gestión de usuarios | 1 | `TS33_api_gestion_usuarios.feature` |
+
+![Resumen Acceptance Tests Sprint 2](Assets/acceptance-sprint2/sprint2-acceptance-resumen.png)
+
+Resumen: 8 features, 16 escenarios. Los `.feature` están en `Assets/acceptance-sprint2/`.
+
+**US07 — Visualización de inventario**
+
+Colores del inventario (verde / amarillo / rojo) y detalle del alimento con caducidad y condiciones de almacenamiento.
+
+![US07 Acceptance Test](Assets/acceptance-sprint2/sprint2-us07_visualizacion_inventario.png)
+
+**US08 — Alertas anticipadas**
+
+Alerta cuando un alimento está por vencer, y que no se envíe aviso si no hay riesgo.
+
+![US08 Acceptance Test](Assets/acceptance-sprint2/sprint2-us08_alertas_anticipadas.png)
+
+**US11 — Edición de inventario**
+
+Edición exitosa de cantidad o fecha, y rechazo con mensaje de error si los datos son inválidos.
+
+![US11 Acceptance Test](Assets/acceptance-sprint2/sprint2-us11_edicion_inventario.png)
+
+**US13 — Recetas personalizadas**
+
+Recetas con ingredientes en riesgo de vencer, o catálogo general si no hay productos en riesgo.
+
+![US13 Acceptance Test](Assets/acceptance-sprint2/sprint2-us13_recetas_personalizadas.png)
+
+**US17 — Análisis detallado de inventario**
+
+Acceso completo al reporte avanzado con plan premium, y bloqueo con aviso si el plan no es premium.
+
+![US17 Acceptance Test](Assets/acceptance-sprint2/sprint2-us17_analisis_detallado_inventario.png)
+
+**US19 — Recetas exclusivas premium**
+
+Acceso a recetas avanzadas con plan premium, y denegación con sugerencia de upgrade si no lo tiene.
+
+![US19 Acceptance Test](Assets/acceptance-sprint2/sprint2-us19_recetas_exclusivas_premium.png)
+
+**US29 — Historial de consumo**
+
+Registro de consumo o descarte, visualización con gráficas, y filtro/exportación a CSV o Excel.
+
+![US29 Acceptance Test](Assets/acceptance-sprint2/sprint2-us29_historial_consumo.png)
+
+**TS33 — API para gestión de usuarios**
+
+`PUT /api/users/{id}/permissions` actualiza roles/permisos y responde 200 OK.
+
+![TS33 Acceptance Test](Assets/acceptance-sprint2/sprint2-ts33_api_gestion_usuarios.png)
 
 ## 6.3. Validation Interviews
 
