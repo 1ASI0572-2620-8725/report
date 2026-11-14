@@ -161,7 +161,35 @@
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
     - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
       - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
+    - [6.2.4. Sprint 4](#624-sprint-4)
+      - [6.2.4.1. Sprint Planning 4](#6241-sprint-planning-4)
+      - [6.2.4.2. Aspect Leaders and Collaborators](#6242-aspect-leaders-and-collaborators)
+      - [6.2.4.3. Sprint Backlog 4](#6243-sprint-backlog-4)
+      - [6.2.4.4. Development Evidence for Sprint Review](#6244-development-evidence-for-sprint-review)
+      - [6.2.4.5. Testing Suite Evidence for Sprint Review](#6245-testing-suite-evidence-for-sprint-review)
+      - [6.2.4.6. Execution Evidence for Sprint Review](#6246-execution-evidence-for-sprint-review)
+      - [6.2.4.7. Services Documentation Evidence for Sprint Review](#6247-services-documentation-evidence-for-sprint-review)
+      - [6.2.4.8. Software Deployment Evidence for Sprint Review](#6248-software-deployment-evidence-for-sprint-review)
+      - [6.2.4.9. Team Collaboration Insights during Sprint](#6249-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4636,6 +4664,14 @@ Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-
 
 ### 6.2.2. Sprint 2
 
+#### 6.2.2.1. Sprint Planning 2
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+#### 6.2.2.3. Sprint Backlog 2
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 En el Sprint 2 la evidencia de testing son los **Acceptance Tests** en Gherkin (Given / When / Then). Ya están escritos para las historias y la historia técnica del sprint: inventario, alertas, edición, recetas, análisis premium, historial y API de usuarios.
@@ -4702,6 +4738,54 @@ Registro de consumo o descarte, visualización con gráficas, y filtro/exportaci
 `PUT /api/users/{id}/permissions` actualiza roles/permisos y responde 200 OK.
 
 ![TS33 Acceptance Test](Assets/acceptance-sprint2/sprint2-ts33_api_gestion_usuarios.png)
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+#### 6.2.3.3. Sprint Backlog 3
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+### 6.2.4. Sprint 4
+
+#### 6.2.4.1. Sprint Planning 4
+
+#### 6.2.4.2. Aspect Leaders and Collaborators
+
+#### 6.2.4.3. Sprint Backlog 4
+
+#### 6.2.4.4. Development Evidence for Sprint Review
+
+#### 6.2.4.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.4.6. Execution Evidence for Sprint Review
+
+#### 6.2.4.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.4.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.4.9. Team Collaboration Insights during Sprint
 
 ## 6.3. Validation Interviews
 
