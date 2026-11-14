@@ -160,6 +160,8 @@
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4234,14 +4236,14 @@ La siguiente tabla presenta las especificaciones existentes relacionadas con el 
 | Story ID | Funcionalidad evaluada | Archivo de prueba existente |
 |---|---|---|
 | US01 | Visualización de propuesta B2B | `us01-visualizacion-propuesta.feature` |
-| US02 | Sección para Restaurantes y Negocios en Frío | `us02-seccion-pequenos-negocios.feature` | 
-| US03 | Formulario de contacto y demos B2B | `us03-formulario-contacto.feature` | 
+| US02 | Sección para Restaurantes y Negocios en Frío | `us02-seccion-pequenos-negocios.feature` |
+| US03 | Formulario de contacto y demos B2B | `us03-formulario-contacto.feature` |
 | US04 | Call to Action Corporativo | `us04-cta-suscripcion.feature` |
 | US05 | Adaptabilidad en móviles y tablets | `us05-compatibilidad-movil.feature` |
 | TS43 | API Gestor de Autenticación y RBAC B2B | `ts33-api-usuarios.feature` |
-| TS41 | API Ingesta de Sensores IoT B2B | `ts31-api-sensores.feature` | 
+| TS41 | API Ingesta de Sensores IoT B2B | `ts31-api-sensores.feature` |
 | US07 | Dashboard con semáforo comercial | `us07-visualizacion-inventario.feature` |
-| US08 | Alertas preventivas de temperatura | `us08-alertas-anticipadas.feature` | 
+| US08 | Alertas preventivas de temperatura | `us08-alertas-anticipadas.feature` |
 
 Los escenarios publicados permiten establecer una base para la validación funcional del producto. Sin embargo, las especificaciones que no coinciden con las historias actuales deberán actualizarse antes de considerarse evidencia definitiva de aceptación del Sprint.
 
@@ -4303,7 +4305,6 @@ Feature: US05 - Compatibilidad movil
 
 Estos escenarios describen la adaptación de la interfaz del Landing Page a dispositivos móviles y tablets, buscando garantizar la legibilidad y correcta distribución de sus componentes visuales.
 
-
 ##### Evidencia de commits relacionados con Testing
 
 La siguiente tabla presenta los commits registrados en el repositorio de pruebas de aceptación, permitiendo identificar los avances asociados a la preparación de especificaciones del Sprint 1.
@@ -4313,6 +4314,51 @@ La siguiente tabla presenta los commits registrados en el repositorio de pruebas
 | [1ASI0572-2620-8725/Acceptance-Tests](https://github.com/1ASI0572-2620-8725/Acceptance-Tests) | main | [fbf1a89](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/commit/fbf1a8996aae4913f01e210316b948ad5f7e619d) | upload: gherkin tests | Sin cuerpo de mensaje | 08/10/2026 |
 
 El commit presentado evidencia la incorporación de 14 archivos `.feature` organizados dentro del directorio `Sprint 01`. Estos archivos documentan escenarios de aceptación de diferentes funcionalidades del producto.
+
+##### Unitarios e integrales — Freshsense-EDGE y BackEnd
+
+Además de los Acceptance Tests, en el Sprint Review se ejecutaron unitarios e integrales del Edge y del BackEnd (frescura, validación del payload, claim e ingesta `POST /api/edge/readings` y `POST /api/edge/claim`, TS41 / US06).
+
+| Dónde | Unitarios | Integrales | Total | Resultado |
+| :--- | ---: | ---: | ---: | :--- |
+| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 24 | 24 | 48 | Passed |
+| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 11 | 9 | 20 | Passed |
+
+![Resumen de la suite de pruebas](Assets/testing-6.2.2.5/testing-resumen.png)
+
+Resumen: 68 pruebas ejecutadas, 0 fallos y 0 errores.
+
+**Freshsense-EDGE — unitarios**
+
+Semáforo de frescura por categoría (Frutas, Verduras, Carnes, Panadería, Lácteos), claim del sensor y validación del JSON (legacy + embebido). 24 passed.
+
+![Freshsense-EDGE unitarios](Assets/testing-6.2.2.5/edge-unitarios.png)
+
+Unitarios del Edge: frescura, claim y validación del contrato de lectura.
+
+**Freshsense-EDGE — integrales**
+
+API del Edge (`/edge/process`, `/api/v1/sensor-readings`), registro de dispositivos, umbrales con etileno, setup y rechazo de lecturas incompletas. 24 passed.
+
+![Freshsense-EDGE integrales](Assets/testing-6.2.2.5/edge-integrales.png)
+
+Integrales del Edge: proceso físico, categorías, aliases del firmware y errores.
+
+**BackEnd — unitarios**
+
+Contratos `EdgeReadingRequest` y `ClaimRequest`: campos obligatorios, opcionales y códigos de emparejamiento. 11 passed.
+
+![BackEnd unitarios](Assets/testing-6.2.2.5/backend-unitarios.png)
+
+Unitarios del BackEnd: validación DTO de lectura y de claim (TS41 / US06).
+
+**BackEnd — integrales**
+
+`POST /api/edge/readings` y `POST /api/edge/claim` con MockMvc: 201/200 felices, 401 sin clave y 400 por datos incompletos. 9 passed.
+
+![BackEnd integrales](Assets/testing-6.2.2.5/backend-integrales.png)
+
+Integrales del BackEnd: autenticación del dispositivo, ingesta y claim.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
@@ -4587,6 +4633,75 @@ En conjunto, las evidencias presentadas documentan los procesos de compilación,
 Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-2620-8725`, con un repositorio por producto. Cada integrante desarrolló sus tareas en ramas `feature/*`, las integró a `develop` mediante Pull Requests y, al cerrar el Sprint, se pasaron a `main` para el despliegue. 
 
 **Repositorios del Sprint 1:**
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En el Sprint 2 la evidencia de testing son los **Acceptance Tests** en Gherkin (Given / When / Then). Ya están escritos para las historias y la historia técnica del sprint: inventario, alertas, edición, recetas, análisis premium, historial y API de usuarios.
+
+| ID | Historia / TS | Escenarios | Archivo |
+| :--- | :--- | ---: | :--- |
+| US07 | Visualización de inventario | 2 | `US07_visualizacion_inventario.feature` |
+| US08 | Alertas anticipadas | 2 | `US08_alertas_anticipadas.feature` |
+| US11 | Edición de inventario | 2 | `US11_edicion_inventario.feature` |
+| US13 | Recetas personalizadas | 2 | `US13_recetas_personalizadas.feature` |
+| US17 | Análisis detallado de inventario | 2 | `US17_analisis_detallado_inventario.feature` |
+| US19 | Recetas exclusivas premium | 2 | `US19_recetas_exclusivas_premium.feature` |
+| US29 | Historial de consumo | 3 | `US29_historial_consumo.feature` |
+| TS33 | API para gestión de usuarios | 1 | `TS33_api_gestion_usuarios.feature` |
+
+![Resumen Acceptance Tests Sprint 2](Assets/acceptance-sprint2/sprint2-acceptance-resumen.png)
+
+Resumen: 8 features, 16 escenarios. Los `.feature` están en `Assets/acceptance-sprint2/`.
+
+**US07 — Visualización de inventario**
+
+Colores del inventario (verde / amarillo / rojo) y detalle del alimento con caducidad y condiciones de almacenamiento.
+
+![US07 Acceptance Test](Assets/acceptance-sprint2/sprint2-us07_visualizacion_inventario.png)
+
+**US08 — Alertas anticipadas**
+
+Alerta cuando un alimento está por vencer, y que no se envíe aviso si no hay riesgo.
+
+![US08 Acceptance Test](Assets/acceptance-sprint2/sprint2-us08_alertas_anticipadas.png)
+
+**US11 — Edición de inventario**
+
+Edición exitosa de cantidad o fecha, y rechazo con mensaje de error si los datos son inválidos.
+
+![US11 Acceptance Test](Assets/acceptance-sprint2/sprint2-us11_edicion_inventario.png)
+
+**US13 — Recetas personalizadas**
+
+Recetas con ingredientes en riesgo de vencer, o catálogo general si no hay productos en riesgo.
+
+![US13 Acceptance Test](Assets/acceptance-sprint2/sprint2-us13_recetas_personalizadas.png)
+
+**US17 — Análisis detallado de inventario**
+
+Acceso completo al reporte avanzado con plan premium, y bloqueo con aviso si el plan no es premium.
+
+![US17 Acceptance Test](Assets/acceptance-sprint2/sprint2-us17_analisis_detallado_inventario.png)
+
+**US19 — Recetas exclusivas premium**
+
+Acceso a recetas avanzadas con plan premium, y denegación con sugerencia de upgrade si no lo tiene.
+
+![US19 Acceptance Test](Assets/acceptance-sprint2/sprint2-us19_recetas_exclusivas_premium.png)
+
+**US29 — Historial de consumo**
+
+Registro de consumo o descarte, visualización con gráficas, y filtro/exportación a CSV o Excel.
+
+![US29 Acceptance Test](Assets/acceptance-sprint2/sprint2-us29_historial_consumo.png)
+
+**TS33 — API para gestión de usuarios**
+
+`PUT /api/users/{id}/permissions` actualiza roles/permisos y responde 200 OK.
+
+![TS33 Acceptance Test](Assets/acceptance-sprint2/sprint2-ts33_api_gestion_usuarios.png)
 
 ## 6.3. Validation Interviews
 
