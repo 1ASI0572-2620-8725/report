@@ -4177,6 +4177,58 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
+Evidencia de la suite de pruebas del Sprint Review para los repositorios **Freshsense-EDGE** y **BackEnd**: unitarios e integrales por componente, con capturas y logs en `Assets/testing-6.2.2.5/`.
+
+| Componente | Unitarios | Integrales | Suite |
+| :--- | ---: | ---: | ---: |
+| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 9 passed | 16 passed | 25 passed |
+| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 4 passed | 3 passed | 7 passed |
+
+**Cómo se ejecutó**
+
+| Repo | Unitarios | Integrales |
+| :--- | :--- | :--- |
+| Freshsense-EDGE | `pytest tests/test_freshness.py tests/test_claim.py --html=...` | `pytest tests/test_process_endpoint.py --html=...` |
+| BackEnd (JDK 17) | `mvnw -Dtest=EdgeReadingRequestValidationTest test` | `mvnw -Dtest=EdgeControllerWebMvcTest test` |
+
+##### Freshsense-EDGE — unitarios
+
+Clasificación de frescura (temperatura, humedad, etileno) y claim del dispositivo. **9 passed.**
+
+![Freshsense-EDGE unitarios](Assets/testing-6.2.2.5/edge-unitarios.png)
+
+##### Freshsense-EDGE — integrales
+
+Endpoints de proceso físico (`/api/v1/sensor-readings` y aliases), umbrales con etileno y rechazo de payloads incompletos. **16 passed.**
+
+![Freshsense-EDGE integrales](Assets/testing-6.2.2.5/edge-integrales.png)
+
+##### Freshsense-EDGE — suite completa
+
+Unitarios + integrales juntos. **25 passed.**
+
+![Freshsense-EDGE suite](Assets/testing-6.2.2.5/edge-suite.png)
+
+##### BackEnd — unitarios
+
+Contrato de ingesta Edge (`EdgeReadingRequest`): `deviceId`, temperatura, humedad y `ethylenePpm` obligatorios (TS41 / US06). **4 passed · BUILD SUCCESS.**
+
+![BackEnd unitarios](Assets/testing-6.2.2.5/backend-unitarios.png)
+
+##### BackEnd — integrales
+
+`EdgeControllerWebMvcTest` sobre `POST /api/edge/readings`: 201 con `X-Device-Key` válida, 401 sin clave y 400 sin etileno. **3 passed · BUILD SUCCESS.**
+
+![BackEnd integrales](Assets/testing-6.2.2.5/backend-integrales.png)
+
+##### BackEnd — suite completa
+
+Unitarios + integrales Edge/IoT. **7 passed · BUILD SUCCESS.**
+
+![BackEnd suite](Assets/testing-6.2.2.5/backend-suite.png)
+
+Logs y reportes HTML: `Assets/testing-6.2.2.5/` (`edge-*.txt` / `edge-*.html`, `backend-*.txt` / `backend-*.html`).
+
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
 La aplicación es una sola para los dos segmentos. No hay una pantalla de restaurante y otra de distribución. El propietario o administrador del restaurante y el encargado del negocio de distribución de alimentos en fríos entran al mismo registro, al mismo monitoreo, a las mismas alertas y al mismo inventario. Lo que cambia es la lectura: cocina e insumos en el restaurante, cámara o vitrina y lote por entregar en la distribución.
