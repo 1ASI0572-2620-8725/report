@@ -5074,6 +5074,31 @@ Las principales oportunidades de mejora se concentran en adaptar la presentació
 
 ## 6.4. Video About-the-Product
 
+El video *About-the-Product* de **FreshSense** tiene como objetivo presentar de manera clara, breve y atractiva la propuesta de valor de nuestra solución IoT, dirigida a propietarios y administradores de restaurantes, así como a empresas dedicadas a la distribución y cadena de frío de alimentos perecibles.
+
+A través de un enfoque promocional, el video expone la problemática relacionada con el deterioro de alimentos, presenta las principales características de FreshSense y explica cómo la integración de dispositivos IoT con una aplicación web busca facilitar el monitoreo de condiciones ambientales, la gestión de inventarios y la identificación de situaciones que requieren atención.
+
+Asimismo, se presentan los principales beneficios de la solución, destacando su contribución a la organización de productos, el control de las condiciones de conservación y la reducción potencial de pérdidas por deterioro.
+
+El video contempla demostraciones de interacción con las funcionalidades de monitoreo, inventario y alertas, además de un espacio destinado a incorporar testimonios reales de usuarios pertenecientes a ambos segmentos objetivo, obtenidos durante las entrevistas de validación.
+
+A continuación, se presenta la evidencia audiovisual del video *About-the-Product*, destinado a su publicación en Microsoft Stream/Clipchamp y YouTube, así como a su integración en el Landing Page de FreshSense.
+
+**Captura representativa del video:**
+
+![alt text](Assets/atp.png)
+
+**Enlace del video en YouTube:**
+
+https://youtu.be/LCKnt06wxJ4
+
+**Duración:** 01:55 minutos.
+
+**Formato:** MP4.
+
+El video está orientado a comunicar los beneficios de FreshSense a potenciales clientes y usuarios, facilitando la comprensión de su funcionamiento y promoviendo el interés por la solución. Su versión publicada en YouTube se utilizará para incrustarlo en una sección del Landing Page, permitiendo que los visitantes conozcan el producto de manera audiovisual.
+
+
 ## Conclusiones
 
 El análisis realizado permitió identificar que los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos, enfrentan dificultades relacionadas con el control constante de sus productos perecibles y las condiciones necesarias para su adecuada conservación. El deterioro de los alimentos, las fallas en la cadena de frío y la falta de información oportuna pueden generar mermas y pérdidas económicas que afectan directamente la rentabilidad del negocio. Asimismo, se identificó la necesidad de contar con una solución tecnológica sencilla que facilite el monitoreo del inventario, permita recibir alertas ante posibles riesgos y proporcione información útil para tomar decisiones oportunas. En este contexto, FreshSense busca responder a estas necesidades mediante una herramienta que contribuya a reducir las pérdidas, mejorar el control de los productos y optimizar la gestión del negocio.
