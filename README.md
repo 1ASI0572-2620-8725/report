@@ -4177,57 +4177,48 @@ Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Si e
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-Evidencia de la suite de pruebas del Sprint Review para los repositorios **Freshsense-EDGE** y **BackEnd**: unitarios e integrales por componente, con capturas y logs en `Assets/testing-6.2.2.5/`.
+En esta parte van las pruebas unitarias e integrales del Edge y del BackEnd para el Sprint Review. Se probaron la clasificación de frescura (temperatura, humedad y etileno), el claim del dispositivo y la ingesta `POST /api/edge/readings` (TS41 / US06).
 
-| Componente | Unitarios | Integrales | Suite |
-| :--- | ---: | ---: | ---: |
-| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 9 passed | 16 passed | 25 passed |
-| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 4 passed | 3 passed | 7 passed |
+| Dónde | Unitarios | Integrales | Total | Resultado |
+| :--- | ---: | ---: | ---: | :--- |
+| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 9 | 16 | 25 | Passed |
+| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 4 | 3 | 7 | Passed |
 
-**Cómo se ejecutó**
+![Resumen de la suite de pruebas](Assets/testing-6.2.2.5/testing-resumen.png)
 
-| Repo | Unitarios | Integrales |
-| :--- | :--- | :--- |
-| Freshsense-EDGE | `pytest tests/test_freshness.py tests/test_claim.py --html=...` | `pytest tests/test_process_endpoint.py --html=...` |
-| BackEnd (JDK 17) | `mvnw -Dtest=EdgeReadingRequestValidationTest test` | `mvnw -Dtest=EdgeControllerWebMvcTest test` |
+Resumen: 32 pruebas ejecutadas, 0 fallos y 0 errores.
 
-##### Freshsense-EDGE — unitarios
+**Freshsense-EDGE — unitarios**
 
-Clasificación de frescura (temperatura, humedad, etileno) y claim del dispositivo. **9 passed.**
+Se prueban el semáforo de frescura (verde / amarillo / rojo) y el claim del sensor. 9 passed.
 
 ![Freshsense-EDGE unitarios](Assets/testing-6.2.2.5/edge-unitarios.png)
 
-##### Freshsense-EDGE — integrales
+Unitarios del Edge: frescura con etileno y claim del dispositivo.
 
-Endpoints de proceso físico (`/api/v1/sensor-readings` y aliases), umbrales con etileno y rechazo de payloads incompletos. **16 passed.**
+**Freshsense-EDGE — integrales**
+
+Se prueban la API del Edge (`/api/v1/sensor-readings` y aliases del firmware), los umbrales con etileno y el rechazo de lecturas incompletas. 16 passed.
 
 ![Freshsense-EDGE integrales](Assets/testing-6.2.2.5/edge-integrales.png)
 
-##### Freshsense-EDGE — suite completa
+Integrales del Edge: proceso de lectura, categoría del dispositivo y validaciones.
 
-Unitarios + integrales juntos. **25 passed.**
+**BackEnd — unitarios**
 
-![Freshsense-EDGE suite](Assets/testing-6.2.2.5/edge-suite.png)
-
-##### BackEnd — unitarios
-
-Contrato de ingesta Edge (`EdgeReadingRequest`): `deviceId`, temperatura, humedad y `ethylenePpm` obligatorios (TS41 / US06). **4 passed · BUILD SUCCESS.**
+Se valida el contrato de ingesta `EdgeReadingRequest`: `deviceId`, temperatura, humedad y `ethylenePpm` son obligatorios. 4 passed.
 
 ![BackEnd unitarios](Assets/testing-6.2.2.5/backend-unitarios.png)
 
-##### BackEnd — integrales
+Unitarios del BackEnd: validación del DTO de lectura Edge (TS41 / US06).
 
-`EdgeControllerWebMvcTest` sobre `POST /api/edge/readings`: 201 con `X-Device-Key` válida, 401 sin clave y 400 sin etileno. **3 passed · BUILD SUCCESS.**
+**BackEnd — integrales**
+
+Se prueba `POST /api/edge/readings` con MockMvc: 201 con `X-Device-Key` válida, 401 sin clave y 400 sin etileno. 3 passed.
 
 ![BackEnd integrales](Assets/testing-6.2.2.5/backend-integrales.png)
 
-##### BackEnd — suite completa
-
-Unitarios + integrales Edge/IoT. **7 passed · BUILD SUCCESS.**
-
-![BackEnd suite](Assets/testing-6.2.2.5/backend-suite.png)
-
-Logs y reportes HTML: `Assets/testing-6.2.2.5/` (`edge-*.txt` / `edge-*.html`, `backend-*.txt` / `backend-*.html`).
+Integrales del BackEnd: autenticación del dispositivo e ingesta de la lectura.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
