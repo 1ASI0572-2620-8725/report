@@ -4592,6 +4592,193 @@ Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-
 
 **Repositorios del Sprint 1:**
 
+### 6.2.2. Sprint 2
+
+En el sprint 2 queremos que el propietario o administrador de un restaurante y el encargado de un negocio de distribución de alimentos en fríos puedan revisar sus cámaras desde el celular, vincular el sensor escaneando su QR y enterarse cuando el etileno sube. Para eso se construyó la primera versión de la aplicación móvil y del Edge API, y el backend empezó a leer y evaluar el gas etileno.
+
+#### 6.2.2.1. Sprint Planning 2
+
+El equipo FreshEat decidió que el segundo Sprint debía acercar FreshSense al lugar donde se trabaja: la cocina, el almacén y la cámara de frío. En el Sprint 1 la información llegaba al navegador y el dispositivo solo medía temperatura y humedad (DHT22). Para este Sprint se incluyó en el alcance la primera versión de la aplicación móvil, con ingreso, monitoreo, alertas, vinculación del sensor por QR y alta de insumos con la cámara del celular; la primera versión del Edge API, que recibe las lecturas del dispositivo en la red local, las valida y las reenvía al backend aunque se corte el internet por unos minutos; y la lectura del gas etileno en el firmware, en el Edge API y en el backend, que ahora guarda el valor y genera la alerta HIGH_ETHYLENE. Con este criterio se tomaron las historias 12 a 16 del Product Backlog y se completaron los escenarios de etileno que quedaron pendientes en US06, TS41 y US08.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 04/11/26 |
+| Time | 10:00 am |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Romina Tuesta Marin |
+| Attendees (to planning meeting) | Chavez Viera Joseph Manuel / Juan Carlos Pastor Napa / Mostajo Orosco Maria Fernanda / Cossar Sanchez Eduardo Jose / Tuesta Marin Romina Alejandra |
+| Previous Sprint Review Summary | En el Sprint 1 se publicaron la Landing Page en GitHub Pages, y la aplicación web y el API REST en Google Cloud con HTTPS. El API quedó documentado en Swagger con 39 operaciones. Se recorrió el flujo de registro, monitoreo con semáforo, alertas y vinculación del dispositivo. Quedaron pendientes tres puntos: el firmware solo se probó en simulación (Wokwi); el DHT22 no mide etileno, por lo que los escenarios de etileno de US06, TS41 y US08 no se pudieron probar; y el panel de la cuenta demo se veía vacío porque no recibía lecturas reales. |
+| Previous Sprint Retrospective Summary | Lo que funcionó: trabajar con GitFlow y Pull Requests permitió integrar el frontend y el backend sin conflictos grandes. Lo que se debe mejorar: algunos commits no siguieron Conventional Commits (por ejemplo, `first commit`) y no se revisaron los checks de GitHub antes de unir ramas. Acuerdos para el Sprint 2: todo commit sigue Conventional Commits, ningún Pull Request se une a `develop` con checks en rojo, y el dispositivo se prueba con hardware físico, no solo en Wokwi. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Nuestro enfoque es proporcionar a los propietarios y administradores de restaurantes, así como a los encargados de negocios de distribución de alimentos en fríos, una aplicación móvil donde puedan iniciar sesión, ver el estado de sus cámaras con el semáforo, recibir las alertas según su turno, vincular un sensor escaneando su QR, registrar insumos o lotes con la cámara del celular y corregir el stock después del conteo; proporcionar a los desarrolladores del dispositivo un Edge API que reciba las lecturas en la red local y las reenvíe al backend; y proporcionar a los desarrolladores del backend la lectura, el almacenamiento y la evaluación del gas etileno.<br><br>Creemos que esto permite revisar las cámaras sin estar frente a una computadora, detectar antes que una fruta o verdura se está deteriorando gracias al etileno, y no perder lecturas cuando la conexión del local falla.<br><br>Esto se confirmará cuando un usuario inicie sesión en la aplicación móvil y vea el estado de su cámara con el color del semáforo; una lectura de etileno enviada por el dispositivo físico pase por el Edge API y aparezca en la aplicación móvil y en la web en menos de 10 segundos; una lectura de etileno por encima del umbral genere la alerta `HIGH_ETHYLENE` en la aplicación móvil; las lecturas tomadas durante un corte de internet lleguen al backend cuando vuelva la conexión; un sensor quede vinculado a su cámara escaneando su QR desde el celular; y las 5 historias del Sprint, junto con los escenarios de etileno pendientes, cumplan sus escenarios de aceptación en el entorno desplegado. |
+| Sprint 2 Velocity | 16 Story Points |
+| Sum of Story Points | 16 Story Points |
+
+**User Stories incluidas en el Sprint 2**
+
+| # | ID | Título | Story Points | Aporte al Sprint Goal |
+|:-:|---|---|:-:|---|
+| 1 | US09 | Preferencias de alertas por turno | 3 | Alertas en el celular según el turno del personal. |
+| 2 | US31 | Vinculación y calibración de sensores | 3 | Vinculación del sensor por QR desde la app y registro en el Edge API. |
+| 3 | US10 | Alta de insumos por lector de código/QR | 5 | Registro de insumos o lotes con la cámara del celular. |
+| 4 | US11 | Modificación manual de stock e insumos | 2 | Corrección del stock desde la app después del conteo. |
+| 5 | US37 | Gestión de colaboradores por local | 3 | Acceso del personal de la sede a la app con su propio usuario. |
+| | | **Total** | **16** | |
+
+**Escenarios pendientes del Sprint 1 que se cierran en este Sprint**
+
+| ID | Título | Escenarios pendientes | Qué se hace en el Sprint 2 |
+|---|---|---|---|
+| US06 | Telemetría y monitoreo IoT de cámaras frías | Escenarios 1 y 3 en lo referido al etileno. | El firmware lee el sensor de gas y envía `ethylenePpm` al Edge API. |
+| TS41 | API Ingesta de Sensores IoT B2B | Escenario 1: lectura con temperatura, humedad y etileno. | El backend valida y guarda `ethylenePpm` en cada lectura. |
+| US08 | Alertas preventivas de temperatura | Escenario 1 cuando el producto está en riesgo por etileno. | El backend compara el etileno con `maxEthylenePpm` y emite `HIGH_ETHYLENE`. |
+
+Estas historias ya se contaron en la velocidad del Sprint 1, por eso no suman puntos nuevos. La velocidad de 16 Story Points es menor que la del Sprint 1 porque buena parte de la capacidad del equipo se usó para crear dos productos nuevos, la aplicación móvil y el Edge API, y para integrar el sensor de etileno con el hardware físico. El detalle de las tareas está en el Sprint Backlog 2 (sección 6.2.2.3).
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+Para el Sprint 2, el equipo organizó el trabajo en aspectos que siguen el camino de una lectura, desde el dispositivo hasta el celular del usuario: el dispositivo IoT, con la lectura del gas etileno en el firmware (US06); el Edge API, que recibe y reenvía las lecturas y registra el sensor vinculado (TS41, US31); el backend, con el almacenamiento del etileno, la alerta `HIGH_ETHYLENE`, las preferencias por turno, el inventario y los colaboradores (TS41, US08, US09, US10, US11, US37); la aplicación móvil, que presenta todo lo anterior al usuario (US09, US31, US10, US11, US37); y el despliegue de los productos. Cada aspecto tiene un líder (L), responsable de coordinarlo y asegurar su calidad, y colaboradores (C), que participan en su implementación. Esta distribución sirvió de base para asignar las tareas del Sprint Backlog 2.
+
+| Team Member (Last Name, First Name) | GitHub Username | IoT Device (Ethylene) | Edge API | Backend (Ingestion & Alerts) | Mobile App | Deployment |
+|---|---|---|---|---|---|---|
+| Tuesta Marin, Romina | Romimi1 | C | C | C | C | C |
+| Chavez Viera, Joseph | u202314019-MrOsoPanda | L | L | C | C | C |
+| Pastor Napa, Juan Carlos | ElKiwi1271 | C | C | C | L | L |
+| Mostajo Orosco, Maria Fernanda | Mafer-m30 | C | C | L | C | C |
+| Cossar Sanchez, Eduardo | coleeeee-dev | C | C | C | C | C |
+
+#### 6.2.2.3. Sprint Backlog 2
+
+Del Product Backlog se tomaron las historias 12 a 16. Suman 16 puntos. Igual que en el Sprint 1, el Sprint 2 no arma dos productos. Arma el mismo recorrido, ahora desde el celular, para propietarios y administradores de restaurantes y para encargados de negocios de distribución de alimentos en fríos:
+
+1. Entrar a la aplicación móvil con la misma cuenta de la web (TS43, ya implementada). Si el usuario es un colaborador, entra con la invitación de su sede (US37).
+2. Vincular el sensor de la cámara escaneando su QR (US31). En el Edge API es `POST /api/edge/claim`.
+3. Recibir la lectura de temperatura, humedad y etileno, que pasa por el Edge API antes de llegar al backend (US06, TS41). En el API es `POST /api/edge/readings`.
+4. Ver esa lectura con color en la app y recibir la alerta según el turno (US08, US09).
+5. Registrar los insumos o lotes con la cámara del celular y corregir el stock tras el conteo (US10, US11).
+
+En el restaurante, el etileno avisa que las frutas y verduras de la cámara de cocina se están madurando antes de tiempo. En la distribución, avisa que un lote de la cámara de mercadería debe salir primero.
+
+| Orden | ID | Título | Puntos | A quién le sirve |
+| :-: | :--- | :--- | :--- | :--- |
+| 1 | US09 | Preferencias de alertas por turno | 3 | Los dos segmentos |
+| 2 | US31 | Vinculación y calibración de sensores | 3 | Los dos segmentos |
+| 3 | US10 | Alta de insumos por lector de código/QR | 5 | Los dos segmentos |
+| 4 | US11 | Modificación manual de stock e insumos | 2 | Los dos segmentos |
+| 5 | US37 | Gestión de colaboradores por local | 3 | Los dos segmentos |
+
+El tablero del Sprint se gestionó en Trello: 
+
+<img src="Assets/sprint-backlog-2.png" alt="Tablero del Sprint Backlog 2." style="max-width:100%;height:auto"/>
+
+**Tareas del Sprint 2**
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|:-:|---|---|
+| US06 | Telemetría y monitoreo IoT (etileno) | T01 | Lectura del sensor de gas en el firmware | Conectar el sensor de gas al ESP32, leer su valor y convertirlo a `ethylenePpm`. | 6 | Romina Tuesta | Done |
+| US06 | Telemetría y monitoreo IoT (etileno) | T02 | Envío de lecturas completas al Edge API | Agregar `ethylenePpm` al JSON y enviarlo al Edge API junto con temperatura y humedad. | 3 | Romina Tuesta | Done |
+| US06 | Telemetría y monitoreo IoT (etileno) | T03 | Prueba con hardware físico | Probar el circuito real, no solo en Wokwi, y registrar las lecturas obtenidas. | 3 | Romina Tuesta | Done |
+| TS41 | API Ingesta de Sensores IoT B2B | T04 | Recepción de lecturas en el Edge API | Endpoint que recibe la lectura del dispositivo en la red local y valida su token. | 5 | Joseph Chavez | Done |
+| TS41 | API Ingesta de Sensores IoT B2B | T05 | Cola local de lecturas | Guardar las lecturas mientras no hay internet y reenviarlas en orden cuando vuelve la conexión. | 5 | Joseph Chavez | Done |
+| TS41 | API Ingesta de Sensores IoT B2B | T06 | Lecturas incompletas o duplicadas | Rechazar lecturas sin temperatura, humedad o etileno, y no repetir una lectura ya enviada. | 3 | Joseph Chavez | Done |
+| TS41 | API Ingesta de Sensores IoT B2B | T07 | Campo `ethylenePpm` en el backend | Agregar el campo al modelo y a la tabla de lecturas, con su validación. | 3 | Maria Fernanda Mostajo | Done |
+| US08 | Alertas preventivas (etileno) | T08 | Alerta `HIGH_ETHYLENE` | Comparar la lectura con `maxEthylenePpm` de la zona y emitir la alerta. | 4 | Maria Fernanda Mostajo | Done |
+| US09 | Preferencias de alertas por turno | T09 | Endpoint de preferencias por turno | Guardar el horario del turno y los canales de aviso de cada usuario. | 3 | Maria Fernanda Mostajo | Done |
+| US09 | Preferencias de alertas por turno | T10 | Notificaciones push en la app móvil | Recibir las alertas en el celular: las críticas siempre y las leves solo dentro del turno. | 5 | Eduardo Cossar | Done |
+| US09 | Preferencias de alertas por turno | T11 | Pantallas de monitoreo y alertas en la app | Ver las cámaras con el semáforo, el detalle de la lectura y la lista de alertas. | 6 | Eduardo Cossar | Done |
+| US09 | Preferencias de alertas por turno | T12 | Pantalla de preferencias de turno | Formulario en la app para configurar el horario y los canales. Si falta el horario o el canal, no se guarda y se señalan los datos que faltan. | 3 | Juan Carlos Pastor | Done |
+| US31 | Vinculación y calibración de sensores | T13 | Escaneo del QR del sensor | Leer el QR del dispositivo con la cámara del celular y enviarlo a `POST /api/edge/claim`. Si el QR no es de un sensor FreshSense o ya está vinculado a otra zona, no se vincula y se muestra el motivo. | 4 | Eduardo Cossar | Done |
+| US31 | Vinculación y calibración de sensores | T14 | Registro del dispositivo en el Edge API | Asociar el dispositivo a su zona y guardar la temperatura límite de esa cámara, sin heredar el umbral de otra zona. | 4 | Joseph Chavez | Done |
+| US10 | Alta de insumos por lector de código/QR | T15 | Escaneo de código de barras o QR | Leer el código del empaque y buscarlo en el catálogo. Si el código no existe, no se crea el insumo y se ofrece el alta manual. | 5 | Juan Carlos Pastor | Done |
+| US10 | Alta de insumos por lector de código/QR | T16 | Registro del insumo o lote | Guardar el insumo con su fecha de ingreso y categoría. Si ya existe en la sucursal, sumar la cantidad recibida al stock y registrar el nuevo ingreso. | 4 | Maria Fernanda Mostajo | Done |
+| US11 | Modificación manual de stock e insumos | T17 | Ajuste de stock en la app | Pantalla para cambiar la cantidad de un insumo después del conteo. Si la cantidad es negativa o no numérica, el stock no cambia. | 3 | Juan Carlos Pastor | Done |
+| US11 | Modificación manual de stock e insumos | T18 | Registro de auditoría del ajuste | Guardar usuario, fecha, cantidad anterior y cantidad nueva de cada ajuste. | 2 | Romina Tuesta | Done |
+| US37 | Gestión de colaboradores por local | T19 | Invitación de colaboradores | Endpoint que envía la invitación al correo y asigna la sede y el turno. Si el enlace expiró o el correo ya tiene acceso a esa sede, no se crea otro acceso. | 4 | Joseph Chavez | Done |
+| US37 | Gestión de colaboradores por local | T20 | Ingreso del colaborador en la app | Aceptar la invitación y ver solo el inventario de su sede y turno. | 3 | Eduardo Cossar | Done |
+| — | Despliegue | T21 | Despliegue del backend y del Edge API | Publicar la nueva versión del backend y dejar el Edge API listo para la red del local. | 4 | Juan Carlos Pastor | Done |
+| — | Despliegue | T22 | Versión instalable de la app móvil | Generar el instalable de la app y documentar cómo instalarlo. | 3 | Juan Carlos Pastor | Done |
+| | | | | **Total** | **85** | | |
+
+Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Los escenarios de etileno de US06, TS41 y US08 se prueban con el dispositivo físico. Si en la revisión falta uno, se deja anotado cuál y por qué no se pudo probar.
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En el Sprint 2 la evidencia de testing son los **Acceptance Tests** en Gherkin (Given / When / Then). Ya están escritos para las historias y la historia técnica del sprint: inventario, alertas, edición, recetas, análisis premium, historial y API de usuarios.
+
+| ID | Historia / TS | Escenarios | Archivo |
+| :--- | :--- | ---: | :--- |
+| US07 | Visualización de inventario | 2 | `US07_visualizacion_inventario.feature` |
+| US08 | Alertas anticipadas | 2 | `US08_alertas_anticipadas.feature` |
+| US11 | Edición de inventario | 2 | `US11_edicion_inventario.feature` |
+| US13 | Recetas personalizadas | 2 | `US13_recetas_personalizadas.feature` |
+| US17 | Análisis detallado de inventario | 2 | `US17_analisis_detallado_inventario.feature` |
+| US19 | Recetas exclusivas premium | 2 | `US19_recetas_exclusivas_premium.feature` |
+| US29 | Historial de consumo | 3 | `US29_historial_consumo.feature` |
+| TS33 | API para gestión de usuarios | 1 | `TS33_api_gestion_usuarios.feature` |
+
+![Resumen Acceptance Tests Sprint 2](Assets/acceptance-sprint2/sprint2-acceptance-resumen.png)
+
+Resumen: 8 features, 16 escenarios. Los `.feature` están en `Assets/acceptance-sprint2/`.
+
+**US07 — Visualización de inventario**
+
+Colores del inventario (verde / amarillo / rojo) y detalle del alimento con caducidad y condiciones de almacenamiento.
+
+![US07 Acceptance Test](Assets/acceptance-sprint2/sprint2-us07_visualizacion_inventario.png)
+
+**US08 — Alertas anticipadas**
+
+Alerta cuando un alimento está por vencer, y que no se envíe aviso si no hay riesgo.
+
+![US08 Acceptance Test](Assets/acceptance-sprint2/sprint2-us08_alertas_anticipadas.png)
+
+**US11 — Edición de inventario**
+
+Edición exitosa de cantidad o fecha, y rechazo con mensaje de error si los datos son inválidos.
+
+![US11 Acceptance Test](Assets/acceptance-sprint2/sprint2-us11_edicion_inventario.png)
+
+**US13 — Recetas personalizadas**
+
+Recetas con ingredientes en riesgo de vencer, o catálogo general si no hay productos en riesgo.
+
+![US13 Acceptance Test](Assets/acceptance-sprint2/sprint2-us13_recetas_personalizadas.png)
+
+**US17 — Análisis detallado de inventario**
+
+Acceso completo al reporte avanzado con plan premium, y bloqueo con aviso si el plan no es premium.
+
+![US17 Acceptance Test](Assets/acceptance-sprint2/sprint2-us17_analisis_detallado_inventario.png)
+
+**US19 — Recetas exclusivas premium**
+
+Acceso a recetas avanzadas con plan premium, y denegación con sugerencia de upgrade si no lo tiene.
+
+![US19 Acceptance Test](Assets/acceptance-sprint2/sprint2-us19_recetas_exclusivas_premium.png)
+
+**US29 — Historial de consumo**
+
+Registro de consumo o descarte, visualización con gráficas, y filtro/exportación a CSV o Excel.
+
+![US29 Acceptance Test](Assets/acceptance-sprint2/sprint2-us29_historial_consumo.png)
+
+**TS33 — API para gestión de usuarios**
+
+`PUT /api/users/{id}/permissions` actualiza roles/permisos y responde 200 OK.
+
+![TS33 Acceptance Test](Assets/acceptance-sprint2/sprint2-ts33_api_gestion_usuarios.png)
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+
 ## 6.3. Validation Interviews
 
 En esta sección se presenta el proceso de validación de la experiencia de usuario de FreshSense mediante entrevistas dirigidas a representantes de los segmentos objetivo definidos en el proyecto: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
