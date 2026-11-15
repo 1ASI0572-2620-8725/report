@@ -193,9 +193,8 @@ del ABET – EAC - Student Outcome 5.
 
 <div style="page-break-after: always;"></div>
 
-
-
 ## Capítulo I: Introducción
+
 
 ### 1.1. Startup Profilee
 
