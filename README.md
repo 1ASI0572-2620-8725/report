@@ -5116,12 +5116,6 @@ docker run -p 5000:5000 \
 
 El firmware se graba en el ESP32 desde Arduino IDE 2, con la placa *ESP32 Dev Module* y el monitor serie a 115200 baudios. Antes de grabarlo se configura en `FreshSenseNode.h` la red WiFi y la dirección del Edge (`READINGS_URL = http://<IP_PC>:5000/api/v1/sensor-readings`). El comportamiento se validó antes en la simulación de Wokwi (repositorio `repositorio-wokwi`).
 
-[COMPLETAR: capturas desde Arduino IDE.]
-
-[COMPLETAR: captura `Assets/sprint2/deployment/arduino-subida-completa.png`. Subida completa en Arduino IDE.]
-
-[COMPLETAR: captura `Assets/sprint2/deployment/esp32-wifi-conectado.png`. Conexión WiFi del ESP32.]
-
 
 
 ## 6.3. Validation Interviews
