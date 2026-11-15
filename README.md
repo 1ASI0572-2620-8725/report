@@ -4770,13 +4770,358 @@ Registro de consumo o descarte, visualización con gráficas, y filtro/exportaci
 
 ![TS33 Acceptance Test](Assets/acceptance-sprint2/sprint2-ts33_api_gestion_usuarios.png)
 
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+En el Sprint 2 el equipo se centró en la integración IoT de FreshSense. El prototipo físico (ESP32 con sensores AM2302 y MQ135) reemplazó a la simulación del Sprint 1. Se construyó el Edge API en Python/Flask, que clasifica la frescura de cada lectura cerca del dispositivo. El backend se amplió para recibir y guardar el nivel de etileno medido por el sensor de gas. La aplicación web se configuró con la nueva URL de producción del backend y se publicó la primera versión de la aplicación móvil para Android, que muestra temperatura, humedad y etileno.
+
+El Sprint 2 se desarrolló del 03/11/2026 al 14/11/2026. La tabla incluye los commits registrados en los repositorios de la organización durante ese periodo.
+
+Entre los logros destacables se encuentran:
+
+- Firmware del ESP32 (C++/Arduino) con lectura del AM2302 (temperatura y humedad, GPIO 4) y del MQ135 (etileno, GPIO 34), y con actuadores: LED (GPIO 27), buzzer (GPIO 25) y relé con ventilador (GPIO 26).
+- Clasificación local en el dispositivo con la regla FS-FRUIT-1 (FRESH / AT_RISK / SPOILED). Así los actuadores responden aunque no haya conexión a internet.
+- Edge API en Flask con arquitectura DDD (domain, application, infrastructure, interfaces). Valida cada lectura, la clasifica en semáforo (GREEN / YELLOW / RED) según los umbrales de la categoría del dispositivo y la reenvía al backend.
+- Emparejamiento del Edge con la cuenta del usuario mediante un código de un solo uso (`/edge/setup` → `POST /edge/claim` → `POST /api/edge/claim`).
+- Ingesta del etileno en el backend: se agregó `ethylenePpm` a `EdgeReadingRequest`, `EdgeController` y `MonitoringService`. El valor se guarda en `ethylene_level` y llega al front como `ethyleneLevel`.
+- Pruebas unitarias e integrales de la ingesta Edge en el backend (MockMvc) y en el Edge (pytest).
+- Aplicación móvil Flutter para Android con la misma estructura DDD del frontend web, publicada como `freshsense-v1.0.0.apk`.
+- Frontend web y backend apuntando a la nueva URL de producción (`https://137-131-253-18.sslip.io`).
+
+A continuación, se presenta una tabla detallada de los commits más relevantes realizados en los diferentes repositorios durante el Sprint 2:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/1ASI0572-2620-8725/Embebed-System | master | 8e437e0 | Initial commit: Embebed-System FreshSense. | Firmware del nodo ESP32 (`prototipo1/FreshSenseNode.h`, `prototipo1.ino`), supuestos de prueba, servidor local de pruebas por USB (`servidor/servidor.py`) y diagrama de clases. | 07/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Embebed-System | master | 2d7ce7c | Unifica los actuadores y los supuestos con la regla FS-FRUIT-1. | La placa confirma cada caso y el localhost muestra el mismo resultado. | 13/11/2026 |
+| https://github.com/1ASI0572-2620-8725/repositorio-wokwi | main | e01ad1f | Initial commit: repositorio-wokwi FreshSense. | Proyecto de simulación en Wokwi: `sketch.ino`, `diagram.json`, chip personalizado del ventilador (`ventilador.chip.c`) y diagrama de clases. | 07/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Freshsense-EDGE | main | 361928e | Initial commit: Freshsense-EDGE FreshSense. | Edge API en Flask con capas DDD: clasificación de frescura, validación, emparejamiento (`claim_device.py`), reenvío al backend (`upstream_forwarder.py`), catálogo de umbrales en MySQL con respaldo en memoria, Dockerfile y pruebas. | 07/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Freshsense-EDGE | main | 28a3ec9 | test: amplía unitarios e integrales de frescura, claim y validación | Suma cobertura por categoría, aliases del embebido y más rechazos de payload. | 13/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Freshsense-EDGE | main | b74225e | Alinea la frescura de Frutas con las bandas semi de FS-FRUIT-1. | El Edge marcaba como malogrado lo que el prototipo trata como semi. | 13/11/2026 |
+| https://github.com/1ASI0572-2620-8725/BackEnd | main | 5ee19c1 | Recibir nivel de etileno (ethylenePpm) desde el Edge | Agrega `ethylenePpm` a `EdgeReadingRequest` y lo propaga en `EdgeController` y `MonitoringService.saveFromEdge`. | 07/11/2026 |
+| https://github.com/1ASI0572-2620-8725/BackEnd | main | deda7b9 | Documentar el envio de etileno (ethylenePpm) desde el Edge | Actualiza el README con el nuevo campo del payload de `POST /api/edge/readings`. | 07/11/2026 |
+| https://github.com/1ASI0572-2620-8725/BackEnd | main | 6993562 | Actualizar URL de produccion del backend | Cambia en el README la URL del API y de Swagger a `https://137-131-253-18.sslip.io`. | 08/11/2026 |
+| https://github.com/1ASI0572-2620-8725/BackEnd | main | 1a9e58e | test: unitarios e integrales de ingesta Edge (TS41) | Valida EdgeReadingRequest y POST /api/edge/readings con MockMvc sin filtros JWT. | 13/11/2026 |
+| https://github.com/1ASI0572-2620-8725/BackEnd | main | 0d130b9 | test: amplía unitarios e integrales Edge/claim (TS41) | Cubre más validaciones del DTO y escenarios MockMvc de readings y claim. | 13/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Frontend | main | caf397d | Apuntar el frontend al nuevo backend | Cambia `apiBaseUrl` de `environment.production.ts` a `https://137-131-253-18.sslip.io/api` y actualiza el README. | 08/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Mobile-App | main | e99483d | Initial commit | Creación del repositorio con README. | 08/11/2026 |
+| https://github.com/1ASI0572-2620-8725/Mobile-App | main | 95db6e9 | feat: add FreshSense Flutter Android app replicating Frontend DDD structure | Includes real-time gas (ethylene) monitoring consuming the deployed backend. | 08/11/2026 |
+
+Los repositorios `landing-page` y `Acceptance-Tests` no registran commits en este periodo. Sus últimos cambios son del 09/10/2026 y del 08/10/2026, respectivamente.
+
+![Commit 5ee19c1 en el repositorio BackEnd](Assets/sprint2/development/backend-commit-etileno.png)
+
+*Figura: commit 5ee19c1 del BackEnd, que agrega `ethylenePpm` al DTO de ingesta del Edge.*
+
+![Historial de commits del Edge](Assets/sprint2/development/edge-commits.png)
+
+*Figura: historial de commits del repositorio Freshsense-EDGE en la rama main.*
+
+![Historial de commits del sistema embebido](Assets/sprint2/development/embebido-commits.png)
+
+*Figura: historial de commits del repositorio Embebed-System en la rama master.*
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
+
+Al cierre del Sprint 2, FreshSense cubre el recorrido IoT completo. El ESP32 mide temperatura, humedad y etileno, decide en el propio dispositivo si enciende el LED, el buzzer o el ventilador, y envía la lectura al Edge API de la red local. El Edge clasifica la lectura con los umbrales de la categoría del dispositivo y la reenvía al backend con la clave obtenida al emparejar. El backend la guarda, y la aplicación web y la móvil la muestran con su color de semáforo.
+
+Funcionalidades logradas:
+
+- Lectura de temperatura y humedad (AM2302, cada 3 minutos) y de etileno (MQ135, cada minuto) en el ESP32.
+- Respuesta local de los actuadores según la regla FS-FRUIT-1, incluso sin red.
+- Envío de la lectura del ESP32 al Edge (`POST /api/v1/sensor-readings`), que responde `202` con la frescura calculada.
+- Catálogo de umbrales por categoría en el Edge (`GET /edge/thresholds`) y asignación de categoría por dispositivo (`/edge/devices`).
+- Emparejamiento del Edge con la cuenta del usuario desde la página `/edge/setup`.
+- Ingesta en el backend con el nivel de etileno y consulta de la última lectura (`GET /api/monitoring/latest`).
+- Aplicación móvil Android con monitoreo de temperatura, humedad y etileno.
+
+**Prototipo IoT (ESP32)**
+
+[COMPLETAR: tomar las fotos y capturas del prototipo físico (no se pueden obtener desde el navegador).]
+
+[COMPLETAR: captura `Assets/sprint2/execution/esp32-circuito.png`. Circuito del prototipo armado.]
+
+[COMPLETAR: captura `Assets/sprint2/execution/esp32-monitor-serie.png`. Monitor serie del ESP32.]
+
+[COMPLETAR: captura `Assets/sprint2/execution/esp32-led-buzzer-spoiled.png`. LED y buzzer en estado SPOILED.]
+
+[COMPLETAR: captura `Assets/sprint2/execution/esp32-ventilador-etileno.png`. Ventilador activo por etileno.]
+
+**Edge API**
+
+![Página de emparejamiento del Edge](Assets/sprint2/execution/edge-setup.png)
+
+*Figura: página `/edge/setup`, donde el instalador pega el código de emparejamiento que entrega la aplicación.*
+
+![Umbrales por categoría en el Edge](Assets/sprint2/execution/edge-thresholds.png)
+
+*Figura: respuesta de `GET /edge/thresholds` con los rangos de temperatura, humedad y etileno por categoría.*
+
+![Edge vinculado al dispositivo](Assets/sprint2/execution/edge-setup-vinculado.png)
+
+*Figura: Edge vinculado al dispositivo `esp32-freshsense-1` con el código de emparejamiento generado en la aplicación.*
+
+Respuesta real del Edge, ya emparejado, al recibir una lectura con el formato del ESP32:
+
+```json
+// POST http://localhost:5000/api/v1/sensor-readings
+// Request
+{ "deviceId": "esp32-freshsense-1", "timestamp": "2026-11-14T16:06:00",
+  "temperatureC": 6.4, "humidityPct": 88.0, "ethylenePpm": 0.42, "meta": "esp32-am2302-mq135" }
+
+// Response 202
+{ "status": "ok", "category": "Frutas", "freshness": "YELLOW", "freshnessEmbedded": "AT_RISK",
+  "forwarded": true,
+  "reading": { "deviceId": "esp32-freshsense-1", "id": "8965be1629894cd18d1a",
+               "temperature": 6.4, "humidity": 88.0, "ethylenePpm": 0.42,
+               "recordedAt": "2026-11-14T16:06:00" } }
+```
+
+El Edge clasificó la lectura en `YELLOW` porque la humedad (88 %) está fuera del rango normal de Frutas (90–95 %), aunque dentro de la banda semi de FS-FRUIT-1 (85–98 %). `forwarded: true` indica que la lectura se reenvió al backend de producción con la cabecera `X-Device-Key` obtenida al emparejar. Antes se envió una lectura dentro de rango (4.2 °C, 92 %, 0.35 ppm), que el Edge clasificó como `GREEN` / `FRESH`.
+
+**Aplicación web**
+
+![Registro del dispositivo con código de emparejamiento](Assets/sprint2/execution/web-dispositivos.png)
+
+*Figura: registro del dispositivo `esp32-freshsense-1` en `/devices`, que devuelve el código de emparejamiento de un solo uso (10 minutos).*
+
+![Monitoreo con la lectura enviada por el Edge](Assets/sprint2/execution/web-monitoreo.png)
+
+*Figura: `/monitoring` con la lectura reenviada por el Edge (6.4 °C y 88 %), marcada como advertencia.*
+
+![Detalle de la última lectura](Assets/sprint2/execution/web-ultima-lectura.png)
+
+*Figura: detalle de la última lectura con la frescura clasificada por el Edge (estado regular, equivalente a `YELLOW`) y la categoría Frutas.*
+
+![Dashboard con la lectura en vivo](Assets/sprint2/execution/web-dashboard.png)
+
+*Figura: dashboard con la lectura en vivo y el nivel general de frescura.*
+
+![Alertas activas](Assets/sprint2/execution/web-alertas.png)
+
+*Figura: vista de alertas de la cuenta demo, con las alertas activas de vencimiento del inventario.*
+
+La vista web muestra temperatura y humedad. El nivel de etileno ya se guarda en el backend y se expone como `ethyleneLevel` en `GET /api/monitoring/latest` (sección 6.2.2.7); la aplicación móvil lo muestra.
+
+**Aplicación móvil**
+
+[COMPLETAR: capturas desde el teléfono Android con la APK v1.0.0 instalada.]
+
+[COMPLETAR: captura `Assets/sprint2/execution/movil-monitoreo.png`. Monitoreo en la aplicación móvil.]
+
+[COMPLETAR: captura `Assets/sprint2/execution/movil-alertas.png`. Alertas en la aplicación móvil.]
+
+**Video Explicativo**
+
+El video muestra el flujo completo del Sprint 2. El ESP32 mide temperatura, humedad y etileno. El Edge recibe la lectura, la clasifica en verde, amarillo o rojo y la reenvía al backend. El backend la guarda, y la aplicación web y la móvil la muestran con su semáforo y generan la alerta cuando la lectura sale del rango seguro.
+
+Video Demostración Sprint 2 - FreshSense: [COMPLETAR: completar URL del video (YouTube o Drive)]
+
+El equipo completó el 100 % de las historias de usuario planificadas para este Sprint, cumpliendo con los criterios de aceptación establecidos. La telemetría y el monitoreo IoT (US06), la ingesta de sensores (TS41) y el semáforo de frescura (US07) pasaron de la simulación en Wokwi al prototipo físico con sensor de gas, y se implementó la vinculación de sensores con código de emparejamiento y umbrales por categoría (US31). En los próximos Sprints se trabajarán el alta de insumos por código QR (US10), la modificación manual de stock (US11), la gestión de colaboradores por local (US37) y la visualización del nivel de etileno en la aplicación web.
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 2, la API del backend siguió documentada con OpenAPI 3.1 (springdoc-openapi) y se agregó al contrato de ingesta el nivel de etileno (`ethylenePpm`). La especificación publicada tiene 39 operaciones agrupadas por *tags*. Además, el Edge expone su propia API REST con Flask, que consume el ESP32 en la red local.
+
+- **Swagger UI:** https://137-131-253-18.sslip.io/swagger-ui/index.html
+- **Especificación OpenAPI (JSON):** https://137-131-253-18.sslip.io/v3/api-docs
+
+**Backend (Spring Boot)**
+
+| Categoría (Bounded Context) | Endpoint | Método HTTP | Descripción |
+|---|---|---|---|
+| Auth | /api/accounts/register | POST | Registrar nuevo usuario |
+| Auth | /api/accounts/login | POST | Iniciar sesión |
+| Auth | /api/accounts/refresh | POST | Renovar access token |
+| Auth | /api/accounts/logout | POST | Cerrar sesión |
+| Auth | /api/accounts/me | GET | Obtener usuario autenticado |
+| Auth | /api/accounts/me | PUT | Actualizar el perfil |
+| Auth | /api/accounts/change-password | POST | Cambiar la contraseña |
+| Devices | /api/devices | POST | Registrar un dispositivo IoT y obtener el código de emparejamiento (10 minutos, un solo uso) |
+| Devices | /api/devices | GET | Listar mis dispositivos |
+| Edge/IoT | /api/edge/claim | POST | Canjear un código de emparejamiento y obtener la clave secreta del dispositivo |
+| Edge/IoT | /api/edge/readings | POST | Recibir una lectura del Edge (temperatura, humedad, etileno, estado y categoría) con `X-Device-Key` |
+| Monitoring | /api/monitoring | GET | Listar todas las lecturas |
+| Monitoring | /api/monitoring | POST | Registrar lectura de sensor |
+| Monitoring | /api/monitoring/latest | GET | Obtener la lectura más reciente |
+| Alerts | /api/alerts | GET | Listar todas las alertas |
+| Alerts | /api/alerts | POST | Crear una alerta |
+| Alerts | /api/alerts/{id} | PUT | Actualizar una alerta |
+| Notifications | /api/notifications | GET | Obtener bandeja de notificaciones in-app |
+| Notifications | /api/notifications/send | POST | Enviar notificación a un usuario |
+| Notifications | /api/notifications/{id}/read | PATCH | Marcar notificación como leída |
+| Notifications | /api/notifications/preferences | GET | Obtener preferencias de notificación |
+| Notifications | /api/notifications/preferences | PUT | Actualizar preferencias de notificación |
+| Inventory | /api/products | GET | Listar todos los productos |
+| Inventory | /api/products | POST | Registrar un producto |
+| Inventory | /api/products/{id} | PATCH | Actualizar cantidad de un producto |
+| Inventory | /api/products/{id} | DELETE | Eliminar un producto |
+| Catalog | /api/catalog | GET | Buscar en el catálogo de alimentos |
+| Recipes | /api/recipes | GET | Listar todas las recetas |
+| Recipes | /api/recipes | POST | Crear una receta (solo ADMIN) |
+| Recipes | /api/recipes/{id} | GET | Obtener una receta por ID |
+| Recipes | /api/recipes/premium | GET | Recetas exclusivas para suscriptores premium |
+| Recipes | /api/recipes/generate-batch | POST | Generar recetas nuevas con IA |
+| Reports | /api/history | GET | Obtener historial de acciones |
+| Reports | /api/history | POST | Registrar una acción en el historial |
+| Reports | /api/history/advanced | GET | Análisis detallado de inventario (solo premium) |
+| Billing | /api/billing/plans | GET | Listar planes disponibles (público) |
+| Billing | /api/billing/subscribe | POST | Suscribirse a un plan premium |
+| Billing | /api/billing/subscription | GET | Ver suscripción activa del usuario |
+| Billing | /api/billing/cancel | DELETE | Cancelar suscripción activa |
+
+Las recetas y las alertas las procesan los microservicios `recipes-service` y `alerts-service`. El monolito los consume mediante Feign y Eureka, por lo que sus operaciones se publican a través de los endpoints del monolito listados arriba.
+
+**Edge API (Flask)**
+
+| Categoría (Bounded Context) | Endpoint | Método HTTP | Descripción |
+|---|---|---|---|
+| IoT Ingestion | /api/v1/sensor-readings | POST | Recibe la lectura del ESP32, la valida, la clasifica (GREEN / YELLOW / RED) y la reenvía al backend. Responde `202`. |
+| IoT Ingestion | /edge/process | POST | Mismo caso de uso con el formato anterior (legacy) |
+| IoT Ingestion | /edge/claim | POST | Canjea el código de emparejamiento contra el backend y guarda la clave del dispositivo |
+| IoT Ingestion | /edge/setup | GET | Página HTML para pegar el código de emparejamiento |
+| IoT Ingestion | /edge/thresholds | GET | Lista los umbrales por categoría (temperatura, humedad y etileno) |
+| IoT Ingestion | /edge/devices | GET | Lista el mapeo dispositivo → categoría |
+| IoT Ingestion | /edge/devices | POST | Asigna una categoría a un dispositivo. Responde `201`. |
+| Shared | /health | GET | Estado del servicio |
+
+**Evidencia de pruebas realizadas**
+
+![Swagger en producción: Edge/IoT y Monitoring](Assets/sprint2/services/swagger-edge-monitoring.png)
+
+*Figura: secciones Edge/IoT y Monitoring en el Swagger de producción.*
+
+![Swagger de POST /api/edge/readings con ethylenePpm](Assets/sprint2/services/swagger-edge-readings-etileno.png)
+
+*Figura: documentación de `POST /api/edge/readings` con la cabecera `X-Device-Key` y el campo `ethylenePpm` en el cuerpo.*
+
+![GET /api/monitoring/latest en producción](Assets/sprint2/services/swagger-get-monitoring-latest.png)
+
+*Figura: `GET /api/monitoring/latest` en el Swagger de producción, con respuesta `200` que incluye `ethyleneLevel: 0.42`, `status: YELLOW` y `deviceId: esp32-freshsense-1`.*
+
+El registro del dispositivo (`POST /api/devices`) y el canje del código (`POST /api/edge/claim`) se ejecutaron desde la aplicación web y desde la página `/edge/setup` del Edge (figuras de la sección 6.2.2.6). No se incluye la respuesta de `/api/edge/claim` porque contiene la `secretKey` del dispositivo.
+
+Request real de `POST /api/edge/readings` y la lectura guardada en el backend. El cuerpo es el que arma `upstream_forwarder.py` en el Edge; el backend usa los campos que define `EdgeReadingRequest` (`deviceId`, `temperature`, `humidity`, `ethylenePpm`, `time`, `id`, `status`, `category`):
+
+```json
+// Header: X-Device-Key: <secretKey obtenida en /api/edge/claim>
+// Request
+{ "deviceId": "esp32-freshsense-1", "id": "8965be1629894cd18d1a",
+  "temperature": 6.4, "humidity": 88.0, "ethylenePpm": 0.42,
+  "time": "14/11/2026 16:06", "timestamp": "2026-11-14T16:06:00",
+  "meta": "esp32-am2302-mq135",
+  "status": "YELLOW", "freshness": "YELLOW", "freshnessEmbedded": "AT_RISK",
+  "category": "Frutas" }
+
+// Lectura guardada (GET /api/monitoring/latest)
+{ "id": 3, "temperature": 6.4, "humidity": 88, "ethyleneLevel": 0.42,
+  "oxygenLevel": null, "ripeness": null, "cleanliness": null,
+  "recordedAt": "2026-11-14T16:06:00", "deviceId": "esp32-freshsense-1",
+  "status": "YELLOW", "category": "Frutas" }
+```
+
+**Repositorio y commits relacionados**
+
+- Backend: https://github.com/1ASI0572-2620-8725/BackEnd
+- Edge: https://github.com/1ASI0572-2620-8725/Freshsense-EDGE
+
+| Commit ID | Descripción | Autor | Fecha |
+|---|---|---|---|
+| 5ee19c1 | Recibir nivel de etileno (ethylenePpm) desde el Edge: DTO `EdgeReadingRequest`, `EdgeController` y `MonitoringService` | Pastor Napa, Juan Carlos | 07/11/2026 |
+| deda7b9 | Documentar el envío de etileno (ethylenePpm) desde el Edge | Pastor Napa, Juan Carlos | 07/11/2026 |
+| 6993562 | Actualizar URL de producción del backend (API y Swagger) | Pastor Napa, Juan Carlos | 08/11/2026 |
+| 1a9e58e | test: unitarios e integrales de ingesta Edge (TS41) | Chavez Viera, Joseph Manuel | 13/11/2026 |
+| 0d130b9 | test: amplía unitarios e integrales Edge/claim (TS41) | Chavez Viera, Joseph Manuel | 13/11/2026 |
+| 361928e | Initial commit del Edge: rutas Flask (`routes.py`), casos de uso y reenvío al backend | Chavez Viera, Joseph Manuel | 07/11/2026 |
+| b74225e | Alinea la frescura de Frutas con las bandas semi de FS-FRUIT-1 | Chavez Viera, Joseph Manuel | 13/11/2026 |
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
-#### 6.2.2.9. Team Collaboration Insights during Sprint
+En el Sprint 2 se mantuvo la Landing Page en GitHub Pages y se trasladaron el backend y la aplicación web a un nuevo servidor de producción con HTTPS, `https://137-131-253-18.sslip.io`. Este servidor publica el API, Swagger y la aplicación Angular en un solo dominio. La aplicación móvil se distribuye como APK desde GitHub Releases. El Edge y el firmware se despliegan junto al dispositivo, en la red local del cliente.
+
+| Producto | Plataforma | URL / Distribución |
+|---|---|---|
+| Landing Page | GitHub Pages | https://1asi0572-2620-8725.github.io/landing-page/ |
+| API REST (Spring Boot) | Oracle Cloud Infrastructure (máquina virtual) + Caddy (HTTPS) | https://137-131-253-18.sslip.io/api |
+| Swagger UI | Mismo servidor | https://137-131-253-18.sslip.io/swagger-ui/index.html |
+| Aplicación web (Angular) | Mismo servidor | https://137-131-253-18.sslip.io |
+| Aplicación móvil (Flutter) | GitHub Releases (APK) | https://github.com/1ASI0572-2620-8725/Mobile-App/releases/tag/v1.0.0 |
+| Edge API (Flask) | Local o Docker en la red del ESP32 | `http://<IP_PC>:5000` |
+| Embebido (ESP32) | Grabado desde Arduino IDE | — |
+
+**Landing Page**
+
+La Landing Page se publica con GitHub Pages desde la rama `main` del repositorio `landing-page`. Cada *push* a `main` vuelve a publicar el sitio. En este Sprint no tuvo cambios.
+
+URL: https://1asi0572-2620-8725.github.io/landing-page/
+
+![Landing Page en GitHub Pages](Assets/sprint2/deployment/landing-github-pages.png)
+
+*Figura: Landing Page publicada en GitHub Pages.*
+
+**Backend API**
+
+El monolito Spring Boot se publica en una máquina virtual de Oracle Cloud Infrastructure, con el dominio `https://137-131-253-18.sslip.io`. Delante del API está Caddy, que funciona como proxy inverso y emite y renueva el certificado HTTPS de forma automática. La URL nueva se registró en el README del backend (commit 6993562). La versión desplegada ya incluye el campo `ethylenePpm` en `EdgeReadingRequest`, como se ve en el Swagger de producción. Los microservicios `alerts-service` y `recipes-service` y el servidor `eureka-server` siguen la arquitectura descrita en la sección 6.1.4; el monolito los consume mediante Feign.
+
+En este Sprint el equipo trasladó la producción de Azure Container Apps a Oracle Cloud. Los workflows de GitHub Actions para Azure (`freshsense-backend`, `eureka-server`, `alerts-service` y `recipes-service`) se mantienen en el repositorio, pero ya no publican la versión vigente; sus ejecuciones del Sprint terminaron en `failure` y se retirarán en el siguiente Sprint.
+
+![Swagger del backend en producción](Assets/sprint2/deployment/backend-swagger-produccion.png)
+
+*Figura: Swagger UI de la FreshSense API (OAS 3.1) en producción.*
+
+**Frontend Web Application**
+
+La aplicación Angular se compila con `environment.production.ts`, que apunta a `https://137-131-253-18.sslip.io/api` (commit caf397d), y se publica en el mismo servidor del backend. Así el navegador y el API comparten dominio y se evitan problemas de CORS y de contenido mixto.
+
+URL: https://137-131-253-18.sslip.io
+
+La publicación anterior en Vercel (`https://front-end-fresh-sense.vercel.app`) corresponde a una versión previa del frontend y no forma parte del despliegue vigente.
+
+![Aplicación web en producción](Assets/sprint2/deployment/frontend-login-produccion.png)
+
+*Figura: pantalla de ingreso de la aplicación web publicada.*
+
+**Aplicación móvil**
+
+La aplicación Flutter para Android se compila como APK y se publica en GitHub Releases (versión `v1.0.0`, archivo `freshsense-v1.0.0.apk`, 58.2 MB). Consume el mismo backend de producción (`API_BASE_URL` por defecto `https://137-131-253-18.sslip.io/api`). Para instalarla se descarga el APK en el teléfono y se permite la instalación de apps de origen desconocido.
+
+![Release v1.0.0 de la aplicación móvil](Assets/sprint2/deployment/mobile-release-apk.png)
+
+*Figura: release v1.0.0 en GitHub con el APK de FreshSense.*
+
+**Edge API**
+
+El Edge se ejecuta en una PC o en un contenedor Docker (`python:3.12-slim`, puerto 5000) dentro de la misma red WiFi que el ESP32. Vive cerca del dispositivo, y no en la nube, porque el ESP32 envía lecturas cada minuto por HTTP simple. Así la clasificación sigue funcionando aunque se corte internet, se reduce la latencia y la clave del dispositivo no se expone en la red pública. El Edge solo sale a internet para reenviar al backend las lecturas ya clasificadas.
+
+```bash
+docker build -t freshsense-edge .
+docker run -p 5000:5000 \
+  -e FRESHSENSE_BACKEND_URL=https://137-131-253-18.sslip.io/api/edge/readings \
+  -e FRESHSENSE_DB_HOST=<host> -e FRESHSENSE_DB_PORT=3306 \
+  -e FRESHSENSE_DB_USER=<usuario> -e FRESHSENSE_DB_PASSWORD=<clave> \
+  -e FRESHSENSE_DB_NAME=freshsense_edge \
+  freshsense-edge
+```
+
+| Variable | Uso |
+|---|---|
+| `FRESHSENSE_BACKEND_URL` | Endpoint del backend al que se reenvían las lecturas (por defecto `http://localhost:8080/api/edge/readings`). |
+| `FRESHSENSE_DB_HOST`, `FRESHSENSE_DB_PORT`, `FRESHSENSE_DB_USER`, `FRESHSENSE_DB_PASSWORD`, `FRESHSENSE_DB_NAME` | Conexión a la base MySQL local con los umbrales y el mapeo de dispositivos. Si MySQL no está disponible, el Edge usa un catálogo en memoria. |
+| `FRESHSENSE_FORWARD_TIMEOUT` | Tiempo máximo del reenvío al backend (5 s por defecto). |
+
+![Página de emparejamiento del Edge en ejecución](Assets/sprint2/execution/edge-setup.png)
+
+*Figura: Edge en ejecución local sirviendo la página `/edge/setup`.*
+
+**Embebido (ESP32)**
+
+El firmware se graba en el ESP32 desde Arduino IDE 2, con la placa *ESP32 Dev Module* y el monitor serie a 115200 baudios. Antes de grabarlo se configura en `FreshSenseNode.h` la red WiFi y la dirección del Edge (`READINGS_URL = http://<IP_PC>:5000/api/v1/sensor-readings`). El comportamiento se validó antes en la simulación de Wokwi (repositorio `repositorio-wokwi`).
+
+[COMPLETAR: capturas desde Arduino IDE.]
+
+[COMPLETAR: captura `Assets/sprint2/deployment/arduino-subida-completa.png`. Subida completa en Arduino IDE.]
+
+[COMPLETAR: captura `Assets/sprint2/deployment/esp32-wifi-conectado.png`. Conexión WiFi del ESP32.]
+
 
 
 ## 6.3. Validation Interviews
