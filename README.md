@@ -5068,7 +5068,7 @@ Modificar la descripción de la sección para indicar que FreshSense contempla a
 
 #### Conclusiones de la evaluación
 
-Las entrevistas de validación permitieron identificar una valoración favorable de la organización visual y navegación de FreshSense. Tanto Guillermo como Carmen destacaron la claridad de los indicadores, el inventario, el monitoreo ambiental y las alertas, considerando que estas funcionalidades responden a necesidades importantes de sus respectivos negocios.
+Las entrevistas de validación permitieron identificar una valoración favorable de la organización visual y navegación de FreshSense. Ambos Segmentos destacaron la claridad de los indicadores, el inventario, el monitoreo ambiental y las alertas, considerando que estas funcionalidades responden a necesidades importantes de sus respectivos negocios.
 
 Las principales oportunidades de mejora se concentran en adaptar la presentación visual al contexto empresarial de cada segmento, facilitar la identificación de productos y situaciones prioritarias, mejorar la consistencia de los mensajes y proporcionar información más específica para las actividades de almacenamiento y distribución. Estas recomendaciones constituyen propuestas de mejora para futuras versiones de FreshSense y no representan funcionalidades ya implementadas.
 
