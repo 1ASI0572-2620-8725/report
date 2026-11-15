@@ -59,7 +59,6 @@
 | 1.6     | 08/10/2026 | Joseph | Se colocaron los enlaces del front y del back, el tablero de EventStorming y las fichas nuevas de empatía y recorrido |
 | 1.7     | 08/10/2026 | Joseph | Se integró el capítulo V, el diseño de software alineado a los segmentos, el entorno y el despliegue, las convenciones de código y las entrevistas 3 |
 | 1.8     | 08/10/2026 | Joseph | Se corrigió la figura de Impact Mapping para que se vea en el informe |
-| 1.9     | 14/11/2026 | Joseph | Se actualizó AV2 de Joseph en Student Outcome (Testing Suite, prototipo y Edge) |
 
 
 # Tabla de contenidos
@@ -161,16 +160,6 @@
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-    - [6.2.2. Sprint 2](#622-sprint-2)
-      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
-      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
-      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
-      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
-      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
-      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
-      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
-      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
-      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -196,10 +185,8 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :---- | :---- | :---- |
-
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br><br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo:** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes. <br><br> **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. Además tomé la gestión de la configuración y del código (6.1 y 6.1.2), el sprint backlog 1 (6.2.1.3) y la evidencia de ejecución (6.2.1.6). Lo coordiné con el equipo para los dos segmentos, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos, dejando el mismo recorrido para los dos. Cuando Romina indicó que la landing ya estaba publicada y que el front lo seguía desplegando Juan Carlos, ajusté esa evidencia: quedó el enlace del back y el de la landing, y el del front pendiente para cambiarlo cuando nos lo pasen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. <br><br> **TB1:** <br><br> **Romina Tuesta Marin:** Lideró y coordinó las actividades relacionadas con el Landing Page y los componentes IoT de FreshSense, colaborando con los demás integrantes para integrar sus avances al proyecto. Asimismo, apoyó la toma de decisiones técnicas y la organización de los entregables del Sprint 1. <br><br> **Eduardo Cossar:** Participó en la coordinación de las actividades del Sprint 1, contribuyendo al desarrollo de las entrevistas de los segmentos objetivo y a la documentación de las evidencias de desarrollo, pruebas y despliegue. Asimismo, colaboró con el equipo para mantener la coherencia entre los avances realizados y los requerimientos del proyecto. <br><br> **Maria Fernanda Mostajo:** Colaboró en las actividades relacionadas con el monitoreo y las alertas de FreshSense, coordinando con los integrantes encargados de los distintos componentes de la solución. Asimismo, contribuyó a la revisión de avances y a la identificación de aspectos que requerían ajustes. <br><br> **Joseph Manuel Chavez Viera:** Asumió responsabilidades en la organización del Sprint Backlog y la documentación de las evidencias de ejecución. Coordinó con sus compañeros para integrar la información del Landing Page, Frontend y Backend, manteniendo la coherencia de las funcionalidades con los dos segmentos empresariales definidos. <br><br> **Juan Carlos Pastor Napa:** Contribuyó al liderazgo técnico del equipo mediante la preparación y configuración del entorno de despliegue de FreshSense en Google Cloud. Coordinó las actividades relacionadas con el Backend, Frontend y servidor Nginx, aportando soluciones técnicas para facilitar la publicación de los componentes. <br><br> **AV2:** <br><br> **Romina Tuesta Marin:** Lideró el aspecto del dispositivo IoT en el Sprint 2, integrando la lectura del gas etileno en el firmware del ESP32 y coordinando las pruebas con el hardware físico. Asimismo, preparó el Sprint Planning 2, la matriz de líderes y colaboradores y el Sprint Backlog 2, y coordinó con el equipo los escenarios pendientes del Sprint 1. <br><br> **Eduardo Cossar:** Lideró el desarrollo de la primera versión de la aplicación móvil, coordinando con los responsables del backend las pantallas de monitoreo, alertas, vinculación del sensor por QR e ingreso de colaboradores. Asimismo, cuidó que la aplicación usara los mismos servicios que la aplicación web. <br><br> **Maria Fernanda Mostajo:** Lideró las actividades del backend relacionadas con la ingesta y las alertas, incorporando el registro del gas etileno y la alerta por nivel alto de etileno. Asimismo, coordinó con los integrantes de la aplicación móvil y del Edge API el formato de los datos intercambiados. <br><br> **Joseph Manuel Chavez Viera:** Lideró la primera versión del Edge API, encargada de recibir las lecturas del dispositivo en la red local y reenviarlas al backend ante cortes de conexión. Asimismo, coordinó con sus compañeros la vinculación del dispositivo y la invitación de colaboradores por sede. <br><br> **Juan Carlos Pastor Napa:** Contribuyó al liderazgo técnico del equipo mediante el despliegue de la nueva versión del backend, la preparación del Edge API para la red del local y la generación del instalable de la aplicación móvil. Además, apoyó en el desarrollo de las pantallas de preferencias de turno, escaneo de insumos y ajuste de stock. | **AV1:** <br><br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. <br><br> **TB1:** <br><br> El liderazgo compartido permitió integrar los avances de desarrollo, pruebas, documentación y despliegue de FreshSense. La coordinación entre los responsables de cada componente facilitó la toma de decisiones conjuntas y contribuyó al cumplimiento de los objetivos establecidos para el Sprint 1. <br><br> **AV2:** <br><br> El liderazgo rotativo permitió que cada integrante se hiciera responsable de un componente de la solución: el dispositivo, el Edge API, el backend, la aplicación móvil y el despliegue. La coordinación entre estos responsables facilitó integrar por primera vez el recorrido completo de una lectura, desde el sensor hasta el celular del usuario, y contribuyó al cumplimiento de los objetivos del Sprint 2. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br><br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. <br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances. <br><br> **Maria Fernanda Mostajo:** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos. <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. Además organicé las 11 historias del sprint 1 y armé la evidencia con las capturas del recorrido, el Swagger del back y la landing. Fui cerrando esa parte con lo que el equipo ya tenía definido y dejé anotado el enlace del front para reemplazarlo apenas nos lo entreguen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. <br><br> **TB1:** <br><br> **Romina Tuesta Marin:** Participó en la planificación de las actividades correspondientes al Landing Page y a los componentes IoT, estableciendo prioridades y coordinando los avances con el equipo. Asimismo, mantuvo una comunicación activa para identificar tareas pendientes y contribuir al cumplimiento de las metas del Sprint 1. <br><br> **Eduardo Cossar:** Organizó sus actividades de acuerdo con las responsabilidades asignadas, priorizando la realización de entrevistas y la elaboración de evidencias para el informe. Además, mantuvo comunicación con sus compañeros para verificar la información disponible y coordinar los aspectos pendientes antes de la entrega TB1. <br><br> **Maria Fernanda Mostajo:** Contribuyó a la organización y seguimiento de las tareas de monitoreo y alertas, participando en la coordinación de los avances y en la revisión de las funcionalidades consideradas dentro del Sprint. Asimismo, promovió el intercambio de información para mantener el trabajo alineado con los objetivos del equipo. <br><br> **Joseph Manuel Chavez Viera:** Organizó las 11 historias seleccionadas para el Sprint 1 y contribuyó al seguimiento de sus avances mediante el Sprint Backlog. Asimismo, recopiló y actualizó la documentación de ejecución, incorporando las evidencias disponibles y coordinando con los responsables de cada componente para completar la información pendiente. <br><br> **Juan Carlos Pastor Napa:** Planificó las actividades técnicas necesarias para el despliegue de la solución, incluyendo la preparación del servidor, la transferencia de archivos ejecutables y la configuración de Nginx. Además, coordinó con el equipo la verificación de accesibilidad de los componentes desplegados, contribuyendo al cumplimiento de las metas técnicas del Sprint. <br><br> **AV2:** <br><br> **Romina Tuesta Marin:** Participó en la definición del objetivo del Sprint 2 y en la división de las historias seleccionadas en tareas con horas estimadas y responsables. Asimismo, registró los acuerdos de la retrospectiva del Sprint 1, como el uso de Conventional Commits y la revisión de los checks antes de integrar los Pull Requests. <br><br> **Eduardo Cossar:** Organizó las pantallas de la aplicación móvil siguiendo el recorrido del usuario, priorizando el ingreso, el monitoreo y las alertas. Además, compartió sus avances con el equipo para validar que ambos segmentos leyeran la información de la misma forma que en la aplicación web. <br><br> **Maria Fernanda Mostajo:** Contribuyó a la planificación de las tareas del backend según las necesidades de la aplicación móvil y del Edge API, priorizando el registro del etileno y su alerta para que los demás integrantes pudieran realizar pruebas con datos reales. Asimismo, realizó seguimiento a los compromisos asumidos. <br><br> **Joseph Manuel Chavez Viera:** Planificó el desarrollo del Edge API en coordinación con las tareas del firmware del dispositivo, acordando el formato de las lecturas. Asimismo, realizó seguimiento a las pruebas de reenvío de lecturas cuando se perdía la conexión. <br><br> **Juan Carlos Pastor Napa:** Planificó las actividades de despliegue del Sprint 2, coordinando con el equipo que cada componente se publicara después de la revisión e integración de sus Pull Requests. Además, verificó junto con sus compañeros el acceso a los componentes desplegados. | **AV1:** <br><br> La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos. <br><br> **TB1:** <br><br> La planificación de tareas, la comunicación constante y el seguimiento de responsabilidades permitieron organizar el trabajo del Sprint 1 de manera colaborativa. Esto facilitó la integración de los avances de cada integrante, la identificación de pendientes y la preparación de los entregables correspondientes a TB1. <br><br> **AV2:** <br><br> La división del Sprint en tareas con responsables y horas estimadas, junto con la aplicación de los acuerdos de la retrospectiva anterior, permitió organizar el trabajo de manera colaborativa. Esto facilitó el cumplimiento del objetivo del Sprint 2 y el cierre de los escenarios de etileno pendientes del Sprint 1. |
-
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:** <br><br> **Romina Tuesta Marin:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. <br><br> **Eduardo Cossar:** Participó activamente en la organización y distribución de las responsabilidades del equipo, apoyando en las actividades de análisis, diseño y documentación del proyecto. Asimismo, coordinó con los demás integrantes para revisar los avances. <br><br> **Maria Fernanda Mostajo:** Contribuyó al desarrollo del proyecto mediante la coordinación permanente con los integrantes del equipo, proponiendo alternativas ante los problemas encontrados y apoyando en la organización de las actividades pendientes. <br><br> **Joseph Manuel Chavez Viera:** Se distribuyeron responsabilidades entre los integrantes según sus habilidades, coordinando las actividades de análisis, diseño, desarrollo y documentación. Asimismo, se tomaron decisiones de manera conjunta y se realizó seguimiento al avance de cada tarea. Además tomé la gestión de la configuración y del código (6.1 y 6.1.2), el sprint backlog 1 (6.2.1.3) y la evidencia de ejecución (6.2.1.6). Lo coordiné con el equipo para los dos segmentos, propietarios y administradores de restaurantes y encargados de negocios de distribución de alimentos en fríos, dejando el mismo recorrido para los dos. Cuando Romina indicó que la landing ya estaba publicada y que el front lo seguía desplegando Juan Carlos, ajusté esa evidencia: quedó el enlace del back y el de la landing, y el del front pendiente para cambiarlo cuando nos lo pasen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció las decisiones de arquitectura de software del proyecto, adaptando y ajustando el diseño propuesto según las necesidades del equipo y los requerimientos del curso. <br><br> **TB1:** <br><br> **Romina Tuesta Marin:** Lideró y coordinó las actividades relacionadas con el Landing Page y los componentes IoT de FreshSense, colaborando con los demás integrantes para integrar sus avances al proyecto. Asimismo, apoyó la toma de decisiones técnicas y la organización de los entregables del Sprint 1. <br><br> **Eduardo Cossar:** Participó en la coordinación de las actividades del Sprint 1, contribuyendo al desarrollo de las entrevistas de los segmentos objetivo y a la documentación de las evidencias de desarrollo, pruebas y despliegue. Asimismo, colaboró con el equipo para mantener la coherencia entre los avances realizados y los requerimientos del proyecto. <br><br> **Maria Fernanda Mostajo:** Colaboró en las actividades relacionadas con el monitoreo y las alertas de FreshSense, coordinando con los integrantes encargados de los distintos componentes de la solución. Asimismo, contribuyó a la revisión de avances y a la identificación de aspectos que requerían ajustes. <br><br> **Joseph Manuel Chavez Viera:** Asumió responsabilidades en la organización del Sprint Backlog y la documentación de las evidencias de ejecución. Coordinó con sus compañeros para integrar la información del Landing Page, Frontend y Backend, manteniendo la coherencia de las funcionalidades con los dos segmentos empresariales definidos. <br><br> **Juan Carlos Pastor Napa:** Contribuyó al liderazgo técnico del equipo mediante la preparación y configuración del entorno de despliegue de FreshSense en Google Cloud. Coordinó las actividades relacionadas con el Backend, Frontend y servidor Nginx, aportando soluciones técnicas para facilitar la publicación de los componentes. | **AV1:** <br><br> El trabajo colaborativo permitió aprovechar las habilidades de cada integrante, mantener una participación activa y avanzar de manera coordinada hacia los objetivos del proyecto. <br><br> **TB1:** <br><br> El liderazgo compartido permitió integrar los avances de desarrollo, pruebas, documentación y despliegue de FreshSense. La coordinación entre los responsables de cada componente facilitó la toma de decisiones conjuntas y contribuyó al cumplimiento de los objetivos establecidos para el Sprint 1. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **AV1:** <br><br> **Romina Tuesta Marin:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. <br><br> **Eduardo Cossar:** Colaboró en la definición de las tareas y metas del equipo, organizando sus actividades de acuerdo con las prioridades establecidas. Además, mantuvo una comunicación constante con los integrantes para compartir avances. <br><br> **Maria Fernanda Mostajo:** Participó en la planificación de las actividades del equipo, definiendo tiempos de trabajo y priorizando las tareas necesarias para cada etapa del proyecto. Asimismo, promovió el intercambio de ideas entre los integrantes y realizó seguimiento a los compromisos asumidos. <br><br> **Joseph Manuel Chavez Viera:** Se establecieron objetivos y tareas para cada integrante, organizando las actividades de acuerdo con las prioridades del proyecto. Se mantuvo una comunicación constante para resolver dudas, compartir avances y realizar ajustes cuando fue necesario. Además organicé las 11 historias del sprint 1 y armé la evidencia con las capturas del recorrido, el Swagger del back y la landing. Fui cerrando esa parte con lo que el equipo ya tenía definido y dejé anotado el enlace del front para reemplazarlo apenas nos lo entreguen. <br><br> **Juan Carlos Pastor Napa:** Enriqueció la planificación de tareas relacionadas con el diseño de la solución, manteniendo comunicación constante con el equipo para ajustar el trabajo según los avances. <br><br> **TB1:** <br><br> **Romina Tuesta Marin:** Participó en la planificación de las actividades correspondientes al Landing Page y a los componentes IoT, estableciendo prioridades y coordinando los avances con el equipo. Asimismo, mantuvo una comunicación activa para identificar tareas pendientes y contribuir al cumplimiento de las metas del Sprint 1. <br><br> **Eduardo Cossar:** Organizó sus actividades de acuerdo con las responsabilidades asignadas, priorizando la realización de entrevistas y la elaboración de evidencias para el informe. Además, mantuvo comunicación con sus compañeros para verificar la información disponible y coordinar los aspectos pendientes antes de la entrega TB1. <br><br> **Maria Fernanda Mostajo:** Contribuyó a la organización y seguimiento de las tareas de monitoreo y alertas, participando en la coordinación de los avances y en la revisión de las funcionalidades consideradas dentro del Sprint. Asimismo, promovió el intercambio de información para mantener el trabajo alineado con los objetivos del equipo. <br><br> **Joseph Manuel Chavez Viera:** Organizó las 11 historias seleccionadas para el Sprint 1 y contribuyó al seguimiento de sus avances mediante el Sprint Backlog. Asimismo, recopiló y actualizó la documentación de ejecución, incorporando las evidencias disponibles y coordinando con los responsables de cada componente para completar la información pendiente. <br><br> **Juan Carlos Pastor Napa:** Planificó las actividades técnicas necesarias para el despliegue de la solución, incluyendo la preparación del servidor, la transferencia de archivos ejecutables y la configuración de Nginx. Además, coordinó con el equipo la verificación de accesibilidad de los componentes desplegados, contribuyendo al cumplimiento de las metas técnicas del Sprint. | **AV1:** <br><br> La planificación y comunicación constante facilitaron la coordinación del equipo, permitiendo cumplir las actividades asignadas y mantener el avance del proyecto de acuerdo con los objetivos establecidos. <br><br> **TB1:** <br><br> La planificación de tareas, la comunicación constante y el seguimiento de responsabilidades permitieron organizar el trabajo del Sprint 1 de manera colaborativa. Esto facilitó la integración de los avances de cada integrante, la identificación de pendientes y la preparación de los entregables correspondientes a TB1. |
 
 
 <div style="page-break-after: always;"></div>
@@ -4247,14 +4234,14 @@ La siguiente tabla presenta las especificaciones existentes relacionadas con el 
 | Story ID | Funcionalidad evaluada | Archivo de prueba existente |
 |---|---|---|
 | US01 | Visualización de propuesta B2B | `us01-visualizacion-propuesta.feature` |
-| US02 | Sección para Restaurantes y Negocios en Frío | `us02-seccion-pequenos-negocios.feature` |
-| US03 | Formulario de contacto y demos B2B | `us03-formulario-contacto.feature` |
+| US02 | Sección para Restaurantes y Negocios en Frío | `us02-seccion-pequenos-negocios.feature` | 
+| US03 | Formulario de contacto y demos B2B | `us03-formulario-contacto.feature` | 
 | US04 | Call to Action Corporativo | `us04-cta-suscripcion.feature` |
 | US05 | Adaptabilidad en móviles y tablets | `us05-compatibilidad-movil.feature` |
 | TS43 | API Gestor de Autenticación y RBAC B2B | `ts33-api-usuarios.feature` |
-| TS41 | API Ingesta de Sensores IoT B2B | `ts31-api-sensores.feature` |
+| TS41 | API Ingesta de Sensores IoT B2B | `ts31-api-sensores.feature` | 
 | US07 | Dashboard con semáforo comercial | `us07-visualizacion-inventario.feature` |
-| US08 | Alertas preventivas de temperatura | `us08-alertas-anticipadas.feature` |
+| US08 | Alertas preventivas de temperatura | `us08-alertas-anticipadas.feature` | 
 
 Los escenarios publicados permiten establecer una base para la validación funcional del producto. Sin embargo, las especificaciones que no coinciden con las historias actuales deberán actualizarse antes de considerarse evidencia definitiva de aceptación del Sprint.
 
@@ -4316,6 +4303,7 @@ Feature: US05 - Compatibilidad movil
 
 Estos escenarios describen la adaptación de la interfaz del Landing Page a dispositivos móviles y tablets, buscando garantizar la legibilidad y correcta distribución de sus componentes visuales.
 
+
 ##### Evidencia de commits relacionados con Testing
 
 La siguiente tabla presenta los commits registrados en el repositorio de pruebas de aceptación, permitiendo identificar los avances asociados a la preparación de especificaciones del Sprint 1.
@@ -4325,51 +4313,6 @@ La siguiente tabla presenta los commits registrados en el repositorio de pruebas
 | [1ASI0572-2620-8725/Acceptance-Tests](https://github.com/1ASI0572-2620-8725/Acceptance-Tests) | main | [fbf1a89](https://github.com/1ASI0572-2620-8725/Acceptance-Tests/commit/fbf1a8996aae4913f01e210316b948ad5f7e619d) | upload: gherkin tests | Sin cuerpo de mensaje | 08/10/2026 |
 
 El commit presentado evidencia la incorporación de 14 archivos `.feature` organizados dentro del directorio `Sprint 01`. Estos archivos documentan escenarios de aceptación de diferentes funcionalidades del producto.
-
-##### Unitarios e integrales — Freshsense-EDGE y BackEnd
-
-Además de los Acceptance Tests, en el Sprint Review se ejecutaron unitarios e integrales del Edge y del BackEnd (frescura, validación del payload, claim e ingesta `POST /api/edge/readings` y `POST /api/edge/claim`, TS41 / US06).
-
-| Dónde | Unitarios | Integrales | Total | Resultado |
-| :--- | ---: | ---: | ---: | :--- |
-| [Freshsense-EDGE](https://github.com/1ASI0572-2620-8725/Freshsense-EDGE) | 24 | 24 | 48 | Passed |
-| [BackEnd](https://github.com/1ASI0572-2620-8725/BackEnd) | 11 | 9 | 20 | Passed |
-
-![Resumen de la suite de pruebas](Assets/testing-6.2.2.5/testing-resumen.png)
-
-Resumen: 68 pruebas ejecutadas, 0 fallos y 0 errores.
-
-**Freshsense-EDGE — unitarios**
-
-Semáforo de frescura por categoría (Frutas, Verduras, Carnes, Panadería, Lácteos), claim del sensor y validación del JSON (legacy + embebido). 24 passed.
-
-![Freshsense-EDGE unitarios](Assets/testing-6.2.2.5/edge-unitarios.png)
-
-Unitarios del Edge: frescura, claim y validación del contrato de lectura.
-
-**Freshsense-EDGE — integrales**
-
-API del Edge (`/edge/process`, `/api/v1/sensor-readings`), registro de dispositivos, umbrales con etileno, setup y rechazo de lecturas incompletas. 24 passed.
-
-![Freshsense-EDGE integrales](Assets/testing-6.2.2.5/edge-integrales.png)
-
-Integrales del Edge: proceso físico, categorías, aliases del firmware y errores.
-
-**BackEnd — unitarios**
-
-Contratos `EdgeReadingRequest` y `ClaimRequest`: campos obligatorios, opcionales y códigos de emparejamiento. 11 passed.
-
-![BackEnd unitarios](Assets/testing-6.2.2.5/backend-unitarios.png)
-
-Unitarios del BackEnd: validación DTO de lectura y de claim (TS41 / US06).
-
-**BackEnd — integrales**
-
-`POST /api/edge/readings` y `POST /api/edge/claim` con MockMvc: 201/200 felices, 401 sin clave y 400 por datos incompletos. 9 passed.
-
-![BackEnd integrales](Assets/testing-6.2.2.5/backend-integrales.png)
-
-Integrales del BackEnd: autenticación del dispositivo, ingesta y claim.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
@@ -4645,207 +4588,521 @@ Durante el Sprint 1, el equipo trabajó en la organización de GitHub `1ASI0572-
 
 **Repositorios del Sprint 1:**
 
-### 6.2.2. Sprint 2
-
-En el sprint 2 queremos que el propietario o administrador de un restaurante y el encargado de un negocio de distribución de alimentos en fríos puedan revisar sus cámaras desde el celular, vincular el sensor escaneando su QR y enterarse cuando el etileno sube. Para eso se construyó la primera versión de la aplicación móvil y del Edge API, y el backend empezó a leer y evaluar el gas etileno.
-
-#### 6.2.2.1. Sprint Planning 2
-
-El equipo FreshEat decidió que el segundo Sprint debía acercar FreshSense al lugar donde se trabaja: la cocina, el almacén y la cámara de frío. En el Sprint 1 la información llegaba al navegador y el dispositivo solo medía temperatura y humedad (DHT22). Para este Sprint se incluyó en el alcance la primera versión de la aplicación móvil, con ingreso, monitoreo, alertas, vinculación del sensor por QR y alta de insumos con la cámara del celular; la primera versión del Edge API, que recibe las lecturas del dispositivo en la red local, las valida y las reenvía al backend aunque se corte el internet por unos minutos; y la lectura del gas etileno en el firmware, en el Edge API y en el backend, que ahora guarda el valor y genera la alerta HIGH_ETHYLENE. Con este criterio se tomaron las historias 12 a 16 del Product Backlog y se completaron los escenarios de etileno que quedaron pendientes en US06, TS41 y US08.
-
-| Sprint # | Sprint 2 |
-|---|---|
-| **Sprint Planning Background** | |
-| Date | 04/11/26 |
-| Time | 10:00 am |
-| Location | Reunión virtual vía Discord |
-| Prepared By | Romina Tuesta Marin |
-| Attendees (to planning meeting) | Chavez Viera Joseph Manuel / Juan Carlos Pastor Napa / Mostajo Orosco Maria Fernanda / Cossar Sanchez Eduardo Jose / Tuesta Marin Romina Alejandra |
-| Previous Sprint Review Summary | En el Sprint 1 se publicaron la Landing Page en GitHub Pages, y la aplicación web y el API REST en Google Cloud con HTTPS. El API quedó documentado en Swagger con 39 operaciones. Se recorrió el flujo de registro, monitoreo con semáforo, alertas y vinculación del dispositivo. Quedaron pendientes tres puntos: el firmware solo se probó en simulación (Wokwi); el DHT22 no mide etileno, por lo que los escenarios de etileno de US06, TS41 y US08 no se pudieron probar; y el panel de la cuenta demo se veía vacío porque no recibía lecturas reales. |
-| Previous Sprint Retrospective Summary | Lo que funcionó: trabajar con GitFlow y Pull Requests permitió integrar el frontend y el backend sin conflictos grandes. Lo que se debe mejorar: algunos commits no siguieron Conventional Commits (por ejemplo, `first commit`) y no se revisaron los checks de GitHub antes de unir ramas. Acuerdos para el Sprint 2: todo commit sigue Conventional Commits, ningún Pull Request se une a `develop` con checks en rojo, y el dispositivo se prueba con hardware físico, no solo en Wokwi. |
-| **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | Nuestro enfoque es proporcionar a los propietarios y administradores de restaurantes, así como a los encargados de negocios de distribución de alimentos en fríos, una aplicación móvil donde puedan iniciar sesión, ver el estado de sus cámaras con el semáforo, recibir las alertas según su turno, vincular un sensor escaneando su QR, registrar insumos o lotes con la cámara del celular y corregir el stock después del conteo; proporcionar a los desarrolladores del dispositivo un Edge API que reciba las lecturas en la red local y las reenvíe al backend; y proporcionar a los desarrolladores del backend la lectura, el almacenamiento y la evaluación del gas etileno.<br><br>Creemos que esto permite revisar las cámaras sin estar frente a una computadora, detectar antes que una fruta o verdura se está deteriorando gracias al etileno, y no perder lecturas cuando la conexión del local falla.<br><br>Esto se confirmará cuando un usuario inicie sesión en la aplicación móvil y vea el estado de su cámara con el color del semáforo; una lectura de etileno enviada por el dispositivo físico pase por el Edge API y aparezca en la aplicación móvil y en la web en menos de 10 segundos; una lectura de etileno por encima del umbral genere la alerta `HIGH_ETHYLENE` en la aplicación móvil; las lecturas tomadas durante un corte de internet lleguen al backend cuando vuelva la conexión; un sensor quede vinculado a su cámara escaneando su QR desde el celular; y las 5 historias del Sprint, junto con los escenarios de etileno pendientes, cumplan sus escenarios de aceptación en el entorno desplegado. |
-| Sprint 2 Velocity | 16 Story Points |
-| Sum of Story Points | 16 Story Points |
-
-**User Stories incluidas en el Sprint 2**
-
-| # | ID | Título | Story Points | Aporte al Sprint Goal |
-|:-:|---|---|:-:|---|
-| 1 | US09 | Preferencias de alertas por turno | 3 | Alertas en el celular según el turno del personal. |
-| 2 | US31 | Vinculación y calibración de sensores | 3 | Vinculación del sensor por QR desde la app y registro en el Edge API. |
-| 3 | US10 | Alta de insumos por lector de código/QR | 5 | Registro de insumos o lotes con la cámara del celular. |
-| 4 | US11 | Modificación manual de stock e insumos | 2 | Corrección del stock desde la app después del conteo. |
-| 5 | US37 | Gestión de colaboradores por local | 3 | Acceso del personal de la sede a la app con su propio usuario. |
-| | | **Total** | **16** | |
-
-**Escenarios pendientes del Sprint 1 que se cierran en este Sprint**
-
-| ID | Título | Escenarios pendientes | Qué se hace en el Sprint 2 |
-|---|---|---|---|
-| US06 | Telemetría y monitoreo IoT de cámaras frías | Escenarios 1 y 3 en lo referido al etileno. | El firmware lee el sensor de gas y envía `ethylenePpm` al Edge API. |
-| TS41 | API Ingesta de Sensores IoT B2B | Escenario 1: lectura con temperatura, humedad y etileno. | El backend valida y guarda `ethylenePpm` en cada lectura. |
-| US08 | Alertas preventivas de temperatura | Escenario 1 cuando el producto está en riesgo por etileno. | El backend compara el etileno con `maxEthylenePpm` y emite `HIGH_ETHYLENE`. |
-
-Estas historias ya se contaron en la velocidad del Sprint 1, por eso no suman puntos nuevos. La velocidad de 16 Story Points es menor que la del Sprint 1 porque buena parte de la capacidad del equipo se usó para crear dos productos nuevos, la aplicación móvil y el Edge API, y para integrar el sensor de etileno con el hardware físico. El detalle de las tareas está en el Sprint Backlog 2 (sección 6.2.2.3).
-
-#### 6.2.2.2. Aspect Leaders and Collaborators
-
-Para el Sprint 2, el equipo organizó el trabajo en aspectos que siguen el camino de una lectura, desde el dispositivo hasta el celular del usuario: el dispositivo IoT, con la lectura del gas etileno en el firmware (US06); el Edge API, que recibe y reenvía las lecturas y registra el sensor vinculado (TS41, US31); el backend, con el almacenamiento del etileno, la alerta `HIGH_ETHYLENE`, las preferencias por turno, el inventario y los colaboradores (TS41, US08, US09, US10, US11, US37); la aplicación móvil, que presenta todo lo anterior al usuario (US09, US31, US10, US11, US37); y el despliegue de los productos. Cada aspecto tiene un líder (L), responsable de coordinarlo y asegurar su calidad, y colaboradores (C), que participan en su implementación. Esta distribución sirvió de base para asignar las tareas del Sprint Backlog 2.
-
-| Team Member (Last Name, First Name) | GitHub Username | IoT Device (Ethylene) | Edge API | Backend (Ingestion & Alerts) | Mobile App | Deployment |
-|---|---|---|---|---|---|---|
-| Tuesta Marin, Romina | Romimi1 | C | C | C | C | C |
-| Chavez Viera, Joseph | u202314019-MrOsoPanda | L | L | C | C | C |
-| Pastor Napa, Juan Carlos | ElKiwi1271 | C | C | C | L | L |
-| Mostajo Orosco, Maria Fernanda | Mafer-m30 | C | C | L | C | C |
-| Cossar Sanchez, Eduardo | coleeeee-dev | C | C | C | C | C |
-
-#### 6.2.2.3. Sprint Backlog 2
-
-Del Product Backlog se tomaron las historias 12 a 16. Suman 16 puntos. Igual que en el Sprint 1, el Sprint 2 no arma dos productos. Arma el mismo recorrido, ahora desde el celular, para propietarios y administradores de restaurantes y para encargados de negocios de distribución de alimentos en fríos:
-
-1. Entrar a la aplicación móvil con la misma cuenta de la web (TS43, ya implementada). Si el usuario es un colaborador, entra con la invitación de su sede (US37).
-2. Vincular el sensor de la cámara escaneando su QR (US31). En el Edge API es `POST /api/edge/claim`.
-3. Recibir la lectura de temperatura, humedad y etileno, que pasa por el Edge API antes de llegar al backend (US06, TS41). En el API es `POST /api/edge/readings`.
-4. Ver esa lectura con color en la app y recibir la alerta según el turno (US08, US09).
-5. Registrar los insumos o lotes con la cámara del celular y corregir el stock tras el conteo (US10, US11).
-
-En el restaurante, el etileno avisa que las frutas y verduras de la cámara de cocina se están madurando antes de tiempo. En la distribución, avisa que un lote de la cámara de mercadería debe salir primero.
-
-| Orden | ID | Título | Puntos | A quién le sirve |
-| :-: | :--- | :--- | :--- | :--- |
-| 1 | US09 | Preferencias de alertas por turno | 3 | Los dos segmentos |
-| 2 | US31 | Vinculación y calibración de sensores | 3 | Los dos segmentos |
-| 3 | US10 | Alta de insumos por lector de código/QR | 5 | Los dos segmentos |
-| 4 | US11 | Modificación manual de stock e insumos | 2 | Los dos segmentos |
-| 5 | US37 | Gestión de colaboradores por local | 3 | Los dos segmentos |
-
-El tablero del Sprint se gestionó en Trello: 
-
-<img src="Assets/sprint-backlog-2.png" alt="Tablero del Sprint Backlog 2." style="max-width:100%;height:auto"/>
-
-**Tareas del Sprint 2**
-
-| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|:-:|---|---|
-| US06 | Telemetría y monitoreo IoT (etileno) | T01 | Lectura del sensor de gas en el firmware | Conectar el sensor de gas al ESP32, leer su valor y convertirlo a `ethylenePpm`. | 6 | Romina Tuesta | Done |
-| US06 | Telemetría y monitoreo IoT (etileno) | T02 | Envío de lecturas completas al Edge API | Agregar `ethylenePpm` al JSON y enviarlo al Edge API junto con temperatura y humedad. | 3 | Romina Tuesta | Done |
-| US06 | Telemetría y monitoreo IoT (etileno) | T03 | Prueba con hardware físico | Probar el circuito real, no solo en Wokwi, y registrar las lecturas obtenidas. | 3 | Romina Tuesta | Done |
-| TS41 | API Ingesta de Sensores IoT B2B | T04 | Recepción de lecturas en el Edge API | Endpoint que recibe la lectura del dispositivo en la red local y valida su token. | 5 | Joseph Chavez | Done |
-| TS41 | API Ingesta de Sensores IoT B2B | T05 | Cola local de lecturas | Guardar las lecturas mientras no hay internet y reenviarlas en orden cuando vuelve la conexión. | 5 | Joseph Chavez | Done |
-| TS41 | API Ingesta de Sensores IoT B2B | T06 | Lecturas incompletas o duplicadas | Rechazar lecturas sin temperatura, humedad o etileno, y no repetir una lectura ya enviada. | 3 | Joseph Chavez | Done |
-| TS41 | API Ingesta de Sensores IoT B2B | T07 | Campo `ethylenePpm` en el backend | Agregar el campo al modelo y a la tabla de lecturas, con su validación. | 3 | Maria Fernanda Mostajo | Done |
-| US08 | Alertas preventivas (etileno) | T08 | Alerta `HIGH_ETHYLENE` | Comparar la lectura con `maxEthylenePpm` de la zona y emitir la alerta. | 4 | Maria Fernanda Mostajo | Done |
-| US09 | Preferencias de alertas por turno | T09 | Endpoint de preferencias por turno | Guardar el horario del turno y los canales de aviso de cada usuario. | 3 | Maria Fernanda Mostajo | Done |
-| US09 | Preferencias de alertas por turno | T10 | Notificaciones push en la app móvil | Recibir las alertas en el celular: las críticas siempre y las leves solo dentro del turno. | 5 | Eduardo Cossar | Done |
-| US09 | Preferencias de alertas por turno | T11 | Pantallas de monitoreo y alertas en la app | Ver las cámaras con el semáforo, el detalle de la lectura y la lista de alertas. | 6 | Eduardo Cossar | Done |
-| US09 | Preferencias de alertas por turno | T12 | Pantalla de preferencias de turno | Formulario en la app para configurar el horario y los canales. Si falta el horario o el canal, no se guarda y se señalan los datos que faltan. | 3 | Juan Carlos Pastor | Done |
-| US31 | Vinculación y calibración de sensores | T13 | Escaneo del QR del sensor | Leer el QR del dispositivo con la cámara del celular y enviarlo a `POST /api/edge/claim`. Si el QR no es de un sensor FreshSense o ya está vinculado a otra zona, no se vincula y se muestra el motivo. | 4 | Eduardo Cossar | Done |
-| US31 | Vinculación y calibración de sensores | T14 | Registro del dispositivo en el Edge API | Asociar el dispositivo a su zona y guardar la temperatura límite de esa cámara, sin heredar el umbral de otra zona. | 4 | Joseph Chavez | Done |
-| US10 | Alta de insumos por lector de código/QR | T15 | Escaneo de código de barras o QR | Leer el código del empaque y buscarlo en el catálogo. Si el código no existe, no se crea el insumo y se ofrece el alta manual. | 5 | Juan Carlos Pastor | Done |
-| US10 | Alta de insumos por lector de código/QR | T16 | Registro del insumo o lote | Guardar el insumo con su fecha de ingreso y categoría. Si ya existe en la sucursal, sumar la cantidad recibida al stock y registrar el nuevo ingreso. | 4 | Maria Fernanda Mostajo | Done |
-| US11 | Modificación manual de stock e insumos | T17 | Ajuste de stock en la app | Pantalla para cambiar la cantidad de un insumo después del conteo. Si la cantidad es negativa o no numérica, el stock no cambia. | 3 | Juan Carlos Pastor | Done |
-| US11 | Modificación manual de stock e insumos | T18 | Registro de auditoría del ajuste | Guardar usuario, fecha, cantidad anterior y cantidad nueva de cada ajuste. | 2 | Romina Tuesta | Done |
-| US37 | Gestión de colaboradores por local | T19 | Invitación de colaboradores | Endpoint que envía la invitación al correo y asigna la sede y el turno. Si el enlace expiró o el correo ya tiene acceso a esa sede, no se crea otro acceso. | 4 | Joseph Chavez | Done |
-| US37 | Gestión de colaboradores por local | T20 | Ingreso del colaborador en la app | Aceptar la invitación y ver solo el inventario de su sede y turno. | 3 | Eduardo Cossar | Done |
-| — | Despliegue | T21 | Despliegue del backend y del Edge API | Publicar la nueva versión del backend y dejar el Edge API listo para la red del local. | 4 | Juan Carlos Pastor | Done |
-| — | Despliegue | T22 | Versión instalable de la app móvil | Generar el instalable de la app y documentar cómo instalarlo. | 3 | Juan Carlos Pastor | Done |
-| | | | | **Total** | **85** | | |
-
-Una historia de esta lista se cierra cuando se cumplen sus tres escenarios. Los escenarios de etileno de US06, TS41 y US08 se prueban con el dispositivo físico. Si en la revisión falta uno, se deja anotado cuál y por qué no se pudo probar.
-#### 6.2.2.4. Development Evidence for Sprint Review
-
-#### 6.2.2.5. Testing Suite Evidence for Sprint Review
-
-En el Sprint 2 la evidencia de testing son los **Acceptance Tests** en Gherkin (Given / When / Then). Ya están escritos para las historias y la historia técnica del sprint: inventario, alertas, edición, recetas, análisis premium, historial y API de usuarios.
-
-| ID | Historia / TS | Escenarios | Archivo |
-| :--- | :--- | ---: | :--- |
-| US07 | Visualización de inventario | 2 | `US07_visualizacion_inventario.feature` |
-| US08 | Alertas anticipadas | 2 | `US08_alertas_anticipadas.feature` |
-| US11 | Edición de inventario | 2 | `US11_edicion_inventario.feature` |
-| US13 | Recetas personalizadas | 2 | `US13_recetas_personalizadas.feature` |
-| US17 | Análisis detallado de inventario | 2 | `US17_analisis_detallado_inventario.feature` |
-| US19 | Recetas exclusivas premium | 2 | `US19_recetas_exclusivas_premium.feature` |
-| US29 | Historial de consumo | 3 | `US29_historial_consumo.feature` |
-| TS33 | API para gestión de usuarios | 1 | `TS33_api_gestion_usuarios.feature` |
-
-![Resumen Acceptance Tests Sprint 2](Assets/acceptance-sprint2/sprint2-acceptance-resumen.png)
-
-Resumen: 8 features, 16 escenarios. Los `.feature` están en `Assets/acceptance-sprint2/`.
-
-**US07 — Visualización de inventario**
-
-Colores del inventario (verde / amarillo / rojo) y detalle del alimento con caducidad y condiciones de almacenamiento.
-
-![US07 Acceptance Test](Assets/acceptance-sprint2/sprint2-us07_visualizacion_inventario.png)
-
-**US08 — Alertas anticipadas**
-
-Alerta cuando un alimento está por vencer, y que no se envíe aviso si no hay riesgo.
-
-![US08 Acceptance Test](Assets/acceptance-sprint2/sprint2-us08_alertas_anticipadas.png)
-
-**US11 — Edición de inventario**
-
-Edición exitosa de cantidad o fecha, y rechazo con mensaje de error si los datos son inválidos.
-
-![US11 Acceptance Test](Assets/acceptance-sprint2/sprint2-us11_edicion_inventario.png)
-
-**US13 — Recetas personalizadas**
-
-Recetas con ingredientes en riesgo de vencer, o catálogo general si no hay productos en riesgo.
-
-![US13 Acceptance Test](Assets/acceptance-sprint2/sprint2-us13_recetas_personalizadas.png)
-
-**US17 — Análisis detallado de inventario**
-
-Acceso completo al reporte avanzado con plan premium, y bloqueo con aviso si el plan no es premium.
-
-![US17 Acceptance Test](Assets/acceptance-sprint2/sprint2-us17_analisis_detallado_inventario.png)
-
-**US19 — Recetas exclusivas premium**
-
-Acceso a recetas avanzadas con plan premium, y denegación con sugerencia de upgrade si no lo tiene.
-
-![US19 Acceptance Test](Assets/acceptance-sprint2/sprint2-us19_recetas_exclusivas_premium.png)
-
-**US29 — Historial de consumo**
-
-Registro de consumo o descarte, visualización con gráficas, y filtro/exportación a CSV o Excel.
-
-![US29 Acceptance Test](Assets/acceptance-sprint2/sprint2-us29_historial_consumo.png)
-
-**TS33 — API para gestión de usuarios**
-
-`PUT /api/users/{id}/permissions` actualiza roles/permisos y responde 200 OK.
-
-![TS33 Acceptance Test](Assets/acceptance-sprint2/sprint2-ts33_api_gestion_usuarios.png)
-
-#### 6.2.2.6. Execution Evidence for Sprint Review
-
-#### 6.2.2.7. Services Documentation Evidence for Sprint Review
-
-#### 6.2.2.8. Software Deployment Evidence for Sprint Review
-
-#### 6.2.2.9. Team Collaboration Insights during Sprint
-
 ## 6.3. Validation Interviews
 
-### 6.3.1. Diseño de Entrevistas
+En esta sección se presenta el proceso de validación de la experiencia de usuario de FreshSense mediante entrevistas dirigidas a representantes de los segmentos objetivo definidos en el proyecto: propietarios y administradores de restaurantes, y encargados de negocios de distribución de alimentos en fríos.
+
+El propósito de estas entrevistas es evaluar la facilidad de uso, claridad de la información, organización de contenidos y utilidad de las principales funcionalidades de la landing page y la plataforma web. Asimismo, se busca identificar oportunidades de mejora relacionadas con la usabilidad, arquitectura de información y diseño inclusivo.
+
+Las sesiones se plantean mediante un enfoque de validación moderada, en el que los participantes realizan tareas específicas mientras el entrevistador observa su interacción con las interfaces y recoge sus apreciaciones. Para ello, se consideran los flujos de navegación vinculados con el monitoreo de temperatura y humedad, gestión del inventario, consulta de alertas y visualización de reportes.
+
+La validación contempla tanto la comprensión de la propuesta de valor presentada en la landing page como la interacción con las funcionalidades disponibles en la aplicación web. Cuando se utilice una versión local con datos simulados, esta condición será comunicada a los participantes para evitar confundir las funcionalidades demostrativas con servicios operativos.
+
+Los resultados obtenidos permitirán identificar problemas de interacción, evaluar la percepción de utilidad de FreshSense y plantear recomendaciones que contribuyan a mejorar la experiencia de los usuarios en futuras versiones de la solución.
+
+## 6.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación han sido diseñadas considerando las características, responsabilidades y necesidades de cada segmento objetivo. Se utiliza una estructura semiestructurada que combina tareas prácticas de navegación con preguntas abiertas sobre la experiencia de uso.
+
+Cada sesión contempla la presentación inicial de FreshSense, la revisión de la landing page, la ejecución de tareas sobre la aplicación web y la recopilación de observaciones finales.
+
+Durante la validación se busca observar la capacidad del participante para identificar información relevante, comprender los indicadores presentados, navegar entre las secciones y reconocer las acciones disponibles para cumplir sus objetivos.
+
+### Segmento 1: Propietarios y administradores de restaurantes
+
+**Objetivo de validación:** Evaluar si FreshSense permite a los responsables de restaurantes comprender y utilizar las funcionalidades de control de inventario, monitoreo de condiciones ambientales y alertas para apoyar la conservación de sus insumos perecibles.
+
+**Tareas y User Flows a validar:**
+
+| ID | Tarea de validación | User Flow |
+| --- | --- | --- |
+| T01 | Revisar la landing page e identificar la propuesta de valor de FreshSense. | Inicio → Cómo funciona → Beneficios |
+| T02 | Identificar en el dashboard los productos registrados y las alertas pendientes. | Dashboard → Indicadores generales |
+| T03 | Buscar un alimento y consultar su información, cantidad y vencimiento. | Inventario → Buscar producto → Detalle |
+| T04 | Identificar un alimento que requiere atención. | Dashboard → Alertas → Detalle de alerta |
+| T05 | Consultar las condiciones de temperatura y humedad. | Monitoreo → Última lectura |
+| T06 | Revisar el historial de consumo y descarte de productos. | Reportes → Historial |
+
+**Preguntas de validación:**
+
+1. Después de revisar la landing page, ¿considera que se explica claramente qué es FreshSense y cómo podría utilizarse en su restaurante?
+2. ¿Qué información identifica inicialmente en el dashboard? ¿Le resulta fácil comprender los indicadores?
+3. ¿Ha podido encontrar un producto en el inventario y consultar su información sin dificultades?
+4. ¿Qué opina sobre la organización de los productos y la información de sus fechas de vencimiento?
+5. ¿Las alertas presentan información suficientemente clara para identificar productos que necesitan atención?
+6. ¿Le resulta sencillo consultar las condiciones de temperatura y humedad?
+7. ¿Considera que los reportes y el historial presentado podrían ayudarle a mejorar el control de los insumos?
+8. ¿Qué funcionalidad considera más útil para las operaciones de su restaurante?
+9. ¿Encontró alguna dificultad durante la navegación o algún elemento que debería explicarse mejor?
+10. ¿Qué cambios recomendaría para facilitar el uso de FreshSense en su negocio?
+
+### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+**Objetivo de validación:** Evaluar si FreshSense ofrece una experiencia de uso comprensible y útil para responsables de almacenamiento y distribución de alimentos perecibles, priorizando la visualización de condiciones de conservación, la consulta del inventario, la identificación de alertas y el análisis de información histórica.
+
+**Tareas y User Flows a validar:**
+
+| ID | Tarea de validación | User Flow |
+| --- | --- | --- |
+| T01 | Revisar la landing page e identificar la utilidad de FreshSense para un negocio de distribución de alimentos refrigerados. | Inicio → Cómo funciona → Beneficios |
+| T02 | Localizar los indicadores generales relacionados con el almacenamiento y las condiciones ambientales. | Dashboard → Indicadores generales |
+| T03 | Consultar las condiciones de temperatura y humedad y revisar el detalle de la última lectura. | Dashboard → Monitoreo → Última lectura |
+| T04 | Buscar un producto perecible y consultar su información de inventario. | Inventario → Buscar producto → Detalle |
+| T05 | Identificar una alerta y comprender su estado y nivel de prioridad. | Alertas → Filtros → Detalle |
+| T06 | Consultar los reportes e identificar la información histórica disponible. | Reportes → Indicadores → Historial |
+| T07 | Identificar las opciones disponibles para consultar dispositivos asociados a la cuenta. | Dispositivos → Lista de dispositivos |
+
+**Preguntas de validación:**
+
+1. Después de revisar la landing page, ¿considera que FreshSense comunica claramente su propuesta para empresas que almacenan o distribuyen alimentos refrigerados?
+2. ¿Le resulta sencillo identificar la información principal presentada en el dashboard?
+3. ¿Ha podido localizar las lecturas de temperatura y humedad? ¿Considera que la información se presenta de manera comprensible?
+4. ¿Qué opina sobre la facilidad para buscar productos y revisar su información dentro del inventario?
+5. ¿Las alertas permiten reconocer fácilmente qué situación requiere atención?
+6. ¿Considera que la información disponible en los reportes sería útil para supervisar las condiciones de almacenamiento?
+7. ¿La organización de las secciones facilita encontrar las funcionalidades que necesita?
+8. ¿Qué información adicional necesitaría consultar para gestionar los productos y sus condiciones de conservación?
+9. ¿Qué aspectos de la interfaz le parecieron claros y cuáles considera que deberían mejorarse?
+10. Después de conocer la plataforma, ¿qué funcionalidades considera más importantes para su trabajo?
+
+### Criterios de evaluación
+
+Para ambos segmentos se consideran los siguientes aspectos:
+
+- **Usabilidad:** Facilidad para completar tareas, comprender acciones y navegar entre secciones.
+- **Arquitectura de información:** Claridad de las etiquetas, organización de contenidos y facilidad para localizar información.
+- **Diseño inclusivo:** Legibilidad, comprensión de mensajes, contraste visual y facilidad de interacción.
+- **Utilidad percibida:** Relación entre las funcionalidades mostradas y las necesidades operativas del segmento.
+- **Oportunidades de mejora:** Dificultades identificadas y recomendaciones expresadas durante las sesiones.
+
+Los problemas identificados durante la validación serán analizados posteriormente mediante el formato de evaluación heurística establecido en el Anexo D del Final Project Statement.
 
 ### 6.3.2. Registro de Entrevistas
 
+En esta sección se presentan los registros de las entrevistas de validación realizadas con representantes de los dos segmentos objetivo de FreshSense. Durante las sesiones, los participantes revisaron la landing page y las principales funcionalidades de la plataforma web, proporcionando comentarios sobre su diseño, facilidad de navegación, utilidad y oportunidades de mejora.
+
+#### Segmento 1: Propietarios y administradores de restaurantes
+
+##### Entrevista 1
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Guillermo |
+| Edad | 26 años |
+| Ubicación | Lima |
+| Empresa / sector | Restaurante |
+| Cargo | Propietario |
+| Inicio de entrevista | 00:00 |
+| Duración | [6:55] |
+| Enlace | https://drive.google.com/file/d/13nuVuTI4ZL1ZWRnegA6Oip82JT7qHDdW/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Guillermo](Assets/ValidacionGuillermo.png)
+
+**Resumen:**
+
+Guillermo, de 26 años, propietario de un restaurante, participó en una entrevista de validación de FreshSense, donde revisó la landing page y las principales funcionalidades de la plataforma web. Consideró que el diseño es moderno, organizado y fácil de comprender, destacando la claridad del dashboard, el inventario, las alertas y el monitoreo de temperatura y humedad. También valoró la utilidad de los reportes para identificar productos descartados y mejorar la planificación de compras.
+
+Como oportunidades de mejora, recomendó incluir más ejemplos visuales relacionados con restaurantes en la landing page, destacar los alimentos próximos a vencer mediante etiquetas más visibles o filtros por fecha y facilitar el acceso a las alertas desde el inventario. En general, consideró que FreshSense es una propuesta útil para mejorar el control de insumos perecibles y reducir posibles pérdidas en su negocio.
+
+##### Entrevista 2
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Romy Panduro |
+| Edad | 46 años |
+| Ubicación | San Borja |
+| Empresa / sector | Restobar karaoke |
+| Cargo | Propietaria |
+| Inicio de entrevista | 00:00 |
+| Duración | 9:04 |
+| Enlace | https://drive.google.com/file/d/1yaP9FCvV9rKo09GO2Eu2jYF9UUS8Ujob/view?usp=sharing |
+
+![Evidencia entrevista Romy Panduro](Assets/2.png)
+
+**Resumen:**
+
+Romy Panduro tiene 46 años y administra un restobar karaoke ubicado en Tarapoto, con aproximadamente dos años de funcionamiento. En su negocio trabaja principalmente con carnes rojas, pollo y pescado, siendo este último el producto que considera más propenso a deteriorarse.
+
+Actualmente utiliza una aplicación para registrar el stock, mientras que sus trabajadores realizan manualmente la rotación de los productos según su antigüedad. Debido a ello, considera útil contar con una solución que permita recibir alertas automáticas sobre el estado y calidad de los alimentos almacenados en las congeladoras, pudiendo consultar esta información desde cualquier lugar.
+
+Respecto a una solución como FreshSense, valora especialmente el monitoreo automático y las notificaciones. Además, estaría interesada en un modelo de pago anual que incluya actualizaciones y mejoras continuas del sistema.
+
+##### Entrevista 3
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Alexandro Sánchez |
+| Edad | 27 años |
+| Empresa / sector | Restaurante |
+| Cargo | Administrador |
+| Función | Supervisión de operaciones, compras y gestión de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | [3:58] |
+| Enlace | https://drive.google.com/file/d/1NrG3ZA6vQgkbtlRClSGPxKEiXvUERpWT/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Alexander](Assets/entrevistaAlexander.png)
+
+**Resumen:**
+
+Alexandro, de 27 años, administrador de un restaurante, participó en una entrevista de validación de FreshSense, donde revisó la landing page y las principales funcionalidades de la plataforma web. Consideró que la página presenta información clara sobre los beneficios de la solución y que el dashboard permite identificar fácilmente los indicadores del inventario y las alertas pendientes. Destacó especialmente la facilidad para consultar productos, revisar sus fechas de vencimiento y monitorear las condiciones de temperatura y humedad. También valoró la utilidad de los reportes para identificar productos desperdiciados y mejorar las decisiones de compra.
+
+Como oportunidades de mejora, recomendó incorporar más ejemplos relacionados con restaurantes en la landing page, destacar visualmente los productos próximos a vencer y facilitar el acceso directo a las alertas desde el inventario. Asimismo, sugirió agregar filtros por fecha de vencimiento y reportes que permitan identificar los alimentos descartados con mayor frecuencia. En general, consideró que FreshSense es una herramienta útil para mejorar el control de los insumos y prevenir pérdidas de alimentos en su restaurante.
+
+#### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+##### Entrevista 1
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Carmen |
+| Edad | 54 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | [00:00] |
+| Duración | [07:55] |
+| Enlace | https://drive.google.com/file/d/1yKrq3YnjwJ_HUjNw0gdgOVtL0_tbf6sp/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Carmen](Assets/ValidacionCarmen.png)
+
+**Resumen:**
+
+Carmen, de 54 años, encargada de supervisar el almacenamiento y conservación de alimentos perecibles, participó en una entrevista de validación de FreshSense. Consideró que la landing page presenta información clara y un diseño agradable, mientras que la plataforma ofrece una navegación sencilla e indicadores fáciles de interpretar. Destacó especialmente el monitoreo de temperatura y humedad, las alertas y los reportes, por su utilidad para supervisar las condiciones de almacenamiento y organizar la información del negocio.
+
+Como oportunidades de mejora, sugirió incorporar imágenes relacionadas con empresas distribuidoras en la landing page, identificar las cámaras de refrigeración asociadas a las lecturas y alertas, y agregar filtros por lotes y zonas de almacenamiento. En general, valoró positivamente FreshSense y consideró que estas mejoras permitirían adaptar mejor la plataforma a las necesidades de las empresas de distribución de alimentos refrigerados.
+
+##### Entrevista 2
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Silvia |
+| Edad | 40 años |
+| Empresa / sector | Comercialización y distribución de alimentos perecibles |
+| Función | Supervisión del almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | [3:55] |
+| Enlace | https://drive.google.com/file/d/1NiMoeYNo5lC3amupjENwm-XcLUQwK97x/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Silvia](Assets/entrevista2silvia.png)
+
+**Resumen:**
+
+Silvia, de 40 años, encargada de supervisar el almacenamiento y control de inventario en una empresa de comercialización y distribución de alimentos perecibles, participó en una entrevista de validación de FreshSense. Consideró que la landing page comunica claramente la utilidad de la solución y que la plataforma presenta una navegación sencilla e indicadores bien organizados. Destacó especialmente el monitoreo de temperatura y humedad, la facilidad para consultar productos en el inventario y la claridad de las alertas. También valoró los reportes y registros históricos por su utilidad para supervisar las condiciones de almacenamiento y detectar posibles problemas de conservación.
+
+Como oportunidades de mejora, recomendó incorporar más imágenes relacionadas con almacenes y empresas distribuidoras en la landing page, identificar las cámaras de refrigeración asociadas a las lecturas y alertas, y agregar filtros de búsqueda por lotes. Asimismo, sugirió facilitar la identificación de los dispositivos según su zona de almacenamiento y permitir la consulta de historiales de temperatura por lote. En general, consideró que FreshSense es una herramienta útil para mejorar el control de los productos refrigerados, reducir las revisiones manuales y prevenir pérdidas por condiciones inadecuadas de conservación.
+
+##### Entrevista 3
+
+| Dato | Información |
+| --- | --- |
+| Nombre y apellidos | Jesús Pérez |
+| Edad | 45 años |
+| Empresa / sector | Distribución de alimentos refrigerados |
+| Función | Supervisión de almacenamiento, control de inventario y conservación de productos |
+| Inicio de entrevista | 00:00 |
+| Duración | 4:00 |
+| Enlace | https://drive.google.com/file/d/14X-UfZnNv7AskrpvNJla5gQqd6HgTHRP/view?usp=sharing |
+
+**Evidencia visual de la entrevista:**
+
+![Captura de la entrevista de validación de Jesús Pérez](Assets/entrevista2jesus.png)
+
+**Resumen:**
+
+Jesús Pérez, de 45 años, encargado de supervisar el almacenamiento y conservación de productos en una empresa de distribución de alimentos refrigerados, participó en una entrevista de validación de FreshSense. Consideró que la landing page explica claramente la propuesta de la solución y que la plataforma presenta una interfaz organizada y fácil de navegar. Destacó la claridad de los indicadores del dashboard, la facilidad para consultar las lecturas de temperatura y humedad y la utilidad de las alertas para identificar situaciones que requieren atención. También valoró los reportes históricos y la gestión del inventario como herramientas importantes para supervisar las condiciones de conservación antes de distribuir los productos.
+
+Como oportunidades de mejora, recomendó incorporar ejemplos visuales relacionados con almacenes refrigerados y operaciones de distribución, identificar las cámaras de refrigeración asociadas a cada medición y mejorar los filtros de inventario por lotes. Asimismo, sugirió que las alertas permitan reconocer los lotes posiblemente afectados, que los reportes presenten historiales por cámara o lote y que los sensores puedan identificarse según su ubicación. En general, consideró que FreshSense es una propuesta útil para mejorar la supervisión de los alimentos refrigerados, detectar problemas oportunamente y reducir posibles pérdidas económicas.
+
+
 ### 6.3.3. Evaluaciones según heurísticas
 
+En esta sección se presenta la evaluación de la experiencia de usuario de FreshSense, tomando como referencia las observaciones obtenidas durante las entrevistas de validación realizadas con representantes de los dos segmentos objetivo.
+
+La evaluación considera principios de usabilidad, arquitectura de información y diseño inclusivo, con el propósito de identificar oportunidades de mejora en la landing page y la aplicación web. Para ello, se utiliza el formato establecido en el Anexo D del Final Project Statement, que contempla la identificación de problemas, clasificación de severidad y elaboración de recomendaciones.
+
+Los hallazgos se relacionan con los comentarios de los representantes del segmento de propietarios y administradores de restaurantes, y los representantes del segmento de encargados de negocios de distribución de alimentos en fríos. Cada problema se presenta con una captura de la interfaz actual y una propuesta visual de mejora, permitiendo identificar los cambios recomendados.
+
+#### UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Información |
+| --- | --- |
+| Carrera | Ingeniería de Software |
+| Curso | Desarrollo de Soluciones IoT |
+| Sección / NRC | 8725 |
+| Auditor | Equipo FreshSense |
+| Clientes evaluadores | Entrevistados del Segmento 1 y 2 |
+| Sitios y aplicaciones | FreshSense Landing Page y FreshSense Web Application |
+| Segmentos | Propietarios y administradores de restaurantes; encargados de negocios de distribución de alimentos en fríos |
+
+#### Tareas a evaluar
+
+La evaluación comprende las siguientes tareas de interacción:
+
+1. Comprender la propuesta de FreshSense mediante la landing page.
+2. Identificar información general en el dashboard.
+3. Buscar y consultar productos dentro del inventario.
+4. Identificar alimentos próximos a vencer y revisar sus alertas.
+5. Consultar mediciones de temperatura y humedad.
+6. Interpretar advertencias relacionadas con productos almacenados.
+7. Revisar reportes y registros históricos.
+8. Navegar entre las principales funcionalidades de la plataforma.
+
+No se incluyen en esta evaluación las pruebas de conexión con dispositivos físicos, el procesamiento real de mediciones IoT, las transacciones de pago ni las funcionalidades de integración externa que no forman parte de la demostración presentada.
+
+#### Escala de severidad
+
+Los problemas identificados se clasifican de acuerdo con la escala indicada en el Anexo D.
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: presenta un impacto reducido y puede corregirse cuando exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede dificultar ocasionalmente la experiencia de uso y debe considerarse para una próxima mejora. |
+| 3 | Problema mayor: ocurre frecuentemente o dificulta significativamente completar una tarea. Requiere prioridad alta. |
+| 4 | Problema muy grave: impide completar una tarea fundamental y requiere corrección antes del lanzamiento. |
+
+#### Tabla resumen
+
+La siguiente tabla presenta los principales problemas y oportunidades de mejora identificados a partir de las entrevistas de validación y la revisión de las interfaces de FreshSense.
+
+| # | Segmento | Problema identificado | Severidad | Heurística / Principio |
+| --- | --- | --- | --- | --- |
+| 1 | Segmento 1 | Poca representación visual de restaurantes en la landing page. | 1 | Usabilidad: Correspondencia entre el sistema y el mundo real |
+| 2 | Segmento 1 | Los productos próximos a vencer no se destacan suficientemente en el inventario. | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 3 | Segmento 1 | No existe un acceso contextual directo a las alertas desde las tarjetas del inventario. | 2 | Usabilidad: Flexibilidad y eficiencia de uso |
+| 4 | Segmento 1 | Los reportes no destacan los productos descartados con mayor frecuencia. | 2 | Arquitectura de información: Facilidad para encontrar información |
+| 5 | Segmento 2 | Poca representación visual de empresas distribuidoras en la landing page. | 1 | Usabilidad: Correspondencia entre el sistema y el mundo real |
+| 6 | Segmento 2 | No se identifica una cámara de refrigeración específica en las lecturas de monitoreo. | 2 | Arquitectura de información: Claridad de etiquetas |
+| 7 | Segmento 2 | No se dispone de opciones específicas para buscar y organizar productos por lotes. | 2 | Arquitectura de información: Facilidad para encontrar información |
+| 8 | Segmento 2 | La descripción de la sección de alertas no corresponde completamente con las advertencias mostradas. | 2 | Usabilidad: Consistencia y estándares |
+
+#### Descripción de problemas
+
+##### Segmento 1: Propietarios y administradores de restaurantes
+
+###### Problema #1: Poca representación visual de restaurantes en la landing page
+
+**Severidad:** 1 – Problema superficial.
+
+**Heurística afectada:** Usabilidad – Correspondencia entre el sistema y el mundo real.
+
+**Problema:**
+
+Durante la validación, Guillermo señaló que la landing page presenta información clara y un diseño atractivo. Sin embargo, recomendó incorporar imágenes y ejemplos relacionados con restaurantes y cocinas comerciales, debido a que algunos elementos visuales están orientados principalmente al uso doméstico. Esto puede dificultar que los propietarios de restaurantes identifiquen rápidamente cómo se aplicaría FreshSense a sus operaciones.
+
+**Recomendación:**
+
+Incorporar imágenes de cocinas comerciales, equipos de refrigeración e inventarios de restaurantes, acompañadas de mensajes relacionados con el control de insumos perecibles y la reducción de pérdidas en negocios gastronómicos.
+
+**Estado actual:**
+
+![Problema 1 - Landing page actual](Assets/Heuristicas/G01-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 1 - Landing page orientada a restaurantes](Assets/Heuristicas/G01-Propuesta.png)
+
+###### Problema #2: Visibilidad de productos próximos a vencer
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Usabilidad – Visibilidad del estado del sistema.
+
+**Problema:**
+
+Guillermo consideró que el inventario presenta los productos de manera ordenada y comprensible, pero recomendó destacar visualmente aquellos que se encuentran próximos a vencer. Aunque la plataforma permite consultar información de los productos, las tarjetas no muestran directamente sus fechas de vencimiento ni una diferenciación suficientemente visible de aquellos que requieren atención prioritaria.
+
+**Recomendación:**
+
+Incorporar etiquetas visibles como "Próximo a vencer" y "Vencido", acompañadas de colores e iconos diferenciados. Asimismo, facilitar el ordenamiento por fecha de vencimiento para que los usuarios identifiquen rápidamente los productos que necesitan revisar.
+
+**Estado actual:**
+
+![Problema 2 - Inventario actual](Assets/Heuristicas/G02-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 2 - Inventario con indicadores de vencimiento](Assets/Heuristicas/G02-Propuesta.png)
+
+###### Problema #3: Acceso directo a las alertas desde el inventario
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Usabilidad – Flexibilidad y eficiencia de uso.
+
+**Problema:**
+
+Durante la entrevista, Guillermo indicó que la navegación general es sencilla, pero sugirió facilitar el acceso a las alertas relacionadas con los productos desde el propio inventario. Actualmente, el usuario debe dirigirse a la sección de alertas para consultar las advertencias, lo que puede añadir pasos innecesarios cuando necesita revisar rápidamente la situación de un alimento específico.
+
+**Recomendación:**
+
+Incorporar en las tarjetas o detalles de los productos un indicador de advertencias y un acceso contextual a las alertas relacionadas. Esto permitiría consultar la situación de un alimento sin necesidad de realizar una búsqueda adicional desde el menú principal.
+
+**Estado actual:**
+
+![Problema 3 - Inventario sin acceso contextual a alertas](Assets/Heuristicas/G03-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 3 - Inventario con acceso directo a alertas](Assets/Heuristicas/G03-Propuesta.png)
+
+###### Problema #4: Identificación de productos descartados en los reportes
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Arquitectura de información – Facilidad para encontrar información.
+
+**Problema:**
+
+Guillermo valoró positivamente los gráficos e historiales de FreshSense, pero consideró importante identificar con rapidez cuáles son los productos que se descartan con mayor frecuencia. Actualmente, la sección de reportes presenta información general sobre desperdicio y un historial de consumo y descarte, pero no destaca directamente los productos que acumulan mayores pérdidas.
+
+**Recomendación:**
+
+Incorporar un resumen visual de los productos más descartados, mediante un gráfico de barras o una tabla ordenada por cantidad de descartes. Esto facilitaría la identificación de patrones de desperdicio y apoyaría la planificación de compras del restaurante.
+
+**Estado actual:**
+
+![Problema 4 - Reportes actuales](Assets/Heuristicas/G04-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 4 - Reportes con productos más descartados](Assets/Heuristicas/G04-Propuesta.png)
+
+##### Segmento 2: Encargados de negocios de distribución de alimentos en fríos
+
+###### Problema #5: Poca representación visual de empresas distribuidoras en la landing page
+
+**Severidad:** 1 – Problema superficial.
+
+**Heurística afectada:** Usabilidad – Correspondencia entre el sistema y el mundo real.
+
+**Problema:**
+
+Carmen consideró que la landing page presenta un diseño agradable y una propuesta comprensible. Sin embargo, observó que algunas imágenes y mensajes parecen dirigidos al uso doméstico, por lo que recomendó incluir representaciones de almacenes y empresas de distribución de alimentos refrigerados. Esto podría dificultar que los usuarios del segmento identifiquen los escenarios empresariales a los que está dirigida la solución.
+
+**Recomendación:**
+
+Incorporar imágenes de almacenes refrigerados, cámaras frigoríficas y operaciones de distribución de alimentos perecibles. Complementar las imágenes con textos breves que destaquen el monitoreo de condiciones ambientales y el control de productos almacenados.
+
+**Estado actual:**
+
+![Problema 5 - Landing page actual](Assets/Heuristicas/C01-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 5 - Landing page orientada a empresas distribuidoras](Assets/Heuristicas/C01-Propuesta.png)
+
+###### Problema #6: Identificación de cámaras de refrigeración en el monitoreo
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Arquitectura de información – Claridad de etiquetas.
+
+**Problema:**
+
+Carmen destacó que los valores de temperatura y humedad son fáciles de localizar e interpretar. No obstante, sugirió identificar claramente la cámara de refrigeración a la que corresponde cada lectura. Actualmente, la pantalla presenta indicadores generales de temperatura y humedad, pero no muestra una identificación específica de la cámara o zona de almacenamiento asociada a estas mediciones.
+
+**Recomendación:**
+
+Agregar una etiqueta visible con el nombre o identificador de la cámara de refrigeración correspondiente a cada lectura. Por ejemplo, "Cámara 01 – Refrigeración", acompañado de los valores de temperatura y humedad asociados.
+
+**Estado actual:**
+
+![Problema 6 - Monitoreo actual](Assets/Heuristicas/C02-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 6 - Monitoreo con identificación de cámaras](Assets/Heuristicas/C02-Propuesta.png)
+
+###### Problema #7: Organización y búsqueda de productos por lotes
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Arquitectura de información – Facilidad para encontrar información.
+
+**Problema:**
+
+Durante la validación, Carmen consideró que la sección de inventario es clara y permite consultar fácilmente la información de los alimentos. Sin embargo, recomendó agregar opciones de búsqueda y filtrado por lotes, debido a que las empresas distribuidoras manejan distintas cantidades de productos que necesitan identificarse y supervisarse de manera independiente. Actualmente, el inventario cuenta con filtros por condición y categoría, pero no dispone de una opción específica por lote.
+
+**Recomendación:**
+
+Incorporar un filtro por número o identificador de lote y mostrar dicha información en los detalles de los productos. Esto facilitaría la localización de mercancías específicas y permitiría una organización más adecuada para empresas de distribución de alimentos perecibles.
+
+**Estado actual:**
+
+![Problema 7 - Inventario actual sin filtro por lotes](Assets/Heuristicas/C03-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 7 - Inventario con filtro por lotes](Assets/Heuristicas/C03-Propuesta.png)
+
+###### Problema #8: Inconsistencia entre la descripción y el contenido de las alertas
+
+**Severidad:** 2 – Problema menor.
+
+**Heurística afectada:** Usabilidad – Consistencia y estándares.
+
+**Problema:**
+
+Durante la validación, Carmen destacó la utilidad de las alertas para identificar productos que requieren atención. Sin embargo, al revisar la interfaz se observa que la descripción de la sección hace referencia a alertas de temperatura y humedad, mientras que las advertencias visibles corresponden a productos vencidos o próximos a vencer. Aunque algunas alertas incluyen una etiqueta que identifica su origen, la diferencia entre la descripción general y el contenido puede generar confusión sobre los eventos que realmente supervisa la plataforma.
+
+**Recomendación:**
+
+Modificar la descripción de la sección para indicar que FreshSense contempla alertas de inventario y condiciones ambientales. Asimismo, mejorar la identificación visual del origen de cada advertencia mediante etiquetas diferenciadas, como "Inventario" o "Sensor", incorporando el nombre del equipo o zona cuando se disponga de esa información.
+
+**Estado actual:**
+
+![Problema 8 - Alertas actuales](Assets/Heuristicas/C04-Actual.png)
+
+**Propuesta de mejora:**
+
+![Problema 8 - Alertas con identificación de origen](Assets/Heuristicas/C04-Propuesta.png)
+
+#### Conclusiones de la evaluación
+
+Las entrevistas de validación permitieron identificar una valoración favorable de la organización visual y navegación de FreshSense. Ambos segmentos destacaron la claridad de los indicadores, el inventario, el monitoreo ambiental y las alertas, considerando que estas funcionalidades responden a necesidades importantes de sus respectivos negocios.
+
+Las principales oportunidades de mejora se concentran en adaptar la presentación visual al contexto empresarial de cada segmento, facilitar la identificación de productos y situaciones prioritarias, mejorar la consistencia de los mensajes y proporcionar información más específica para las actividades de almacenamiento y distribución. Estas recomendaciones constituyen propuestas de mejora para futuras versiones de FreshSense y no representan funcionalidades ya implementadas.
+
 ## 6.4. Video About-the-Product
+
+El video *About-the-Product* de **FreshSense** tiene como objetivo presentar de manera clara, breve y atractiva la propuesta de valor de nuestra solución IoT, dirigida a propietarios y administradores de restaurantes, así como a empresas dedicadas a la distribución y cadena de frío de alimentos perecibles.
+
+A través de un enfoque promocional, el video expone la problemática relacionada con el deterioro de alimentos, presenta las principales características de FreshSense y explica cómo la integración de dispositivos IoT con una aplicación web busca facilitar el monitoreo de condiciones ambientales, la gestión de inventarios y la identificación de situaciones que requieren atención.
+
+Asimismo, se presentan los principales beneficios de la solución, destacando su contribución a la organización de productos, el control de las condiciones de conservación y la reducción potencial de pérdidas por deterioro.
+
+El video contempla demostraciones de interacción con las funcionalidades de monitoreo, inventario y alertas, además de un espacio destinado a incorporar testimonios reales de usuarios pertenecientes a ambos segmentos objetivo, obtenidos durante las entrevistas de validación.
+
+A continuación, se presenta la evidencia audiovisual del video *About-the-Product*, destinado a su publicación en Microsoft Stream/Clipchamp y YouTube, así como a su integración en el Landing Page de FreshSense.
+
+**Captura representativa del video:**
+
+![alt text](Assets/atp.png)
+
+**Enlace del video en YouTube:**
+
+https://youtu.be/LCKnt06wxJ4
+
+**Duración:** 01:55 minutos.
+
+**Formato:** MP4.
+
+El video está orientado a comunicar los beneficios de FreshSense a potenciales clientes y usuarios, facilitando la comprensión de su funcionamiento y promoviendo el interés por la solución. Su versión publicada en YouTube se utilizará para incrustarlo en una sección del Landing Page, permitiendo que los visitantes conozcan el producto de manera audiovisual.
+
 
 ## Conclusiones
 
 El análisis realizado permitió identificar que los propietarios y administradores de restaurantes, y los encargados de negocios de distribución de alimentos en fríos, enfrentan dificultades relacionadas con el control constante de sus productos perecibles y las condiciones necesarias para su adecuada conservación. El deterioro de los alimentos, las fallas en la cadena de frío y la falta de información oportuna pueden generar mermas y pérdidas económicas que afectan directamente la rentabilidad del negocio. Asimismo, se identificó la necesidad de contar con una solución tecnológica sencilla que facilite el monitoreo del inventario, permita recibir alertas ante posibles riesgos y proporcione información útil para tomar decisiones oportunas. En este contexto, FreshSense busca responder a estas necesidades mediante una herramienta que contribuya a reducir las pérdidas, mejorar el control de los productos y optimizar la gestión del negocio.
 
-El producto pasó de la computadora al lugar donde se trabaja. Con la primera versión de la aplicación móvil, el propietario o administrador de un restaurante y el encargado de un negocio de distribución de alimentos en fríos pueden revisar sus cámaras desde el celular, vincular el sensor y registrar insumos o lotes con la cámara del teléfono. El Edge API recibe las lecturas en la red local y las reenvía al backend aunque se corte el internet por unos minutos. Además, el backend ya guarda y evalúa el gas etileno, lo que permitió cerrar los escenarios que habían quedado pendientes en el Sprint 1. Así, el equipo validó por primera vez el recorrido completo de una lectura con hardware físico: del sensor al Edge API, luego al backend y finalmente a la aplicación móvil. Los siguientes sprints se enfocarán en probar la solución en un local real y en ajustar los umbrales de etileno por tipo de cámara.
 
 ## Video About-the-Team
 ## Bibliografía
